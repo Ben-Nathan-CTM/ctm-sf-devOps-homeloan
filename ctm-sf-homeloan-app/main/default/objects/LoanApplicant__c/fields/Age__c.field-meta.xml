@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Age__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>if(And(Month(Today())&gt;= month(DateOfBirth__c), Day(Today()) &gt;= Day(DateOfBirth__c)),
+Year(Today())- Year(DateOfBirth__c) +
+(Month(Today())-Month(DateOfBirth__c))/12,
+if(And(month(Today())&lt; month(DateOfBirth__c), Day(Today())&gt;= Day(DateOfBirth__c)),
+Year(Today())-Year(DateOfBirth__c)-1 +
+(12 - Month(DateOfBirth__c)+month(Today()))/12,
+if(And( month(Today())&lt; month(DateOfBirth__c), Day(Today())&lt; Day(DateOfBirth__c)),
+(Year(Today())-Year(DateOfBirth__c)-1) +
+((12 - Month(DateOfBirth__c)+month(Today())-1))/12,
+if(And( month(Today())= month(DateOfBirth__c), Day(Today())&lt; Day(DateOfBirth__c)),
+(Year(Today())- Year(DateOfBirth__c)-1) + (11/12),
+(Year(Today())- Year(DateOfBirth__c)) +
+(Month(Today())-Month(DateOfBirth__c)-1)/12))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Age</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>1</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

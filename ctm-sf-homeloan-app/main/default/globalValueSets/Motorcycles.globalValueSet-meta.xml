@@ -1,0 +1,1615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>1314</fullName>
+        <default>false</default>
+        <label>Abbotsford</label>
+    </customValue>
+    <customValue>
+        <fullName>1316</fullName>
+        <default>false</default>
+        <label>Abra</label>
+    </customValue>
+    <customValue>
+        <fullName>1317</fullName>
+        <default>false</default>
+        <label>Acabion</label>
+    </customValue>
+    <customValue>
+        <fullName>1318</fullName>
+        <default>false</default>
+        <label>Access Motors</label>
+    </customValue>
+    <customValue>
+        <fullName>1319</fullName>
+        <default>false</default>
+        <label>Ace Motor Corporation</label>
+    </customValue>
+    <customValue>
+        <fullName>1320</fullName>
+        <default>false</default>
+        <label>Adiva</label>
+    </customValue>
+    <customValue>
+        <fullName>1321</fullName>
+        <default>false</default>
+        <label>Adler</label>
+    </customValue>
+    <customValue>
+        <fullName>1322</fullName>
+        <default>false</default>
+        <label>Adly Moto</label>
+    </customValue>
+    <customValue>
+        <fullName>1323</fullName>
+        <default>false</default>
+        <label>Aeon</label>
+    </customValue>
+    <customValue>
+        <fullName>1324</fullName>
+        <default>false</default>
+        <label>Aermacchi</label>
+    </customValue>
+    <customValue>
+        <fullName>1325</fullName>
+        <default>false</default>
+        <label>Aeromere</label>
+    </customValue>
+    <customValue>
+        <fullName>1326</fullName>
+        <default>false</default>
+        <label>AGF</label>
+    </customValue>
+    <customValue>
+        <fullName>1327</fullName>
+        <default>false</default>
+        <label>Agrale</label>
+    </customValue>
+    <customValue>
+        <fullName>1328</fullName>
+        <default>false</default>
+        <label>Agrati Garelli</label>
+    </customValue>
+    <customValue>
+        <fullName>1329</fullName>
+        <default>false</default>
+        <label>AJP</label>
+    </customValue>
+    <customValue>
+        <fullName>1330</fullName>
+        <default>false</default>
+        <label>AJS</label>
+    </customValue>
+    <customValue>
+        <fullName>1331</fullName>
+        <default>false</default>
+        <label>AJW Motorcycles</label>
+    </customValue>
+    <customValue>
+        <fullName>1332</fullName>
+        <default>false</default>
+        <label>AKT Motos</label>
+    </customValue>
+    <customValue>
+        <fullName>1333</fullName>
+        <default>false</default>
+        <label>Alcyon</label>
+    </customValue>
+    <customValue>
+        <fullName>1334</fullName>
+        <default>false</default>
+        <label>Alexander Leutner &amp; Co.</label>
+    </customValue>
+    <customValue>
+        <fullName>1335</fullName>
+        <default>false</default>
+        <label>Alfer</label>
+    </customValue>
+    <customValue>
+        <fullName>1336</fullName>
+        <default>false</default>
+        <label>Alligator Motorcycle Company</label>
+    </customValue>
+    <customValue>
+        <fullName>1337</fullName>
+        <default>false</default>
+        <label>Allstate</label>
+    </customValue>
+    <customValue>
+        <fullName>1338</fullName>
+        <default>false</default>
+        <label>Alta Andhra Pradesh Scooters Limited</label>
+    </customValue>
+    <customValue>
+        <fullName>1339</fullName>
+        <default>false</default>
+        <label>Ambassador Motorcycles</label>
+    </customValue>
+    <customValue>
+        <fullName>1340</fullName>
+        <default>false</default>
+        <label>American IronHorse</label>
+    </customValue>
+    <customValue>
+        <fullName>1341</fullName>
+        <default>false</default>
+        <label>API</label>
+    </customValue>
+    <customValue>
+        <fullName>1342</fullName>
+        <default>false</default>
+        <label>Aprilia</label>
+    </customValue>
+    <customValue>
+        <fullName>1343</fullName>
+        <default>false</default>
+        <label>Arch Motorcycle</label>
+    </customValue>
+    <customValue>
+        <fullName>1344</fullName>
+        <default>false</default>
+        <label>Ardie</label>
+    </customValue>
+    <customValue>
+        <fullName>1345</fullName>
+        <default>false</default>
+        <label>Ariel Motor Company</label>
+    </customValue>
+    <customValue>
+        <fullName>1346</fullName>
+        <default>false</default>
+        <label>Armstrong</label>
+    </customValue>
+    <customValue>
+        <fullName>1347</fullName>
+        <default>false</default>
+        <label>Associated Motor Cycles</label>
+    </customValue>
+    <customValue>
+        <fullName>1348</fullName>
+        <default>false</default>
+        <label>ATK Motorcycles</label>
+    </customValue>
+    <customValue>
+        <fullName>1349</fullName>
+        <default>false</default>
+        <label>Automoto</label>
+    </customValue>
+    <customValue>
+        <fullName>1350</fullName>
+        <default>false</default>
+        <label>Autozodiaco</label>
+    </customValue>
+    <customValue>
+        <fullName>1351</fullName>
+        <default>false</default>
+        <label>Bajaj Auto</label>
+    </customValue>
+    <customValue>
+        <fullName>1352</fullName>
+        <default>false</default>
+        <label>Balkan</label>
+    </customValue>
+    <customValue>
+        <fullName>1353</fullName>
+        <default>false</default>
+        <label>Baotian Motorcycle Company</label>
+    </customValue>
+    <customValue>
+        <fullName>1354</fullName>
+        <default>false</default>
+        <label>Beardmore Precision</label>
+    </customValue>
+    <customValue>
+        <fullName>1355</fullName>
+        <default>false</default>
+        <label>Benelli</label>
+    </customValue>
+    <customValue>
+        <fullName>1356</fullName>
+        <default>false</default>
+        <label>Bennett &amp; Barkell Motorcycles</label>
+    </customValue>
+    <customValue>
+        <fullName>1357</fullName>
+        <default>false</default>
+        <label>Beta Motor</label>
+    </customValue>
+    <customValue>
+        <fullName>1358</fullName>
+        <default>false</default>
+        <label>Bianchi</label>
+    </customValue>
+    <customValue>
+        <fullName>1359</fullName>
+        <default>false</default>
+        <label>Bimota</label>
+    </customValue>
+    <customValue>
+        <fullName>1360</fullName>
+        <default>false</default>
+        <label>Blackburne</label>
+    </customValue>
+    <customValue>
+        <fullName>1361</fullName>
+        <default>false</default>
+        <label>Blata</label>
+    </customValue>
+    <customValue>
+        <fullName>1362</fullName>
+        <default>false</default>
+        <label>BMW Motorrad</label>
+    </customValue>
+    <customValue>
+        <fullName>1363</fullName>
+        <default>false</default>
+        <label>Böhmerland</label>
+    </customValue>
+    <customValue>
+        <fullName>1364</fullName>
+        <default>false</default>
+        <label>Bombardier Recreational Products</label>
+    </customValue>
+    <customValue>
+        <fullName>1365</fullName>
+        <default>false</default>
+        <label>Boss Hoss Cycles</label>
+    </customValue>
+    <customValue>
+        <fullName>1366</fullName>
+        <default>false</default>
+        <label>Brammo Inc.</label>
+    </customValue>
+    <customValue>
+        <fullName>1367</fullName>
+        <default>false</default>
+        <label>Brasil &amp; Movimento</label>
+    </customValue>
+    <customValue>
+        <fullName>1368</fullName>
+        <default>false</default>
+        <label>Britten Motorcycle Company</label>
+    </customValue>
+    <customValue>
+        <fullName>1369</fullName>
+        <default>false</default>
+        <label>Brough Motorcycles</label>
+    </customValue>
+    <customValue>
+        <fullName>1370</fullName>
+        <default>false</default>
+        <label>Brough Superior</label>
+    </customValue>
+    <customValue>
+        <fullName>1371</fullName>
+        <default>false</default>
+        <label>Brumana Pugliese</label>
+    </customValue>
+    <customValue>
+        <fullName>1372</fullName>
+        <default>false</default>
+        <label>BSA Company</label>
+    </customValue>
+    <customValue>
+        <fullName>1373</fullName>
+        <default>false</default>
+        <label>Buell Motorcycle Company</label>
+    </customValue>
+    <customValue>
+        <fullName>1374</fullName>
+        <default>false</default>
+        <label>Bultaco</label>
+    </customValue>
+    <customValue>
+        <fullName>1375</fullName>
+        <default>false</default>
+        <label>Cagiva</label>
+    </customValue>
+    <customValue>
+        <fullName>1376</fullName>
+        <default>false</default>
+        <label>Calthorpe Motor Company</label>
+    </customValue>
+    <customValue>
+        <fullName>1377</fullName>
+        <default>false</default>
+        <label>Can-Am Motorcycles</label>
+    </customValue>
+    <customValue>
+        <fullName>1378</fullName>
+        <default>false</default>
+        <label>Carabela</label>
+    </customValue>
+    <customValue>
+        <fullName>1379</fullName>
+        <default>false</default>
+        <label>Casal</label>
+    </customValue>
+    <customValue>
+        <fullName>1380</fullName>
+        <default>false</default>
+        <label>Ceccato</label>
+    </customValue>
+    <customValue>
+        <fullName>1381</fullName>
+        <default>false</default>
+        <label>Centralne Warsztaty Samochodowe</label>
+    </customValue>
+    <customValue>
+        <fullName>1382</fullName>
+        <default>false</default>
+        <label>Česká zbrojovka Strakonice</label>
+    </customValue>
+    <customValue>
+        <fullName>1383</fullName>
+        <default>false</default>
+        <label>Chang Jiang</label>
+    </customValue>
+    <customValue>
+        <fullName>1384</fullName>
+        <default>false</default>
+        <label>Cheney Racing</label>
+    </customValue>
+    <customValue>
+        <fullName>1385</fullName>
+        <default>false</default>
+        <label>Cimatti</label>
+    </customValue>
+    <customValue>
+        <fullName>1386</fullName>
+        <default>false</default>
+        <label>Cleveland CycleWerks</label>
+    </customValue>
+    <customValue>
+        <fullName>1387</fullName>
+        <default>false</default>
+        <label>Clews Competition Motorcycles</label>
+    </customValue>
+    <customValue>
+        <fullName>1388</fullName>
+        <default>false</default>
+        <label>Clyno</label>
+    </customValue>
+    <customValue>
+        <fullName>1389</fullName>
+        <default>false</default>
+        <label>Confederate Motors</label>
+    </customValue>
+    <customValue>
+        <fullName>1390</fullName>
+        <default>false</default>
+        <label>Cooper</label>
+    </customValue>
+    <customValue>
+        <fullName>1391</fullName>
+        <default>false</default>
+        <label>Cotton Motor Company</label>
+    </customValue>
+    <customValue>
+        <fullName>1392</fullName>
+        <default>false</default>
+        <label>Coventry-Eagle Crocker Motorcycle Company</label>
+    </customValue>
+    <customValue>
+        <fullName>1393</fullName>
+        <default>false</default>
+        <label>Cushman</label>
+    </customValue>
+    <customValue>
+        <fullName>1394</fullName>
+        <default>false</default>
+        <label>Daelim Motor Company</label>
+    </customValue>
+    <customValue>
+        <fullName>1395</fullName>
+        <default>false</default>
+        <label>Dafra Motos</label>
+    </customValue>
+    <customValue>
+        <fullName>1396</fullName>
+        <default>false</default>
+        <label>Dayun</label>
+    </customValue>
+    <customValue>
+        <fullName>1397</fullName>
+        <default>false</default>
+        <label>Della Ferrera</label>
+    </customValue>
+    <customValue>
+        <fullName>1398</fullName>
+        <default>false</default>
+        <label>Delta-Gnom</label>
+    </customValue>
+    <customValue>
+        <fullName>1399</fullName>
+        <default>false</default>
+        <label>Derbi</label>
+    </customValue>
+    <customValue>
+        <fullName>1400</fullName>
+        <default>false</default>
+        <label>DKW</label>
+    </customValue>
+    <customValue>
+        <fullName>1401</fullName>
+        <default>false</default>
+        <label>Dnepr</label>
+    </customValue>
+    <customValue>
+        <fullName>1402</fullName>
+        <default>false</default>
+        <label>Dollar</label>
+    </customValue>
+    <customValue>
+        <fullName>1403</fullName>
+        <default>false</default>
+        <label>Dot Cycle and Motor Manufacturing Company</label>
+    </customValue>
+    <customValue>
+        <fullName>1404</fullName>
+        <default>false</default>
+        <label>Douglas</label>
+    </customValue>
+    <customValue>
+        <fullName>1405</fullName>
+        <default>false</default>
+        <label>D-Rad</label>
+    </customValue>
+    <customValue>
+        <fullName>1406</fullName>
+        <default>false</default>
+        <label>Dresch</label>
+    </customValue>
+    <customValue>
+        <fullName>1407</fullName>
+        <default>false</default>
+        <label>Ducati Motor Holding S.p.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>1408</fullName>
+        <default>false</default>
+        <label>DYL Motorcycles</label>
+    </customValue>
+    <customValue>
+        <fullName>1409</fullName>
+        <default>false</default>
+        <label>Eisenacher Motorenwerk</label>
+    </customValue>
+    <customValue>
+        <fullName>1410</fullName>
+        <default>false</default>
+        <label>Electric Motor Corporation</label>
+    </customValue>
+    <customValue>
+        <fullName>1411</fullName>
+        <default>false</default>
+        <label>EMC Motorcycles</label>
+    </customValue>
+    <customValue>
+        <fullName>1412</fullName>
+        <default>false</default>
+        <label>Energica Motor Company</label>
+    </customValue>
+    <customValue>
+        <fullName>1413</fullName>
+        <default>false</default>
+        <label>Erik Buell Racing</label>
+    </customValue>
+    <customValue>
+        <fullName>1414</fullName>
+        <default>false</default>
+        <label>Escorts Group</label>
+    </customValue>
+    <customValue>
+        <fullName>1415</fullName>
+        <default>false</default>
+        <label>Eso</label>
+    </customValue>
+    <customValue>
+        <fullName>1416</fullName>
+        <default>false</default>
+        <label>Evoke Motorcycles</label>
+    </customValue>
+    <customValue>
+        <fullName>1417</fullName>
+        <default>false</default>
+        <label>Excelsior Motor Company</label>
+    </customValue>
+    <customValue>
+        <fullName>1418</fullName>
+        <default>false</default>
+        <label>Excelsior Motor Manufacturing &amp; Supply Company</label>
+    </customValue>
+    <customValue>
+        <fullName>1419</fullName>
+        <default>false</default>
+        <label>Excelsior-Henderson Motorcycle</label>
+    </customValue>
+    <customValue>
+        <fullName>1420</fullName>
+        <default>false</default>
+        <label>Express Werke</label>
+    </customValue>
+    <customValue>
+        <fullName>1421</fullName>
+        <default>false</default>
+        <label>FAMEL</label>
+    </customValue>
+    <customValue>
+        <fullName>1422</fullName>
+        <default>false</default>
+        <label>Fantic Motor</label>
+    </customValue>
+    <customValue>
+        <fullName>1423</fullName>
+        <default>false</default>
+        <label>FB Mondial</label>
+    </customValue>
+    <customValue>
+        <fullName>1424</fullName>
+        <default>false</default>
+        <label>Flying Merkel</label>
+    </customValue>
+    <customValue>
+        <fullName>1425</fullName>
+        <default>false</default>
+        <label>FN</label>
+    </customValue>
+    <customValue>
+        <fullName>1426</fullName>
+        <default>false</default>
+        <label>Francis-Barnett Fischer Motor Company</label>
+    </customValue>
+    <customValue>
+        <fullName>1427</fullName>
+        <default>false</default>
+        <label>Frera</label>
+    </customValue>
+    <customValue>
+        <fullName>1428</fullName>
+        <default>false</default>
+        <label>Fusi</label>
+    </customValue>
+    <customValue>
+        <fullName>1429</fullName>
+        <default>false</default>
+        <label>Galbusera</label>
+    </customValue>
+    <customValue>
+        <fullName>1430</fullName>
+        <default>false</default>
+        <label>Garelli Motorcycles</label>
+    </customValue>
+    <customValue>
+        <fullName>1431</fullName>
+        <default>false</default>
+        <label>Gas Gas</label>
+    </customValue>
+    <customValue>
+        <fullName>1432</fullName>
+        <default>false</default>
+        <label>Ghezzi &amp; Brian</label>
+    </customValue>
+    <customValue>
+        <fullName>1433</fullName>
+        <default>false</default>
+        <label>Gilera</label>
+    </customValue>
+    <customValue>
+        <fullName>1434</fullName>
+        <default>false</default>
+        <label>Gillet Herstal</label>
+    </customValue>
+    <customValue>
+        <fullName>1435</fullName>
+        <default>false</default>
+        <label>GIMA Gnome et Rhône</label>
+    </customValue>
+    <customValue>
+        <fullName>1436</fullName>
+        <default>false</default>
+        <label>Gimson</label>
+    </customValue>
+    <customValue>
+        <fullName>1437</fullName>
+        <default>false</default>
+        <label>Gorky Motorcycle Plant</label>
+    </customValue>
+    <customValue>
+        <fullName>1438</fullName>
+        <default>false</default>
+        <label>Greeves</label>
+    </customValue>
+    <customValue>
+        <fullName>1439</fullName>
+        <default>false</default>
+        <label>Haden</label>
+    </customValue>
+    <customValue>
+        <fullName>1440</fullName>
+        <default>false</default>
+        <label>Harley-Davidson</label>
+    </customValue>
+    <customValue>
+        <fullName>1441</fullName>
+        <default>false</default>
+        <label>Hecker</label>
+    </customValue>
+    <customValue>
+        <fullName>1442</fullName>
+        <default>false</default>
+        <label>Helkama Hildebrand &amp; Wolfmüller</label>
+    </customValue>
+    <customValue>
+        <fullName>1443</fullName>
+        <default>false</default>
+        <label>Henderson Motorcycle</label>
+    </customValue>
+    <customValue>
+        <fullName>1444</fullName>
+        <default>false</default>
+        <label>Hercules</label>
+    </customValue>
+    <customValue>
+        <fullName>1445</fullName>
+        <default>false</default>
+        <label>Hero MotoCorp</label>
+    </customValue>
+    <customValue>
+        <fullName>1446</fullName>
+        <default>false</default>
+        <label>Hesketh Motorcycles</label>
+    </customValue>
+    <customValue>
+        <fullName>1447</fullName>
+        <default>false</default>
+        <label>Hodaka</label>
+    </customValue>
+    <customValue>
+        <fullName>1448</fullName>
+        <default>false</default>
+        <label>Hoffmann</label>
+    </customValue>
+    <customValue>
+        <fullName>1449</fullName>
+        <default>false</default>
+        <label>Honda</label>
+    </customValue>
+    <customValue>
+        <fullName>1450</fullName>
+        <default>false</default>
+        <label>Horex</label>
+    </customValue>
+    <customValue>
+        <fullName>1451</fullName>
+        <default>false</default>
+        <label>HRD Motorcycles</label>
+    </customValue>
+    <customValue>
+        <fullName>1452</fullName>
+        <default>false</default>
+        <label>Hunter Motorcycles</label>
+    </customValue>
+    <customValue>
+        <fullName>1453</fullName>
+        <default>false</default>
+        <label>Husaberg</label>
+    </customValue>
+    <customValue>
+        <fullName>1454</fullName>
+        <default>false</default>
+        <label>Husqvarna Motorcycles</label>
+    </customValue>
+    <customValue>
+        <fullName>1455</fullName>
+        <default>false</default>
+        <label>Ideal Jawa</label>
+    </customValue>
+    <customValue>
+        <fullName>1456</fullName>
+        <default>false</default>
+        <label>IMZ-Ural</label>
+    </customValue>
+    <customValue>
+        <fullName>1457</fullName>
+        <default>false</default>
+        <label>Indian Motocycle Manufacturing Company</label>
+    </customValue>
+    <customValue>
+        <fullName>1458</fullName>
+        <default>false</default>
+        <label>Innocenti</label>
+    </customValue>
+    <customValue>
+        <fullName>1459</fullName>
+        <default>false</default>
+        <label>Iso</label>
+    </customValue>
+    <customValue>
+        <fullName>1460</fullName>
+        <default>false</default>
+        <label>Italika</label>
+    </customValue>
+    <customValue>
+        <fullName>1461</fullName>
+        <default>false</default>
+        <label>Italjet I</label>
+    </customValue>
+    <customValue>
+        <fullName>1462</fullName>
+        <default>false</default>
+        <label>Ivy</label>
+    </customValue>
+    <customValue>
+        <fullName>1463</fullName>
+        <default>false</default>
+        <label>IZh</label>
+    </customValue>
+    <customValue>
+        <fullName>1464</fullName>
+        <default>false</default>
+        <label>JA Prestwich Industries</label>
+    </customValue>
+    <customValue>
+        <fullName>1465</fullName>
+        <default>false</default>
+        <label>James Cycle Co</label>
+    </customValue>
+    <customValue>
+        <fullName>1466</fullName>
+        <default>false</default>
+        <label>Jamuna Motorcycles</label>
+    </customValue>
+    <customValue>
+        <fullName>1467</fullName>
+        <default>false</default>
+        <label>Janus Motorcycles</label>
+    </customValue>
+    <customValue>
+        <fullName>1468</fullName>
+        <default>false</default>
+        <label>JAWA Moto</label>
+    </customValue>
+    <customValue>
+        <fullName>1469</fullName>
+        <default>false</default>
+        <label>Jinan Qingqi</label>
+    </customValue>
+    <customValue>
+        <fullName>1470</fullName>
+        <default>false</default>
+        <label>Jincheng Suzuki</label>
+    </customValue>
+    <customValue>
+        <fullName>1471</fullName>
+        <default>false</default>
+        <label>Juery</label>
+    </customValue>
+    <customValue>
+        <fullName>1472</fullName>
+        <default>false</default>
+        <label>Junak</label>
+    </customValue>
+    <customValue>
+        <fullName>1473</fullName>
+        <default>false</default>
+        <label>Kawasaki Heavy Industries Motorcycle &amp; Engine</label>
+    </customValue>
+    <customValue>
+        <fullName>1474</fullName>
+        <default>false</default>
+        <label>Killinger and Freund Motorcycle</label>
+    </customValue>
+    <customValue>
+        <fullName>1475</fullName>
+        <default>false</default>
+        <label>Kinetic Engineering Limited</label>
+    </customValue>
+    <customValue>
+        <fullName>1476</fullName>
+        <default>false</default>
+        <label>Kreidler</label>
+    </customValue>
+    <customValue>
+        <fullName>1477</fullName>
+        <default>false</default>
+        <label>KTM</label>
+    </customValue>
+    <customValue>
+        <fullName>1478</fullName>
+        <default>false</default>
+        <label>Kymco</label>
+    </customValue>
+    <customValue>
+        <fullName>1479</fullName>
+        <default>false</default>
+        <label>Lamborghini</label>
+    </customValue>
+    <customValue>
+        <fullName>1480</fullName>
+        <default>false</default>
+        <label>Lambretta</label>
+    </customValue>
+    <customValue>
+        <fullName>1481</fullName>
+        <default>false</default>
+        <label>Land Electric Motorcycle</label>
+    </customValue>
+    <customValue>
+        <fullName>1482</fullName>
+        <default>false</default>
+        <label>Laurin &amp; Klement</label>
+    </customValue>
+    <customValue>
+        <fullName>1483</fullName>
+        <default>false</default>
+        <label>Laverda</label>
+    </customValue>
+    <customValue>
+        <fullName>1484</fullName>
+        <default>false</default>
+        <label>Lefas</label>
+    </customValue>
+    <customValue>
+        <fullName>1485</fullName>
+        <default>false</default>
+        <label>Levis</label>
+    </customValue>
+    <customValue>
+        <fullName>1486</fullName>
+        <default>false</default>
+        <label>Lifan</label>
+    </customValue>
+    <customValue>
+        <fullName>1487</fullName>
+        <default>false</default>
+        <label>Lightning Motorcycle</label>
+    </customValue>
+    <customValue>
+        <fullName>1488</fullName>
+        <default>false</default>
+        <label>Loncin Holdings</label>
+    </customValue>
+    <customValue>
+        <fullName>1489</fullName>
+        <default>false</default>
+        <label>Lube Motorcycles</label>
+    </customValue>
+    <customValue>
+        <fullName>1490</fullName>
+        <default>false</default>
+        <label>Mahindra Two Wheelers</label>
+    </customValue>
+    <customValue>
+        <fullName>1491</fullName>
+        <default>false</default>
+        <label>Maico</label>
+    </customValue>
+    <customValue>
+        <fullName>1492</fullName>
+        <default>false</default>
+        <label>Malaguti</label>
+    </customValue>
+    <customValue>
+        <fullName>1493</fullName>
+        <default>false</default>
+        <label>Malanca</label>
+    </customValue>
+    <customValue>
+        <fullName>1494</fullName>
+        <default>false</default>
+        <label>Maratos</label>
+    </customValue>
+    <customValue>
+        <fullName>1495</fullName>
+        <default>false</default>
+        <label>Marine Turbine Technologies</label>
+    </customValue>
+    <customValue>
+        <fullName>1496</fullName>
+        <default>false</default>
+        <label>Mars</label>
+    </customValue>
+    <customValue>
+        <fullName>1497</fullName>
+        <default>false</default>
+        <label>Martinsyde</label>
+    </customValue>
+    <customValue>
+        <fullName>1498</fullName>
+        <default>false</default>
+        <label>Marusho</label>
+    </customValue>
+    <customValue>
+        <fullName>1499</fullName>
+        <default>false</default>
+        <label>MAS</label>
+    </customValue>
+    <customValue>
+        <fullName>1500</fullName>
+        <default>false</default>
+        <label>Maserati_</label>
+    </customValue>
+    <customValue>
+        <fullName>1501</fullName>
+        <default>false</default>
+        <label>Matchless</label>
+    </customValue>
+    <customValue>
+        <fullName>1502</fullName>
+        <default>false</default>
+        <label>MEBEA</label>
+    </customValue>
+    <customValue>
+        <fullName>1503</fullName>
+        <default>false</default>
+        <label>Megelli Motorcycles</label>
+    </customValue>
+    <customValue>
+        <fullName>1504</fullName>
+        <default>false</default>
+        <label>Mego</label>
+    </customValue>
+    <customValue>
+        <fullName>1505</fullName>
+        <default>false</default>
+        <label>Megola</label>
+    </customValue>
+    <customValue>
+        <fullName>1506</fullName>
+        <default>false</default>
+        <label>Meguro</label>
+    </customValue>
+    <customValue>
+        <fullName>1507</fullName>
+        <default>false</default>
+        <label>Métisse Motorcycles</label>
+    </customValue>
+    <customValue>
+        <fullName>1508</fullName>
+        <default>false</default>
+        <label>Midual</label>
+    </customValue>
+    <customValue>
+        <fullName>1509</fullName>
+        <default>false</default>
+        <label>Minarelli</label>
+    </customValue>
+    <customValue>
+        <fullName>1510</fullName>
+        <default>false</default>
+        <label>Minerva</label>
+    </customValue>
+    <customValue>
+        <fullName>1511</fullName>
+        <default>false</default>
+        <label>Minsk</label>
+    </customValue>
+    <customValue>
+        <fullName>1512</fullName>
+        <default>false</default>
+        <label>Mitsubishi Silver Pigeon</label>
+    </customValue>
+    <customValue>
+        <fullName>1513</fullName>
+        <default>false</default>
+        <label>Miyata</label>
+    </customValue>
+    <customValue>
+        <fullName>1514</fullName>
+        <default>false</default>
+        <label>Modenas</label>
+    </customValue>
+    <customValue>
+        <fullName>1515</fullName>
+        <default>false</default>
+        <label>Monark</label>
+    </customValue>
+    <customValue>
+        <fullName>1516</fullName>
+        <default>false</default>
+        <label>Mondial</label>
+    </customValue>
+    <customValue>
+        <fullName>1517</fullName>
+        <default>false</default>
+        <label>Monet-Goyon</label>
+    </customValue>
+    <customValue>
+        <fullName>1518</fullName>
+        <default>false</default>
+        <label>Montesa Honda</label>
+    </customValue>
+    <customValue>
+        <fullName>1519</fullName>
+        <default>false</default>
+        <label>Mopeds India Limited</label>
+    </customValue>
+    <customValue>
+        <fullName>1520</fullName>
+        <default>false</default>
+        <label>Morbidelli</label>
+    </customValue>
+    <customValue>
+        <fullName>1521</fullName>
+        <default>false</default>
+        <label>Moretti Motor Company</label>
+    </customValue>
+    <customValue>
+        <fullName>1522</fullName>
+        <default>false</default>
+        <label>Moscow Motorcycle Plant</label>
+    </customValue>
+    <customValue>
+        <fullName>1523</fullName>
+        <default>false</default>
+        <label>Moto Guzzi</label>
+    </customValue>
+    <customValue>
+        <fullName>1524</fullName>
+        <default>false</default>
+        <label>Moto Morini</label>
+    </customValue>
+    <customValue>
+        <fullName>1525</fullName>
+        <default>false</default>
+        <label>Moto Rumi</label>
+    </customValue>
+    <customValue>
+        <fullName>1526</fullName>
+        <default>false</default>
+        <label>Motobécane</label>
+    </customValue>
+    <customValue>
+        <fullName>1527</fullName>
+        <default>false</default>
+        <label>Motobi</label>
+    </customValue>
+    <customValue>
+        <fullName>1528</fullName>
+        <default>false</default>
+        <label>MotoCzysz</label>
+    </customValue>
+    <customValue>
+        <fullName>1529</fullName>
+        <default>false</default>
+        <label>Motomel</label>
+    </customValue>
+    <customValue>
+        <fullName>1530</fullName>
+        <default>false</default>
+        <label>MotoTrans</label>
+    </customValue>
+    <customValue>
+        <fullName>1531</fullName>
+        <default>false</default>
+        <label>MÃ¼nch</label>
+    </customValue>
+    <customValue>
+        <fullName>1532</fullName>
+        <default>false</default>
+        <label>Mustang</label>
+    </customValue>
+    <customValue>
+        <fullName>1533</fullName>
+        <default>false</default>
+        <label>MV Agusta</label>
+    </customValue>
+    <customValue>
+        <fullName>1534</fullName>
+        <default>false</default>
+        <label>MZ Motorrad- und Zweiradwerk</label>
+    </customValue>
+    <customValue>
+        <fullName>1535</fullName>
+        <default>false</default>
+        <label>NATI</label>
+    </customValue>
+    <customValue>
+        <fullName>1536</fullName>
+        <default>false</default>
+        <label>Naza</label>
+    </customValue>
+    <customValue>
+        <fullName>1537</fullName>
+        <default>false</default>
+        <label>Neander</label>
+    </customValue>
+    <customValue>
+        <fullName>1538</fullName>
+        <default>false</default>
+        <label>Ner-A-Car</label>
+    </customValue>
+    <customValue>
+        <fullName>1539</fullName>
+        <default>false</default>
+        <label>New Hudson Motorcycles</label>
+    </customValue>
+    <customValue>
+        <fullName>1540</fullName>
+        <default>false</default>
+        <label>New Imperial Motors</label>
+    </customValue>
+    <customValue>
+        <fullName>1541</fullName>
+        <default>false</default>
+        <label>New-Map</label>
+    </customValue>
+    <customValue>
+        <fullName>1542</fullName>
+        <default>false</default>
+        <label>Nimbus</label>
+    </customValue>
+    <customValue>
+        <fullName>1543</fullName>
+        <default>false</default>
+        <label>Norman Cycles</label>
+    </customValue>
+    <customValue>
+        <fullName>1544</fullName>
+        <default>false</default>
+        <label>Norton Motorcycle Company</label>
+    </customValue>
+    <customValue>
+        <fullName>1545</fullName>
+        <default>false</default>
+        <label>Nougier</label>
+    </customValue>
+    <customValue>
+        <fullName>1546</fullName>
+        <default>false</default>
+        <label>NSU Motorenwerke</label>
+    </customValue>
+    <customValue>
+        <fullName>1547</fullName>
+        <default>false</default>
+        <label>OK-Supreme</label>
+    </customValue>
+    <customValue>
+        <fullName>1548</fullName>
+        <default>false</default>
+        <label>Opel_</label>
+    </customValue>
+    <customValue>
+        <fullName>1549</fullName>
+        <default>false</default>
+        <label>Orionette</label>
+    </customValue>
+    <customValue>
+        <fullName>1550</fullName>
+        <default>false</default>
+        <label>Osborn Engineering Company</label>
+    </customValue>
+    <customValue>
+        <fullName>1551</fullName>
+        <default>false</default>
+        <label>Ossa</label>
+    </customValue>
+    <customValue>
+        <fullName>1552</fullName>
+        <default>false</default>
+        <label>Pak Suzuki Motors</label>
+    </customValue>
+    <customValue>
+        <fullName>1553</fullName>
+        <default>false</default>
+        <label>Paton</label>
+    </customValue>
+    <customValue>
+        <fullName>1554</fullName>
+        <default>false</default>
+        <label>Penton</label>
+    </customValue>
+    <customValue>
+        <fullName>1555</fullName>
+        <default>false</default>
+        <label>Peugeot Motocycles</label>
+    </customValue>
+    <customValue>
+        <fullName>1556</fullName>
+        <default>false</default>
+        <label>PGO Scooters</label>
+    </customValue>
+    <customValue>
+        <fullName>1557</fullName>
+        <default>false</default>
+        <label>Phelon &amp; Moore</label>
+    </customValue>
+    <customValue>
+        <fullName>1558</fullName>
+        <default>false</default>
+        <label>PHP Automobiles</label>
+    </customValue>
+    <customValue>
+        <fullName>1559</fullName>
+        <default>false</default>
+        <label>Piaggio</label>
+    </customValue>
+    <customValue>
+        <fullName>1560</fullName>
+        <default>false</default>
+        <label>Pierce-Arrow Motor Car Company</label>
+    </customValue>
+    <customValue>
+        <fullName>1561</fullName>
+        <default>false</default>
+        <label>Podolsk Mechanical Plant</label>
+    </customValue>
+    <customValue>
+        <fullName>1562</fullName>
+        <default>false</default>
+        <label>Pope Manufacturing Company</label>
+    </customValue>
+    <customValue>
+        <fullName>1563</fullName>
+        <default>false</default>
+        <label>Praga</label>
+    </customValue>
+    <customValue>
+        <fullName>1564</fullName>
+        <default>false</default>
+        <label>Premier Motorcycles</label>
+    </customValue>
+    <customValue>
+        <fullName>1565</fullName>
+        <default>false</default>
+        <label>Puch</label>
+    </customValue>
+    <customValue>
+        <fullName>1566</fullName>
+        <default>false</default>
+        <label>Qianjiang Motorcycle</label>
+    </customValue>
+    <customValue>
+        <fullName>1567</fullName>
+        <default>false</default>
+        <label>Quadrant</label>
+    </customValue>
+    <customValue>
+        <fullName>1568</fullName>
+        <default>false</default>
+        <label>Quasar</label>
+    </customValue>
+    <customValue>
+        <fullName>1569</fullName>
+        <default>false</default>
+        <label>Raleigh Bicycle Company</label>
+    </customValue>
+    <customValue>
+        <fullName>1570</fullName>
+        <default>false</default>
+        <label>Ratier</label>
+    </customValue>
+    <customValue>
+        <fullName>1571</fullName>
+        <default>false</default>
+        <label>Ravi Motorcycles</label>
+    </customValue>
+    <customValue>
+        <fullName>1572</fullName>
+        <default>false</default>
+        <label>Rickman Motorcycles</label>
+    </customValue>
+    <customValue>
+        <fullName>1573</fullName>
+        <default>false</default>
+        <label>Ridley Motorcycle Company</label>
+    </customValue>
+    <customValue>
+        <fullName>1574</fullName>
+        <default>false</default>
+        <label>Rieju</label>
+    </customValue>
+    <customValue>
+        <fullName>1575</fullName>
+        <default>false</default>
+        <label>Rikuo Motorcycle</label>
+    </customValue>
+    <customValue>
+        <fullName>1576</fullName>
+        <default>false</default>
+        <label>Roehr Motorcycle Company</label>
+    </customValue>
+    <customValue>
+        <fullName>1577</fullName>
+        <default>false</default>
+        <label>Rokon</label>
+    </customValue>
+    <customValue>
+        <fullName>1578</fullName>
+        <default>false</default>
+        <label>Royal Enfield</label>
+    </customValue>
+    <customValue>
+        <fullName>1579</fullName>
+        <default>false</default>
+        <label>Rudge-Whitworth</label>
+    </customValue>
+    <customValue>
+        <fullName>1580</fullName>
+        <default>false</default>
+        <label>Runner Automobiles</label>
+    </customValue>
+    <customValue>
+        <fullName>1581</fullName>
+        <default>false</default>
+        <label>Sachs Motorcycles</label>
+    </customValue>
+    <customValue>
+        <fullName>1582</fullName>
+        <default>false</default>
+        <label>Sanglas</label>
+    </customValue>
+    <customValue>
+        <fullName>1583</fullName>
+        <default>false</default>
+        <label>Santamaria</label>
+    </customValue>
+    <customValue>
+        <fullName>1584</fullName>
+        <default>false</default>
+        <label>Saroléa</label>
+    </customValue>
+    <customValue>
+        <fullName>1585</fullName>
+        <default>false</default>
+        <label>Scorpa</label>
+    </customValue>
+    <customValue>
+        <fullName>1586</fullName>
+        <default>false</default>
+        <label>Scott Motorcycle Company</label>
+    </customValue>
+    <customValue>
+        <fullName>1587</fullName>
+        <default>false</default>
+        <label>SFM</label>
+    </customValue>
+    <customValue>
+        <fullName>1588</fullName>
+        <default>false</default>
+        <label>Sherco</label>
+    </customValue>
+    <customValue>
+        <fullName>1589</fullName>
+        <default>false</default>
+        <label>SHL</label>
+    </customValue>
+    <customValue>
+        <fullName>1590</fullName>
+        <default>false</default>
+        <label>Siambretta</label>
+    </customValue>
+    <customValue>
+        <fullName>1591</fullName>
+        <default>false</default>
+        <label>Silk</label>
+    </customValue>
+    <customValue>
+        <fullName>1592</fullName>
+        <default>false</default>
+        <label>Simplex Manufacturing Corporation</label>
+    </customValue>
+    <customValue>
+        <fullName>1593</fullName>
+        <default>false</default>
+        <label>Simson</label>
+    </customValue>
+    <customValue>
+        <fullName>1594</fullName>
+        <default>false</default>
+        <label>Singer Motors</label>
+    </customValue>
+    <customValue>
+        <fullName>1595</fullName>
+        <default>false</default>
+        <label>SIS</label>
+    </customValue>
+    <customValue>
+        <fullName>1596</fullName>
+        <default>false</default>
+        <label>Sokół</label>
+    </customValue>
+    <customValue>
+        <fullName>1597</fullName>
+        <default>false</default>
+        <label>Sol Invictus Motorcycle Co.</label>
+    </customValue>
+    <customValue>
+        <fullName>1598</fullName>
+        <default>false</default>
+        <label>Sprite</label>
+    </customValue>
+    <customValue>
+        <fullName>1599</fullName>
+        <default>false</default>
+        <label>Stevens Motorcycles</label>
+    </customValue>
+    <customValue>
+        <fullName>1600</fullName>
+        <default>false</default>
+        <label>Sun</label>
+    </customValue>
+    <customValue>
+        <fullName>1601</fullName>
+        <default>false</default>
+        <label>Sunbeam Cycles</label>
+    </customValue>
+    <customValue>
+        <fullName>1602</fullName>
+        <default>false</default>
+        <label>Suzuki_</label>
+    </customValue>
+    <customValue>
+        <fullName>1603</fullName>
+        <default>false</default>
+        <label>SWM</label>
+    </customValue>
+    <customValue>
+        <fullName>1604</fullName>
+        <default>false</default>
+        <label>SYM Motors</label>
+    </customValue>
+    <customValue>
+        <fullName>1605</fullName>
+        <default>false</default>
+        <label>Taiwan Golden Bee</label>
+    </customValue>
+    <customValue>
+        <fullName>1606</fullName>
+        <default>false</default>
+        <label>Tandon Motorcycles</label>
+    </customValue>
+    <customValue>
+        <fullName>1607</fullName>
+        <default>false</default>
+        <label>Tehuelche</label>
+    </customValue>
+    <customValue>
+        <fullName>1608</fullName>
+        <default>false</default>
+        <label>Tempo</label>
+    </customValue>
+    <customValue>
+        <fullName>1609</fullName>
+        <default>false</default>
+        <label>Terra Modena</label>
+    </customValue>
+    <customValue>
+        <fullName>1610</fullName>
+        <default>false</default>
+        <label>Terrot</label>
+    </customValue>
+    <customValue>
+        <fullName>1611</fullName>
+        <default>false</default>
+        <label>Thor</label>
+    </customValue>
+    <customValue>
+        <fullName>1612</fullName>
+        <default>false</default>
+        <label>Thumpstar</label>
+    </customValue>
+    <customValue>
+        <fullName>1613</fullName>
+        <default>false</default>
+        <label>Titan Motorcycle Company</label>
+    </customValue>
+    <customValue>
+        <fullName>1614</fullName>
+        <default>false</default>
+        <label>TIZ</label>
+    </customValue>
+    <customValue>
+        <fullName>1615</fullName>
+        <default>false</default>
+        <label>Tohatsu</label>
+    </customValue>
+    <customValue>
+        <fullName>1616</fullName>
+        <default>false</default>
+        <label>Triumph Motorcycles Ltd</label>
+    </customValue>
+    <customValue>
+        <fullName>1617</fullName>
+        <default>false</default>
+        <label>Tunturi</label>
+    </customValue>
+    <customValue>
+        <fullName>1618</fullName>
+        <default>false</default>
+        <label>TVS Motor Company</label>
+    </customValue>
+    <customValue>
+        <fullName>1619</fullName>
+        <default>false</default>
+        <label>United Auto Industries</label>
+    </customValue>
+    <customValue>
+        <fullName>1620</fullName>
+        <default>false</default>
+        <label>US Highland</label>
+    </customValue>
+    <customValue>
+        <fullName>1621</fullName>
+        <default>false</default>
+        <label>Victory Motorcycles</label>
+    </customValue>
+    <customValue>
+        <fullName>1622</fullName>
+        <default>false</default>
+        <label>Villiers Engineering</label>
+    </customValue>
+    <customValue>
+        <fullName>1623</fullName>
+        <default>false</default>
+        <label>Vincent Motorcycles</label>
+    </customValue>
+    <customValue>
+        <fullName>1624</fullName>
+        <default>false</default>
+        <label>Voskhod Victoria Velocette</label>
+    </customValue>
+    <customValue>
+        <fullName>1625</fullName>
+        <default>false</default>
+        <label>Voxan Vespa Vyrus Velomotors</label>
+    </customValue>
+    <customValue>
+        <fullName>1626</fullName>
+        <default>false</default>
+        <label>Yamaha Motor Company</label>
+    </customValue>
+    <customValue>
+        <fullName>1627</fullName>
+        <default>false</default>
+        <label>Yankee</label>
+    </customValue>
+    <customValue>
+        <fullName>1628</fullName>
+        <default>false</default>
+        <label>Yinxiang Motorcycle</label>
+    </customValue>
+    <customValue>
+        <fullName>1629</fullName>
+        <default>false</default>
+        <label>Z Electric Vehicle</label>
+    </customValue>
+    <customValue>
+        <fullName>1630</fullName>
+        <default>false</default>
+        <label>Zanella</label>
+    </customValue>
+    <customValue>
+        <fullName>1631</fullName>
+        <default>false</default>
+        <label>Zenith Motorcycles</label>
+    </customValue>
+    <customValue>
+        <fullName>1632</fullName>
+        <default>false</default>
+        <label>Zero Motorcycles</label>
+    </customValue>
+    <customValue>
+        <fullName>1633</fullName>
+        <default>false</default>
+        <label>Znen</label>
+    </customValue>
+    <customValue>
+        <fullName>1634</fullName>
+        <default>false</default>
+        <label>Zongshen</label>
+    </customValue>
+    <customValue>
+        <fullName>1635</fullName>
+        <default>false</default>
+        <label>Zündapp</label>
+    </customValue>
+    <customValue>
+        <fullName>1636</fullName>
+        <default>false</default>
+        <label>AbeStar</label>
+    </customValue>
+    <masterLabel>Motorcycles</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

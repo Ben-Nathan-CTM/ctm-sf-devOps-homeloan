@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>1712</fullName>
+        <default>false</default>
+        <label>American Institute of Certified Public Accountants</label>
+    </customValue>
+    <customValue>
+        <fullName>1713</fullName>
+        <default>false</default>
+        <label>Certified Generals Accountants Canada</label>
+    </customValue>
+    <customValue>
+        <fullName>1714</fullName>
+        <default>false</default>
+        <label>Chartered Institute of Management Accountants</label>
+    </customValue>
+    <customValue>
+        <fullName>1715</fullName>
+        <default>false</default>
+        <label>Chartered Institute of Public Finance and Accountancy</label>
+    </customValue>
+    <customValue>
+        <fullName>1716</fullName>
+        <default>false</default>
+        <label>Chartered Accountants Australia &amp; New Zealand</label>
+    </customValue>
+    <customValue>
+        <fullName>1717</fullName>
+        <default>false</default>
+        <label>Chartered Accountants Ireland</label>
+    </customValue>
+    <customValue>
+        <fullName>1718</fullName>
+        <default>false</default>
+        <label>Chartered Accountants Sri Lanka</label>
+    </customValue>
+    <customValue>
+        <fullName>1719</fullName>
+        <default>false</default>
+        <label>Chartered Financial Analyst Institute (CFA)</label>
+    </customValue>
+    <customValue>
+        <fullName>1720</fullName>
+        <default>false</default>
+        <label>Chartered Professional Accountants Canada</label>
+    </customValue>
+    <customValue>
+        <fullName>1721</fullName>
+        <default>false</default>
+        <label>Fellowship of the Institute of Actuaries of Australia (FIAA).</label>
+    </customValue>
+    <customValue>
+        <fullName>1722</fullName>
+        <default>false</default>
+        <label>Hong Kong Institute of Certified Public Accountants</label>
+    </customValue>
+    <customValue>
+        <fullName>1723</fullName>
+        <default>false</default>
+        <label>Institut der Wirtschaftsprüfer in Deutschland e.V.</label>
+    </customValue>
+    <customValue>
+        <fullName>1724</fullName>
+        <default>false</default>
+        <label>Institute of Certified Management Accountants of Sri Lanka</label>
+    </customValue>
+    <customValue>
+        <fullName>1725</fullName>
+        <default>false</default>
+        <label>Institute of Certified Public Accountants in Ireland</label>
+    </customValue>
+    <customValue>
+        <fullName>1726</fullName>
+        <default>false</default>
+        <label>Institute of Certified Public Accountants of Kenya</label>
+    </customValue>
+    <customValue>
+        <fullName>1727</fullName>
+        <default>false</default>
+        <label>Institute of Chartered Accountants in England and Wales</label>
+    </customValue>
+    <customValue>
+        <fullName>1728</fullName>
+        <default>false</default>
+        <label>Institute of Chartered Accountants India</label>
+    </customValue>
+    <customValue>
+        <fullName>1729</fullName>
+        <default>false</default>
+        <label>Institute of Chartered Accountants of Bangladesh</label>
+    </customValue>
+    <customValue>
+        <fullName>1730</fullName>
+        <default>false</default>
+        <label>Institute of Chartered Accountants of Nepal</label>
+    </customValue>
+    <customValue>
+        <fullName>1731</fullName>
+        <default>false</default>
+        <label>Institute of Chartered Accountants of Scotland</label>
+    </customValue>
+    <customValue>
+        <fullName>1732</fullName>
+        <default>false</default>
+        <label>Institute of Cost &amp; Managtement Accountants Pakistan</label>
+    </customValue>
+    <customValue>
+        <fullName>1733</fullName>
+        <default>false</default>
+        <label>Institute of Indonesia Chartered Accountants</label>
+    </customValue>
+    <customValue>
+        <fullName>1734</fullName>
+        <default>false</default>
+        <label>Institute of Singapore Chartered Accountants</label>
+    </customValue>
+    <customValue>
+        <fullName>1735</fullName>
+        <default>false</default>
+        <label>Japanese Institute of Certified Public Accountants</label>
+    </customValue>
+    <customValue>
+        <fullName>1736</fullName>
+        <default>false</default>
+        <label>Malaysian Institute of Accountants</label>
+    </customValue>
+    <customValue>
+        <fullName>1737</fullName>
+        <default>false</default>
+        <label>National Association of State Boards of Accountancy</label>
+    </customValue>
+    <customValue>
+        <fullName>1738</fullName>
+        <default>false</default>
+        <label>National Federation of Certified Public Accountant Associations of the Republic of
+            China</label>
+    </customValue>
+    <customValue>
+        <fullName>1739</fullName>
+        <default>false</default>
+        <label>Philippine Institute of Certified Public Accountants</label>
+    </customValue>
+    <customValue>
+        <fullName>1740</fullName>
+        <default>false</default>
+        <label>South African Institute of Chartered Accountants</label>
+    </customValue>
+    <customValue>
+        <fullName>1741</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>1817</fullName>
+        <default>false</default>
+        <label>None</label>
+    </customValue>
+    <masterLabel>OccupationBodiesAccountant</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

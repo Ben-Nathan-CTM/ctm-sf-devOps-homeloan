@@ -1,0 +1,33 @@
+<template>
+  <div class="slds-grid slds-wrap">
+    <div
+      class="slds-col slds-size_1-of-1 slds-theme_shade table-container slds-m-bottom_medium"
+    >
+      <div class="slds-p-around_small">
+        <h6 slot="title">
+          <lightning-icon
+            icon-name="custom:custom15"
+            title="Loan Applicants"
+          ></lightning-icon>
+          <strong class="slds-p-left_small">Loan Applicants</strong>
+        </h6>
+      </div>
+      <template lwc:if={applicantsFormatted}>
+        <div class="table-details slds-border_top">
+          <lightning-datatable
+            key-field="id"
+            data={applicants}
+            columns={columns}
+            max-row-selection="1"
+            selected-rows={primaryApplicantId}
+            onrowselection={handleRowSelect}
+            column-widths-mode="fixed"
+            resize-column-disabled
+          >
+          </lightning-datatable>
+        </div>
+      </template>
+      <template lwc:else>No Applicants Found</template>
+    </div>
+  </div>
+</template>

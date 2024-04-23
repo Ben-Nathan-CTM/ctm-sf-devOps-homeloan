@@ -1,0 +1,8 @@
+{
+  "orgName": "CTM Homeloan App Scratch Org",
+  "sourceOrg": "00D5g000002vaUkEAI",
+  "features": [
+    "PersonAccounts",
+    "EnableSetPasswordInApi"
+  ]
+}

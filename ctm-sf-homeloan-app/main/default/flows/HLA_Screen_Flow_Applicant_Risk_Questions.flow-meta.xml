@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>56.0</apiVersion>
+    <description
+  >Screen to display the Loan Applicant questions that are too long for field label limits (40 characters)</description>
+    <environments>Default</environments>
+    <formulas>
+        <name>answerAnyExistingDebtInArrears</name>
+        <dataType>String</dataType>
+        <expression
+    >IF({!Loan_Applicant_Record.AnyExistingDebtsInArrears__c}, {!Loan_Applicant_Record.AnyExistingDebtsInArrearsDesc__c},&quot;No&quot;)</expression>
+    </formulas>
+    <formulas>
+        <name>answerCreditProblems</name>
+        <dataType>String</dataType>
+        <expression
+    >IF({!Loan_Applicant_Record.CreditProblems__c},{!Loan_Applicant_Record.CreditProblemsDesc__c},&quot;No&quot;)</expression>
+    </formulas>
+    <formulas>
+        <name>answerExpenseChange</name>
+        <dataType>String</dataType>
+        <expression>IF(
+{!Loan_Applicant_Record.anticipateExpenseChange__c}, {!Loan_Applicant_Record.AnticipateExpenseChangeDescription__c},&quot;No&quot;
+)</expression>
+    </formulas>
+    <formulas>
+        <name>answerHavingDifficultyMeetingFinancialCommitments</name>
+        <dataType>String</dataType>
+        <expression
+    >IF({!Loan_Applicant_Record.DifficultyMeetingFinancialCommitments__c}, {!Loan_Applicant_Record.DifficultyMeetingFinancialCommitmentsDes__c},&quot;No&quot;)</expression>
+    </formulas>
+    <formulas>
+        <name>answerIncomeChange</name>
+        <dataType>String</dataType>
+        <expression>IF( 
+{!Loan_Applicant_Record.anticipateIncomeChange__c},
+CASE(TEXT({!Loan_Applicant_Record.anticipateIncomeChangeHow__c}),&quot;1805&quot;, &quot;Extended unpaid leave&quot;,
+
+&quot;1806&quot;, &quot;Loss of employment&quot;,
+
+&quot;1807&quot;, &quot;Reduced income&quot;,
+
+&quot;1808&quot;, &quot;Medical treatment or illness&quot;,
+
+&quot;1809&quot;, &quot;Retirement&quot;,
+
+&quot;1810&quot;, &quot;Other&quot;,
+
+&quot;Nothing Selected&quot;),
+&quot;No&quot;)</expression>
+    </formulas>
+    <formulas>
+        <name>answerRepaymentStrategy</name>
+        <dataType>String</dataType>
+        <expression
+    >CASE(TEXT({!Loan_Applicant_Record.IncomeChangeLoanRepaymentStrategy__c}),
+&quot;1811&quot;, &quot;Using accumulated savings&quot;,
+
+&quot;1812&quot;, &quot;Sale of investment assets such as investment property or shares&quot;,
+
+&quot;1813&quot;, &quot;By securing additional employment&quot;,
+
+&quot;1814&quot;, &quot;Reducing expenditure&quot;,
+
+&quot;1815&quot;, &quot;Other means&quot;,
+
+&quot;1810&quot;, &quot;Other&quot;,
+
+&quot;Nothing Selected&quot;)</expression>
+    </formulas>
+    <interviewLabel>HLA: Screen Flow {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>HLA: Screen Flow: Applicant Risk Questions</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <recordLookups>
+        <name>Loan_Applicant_Record</name>
+        <label>Loan Applicant Record</label>
+        <locationX>176</locationX>
+        <locationY>158</locationY>
+        <assignNullValuesIfNoRecordsFound
+    >false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Applicant_Risk_Questions</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>recordId</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>LoanApplicant__c</object>
+        <queriedFields>Id</queriedFields>
+        <queriedFields>anticipateExpenseChange__c</queriedFields>
+        <queriedFields>AnticipateExpenseChangeDescription__c</queriedFields>
+        <queriedFields>anticipateIncomeChange__c</queriedFields>
+        <queriedFields>anticipateIncomeChangeHow__c</queriedFields>
+        <queriedFields>IncomeChangeLoanRepaymentStrategy__c</queriedFields>
+        <queriedFields>AnyExistingDebtsInArrears__c</queriedFields>
+        <queriedFields>AnyExistingDebtsInArrearsDesc__c</queriedFields>
+        <queriedFields>CreditProblems__c</queriedFields>
+        <queriedFields>CreditProblemsDesc__c</queriedFields>
+        <queriedFields>DifficultyMeetingFinancialCommitments__c</queriedFields>
+        <queriedFields
+    >DifficultyMeetingFinancialCommitmentsDes__c</queriedFields>
+        <sortField>Id</sortField>
+        <sortOrder>Asc</sortOrder>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <screens>
+        <name>Applicant_Risk_Questions</name>
+        <label>Applicant Risk Questions</label>
+        <locationX>176</locationX>
+        <locationY>278</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <fields>
+            <name>Applicant_Risk_Indicators</name>
+            <fieldText
+      >&lt;p&gt;&lt;strong style=&quot;color: rgb(251, 0, 0); font-size: 14px;&quot;&gt;Applicant Risk Indicators&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>Anticipate_Financial_Changes</name>
+            <fieldText
+      >&lt;p&gt;&lt;strong&gt;Do you foresee any significant changes to your income over the next 12 months that would impact your ability to meet your loan repayments?&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;{!answerIncomeChange}&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>Expense_Changes</name>
+            <fieldText
+      >&lt;p&gt;&lt;strong&gt;Do you foresee any significant changes to your expenses over the next 12 months that would impact your ability to meet your loan repayments?&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;{!answerExpenseChange}&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>Repayment_Plan</name>
+            <fieldText
+      >&lt;p&gt;&lt;strong style=&quot;background-color: rgb(255, 255, 255); font-size: 12px; color: rgb(37, 19, 14);&quot;&gt;How would&amp;nbsp;you&amp;nbsp;continue to make loan repayments?&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;{!answerRepaymentStrategy}&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+            <visibilityRule>
+                <conditionLogic>and</conditionLogic>
+                <conditions>
+                    <leftValueReference>answerIncomeChange</leftValueReference>
+                    <operator>NotEqualTo</operator>
+                    <rightValue>
+                        <stringValue>No</stringValue>
+                    </rightValue>
+                </conditions>
+            </visibilityRule>
+        </fields>
+        <fields>
+            <name>Credit_Problems</name>
+            <fieldText
+      >&lt;p&gt;&lt;strong&gt;Have you ever had problems that effect your ability to obtain Credit?&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;{!answerCreditProblems}&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>Any_Existing_Debt_in_Arrears</name>
+            <fieldText
+      >&lt;p&gt;&lt;strong&gt;Do you currently have any existing debt with outstanding payments that are in arrears?&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(68, 68, 68);&quot;&gt;{!answerAnyExistingDebtInArrears}&lt;/span&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>Difficulty_Meeting_Financial_Commitments</name>
+            <fieldText
+      >&lt;p&gt;&lt;strong&gt;Are you currently having difficulty meeting your existing financial commitments?&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;{!answerHavingDifficultyMeetingFinancialCommitments}&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>false</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Loan_Applicant_Record</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>recordId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

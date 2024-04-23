@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>754</fullName>
+        <default>false</default>
+        <label>Account-based Pension</label>
+    </customValue>
+    <customValue>
+        <fullName>755</fullName>
+        <default>false</default>
+        <label>Allocated Pension</label>
+    </customValue>
+    <customValue>
+        <fullName>756</fullName>
+        <default>false</default>
+        <label>Lifetime Annuity</label>
+    </customValue>
+    <customValue>
+        <fullName>757</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <masterLabel>IncomeRetirementType</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

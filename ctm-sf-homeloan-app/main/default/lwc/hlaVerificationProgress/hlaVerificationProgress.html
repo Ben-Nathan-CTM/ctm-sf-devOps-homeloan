@@ -1,0 +1,24 @@
+<template>
+  <lightning-progress-indicator
+    current-step={stepToBeVerifiedNext}
+    type="base"
+    has-error={error}
+  >
+    <lightning-progress-step
+      label="Goals Verified"
+      value="step1"
+    ></lightning-progress-step>
+    <lightning-progress-step
+      label="Loan Verified"
+      value="step2"
+    ></lightning-progress-step>
+    <lightning-progress-step
+      label="Applicant Details Verified"
+      value="step3"
+    ></lightning-progress-step>
+    <lightning-progress-step
+      label="Financial Position Verified"
+      value="step4"
+    ></lightning-progress-step>
+  </lightning-progress-indicator>
+</template>

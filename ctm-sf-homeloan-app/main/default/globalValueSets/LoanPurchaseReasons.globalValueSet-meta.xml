@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>790</fullName>
+        <default>false</default>
+        <label>I&apos;ll live there</label>
+    </customValue>
+    <customValue>
+        <fullName>791</fullName>
+        <default>false</default>
+        <label>An investment property</label>
+    </customValue>
+    <masterLabel>LoanPurchaseReasons</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

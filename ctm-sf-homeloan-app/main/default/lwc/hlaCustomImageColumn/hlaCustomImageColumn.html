@@ -1,0 +1,18 @@
+<template>
+  <a href="#" onclick={handleImageclicked}>
+    <img
+      src={lenderImageUrl}
+      alt={lenderImageUrl}
+      title={title}
+      width="70"
+      height="50"
+    />
+    <template lwc:if={selected}>
+      <lightning-icon
+        icon-name="standard:task2"
+        class="slds-m-horizontal_small"
+        size="small"
+      ></lightning-icon>
+    </template>
+  </a>
+</template>

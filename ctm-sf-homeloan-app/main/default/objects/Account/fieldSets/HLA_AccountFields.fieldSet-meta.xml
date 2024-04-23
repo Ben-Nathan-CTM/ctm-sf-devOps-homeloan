@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<FieldSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HLA_AccountFields</fullName>
+    <description
+  >Used in Application metadata injection framework to allow HLA related Account fields to automatically be retrieved in the Account Selector</description>
+    <displayedFields>
+        <field>LatestCreditCheckDate__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <displayedFields>
+        <field>OriginalCreditCheckDate__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <displayedFields>
+        <field>CreditScoreID__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <label>HLA Account Fields</label>
+</FieldSet>

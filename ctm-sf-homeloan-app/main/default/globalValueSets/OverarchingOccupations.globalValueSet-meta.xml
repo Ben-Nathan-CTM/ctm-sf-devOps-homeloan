@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>1676</fullName>
+        <default>false</default>
+        <label>Accountant</label>
+    </customValue>
+    <customValue>
+        <fullName>1677</fullName>
+        <default>false</default>
+        <label>Legal Professional</label>
+    </customValue>
+    <customValue>
+        <fullName>1678</fullName>
+        <default>false</default>
+        <label>Medical Professional</label>
+    </customValue>
+    <customValue>
+        <fullName>1679</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <masterLabel>OverarchingOccupations</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

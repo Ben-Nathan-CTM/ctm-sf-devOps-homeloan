@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>774</fullName>
+        <default>false</default>
+        <label>Credit or Store Cards</label>
+    </customValue>
+    <customValue>
+        <fullName>775</fullName>
+        <default>false</default>
+        <label>Vehicle lease</label>
+    </customValue>
+    <customValue>
+        <fullName>776</fullName>
+        <default>false</default>
+        <label>Personal loan</label>
+    </customValue>
+    <customValue>
+        <fullName>777</fullName>
+        <default>false</default>
+        <label>Personal Overdraft</label>
+    </customValue>
+    <customValue>
+        <fullName>778</fullName>
+        <default>false</default>
+        <label>HECS / HELP debt</label>
+    </customValue>
+    <customValue>
+        <fullName>779</fullName>
+        <default>false</default>
+        <label>ATO or Centerlink debt</label>
+    </customValue>
+    <customValue>
+        <fullName>780</fullName>
+        <default>false</default>
+        <label>Other liability</label>
+    </customValue>
+    <customValue>
+        <fullName>781</fullName>
+        <default>false</default>
+        <label>Residential owner occupied mortgage</label>
+    </customValue>
+    <customValue>
+        <fullName>782</fullName>
+        <default>false</default>
+        <label>Residential investment mortgage</label>
+    </customValue>
+    <customValue>
+        <fullName>783</fullName>
+        <default>false</default>
+        <label>Commercial owner occupied mortgage</label>
+    </customValue>
+    <customValue>
+        <fullName>784</fullName>
+        <default>false</default>
+        <label>Commercial investment mortgage</label>
+    </customValue>
+    <customValue>
+        <fullName>785</fullName>
+        <default>false</default>
+        <label>Margin loan</label>
+    </customValue>
+    <masterLabel>LiabilityTypes</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

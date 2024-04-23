@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>613</fullName>
+        <default>false</default>
+        <label>Owner Occupied Property - Residential Mortgage Loan Payments</label>
+    </customValue>
+    <customValue>
+        <fullName>614</fullName>
+        <default>false</default>
+        <label>Investment Property - Residential Mortgage Loan Payments</label>
+    </customValue>
+    <customValue>
+        <fullName>615</fullName>
+        <default>false</default>
+        <label>Card Payments</label>
+    </customValue>
+    <customValue>
+        <fullName>616</fullName>
+        <default>false</default>
+        <label>Vehicle Payments</label>
+    </customValue>
+    <customValue>
+        <fullName>617</fullName>
+        <default>false</default>
+        <label>Personal Loan Payments</label>
+    </customValue>
+    <customValue>
+        <fullName>618</fullName>
+        <default>false</default>
+        <label>Overdraft Payments</label>
+    </customValue>
+    <masterLabel>ExpenseDebtDetailTypes</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,14 @@
+<template>
+  <lightning-modal-header
+    label="Please Record Your Changes"
+  ></lightning-modal-header>
+  <lightning-modal-body
+    ><lightning-flow
+      flow-api-name="HLA_Screen_Flow_Create_New_SNote"
+      flow-finish-behavior="NONE"
+      flow-input-variables={inputVariables}
+      onstatuschange={handleStatusChangeEvent}
+    >
+    </lightning-flow
+  ></lightning-modal-body>
+</template>

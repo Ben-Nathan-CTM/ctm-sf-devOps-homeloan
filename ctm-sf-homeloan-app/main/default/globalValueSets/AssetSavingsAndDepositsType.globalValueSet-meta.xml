@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>17</fullName>
+        <default>false</default>
+        <label>Cash management trust</label>
+    </customValue>
+    <customValue>
+        <fullName>18</fullName>
+        <default>false</default>
+        <label>Cheque account</label>
+    </customValue>
+    <customValue>
+        <fullName>19</fullName>
+        <default>false</default>
+        <label>Savings account</label>
+    </customValue>
+    <customValue>
+        <fullName>20</fullName>
+        <default>false</default>
+        <label>Term deposit</label>
+    </customValue>
+    <customValue>
+        <fullName>21</fullName>
+        <default>false</default>
+        <label>Other account</label>
+    </customValue>
+    <customValue>
+        <fullName>1658</fullName>
+        <default>false</default>
+        <label>Deposit already paid</label>
+    </customValue>
+    <masterLabel>AssetSavingsAndDepositsType</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

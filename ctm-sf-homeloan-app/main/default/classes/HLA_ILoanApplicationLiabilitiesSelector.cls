@@ -1,0 +1,2 @@
+public interface HLA_ILoanApplicationLiabilitiesSelector extends IApplicationSObjectSelector {
+}

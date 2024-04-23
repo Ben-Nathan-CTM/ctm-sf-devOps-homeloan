@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>1640</fullName>
+        <default>false</default>
+        <label>Inheritance (special conditions apply)</label>
+    </customValue>
+    <customValue>
+        <fullName>1641</fullName>
+        <default>false</default>
+        <label>Cash gift from parents (special conditions apply)</label>
+    </customValue>
+    <customValue>
+        <fullName>1642</fullName>
+        <default>false</default>
+        <label>Equity cash out of another property</label>
+    </customValue>
+    <customValue>
+        <fullName>1643</fullName>
+        <default>false</default>
+        <label>Sale of shares or similar investments</label>
+    </customValue>
+    <customValue>
+        <fullName>1644</fullName>
+        <default>false</default>
+        <label>Sale of a property</label>
+    </customValue>
+    <customValue>
+        <fullName>1646</fullName>
+        <default>false</default>
+        <label>Savings</label>
+    </customValue>
+    <customValue>
+        <fullName>1648</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <masterLabel>ContributionsSourceOfFunds</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>64</fullName>
+        <default>false</default>
+        <label>Deposit</label>
+    </customValue>
+    <customValue>
+        <fullName>65</fullName>
+        <default>false</default>
+        <label>Cash At Bank</label>
+    </customValue>
+    <customValue>
+        <fullName>66</fullName>
+        <default>false</default>
+        <label>Sales Proceeds</label>
+    </customValue>
+    <customValue>
+        <fullName>67</fullName>
+        <default>false</default>
+        <label>First Home Buyers Grant</label>
+    </customValue>
+    <customValue>
+        <fullName>68</fullName>
+        <default>false</default>
+        <label>Other Grants</label>
+    </customValue>
+    <customValue>
+        <fullName>69</fullName>
+        <default>false</default>
+        <label>Other contribution type</label>
+    </customValue>
+    <customValue>
+        <fullName>70</fullName>
+        <default>false</default>
+        <label>Equity in existing property</label>
+    </customValue>
+    <masterLabel>ContributionType</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

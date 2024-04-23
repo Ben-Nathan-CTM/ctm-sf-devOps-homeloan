@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ApexTestSuite xmlns="http://soap.sforce.com/2006/04/metadata">
+    <testClassName>HLA_CreditScoreAssessmentScheduleTest</testClassName>
+    <testClassName>HLA_CreditScoreAssmntAsyncProccessorTest</testClassName>
+    <testClassName>HLA_LenderProductSearchTest</testClassName>
+    <testClassName>HLA_TaskListEventAsyncProcessorTest</testClassName>
+    <testClassName>HLA_UtilsTest</testClassName>
+    <testClassName>MetadataServiceTest</testClassName>
+</ApexTestSuite>

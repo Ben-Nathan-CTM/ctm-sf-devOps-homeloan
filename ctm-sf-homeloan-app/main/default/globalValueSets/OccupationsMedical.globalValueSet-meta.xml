@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>1742</fullName>
+        <default>false</default>
+        <label>Anaesthetist</label>
+    </customValue>
+    <customValue>
+        <fullName>1743</fullName>
+        <default>false</default>
+        <label>Audiologist</label>
+    </customValue>
+    <customValue>
+        <fullName>1744</fullName>
+        <default>false</default>
+        <label>Cardiologist</label>
+    </customValue>
+    <customValue>
+        <fullName>1745</fullName>
+        <default>false</default>
+        <label>Cardiothoracic Surgeon</label>
+    </customValue>
+    <customValue>
+        <fullName>1746</fullName>
+        <default>false</default>
+        <label>Chiropractor</label>
+    </customValue>
+    <customValue>
+        <fullName>1747</fullName>
+        <default>false</default>
+        <label>Clinical Haematologist</label>
+    </customValue>
+    <customValue>
+        <fullName>1748</fullName>
+        <default>false</default>
+        <label>Dentist</label>
+    </customValue>
+    <customValue>
+        <fullName>1749</fullName>
+        <default>false</default>
+        <label>Dermatologist</label>
+    </customValue>
+    <customValue>
+        <fullName>1750</fullName>
+        <default>false</default>
+        <label>Diagnostic and Interventional Radiologist</label>
+    </customValue>
+    <customValue>
+        <fullName>1751</fullName>
+        <default>false</default>
+        <label>Emergency Medicine Specialist</label>
+    </customValue>
+    <customValue>
+        <fullName>1752</fullName>
+        <default>false</default>
+        <label>Endocrinologist</label>
+    </customValue>
+    <customValue>
+        <fullName>1753</fullName>
+        <default>false</default>
+        <label>Gastroenterologist</label>
+    </customValue>
+    <customValue>
+        <fullName>1754</fullName>
+        <default>false</default>
+        <label>General Practitioner</label>
+    </customValue>
+    <customValue>
+        <fullName>1755</fullName>
+        <default>false</default>
+        <label>Intensive Care Specialist</label>
+    </customValue>
+    <customValue>
+        <fullName>1756</fullName>
+        <default>false</default>
+        <label>Medical Diagnostic Radiographer</label>
+    </customValue>
+    <customValue>
+        <fullName>1757</fullName>
+        <default>false</default>
+        <label>Medical Oncologist</label>
+    </customValue>
+    <customValue>
+        <fullName>1758</fullName>
+        <default>false</default>
+        <label>Medical Practitioners Other</label>
+    </customValue>
+    <customValue>
+        <fullName>1759</fullName>
+        <default>false</default>
+        <label>Neurologist</label>
+    </customValue>
+    <customValue>
+        <fullName>1760</fullName>
+        <default>false</default>
+        <label>Neurosurgeon</label>
+    </customValue>
+    <customValue>
+        <fullName>1761</fullName>
+        <default>false</default>
+        <label>Obstetrician and Gynaecologist</label>
+    </customValue>
+    <customValue>
+        <fullName>1762</fullName>
+        <default>false</default>
+        <label>Occupational Therapist</label>
+    </customValue>
+    <customValue>
+        <fullName>1763</fullName>
+        <default>false</default>
+        <label>Ophthalmologist</label>
+    </customValue>
+    <customValue>
+        <fullName>1764</fullName>
+        <default>false</default>
+        <label>Optometrist</label>
+    </customValue>
+    <customValue>
+        <fullName>1765</fullName>
+        <default>false</default>
+        <label>Orthopaedic Surgeon</label>
+    </customValue>
+    <customValue>
+        <fullName>1766</fullName>
+        <default>false</default>
+        <label>Osteopath</label>
+    </customValue>
+    <customValue>
+        <fullName>1767</fullName>
+        <default>false</default>
+        <label>Otorhinolaryngologist</label>
+    </customValue>
+    <customValue>
+        <fullName>1768</fullName>
+        <default>false</default>
+        <label>Paediatric Surgeon</label>
+    </customValue>
+    <customValue>
+        <fullName>1769</fullName>
+        <default>false</default>
+        <label>Paediatrician</label>
+    </customValue>
+    <customValue>
+        <fullName>1770</fullName>
+        <default>false</default>
+        <label>Pathologist</label>
+    </customValue>
+    <customValue>
+        <fullName>1771</fullName>
+        <default>false</default>
+        <label>Pharmacist</label>
+    </customValue>
+    <customValue>
+        <fullName>1772</fullName>
+        <default>false</default>
+        <label>Physiotherapist</label>
+    </customValue>
+    <customValue>
+        <fullName>1773</fullName>
+        <default>false</default>
+        <label>Plastic and Reconstructive Surgeon</label>
+    </customValue>
+    <customValue>
+        <fullName>1774</fullName>
+        <default>false</default>
+        <label>Podiatrist</label>
+    </customValue>
+    <customValue>
+        <fullName>1775</fullName>
+        <default>false</default>
+        <label>Psychiatrist</label>
+    </customValue>
+    <customValue>
+        <fullName>1776</fullName>
+        <default>false</default>
+        <label>Psychologist</label>
+    </customValue>
+    <customValue>
+        <fullName>1777</fullName>
+        <default>false</default>
+        <label>Radiation Oncologist</label>
+    </customValue>
+    <customValue>
+        <fullName>1778</fullName>
+        <default>false</default>
+        <label>Renal Medicine Specialist</label>
+    </customValue>
+    <customValue>
+        <fullName>1779</fullName>
+        <default>false</default>
+        <label>Resident Medical Officer</label>
+    </customValue>
+    <customValue>
+        <fullName>1780</fullName>
+        <default>false</default>
+        <label>Rheumatologist</label>
+    </customValue>
+    <customValue>
+        <fullName>1781</fullName>
+        <default>false</default>
+        <label>Sonographer</label>
+    </customValue>
+    <customValue>
+        <fullName>1782</fullName>
+        <default>false</default>
+        <label>Specialist Physician (General Medicine)</label>
+    </customValue>
+    <customValue>
+        <fullName>1783</fullName>
+        <default>false</default>
+        <label>Specialist Physicians Other</label>
+    </customValue>
+    <customValue>
+        <fullName>1784</fullName>
+        <default>false</default>
+        <label>Speech Pathologist</label>
+    </customValue>
+    <customValue>
+        <fullName>1785</fullName>
+        <default>false</default>
+        <label>Surgeon (General)</label>
+    </customValue>
+    <customValue>
+        <fullName>1786</fullName>
+        <default>false</default>
+        <label>Thoracic Medicine Specialist</label>
+    </customValue>
+    <customValue>
+        <fullName>1787</fullName>
+        <default>false</default>
+        <label>Urologist</label>
+    </customValue>
+    <customValue>
+        <fullName>1788</fullName>
+        <default>false</default>
+        <label>Vascular Surgeon</label>
+    </customValue>
+    <customValue>
+        <fullName>1789</fullName>
+        <default>false</default>
+        <label>Veterinarian</label>
+    </customValue>
+    <customValue>
+        <fullName>1790</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <masterLabel>OccupationsMedical</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

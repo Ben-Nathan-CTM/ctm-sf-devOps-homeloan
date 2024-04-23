@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AusResidentStatus__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Applicant’s Australian Resident status</description>
+    <externalId>false</externalId>
+    <label>Aus Resident Status</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Citizen</fullName>
+                <default>false</default>
+                <label>Citizen</label>
+            </value>
+            <value>
+                <fullName>Non-Resident</fullName>
+                <default>false</default>
+                <label>Non-Resident</label>
+            </value>
+            <value>
+                <fullName>Resident</fullName>
+                <default>false</default>
+                <label>Resident</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
