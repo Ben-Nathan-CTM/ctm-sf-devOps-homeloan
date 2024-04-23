@@ -36,7 +36,7 @@ jobs:
               ./installPackages.sh
     
       - name: Push source to scratch org
-        run: 'sfdx force:source:push'
+        run: 'sfdx force:package:install -p 04tOm0000000xjFIAQ -w 10 -r'
 
       - name: Check code coverage
         run: |
