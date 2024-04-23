@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>1666</fullName>
+        <default>false</default>
+        <label>Short-term</label>
+    </customValue>
+    <customValue>
+        <fullName>1667</fullName>
+        <default>false</default>
+        <label>Long-term</label>
+    </customValue>
+    <customValue>
+        <fullName>1816</fullName>
+        <default>false</default>
+        <label>Commercial</label>
+    </customValue>
+    <masterLabel>IncomeRentalType</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

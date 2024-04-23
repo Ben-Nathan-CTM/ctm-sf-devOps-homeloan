@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>HLA SubmitToAfg Auth0 PRD</label>
+    <protected>false</protected>
+    <values>
+        <field>Audience__c</field>
+        <value xsi:type="xsd:string">https://api.comparethemarket.com.au/api/v1/lending/processing/</value>
+    </values>
+    <values>
+        <field>AuthURL__c</field>
+        <value xsi:type="xsd:string">https://ctm-m2m-prd-man.au.auth0.com/oauth/token</value>
+    </values>
+    <values>
+        <field>CTMAuthorizedSystem__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>CTMEndpoint__c</field>
+        <value xsi:type="xsd:string">HLA_SubmitToAfgService</value>
+    </values>
+    <values>
+        <field>CTMEnvironmentConfig__c</field>
+        <value xsi:type="xsd:string">CTM_PROD</value>
+    </values>
+    <values>
+        <field>ClientId__c</field>
+        <value xsi:type="xsd:string">AQpq3a2so9qgyjJW6kEimKUuVIWbDmP6</value>
+    </values>
+    <values>
+        <field>ClientSecret__c</field>
+        <value xsi:type="xsd:string">1JIiBytNoRAqCYzhYpVYD_5wL_dpLBGoik3Us2FyLFMwbuKHDDGpZ_yRPGpTzkRV</value>
+    </values>
+    <values>
+        <field>GrantType__c</field>
+        <value xsi:type="xsd:string">client_credentials</value>
+    </values>
+    <values>
+        <field>System__c</field>
+        <value xsi:type="xsd:string">Auth0</value>
+    </values>
+</CustomMetadata>

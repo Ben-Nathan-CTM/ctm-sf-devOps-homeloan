@@ -1,0 +1,2 @@
+public interface HLA_ILoanApplicantEmploymentsSelector extends IApplicationSObjectSelector {
+}

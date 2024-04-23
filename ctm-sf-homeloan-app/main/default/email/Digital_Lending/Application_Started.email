@@ -1,0 +1,691 @@
+<!DOCTYPE html
+PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml"
+      xmlns:o="urn:schemas-microsoft-com:office:office">
+  <head>
+    <!--[if gte mso 9]>
+<xml>
+<o:OfficeDocumentSettings>
+<o:AllowPNG/>
+<o:PixelsPerInch>96</o:PixelsPerInch>
+</o:OfficeDocumentSettings>
+</xml>
+<![endif]--> 
+    <!--[if !mso]><!-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,400;1,600&display=swap" rel="stylesheet" />
+    <!--<![endif]-->
+    <title>CTM
+    </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 " />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="supported-color-schemes" content="light dark" />
+    <style type="text/css">
+      body {
+        margin: 0 !important;
+        padding: 0 !important;
+        -webkit-text-size-adjust: 100% !important;
+        -ms-text-size-adjust: 100% !important;
+        -webkit-font-smoothing: antialiased !important;
+      }
+      img {
+        border: 0 !important;
+        outline: none !important;
+      }
+      p {
+        Margin: 0px !important;
+        Padding: 0px !important;
+      }
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+      table {
+        border-collapse: collapse;
+        mso-table-lspace: 0px;
+        mso-table-rspace: 0px;
+      }
+      td, a, span {
+        border-collapse: collapse;
+        mso-line-height-rule: exactly;
+      }
+      .ExternalClass * {
+        line-height: 100%;
+      }
+      .defaultlink a {
+        color: inherit !important;
+        text-decoration: none !important;
+      }
+      span.MsoHyperlink {
+        mso-style-priority: 99;
+        color: inherit;
+      }
+      span.MsoHyperlinkFollowed {
+        mso-style-priority: 99;
+        color: inherit;
+      }
+      .grey a {
+        color: #959595;
+        text-decoration: none;
+      }
+      .grey_u a {
+        color: #4D4D4D;
+        text-decoration: underline;
+      }
+      .grey1 a {
+        color: #808080;
+        text-decoration: none;
+      }
+      .blue a {
+        color: #18386D;
+        text-decoration: none;
+      }
+      .blue2 a {
+        color: #00335b;
+        text-decoration: underline;
+      }
+      .blue1 a {
+        color: #043C91;
+        text-decoration: none;
+      }
+      .blue1_u a {
+        color: #0079c8;
+        text-decoration: underline;
+      }
+      .blue3 a {
+        color: #009ee0;
+        text-decoration: none;
+      }
+      .red a {
+        color: #cf1326;
+        text-decoration: none;
+      }
+      .grey2 a {
+        color: #021324;
+        text-decoration: none;
+      }
+      .grey3 a {
+        color: #021324;
+        text-decoration: underline;
+      }
+      .black1 a {
+        color: #000000;
+        text-decoration: none;
+      }
+      .black2 a {
+        color: #383838;
+        text-decoration: none;
+      }
+      .pink a {
+        color: #ec008c;
+        text-decoration: none;
+      }
+      .white a {
+        color: #ffffff;
+        text-decoration: none;
+      }
+      .white1 a {
+        color: #ffffff !important;
+        text-decoration: underline !important;
+      }
+      .bot-green a {
+        color: #005850 !important;
+        text-decoration: none
+      }
+      @media (prefers-color-scheme: dark ) {
+        .white a {
+          color: #ffffff !important;
+          text-decoration: none !important;
+        }
+      }
+      @media only screen and (max-device-width: 480px) {
+        .desktop-only {
+           display:none;
+        }
+      }
+      @media only screen and (min-width:480px) and (max-width:599px) {
+        .f24 {
+          font-size: 24px !important;
+          line-height: 26px;
+        }
+        .w200 {
+          width: 200px !important;
+        }
+        .h69 {
+          height: 69px !important;
+        }
+        .h352 {
+          height: 352px !important;
+        }
+        .mbl-bg3 {
+          background-image: none !important;
+          background-repeat: no-repeat !important;
+          height: auto !important;
+          background-size: contain !important;
+          background-color: #0062b7 !important;
+        }
+        .h-175 {
+          height: 175px !important;
+        }
+        .bg-hide {
+          background-image: none !important;
+          background-color: #0B60B7 !important;
+        }
+        .main_table {
+          width: 100% !important;
+        }
+        .wrapper {
+          width: 100% !important;
+        }
+        .side {
+          padding-left: 25px !important;
+          padding-right: 25px !important;
+        }
+        .hide {
+          display: none !important;
+        }
+        .img img {
+          width: 100% !important;
+          height: auto !important;
+          max-width: none !important;
+        }
+        .center {
+          text-align: center !important;
+        }
+        .height {
+          height: 25px !important;
+        }
+        .m_hide {
+          display: none !important;
+        }
+        .m_show {
+          display: table !important;
+          float: none !important;
+          width: 100% !important;
+          overflow: visible !important;
+          height: auto !important;
+        }
+        .height100 {
+          height: 100px !important;
+        }
+        .top {
+          padding-top: 20px !important;
+        }
+        .padbtm {
+          padding-bottom: 20px !important;
+        }
+        .top15 {
+          padding-top: 10px !important;
+        }
+        .pad {
+          padding: 0 10px !important;
+        }
+        .w15 {
+          width: 15px !important;
+        }
+        .w10 {
+          width: 10px !important;
+        }
+        .mobile_show {
+          display: table !important;
+          float: none !important;
+          width: 100% !important;
+          overflow: visible !important;
+          height: auto !important;
+        }
+        .pad0 {
+          padding: 0px !important;
+        }
+        .br {
+          display: block !important;
+        }
+        .hauto {
+          height: auto !important;
+        }
+        .bg {
+          background: none !important;
+          height: auto !important;
+        }
+        .left {
+          text-align: left !important;
+        }
+      }
+      @media screen and (max-width: 479px) {
+        .f24 {
+          font-size: 24px !important;
+          line-height: 26px;
+        }
+        .w200 {
+          width: 200px !important;
+        }
+        .h69 {
+          height: 69px !important;
+        }
+        .h352 {
+          height: 352px !important;
+        }
+        .f14 {
+          font-size: 14px !important;
+        }
+        .f12 {
+          font-size: 11px !important;
+        }
+        .w135 {
+          width: 135px !important;
+        }
+        .mbl-bg3 {
+          background-image: none !important;
+          background-repeat: no-repeat !important;
+          height: auto !important;
+          background-size: contain !important;
+          background-color: #0062b7 !important;
+        }
+        .bg-hide {
+          background-image: none !important;
+          background-color: #0B60B7 !important;
+        }
+        .m_hide {
+          display: none !important;
+        }
+        .m_show {
+          display: table !important;
+          float: none !important;
+          width: 100% !important;
+          overflow: visible !important;
+          height: auto !important;
+        }
+        .main_table {
+          width: 100% !important;
+        }
+        .wrapper {
+          width: 100% !important;
+        }
+        .hide {
+          display: none !important;
+        }
+        .height100 {
+          height: 100px !important;
+        }
+        .img img {
+          width: 100% !important;
+          height: auto !important;
+          max-width: none !important;
+        }
+        .w15 {
+          width: 15px !important;
+        }
+        .w10 {
+          width: 10px !important;
+        }
+        .center {
+          text-align: center !important;
+        }
+        .height {
+          height: 25px !important;
+        }
+        .hauto {
+          height: auto !important;
+        }
+        .top {
+          padding-top: 20px !important;
+        }
+        .padbtm {
+          padding-bottom: 20px !important;
+        }
+        .top15 {
+          padding-top: 10px !important;
+        }
+        .br {
+          display: block !important;
+        }
+        .pad {
+          padding: 0 10px !important;
+        }
+        .pad0 {
+          padding: 0px !important;
+        }
+        .mobile_show {
+          display: table !important;
+          float: none !important;
+          width: 100% !important;
+          overflow: visible !important;
+          height: auto !important;
+        }
+        .side {
+          padding-left: 20px !important;
+          padding-right: 20px !important;
+        }
+        .side1 {
+          padding-left: 30px !important;
+          padding-right: 30px !important;
+        }
+        .bg {
+          background: none !important;
+          height: auto !important;
+        }
+        .left {
+          text-align: left !important;
+        }
+      }
+      .img {
+        width: 100% !important;
+        height: auto !important;
+      }
+      .img {
+        width: 100% !important;
+        height: auto !important;
+      }
+      #MessageViewBody, #MessageWebViewDiv {
+        width: 100% !important;
+      }
+    </style>
+    <style>
+      u + .body .gmail-blend-screen {
+        background: #0075e3;
+        mix-blend-mode: screen;
+      }
+      u + .body .gmail-blend-difference {
+        background: #0075e3;
+        mix-blend-mode: difference;
+      }
+    </style>
+    <!--[if mso]>
+<style type="text/css">
+body, table, td {font-family: Arial, sans-serif !important;}
+</style>
+<![endif]-->
+  </head>
+  <body class="body" style="padding:0; margin:0 auto !important; display:block !important; min-width:100% !important; width:100% !important; background:#F6F6F6; -webkit-text-size-adjust:none">
+    <table width="100%" border="0" style="table-layout:fixed;" align="center" cellspacing="0" cellpadding="0" bgcolor="#F6F6F6">
+       <!-- Start AMPScript Module -->
+      <tr>
+        <td align="center" valign="top">
+ <!--         <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><span style="color:#000000;align:center" align="center">%%[AMPscript]%%</span>
+
+
+</td></tr></table>-->
+        </td>
+      </tr>
+      <!-- End AMPScript Module --> 
+      <!-- Start Header Module -->
+      <tr>
+        <td align="center" valign="top">
+          
+        </td>
+      </tr>
+      <!-- End Header Module --> 
+      <!-- Start Content Block -->
+      <tr>
+        <td align="center" valign="top">
+          <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="main_table" style="width:600px;" width="600">
+ <tr>
+   <td align="center" bgcolor="#001464" style="background: linear-gradient(90deg, rgba(0,20,100,1) 0%, rgba(15,88,171,1) 100%);" valign="top">
+    <table align="center" border="0" cellpadding="0" cellspacing="0" class="wrapper" style="width: 550px;" width="550">
+     
+      <tr>
+       <td height="15" style="height: 15px;line-height: 1px;font-size: 1px;">
+        &nbsp;</td></tr><tr>
+       <td align="center" valign="top">
+        <img alt="Compare the Market" border="0" height="auto" src="https://comparethemarket.file.force.com/servlet/servlet.ImageServer?id=01596000000BArX&oid=00D5g000002vaUk&lastMod=1683072624000" style="display: block;border: 0px;width: 185px;height: auto;max-width: 185px;text-align: center;font-size: 19px;font-weight: bold;" width="185"></td></tr><tr>
+       <td height="15" style="height: 15px;line-height: 1px;font-size: 1px;">
+        &nbsp;</td></tr></table></td></tr></table></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><table align="center" bgcolor="#001464" border="0" cellpadding="0" cellspacing="0" class="main_table" style="width:600px; background: linear-gradient(90deg, rgba(0,20,100,1) 0%, rgba(15,88,171,1) 100%);" width="600">
+ 
+  <tr>
+   <td align="center" valign="top">
+    <table align="center" border="0" cellpadding="0" cellspacing="0" class="main_table" style="width:600px;" width="600">
+     
+      <tr>
+       <td align="center" valign="top">
+        <table align="center" border="0" cellpadding="0" cellspacing="0" class="wrapper" style="width: 600px;" width="600">
+         
+          <tr>
+           <td align="center" valign="top">
+            <table align="center" border="0" cellpadding="0" cellspacing="0" class="wrapper" style="width: 600px;" width="600">
+             
+              <tr>
+               <td align="center" valign="top">
+                <table align="left" border="0" cellpadding="0" cellspacing="0" class="wrapper" style="width: 360px;" width="360">
+                 
+                  <tr>
+                   <td class="hide" style="width:53px;" width="53">
+                    &nbsp;</td><td align="center" class="side" valign="top">
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                     
+                      <tr>
+                       <td class="height" height="80" style="height: 30px;">
+                        &nbsp;</td></tr><tr>
+                       <td align="left" class="center f24" style="font-family: 'Source Sans Pro', Arial, sans-serif;font-size:28px;line-height:35px;color:#ffffff;text-align:left;font-weight: 700;text-decoration: none;" valign="top">
+                        Great news, you&rsquo;ve taken the first step!</td></tr><tr>
+                       <td>
+                        &nbsp;</td></tr></table></td></tr></table><table align="right" border="0" cellpadding="0" cellspacing="0" class="wrapper" style="width: 210px;" width="210">
+                 
+                  <tr>
+                   <td align="center" valign="top">
+                    <img alt="" border="0" class="img" src="https://comparethemarket.file.force.com/servlet/servlet.ImageServer?id=01596000000BE7T&oid=00D5g000002vaUk&lastMod=1683615037000" style="display: block;border: 0px;width: 160px;max-width: 160px;" width="160"></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr><tr>
+   <td align="center" valign="top">
+    <img alt="" border="0" class="img" src="https://comparethemarket.file.force.com/servlet/servlet.ImageServer?id=01596000000BArc&oid=00D5g000002vaUk&lastMod=1683072685000" style="display: block;border: 0px;width: 600px;" width="600"></td></tr><tr>
+   <td bgcolor="#ffffff" class="height" height="20" style="height:20px;">
+    &nbsp;</td></tr></table></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+ 
+  <tr>
+   <td align="center" valign="top">
+    <table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="main_table" style="width:600px;" width="600">
+     
+      <tr>
+       <td align="center" height="20" style="height: 20px;" valign="top">
+        &nbsp;</td></tr><tr>
+       <td align="center" valign="top">
+        <table align="center" border="0" cellpadding="0" cellspacing="0" class="wrapper" style="550px;" width="550">
+         
+          <tr>
+           <td align="center" class="side" style="font-family: &quot;Source Sans Pro&quot;, Arial, sans-serif; font-size: 16px; line-height: 150%; color: rgb(66, 66, 66); text-align: left; font-weight: 400; text-decoration: none;" valign="top">
+           </td></tr><tr>
+           <td align="center" class="side" style="font-family: &quot;Source Sans Pro&quot;, Arial, sans-serif; font-size: 16px; line-height: 150%; color: rgb(66, 66, 66); text-align: left; font-weight: 400; text-decoration: none;" valign="top">
+            <span style="color: #25130E;">Hi {!Contact.FirstName}</span>,<br>
+            <br>
+            Congratulations, you&rsquo;ve taken the first step on your home loan journey with Compare the Market.<br><br>
+Your online application has been automatically saved, which means you can continue anytime, anywhere, by clicking
+the &quot;Continue Application&quot; button below.<br>
+  <br>
+ 
+
+     <table align="center" border="0" cellpadding="0" cellspacing="0" class="wrapper" style="360px;" width="360">
+         
+          <tr>
+           <td align="center" valign="top">
+            <table align="center" border="0" cellpadding="0" cellspacing="0" style="width:190px;box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);" width="190">
+             
+              <tr>
+               <td align="center" class="white" height="60" style="height:40px;color: #ffffff;font-family: 'Source Sans Pro', Arial, sans-serif;text-align: center;text-decoration: none;font-size:14px;background-color:#0B60B7;border-radius:4px;font-weight: 700;" valign="middle">
+                 <a href="https://www.comparethemarket.com.au/account/home-loans" style="text-decoration: none;color: #ffffff;line-height:60px;" target="_blank">&nbsp;Continue Application &nbsp;</a></td></tr></table></td></tr></table>
+  
+              <br>
+            
+            If you&#39;d like to discuss your application, please feel free to give us a call
+on 1800 737 434 to speak with one of our Home Loan Specialists.<br>
+            <br>
+For your records we&rsquo;ve attached a copy of the Credit Guide you agreed to.
+
+       <td align="center" height="20" style="height: 20px;" valign="top">
+        &nbsp;</td></tr></table></td></tr></table></td></tr></table>
+        </td>
+      </tr>
+      <!-- End Start Content Block --> 
+      <!-- Start Content Block -->
+      <tr>
+        <td align="center" valign="top">
+          <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+ 
+  <tr>
+   <td align="center" valign="top">
+    <table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="main_table" style="width:600px;" width="600">
+     
+      <tr>
+       <td align="center" height="20" style="height: 20px;" valign="top">
+        &nbsp;</td></tr><tr>
+       <td align="center" valign="top">
+        
+                 
+                 </td></tr><tr>
+       <td align="center" height="20" style="height: 20px;" valign="top">
+        &nbsp;</td></tr></table></td></tr></table></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+ 
+  <tr>
+   <td align="center" valign="top">
+    <table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="main_table" style="width:600px;" width="600">
+     
+      <tr>
+       <td align="center" height="20" style="height: 20px;" valign="top">
+        &nbsp;</td></tr><tr>
+       <td align="center" valign="top">
+        <table align="center" border="0" cellpadding="0" cellspacing="0" class="wrapper" style="550px;" width="550">
+         
+          <tr>
+           <td align="center" class="side" style="font-family: 'Source Sans Pro', Arial, sans-serif;font-size:12px;line-height:18px;color:#424242;text-align:center;font-weight: 400;text-decoration: none;" valign="top">
+            <hr><br>
+            If the link above is not working, copy and paste this link into your browser: https://www.comparethemarket.com.au/account/home-loans
+            
+            </td></tr></table></td></tr><tr>
+       <td align="center" height="20" style="height: 20px;" valign="top">
+        &nbsp;</td></tr></table></td></tr></table></td></tr></table>
+        </td>
+      </tr>
+
+        
+      <!-- End Start Content Block --> 
+      <!-- Start Content Block -->
+
+      <tr>
+        <table align="center" border="0" cellpadding="0" cellspacing="0" class="main_table" style="616px;" width="616">
+          <tr>
+           <td align="center" valign="top" class="desktop-only">
+             <img alt="" border="0" class="img" src="https://comparethemarket.file.force.com/servlet/servlet.ImageServer?id=01596000000BArh&oid=00D5g000002vaUk&lastMod=1683072711000" style="display: block;border: 0px;width: 620px;" width="620"></td></tr><tr>
+      </td></tr></table></td></tr><tr>
+      </tr>
+  
+      <tr>
+         <td align="center" valign="top">
+          <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+ 
+  <tr>
+   <td align="center" valign="top">
+    <table align="center" bgcolor="#f6f6f6" border="0" cellpadding="0" cellspacing="0" class="main_table" style="width:600px;" width="600">
+     
+      <tr>
+       <td align="center" class="height" height="40" style="height: 40px;" valign="top">
+        &nbsp;</td></tr><tr>
+       <td align="center" class="side" valign="top">
+        <table align="center" border="0" cellpadding="0" cellspacing="0" class="wrapper" style="width: 550px;" width="550">
+         
+          <tr>
+           <td align="center" valign="top">
+            <table align="center" border="0" cellpadding="0" cellspacing="0" class="wrapper" style="width: 550px;" width="550">
+             
+              <tr>
+               <td align="left" class="f14" style="font-family: 'Source Sans Pro', Arial, sans-serif;font-size:18px;line-height:23px;color:#25130E;text-align:left;font-weight: 700;text-decoration: none;" valign="middle">
+                Let&rsquo;s connect, simples</td><td>
+                &nbsp;</td><td align="right" valign="top">
+                <table align="right" border="0" cellpadding="0" cellspacing="0" class="w135" width="168">
+                 
+                  <tr>
+                   <td align="center" valign="middle">
+                    <a alias="Facebook" href="https://www.facebook.com/Comparethemarket.com.au/" style="text-decoration: none;" target="_blank"><img alt="Facebook" src="https://comparethemarket.file.force.com/servlet/servlet.ImageServer?id=01596000000BArr&oid=00D5g000002vaUk&lastMod=1683072746000" style="display: block;border:0px;width: 24px;height: 24px;font-size: 12px;color: #000;"></a></td><td style="width: 24px;" width="24">
+                    &nbsp;</td><td align="center" valign="middle">
+                    <a alias="Twitter" href="https://twitter.com/comparethemktau" style="text-decoration: none;" target="_blank"><img alt="Twitter" src="https://comparethemarket.file.force.com/servlet/servlet.ImageServer?id=01596000000BAsL&oid=00D5g000002vaUk&lastMod=1683072854000" style="display: block;border:0px;width: 24px;height: 24px;font-size: 12px;color: #000;"></a></td><td style="width: 24px;" width="24">
+                    &nbsp;</td><td align="center" valign="middle">
+                    <a alias="Instagram" href="https://www.instagram.com/comparethemarket_aus/" style="text-decoration: none;" target="_blank"><img alt="Instagram" src="https://comparethemarket.file.force.com/servlet/servlet.ImageServer?id=01596000000BAs1&oid=00D5g000002vaUk&lastMod=1683072807000" style="display: block;border:0px;width: 24px;height: 24px;font-size: 12px;color: #000;"></a></td><td style="width: 24px;" width="24">
+                    &nbsp;</td><td align="center" valign="middle">
+                    <a alias="Youtube" href="https://www.youtube.com/comparethemeerkatau" style="text-decoration: none;" target="_blank"><img alt="Youtube" src="https://comparethemarket.file.force.com/servlet/servlet.ImageServer?id=01596000000BAsQ&oid=00D5g000002vaUk&lastMod=1683072882000" style="display: block;border:0px;width: 24px;height: 24px;font-size: 12px;color: #000;"></a></td></tr></table></td></tr></table></td></tr><tr>
+           <td height="12" style="height: 12px;font-size: 1px;line-height: 1px;">
+            &nbsp;</td></tr><tr>
+           <td bgcolor="#e5e5e5" height="1" style="height: 1px;font-size: 1px;line-height: 1px;background-color: #969696">
+            &nbsp;</td></tr><tr>
+           <td height="20" style="height: 20px;font-size: 1px;line-height: 1px;">
+            &nbsp;</td></tr><tr>
+           <td align="left" style="font-family: 'Source Sans Pro', Arial, sans-serif;font-size:11px;line-height:17px;color:#424242;text-align:left;font-weight: 400;text-decoration: none;" valign="top">
+           The Compare the Market website and trading name are owned by Compare the Market Pty Ltd ACN 117 323 378 (CTM). CTM is the holder of Australian Credit Licence Number 422926. <br><br>
+             On this website you can compare and apply for home loans with a range of Australia’s leading lenders. We do not compare all lenders in the home loan market, or all products offered by all lenders. At times, certain lenders and products may not be available. Your eligibility for the products that we show to you are subject to you satisfying the relevant lender’s requirements, including a credit assessment.<br><br>
+             For more information, including about the remuneration that we
+receive from lenders, please read our <a alias="CreditGuide" href="https://secure.comparethemarket.com.au/static/legal/CreditGuide.pdf?_gl=1*s85m9a*anonID_ga*NWJmZmExMTAtZmY0Ni00NjQ0LWI4NWUtNDUyNzI1N2MzMTI1*anonID_ga_Q1NW6TTZ18*MTY5NzE3NzA4MS40Mi4wLjE2OTcxNzcwODEuMC4wLjA.*_fplc*dktSY0Y5Vml2YmttSSUyQnhVdEgyeXMlMkJoSE5jakN6WElsJTJCc0tRSlFoM05lMFBjR3d1V3VsMXZtTUYlMkY3NERuRmhvYjRXMTRBUUtmVDdhMUkzYjlkR1dkJTJGYVpvZHZQUWswVmx6Y1VWVEpCOEtSZ3NJRSUzRA.." style="text-decoration: none;" target="_blank">Credit Guide</a>. <br>
+            
+            <br>
+            This email was sent by: Compare The Market Pty Ltd (&ldquo;CTM&rdquo;) ACN 117323 378, AFSL 422926<br>
+            Level 2, 80 Jephson Street Toowong, QLD, 4066, Australia.<br>
+            &nbsp;<div style="text-align: center;">
+             5769170</div></td></tr><tr>
+           <td height="20" style="height: 20px;font-size: 1px;line-height: 1px;">
+            &nbsp;</td></tr></table></td></tr><tr>
+       <td bgcolor="#e5e5e5" height="1" style="height: 1px;font-size: 1px;line-height: 1px;background-color: #969696">
+        &nbsp;</td></tr><tr>
+       <td height="20" style="height: 20px;font-size: 1px;line-height: 1px;">
+        &nbsp;</td></tr><tr>
+       <td align="center" style="font-family: 'Source Sans Pro', Arial, sans-serif;font-size:12px;line-height:16px;color:#0B60B7;text-align:center;font-weight: 400;text-decoration: none;" valign="top">
+        &nbsp;&nbsp;&nbsp;&nbsp; <a alias="Privacy Policy" href="https://secure.comparethemarket.com.au/static/legal/privacy_policy.pdf" style="text-decoration: none;color: #0B60B7;">Privacy Policy</a> &nbsp;&nbsp;&nbsp;&nbsp; <a alias="About" href="https://www.comparethemarket.com.au/about-us/" style="text-decoration: none;color: #0B60B7;">About</a></td></tr><tr>
+       <td height="20" style="height: 20px;font-size: 1px;line-height: 1px;">
+        &nbsp;</td></tr></table></td></tr><tr>
+   <td align="center" class="height" height="40" style="height: 40px;" valign="top">
+    &nbsp;</td></tr></table></td></tr></table>
+        </td>
+      </tr>
+      <!-- End Start Content Block --> 
+      <!-- Start Content Block -->
+      <tr>
+        <td align="center" valign="top">
+          
+        </td>
+      </tr>
+      <!-- End Start Content Block --> 
+      <!-- Start Content Block -->
+      <tr>
+        <td align="center" valign="top">
+          
+        </td>
+      </tr>
+      <!-- End Start Content Block --> 
+      <!-- Start Content Block -->
+      <tr>
+        <td align="center" valign="top">
+          
+        </td>
+      </tr>
+      <!-- End Start Content Block --> 
+      <!-- Start Content Block -->
+      <tr>
+        <td align="center" valign="top">
+          
+        </td>
+      </tr>
+      <!-- End Start Content Block --> 
+      <!-- Start Content Block -->
+      <tr>
+        <td align="center" valign="top">
+          
+        </td>
+      </tr>
+      <!-- End Start Content Block --> 
+      <!-- Start Content Block -->
+      <tr>
+        <td align="center" valign="top">
+          
+        </td>
+      </tr>
+      <!-- End Start Content Block --> 
+      <!-- Start Footer Module -->
+      <tr>
+        <td align="center" valign="top">
+          
+        </td>
+      </tr>
+      <!-- End Footer Module-->
+    </table>
+    <span style="display: none;">
+      
+      <a href="%%profile_center_url%%" alias="Update Profile">Update Profile</a></span>
+    <custom name="opencounter" type="tracking" />
+    <custom name="usermatch" type="tracking" />
+  </body>
+</html>

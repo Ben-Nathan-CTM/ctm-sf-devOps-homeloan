@@ -1,0 +1,1752 @@
+Application Status Codes,4,ApplicationStatusCodes
+In Progress,5,ApplicationStatusCodes
+Submitted,6,ApplicationStatusCodes
+Awaiting Verification Of Identity,7,ApplicationStatusCodes
+Awaiting Documents,8,ApplicationStatusCodes
+Action Required,9,ApplicationStatusCodes
+Pending Review,10,ApplicationStatusCodes
+Pre-Approved,11,ApplicationStatusCodes
+Unconditional Approval,12,ApplicationStatusCodes
+Individual,13,ApplicationTypes
+Joint,14,ApplicationTypes
+Sell it,15,AssetPropertyIntention
+Keep it,16,AssetPropertyIntention
+Cash management trust,17,AssetSubTypes
+Cheque account,18,AssetSubTypes
+Savings account,19,AssetSubTypes
+Term deposit,20,AssetSubTypes
+Other account,21,AssetSubTypes
+Approved Deposit Fund,22,AssetSubTypes
+Corporate Fund,23,AssetSubTypes
+Eligible Rollover Fund,24,AssetSubTypes
+Industry Fund,25,AssetSubTypes
+Public Sector Fund,26,AssetSubTypes
+Retail Fund,27,AssetSubTypes
+Retirement Savings Account,28,AssetSubTypes
+Self Managed Superannuation Fund,29,AssetSubTypes
+Vehicle,30,AssetTypes
+Savings and Deposits,31,AssetTypes
+Investments,32,AssetTypes
+Superannuation,33,AssetTypes
+Home Contents,34,AssetTypes
+Business,35,AssetTypes
+Property,36,AssetTypes
+Other,37,AssetTypes
+Motor Vehicle,38,AssetSubTypes
+Motorcycle,39,AssetSubTypes
+Boat,40,AssetSubTypes
+Campervan or Motorhome,41,AssetSubTypes
+Light Trailer or Caravan,42,AssetSubTypes
+ACT,43,AustralianStates
+NSW,44,AustralianStates
+VIC,45,AustralianStates
+QLD,46,AustralianStates
+SA,47,AustralianStates
+WA,48,AustralianStates
+NT,49,AustralianStates
+TAS,50,AustralianStates
+High,51,ConfidenceBands
+Medium High,52,ConfidenceBands
+Medium,53,ConfidenceBands
+Medium Low,54,ConfidenceBands
+Low,55,ConfidenceBands
+Credit card debts,56,ConsolidatedDebtTypes
+Vehicle leases,57,ConsolidatedDebtTypes
+Personal loans,58,ConsolidatedDebtTypes
+Personal overdraft,59,ConsolidatedDebtTypes
+Home number,60,ContactNumberTypes
+Mobile number,61,ContactNumberTypes
+Phone,62,ContactPreferences
+Email,63,ContactPreferences
+Deposit,64,ContributionType
+Cash At Bank,65,ContributionType
+Sales Proceeds,66,ContributionType
+First Home Buyers Grant,67,ContributionType
+Other Grants,68,ContributionType
+Other contribution type,69,ContributionType
+Equity in existing property,70,ContributionType
+Legal fees,71,CostTypes
+Annual facility fee,72,CostTypes
+Establishment fee,73,CostTypes
+Lenders Mortgage Insurance (LMI) fee estimate,74,CostTypes
+Lenders protection fee,75,CostTypes
+Mortgage application or establishment fee,76,CostTypes
+Stamp Duty,77,CostTypes
+Other costs,78,CostTypes
+Settlement fee,79,CostTypes
+Monthly facility fee,80,CostTypes
+Lender valuation fee,81,CostTypes
+Early termination or break fees,82,CostTypes
+Mortgage discharge fee,83,CostTypes
+Moving costs,84,CostTypes
+Exit cleaning costs,85,CostTypes
+Renovation costs,86,CostTypes
+Foreign purchaser duty,87,CostTypes
+Mortgage registration fee,88,CostTypes
+Title transfer fee,89,CostTypes
+Property inspection fee,90,CostTypes
+Lenders fees and charges,91,CostTypes
+Building insurance,92,CostTypes
+Pest and building inspection,93,CostTypes
+Final bill,94,CostTypes
+Agent's commission,95,CostTypes
+Conveyancing fees,96,CostTypes
+Marketing and advertising fees and costs,97,CostTypes
+Staging costs,98,CostTypes
+Auction fees,99,CostTypes
+Repayment of existing loan,100,CostTypes
+Title search fee,101,CostTypes
+Afghanistan,102,Countries2
+Aland Islands,103,Countries2
+Albania,104,Countries2
+Algeria,105,Countries2
+American Samoa,106,Countries2
+Andorra,107,Countries2
+Angola,108,Countries2
+Anguilla,109,Countries2
+Antarctica,110,Countries2
+Antiguaand Barbuda,111,Countries2
+Argentina,112,Countries2
+Armenia,113,Countries2
+Aruba,114,Countries2
+Australia,115,Countries2
+Austria,116,Countries2
+Azerbaijan,117,Countries2
+Bahamas,118,Countries2
+Bahrain,119,Countries2
+Bangladesh,120,Countries2
+Barbados,121,Countries2
+Belarus,122,Countries2
+Belgium,123,Countries2
+Belize,124,Countries2
+Benin,125,Countries2
+Bermuda,126,Countries2
+Bhutan,127,Countries2
+Bolivia_ Plurinational Stateof,128,Countries2
+Bonaire Sint Eustatiusand Saba,129,Countries2
+Bosniaand Herzegovina,130,Countries2
+Botswana,131,Countries2
+Bouvet Island,132,Countries2
+Brazil,133,Countries2
+British Indian Ocean Territory,134,Countries2
+Brunei Darussalam,135,Countries2
+Bulgaria,136,Countries2
+Burkina Faso,137,Countries2
+Burundi,138,Countries2
+Cambodia,139,Countries2
+Cameroon,140,Countries2
+Canada,141,Countries2
+Cape Verde,142,Countries2
+Cayman Islands,143,Countries2
+Central African Republic,144,Countries2
+Chad,145,Countries2
+Chile,146,Countries2
+China,147,Countries2
+Christmas Island,148,Countries2
+Cocos_ Keeling Islandsr,149,Countries2
+Colombia,150,Countries2
+Comoros,151,Countries2
+Congo,152,Countries2
+Congo_ Democratic Republicofthe,153,Countries2
+Cook Islands,154,Countries2
+Costa Rica,155,Countries2
+Coted Ivoire,156,Countries2
+Croatia,157,Countries2
+Cuba,158,Countries2
+Curaçao,159,Countries2
+Cyprus,160,Countries2
+Czechia,161,Countries2
+Denmark,162,Countries2
+Djibouti,163,Countries2
+Dominica,164,Countries2
+Dominican Republic,165,Countries2
+Ecuador,166,Countries2
+Egypt,167,Countries2
+El Salvador,168,Countries2
+Equatorial Guinea,169,Countries2
+Eritrea,170,Countries2
+Estonia,171,Countries2
+Ethiopia,172,Countries2
+Falkland Islands_ Malvinas,173,Countries2
+Faroe Islands,174,Countries2
+Fiji,175,Countries2
+Finland,176,Countries2
+France,177,Countries2
+French Guiana,178,Countries2
+French Polynesia,179,Countries2
+French Southern Territories,180,Countries2
+Gabon,181,Countries2
+Gambia,182,Countries2
+Georgia,183,Countries2
+Germany,184,Countries2
+Ghana,185,Countries2
+Gibraltar,186,Countries2
+Greece,187,Countries2
+Greenland,188,Countries2
+Grenada,189,Countries2
+Guadeloupe,190,Countries2
+Guam,191,Countries2
+Guatemala,192,Countries2
+Guernsey,193,Countries2
+Guinea,194,Countries2
+Guinea Bissau,195,Countries2
+Guyana,196,Countries2
+Haiti,197,Countries2
+Heardand Mc Donald Islands,198,Countries2
+Holy See Vatican City State,199,Countries2
+Honduras,200,Countries2
+Hong Kong,201,Countries2
+Hungary,202,Countries2
+Iceland,203,Countries2
+India,204,Countries2
+Indonesia,205,Countries2
+Iran Islamic Republicof,206,Countries2
+Iraq,207,Countries2
+Ireland,208,Countries2
+Isleof Man,209,Countries2
+Israel,210,Countries2
+Italy,211,Countries2
+Jamaica,212,Countries2
+Japan,213,Countries2
+Jersey,214,Countries2
+Jordan,215,Countries2
+Kazakstan,216,Countries2
+Kenya,217,Countries2
+Kiribati,218,Countries2
+Korea Democratic Peoples Republicof,219,Countries2
+Korea Republicof,220,Countries2
+Kuwait,221,Countries2
+Kyrgyzstan,222,Countries2
+Lao Peoples Democratic Republic,223,Countries2
+Latvia,224,Countries2
+Lebanon,225,Countries2
+Lesotho,226,Countries2
+Liberia,227,Countries2
+Libyan Arab Jamahiriya,228,Countries2
+Liechtenstein,229,Countries2
+Lithuania,230,Countries2
+Luxembourg,231,Countries2
+Macao,232,Countries2
+Macedonia theformer Yugoslav Republicof,233,Countries2
+Madagascar,234,Countries2
+Malawi,235,Countries2
+Malaysia,236,Countries2
+Maldives,237,Countries2
+Mali,238,Countries2
+Malta,239,Countries2
+Marshall Islands,240,Countries2
+Martinique,241,Countries2
+Mauritania,242,Countries2
+Mauritius,243,Countries2
+Mayotte,244,Countries2
+Mexico,245,Countries2
+Micronesia Federated Statesof,246,Countries2
+Moldova the Republicof,247,Countries2
+Monaco,248,Countries2
+Mongolia,249,Countries2
+Montenegro,250,Countries2
+Montserrat,251,Countries2
+Morocco,252,Countries2
+Mozambique,253,Countries2
+Myanmar,254,Countries2
+Namibia,255,Countries2
+Nauru,256,Countries2
+Nepal,257,Countries2
+Netherlands,258,Countries2
+New Caledonia,259,Countries2
+New Zealand,260,Countries2
+Nicaragua,261,Countries2
+Niger,262,Countries2
+Nigeria,263,Countries2
+Niue,264,Countries2
+Norfolk Island,265,Countries2
+Northern Mariana Islands,266,Countries2
+Norway,267,Countries2
+Oman,268,Countries2
+Pakistan,269,Countries2
+Palau,270,Countries2
+Palestine Stateof,271,Countries2
+Panama,272,Countries2
+Papua New Guinea,273,Countries2
+Paraguay,274,Countries2
+Peru,275,Countries2
+Philippines,276,Countries2
+Pitcairn,277,Countries2
+Poland,278,Countries2
+Portugal,279,Countries2
+Puerto Rico,280,Countries2
+Qatar,281,Countries2
+Republicof Serbia,282,Countries2
+Reunion,283,Countries2
+Russia Federation,284,Countries2
+Rwanda,285,Countries2
+Saint Barthlemy,286,Countries2
+Saint Helena,287,Countries2
+Saint Kitts Nevis,288,Countries2
+Saint Lucia,289,Countries2
+Saint Martin,290,Countries2
+Saint Pierreand Miquelon,291,Countries2
+Saint Vincentandthe Grenadines,292,Countries2
+Samoa,293,Countries2
+San Marino,294,Countries2
+Sao Tomeand Principe,295,Countries2
+Saudi Arabia,296,Countries2
+Senegal,297,Countries2
+Seychelles,298,Countries2
+Sierra Leone,299,Countries2
+Singapore,300,Countries2
+Sint Maarten,301,Countries2
+Slovakia,302,Countries2
+Slovenia,303,Countries2
+Solomon Islands,304,Countries2
+Somalia,305,Countries2
+South Africa,306,Countries2
+South Georgia The South Sandwich Islands,307,Countries2
+South Sudan,308,Countries2
+Spain,309,Countries2
+Sri Lanka,310,Countries2
+Sudan,311,Countries2
+Suriname,312,Countries2
+Svalbardand Jan Mayen,313,Countries2
+Swaziland,314,Countries2
+Sweden,315,Countries2
+Switzerland,316,Countries2
+Syrian Arab Republic,317,Countries2
+Taiwan,318,Countries2
+Tajikistan,319,Countries2
+Tanzania United Republicof,320,Countries2
+Thailand,321,Countries2
+Timor Leste,322,Countries2
+Togo,323,Countries2
+Tokelau,324,Countries2
+Tonga,325,Countries2
+Trinidadand Tobago,326,Countries2
+Tunisia,327,Countries2
+Turkey,328,Countries2
+Turkmenistan,329,Countries2
+Turksand Caicos Islands,330,Countries2
+Tuvalu,331,Countries2
+Uganda,332,Countries2
+Ukraine,333,Countries2
+United Arab Emirates,334,Countries2
+United Kingdom,335,Countries2
+United States,336,Countries2
+United States Minor Outlying Islands,337,Countries2
+Uruguay,338,Countries2
+Uzbekistan,339,Countries2
+Vanuatu,340,Countries2
+Venezuela,341,Countries2
+Vietnam,342,Countries2
+Virgin Islands_ British,343,Countries2
+Virgin Islands_ U S,344,Countries2
+Wallisand Futuna,345,Countries2
+Western Sahara,346,Countries2
+Yemen,347,Countries2
+Zambia,348,Countries2
+Zimbabwe,349,Countries2
+Minimum or another amount,350,CreditCardRepaymentTypes
+Clear in full each month,351,CreditCardRepaymentTypes
+_86400 Ltd,352,CreditInstitutions
+Adelaide Bank,353,CreditInstitutions
+AMP Bank Limited,354,CreditInstitutions
+Arab Bank Australia Limited,355,CreditInstitutions
+Archa Pty Ltd,356,CreditInstitutions
+AUB Australian Unity Building Society IMB Ltd,357,CreditInstitutions
+ANZ,358,CreditInstitutions
+Australia Post,359,CreditInstitutions
+Australian Central Credit Union Ltd Peoples Choice,360,CreditInstitutions
+Australian Military Bank Limited,361,CreditInstitutions
+Australian Settlements Limited,362,CreditInstitutions
+Auswide Bank Ltd,363,CreditInstitutions
+BE Limited,364,CreditInstitutions
+Bananacoast Community Credit Union Limited,365,CreditInstitutions
+Bank Australia Limited,366,CreditInstitutions
+Bank of America National Association,367,CreditInstitutions
+Bank of China,368,CreditInstitutions
+Bank of China Australia Limited,369,CreditInstitutions
+Bank of Communications Co Ltd Sydney Branch,370,CreditInstitutions
+BOQ Bank of Queensland Limited,371,CreditInstitutions
+BOQ Specialist,372,CreditInstitutions
+Bank of SydneyLtd,373,CreditInstitutions
+Bank of Tokyo Mitsubishi UFJ Ltd,374,CreditInstitutions
+Bendigo and Adelaide Bank Limited,375,CreditInstitutions
+Beyond Bank Australia Community CPS Australia Ltd,376,CreditInstitutions
+Big Sky Building Society Limited,377,CreditInstitutions
+BML Bank of Melbourne,378,CreditInstitutions
+BNP Paribas,379,CreditInstitutions
+BNP Paribas Securities Services,380,CreditInstitutions
+Bank of Melbourne,381,CreditInstitutions
+Bank SA,382,CreditInstitutions
+Bankers Trust Australia,383,CreditInstitutions
+Banktown City Credit Union Ltd Unity Bank Ltd,384,CreditInstitutions
+Bankwest,385,CreditInstitutions
+Broken Hill Community Credit Union Ltd,386,CreditInstitutions
+Cairns Penny Savings Loans Ltd,387,CreditInstitutions
+CAPE Credit Union Ltd,388,CreditInstitutions
+Central Murray Credit Union Ltd,389,CreditInstitutions
+Central West Credit Union Ltd,390,CreditInstitutions
+Coastline Credit Union Ltd,391,CreditInstitutions
+Community Alliance Credit Union Ltd,392,CreditInstitutions
+Community Mutual Ltd,393,CreditInstitutions
+Country First Credit Union Ltd,394,CreditInstitutions
+Credit Union SA Ltd,395,CreditInstitutions
+Capricornian Ltd,396,CreditInstitutions
+Challenge Bank,397,CreditInstitutions
+China Construction Bank Corporation Sydney Branch,398,CreditInstitutions
+Citibank NA,399,CreditInstitutions
+Citigroup Pty Limited,400,CreditInstitutions
+CBA,401,CreditInstitutions
+Community First Credit Union Limited,402,CreditInstitutions
+CUA Credit Union Australia Limited,403,CreditInstitutions
+Cuscal Limited,404,CreditInstitutions
+Defence Bank Limited,405,CreditInstitutions
+Delphi Bank,406,CreditInstitutions
+Deutsche Bank Aktiengesellschaft,407,CreditInstitutions
+Dnister Ukranian Credit Cooperative Ltd,408,CreditInstitutions
+Douugh Pty Ltd,409,CreditInstitutions
+ECU Australia Ltd Queensland Country CreditUnion,410,CreditInstitutions
+EECU Limited Nexus Mutual,411,CreditInstitutions
+Endeavour Mutual Bank Ltd,412,CreditInstitutions
+Family First Credit Union Ltd,413,CreditInstitutions
+Fire Service Credit Union Ltd,414,CreditInstitutions
+Firefighters Affiliates Credit CoOperative Ltd,415,CreditInstitutions
+First Choice Credit Union Ltd,416,CreditInstitutions
+First Option Bank Limited,417,CreditInstitutions
+GC Mutual Bank Limited,418,CreditInstitutions
+Gateway Bank Limited,419,CreditInstitutions
+Geelong Bank Ford CoOperative Credit Society Ltd,420,CreditInstitutions
+Goulburn Murray Credit Union Cooperative Ltd,421,CreditInstitutions
+Greater Bank Ltd,422,CreditInstitutions
+Heritage Bank Limited,423,CreditInstitutions
+Heritage Isle Credit Union Ltd,424,CreditInstitutions
+Holiday Coast Credit Union Ltd,425,CreditInstitutions
+Home Building Society,426,CreditInstitutions
+Hongkong Shanghai Banking Corporation Limited,427,CreditInstitutions
+Horizon Credit Union Ltd,428,CreditInstitutions
+Hubter United Employees Credit Union Ltd,429,CreditInstitutions
+HSBC Bank Australia Limited,430,CreditInstitutions
+Hume Bank Limited,431,CreditInstitutions
+IMB Ltd IMB Bank,432,CreditInstitutions
+Indue Ltd,433,CreditInstitutions
+Industrial and Commercial Bank of China Limited,434,CreditInstitutions
+ING,435,CreditInstitutions
+ING BankNV Sydney Branch,436,CreditInstitutions
+JP Morgan Chase Bank National Association,437,CreditInstitutions
+Judo Bank Pty Ltd,438,CreditInstitutions
+Laboratories Credit Union Limited,439,CreditInstitutions
+Lysaght Credit Union Limited,440,CreditInstitutions
+Macarthur Credit Union Limited,441,CreditInstitutions
+Macquarie Bank,442,CreditInstitutions
+Macquarie Credit Union Limited,443,CreditInstitutions
+Maitl and Mutual Building Society Limited,444,CreditInstitutions
+Maritime Mining Power Credit Union Ltd,445,CreditInstitutions
+Mega International Commercial Bank Co Ltd,446,CreditInstitutions
+ME Members Equity Bank Pty Limited,447,CreditInstitutions
+Mizuho Bank Ltd,448,CreditInstitutions
+My Life My Finance Limited,449,CreditInstitutions
+My State Bank The Rock,450,CreditInstitutions
+NAB,451,CreditInstitutions
+Newcastle Permanent Building Society Ltd,452,CreditInstitutions
+Northern Inland Credit Union Ltd,453,CreditInstitutions
+Nova Mutual Limited,454,CreditInstitutions
+Orange Credit Union Ltd,455,CreditInstitutions
+Oversea Chinese Banking Corporation Limited,456,CreditInstitutions
+Pelikin Holdings Limited,457,CreditInstitutions
+Police Nurses Limited PN Bank,458,CreditInstitutions
+Police Bank Ltd,459,CreditInstitutions
+Police Credit Union Ltd,460,CreditInstitutions
+Police Financial Services Ltd Bank Vic,461,CreditInstitutions
+Pulse Credit Union Ltd,462,CreditInstitutions
+QPay,463,CreditInstitutions
+QPCU Limited QBank,464,CreditInstitutions
+Qudos Bank,465,CreditInstitutions
+Rabobank Australia Limited,466,CreditInstitutions
+RACQ Bank,467,CreditInstitutions
+My MOVE Railways Credit Union Limited,468,CreditInstitutions
+Regional Australia Bank Community MutualLtd,469,CreditInstitutions
+Revolut,470,CreditInstitutions
+St George Bank,471,CreditInstitutions
+Southern Cross Credit Union Ltd,472,CreditInstitutions
+South West Slopes Credit Union Ltd,473,CreditInstitutions
+South West Credit Union Cooperative Ltd,474,CreditInstitutions
+State Street Bank and Trust Company,475,CreditInstitutions
+Sumitomo Mitsui Banking Corporation,476,CreditInstitutions
+Summerland Credit Union Ltd,477,CreditInstitutions
+Suncorp Metway Limited,478,CreditInstitutions
+Sydney Credit Union Ltd,479,CreditInstitutions
+TC Town Country Bank,480,CreditInstitutions
+Taiwan Business Bank,481,CreditInstitutions
+Teachers Mutual Bank Limited,482,CreditInstitutions
+Traditional Credit Union Ltd,483,CreditInstitutions
+Transport Mutual Credit Union Ltd,484,CreditInstitutions
+Tyro Payments Limited,485,CreditInstitutions
+UBank,486,CreditInstitutions
+UBSAG Australia Branch,487,CreditInstitutions
+United Overseas Bank Limited,488,CreditInstitutions
+Uniting Financial Services,489,CreditInstitutions
+Up,490,CreditInstitutions
+Victoria Teachers LimitedBank First,491,CreditInstitutions
+Volt Bank Ltd,492,CreditInstitutions
+Warwick CreditUnion Ltd,493,CreditInstitutions
+WAW Credit Union Cooperative Ltd,494,CreditInstitutions
+Westpac,495,CreditInstitutions
+Woolworths Employees Credit Union Ltd,496,CreditInstitutions
+Xinja Bank Ltd,497,CreditInstitutions
+Other,498,CreditInstitutions
+ATO Tax debt,499,DebtTypes
+Centerlink debt,500,DebtTypes
+Identification,501,DocumentCategories
+Disclosures & Contents,502,DocumentCategories
+Property Security,503,DocumentCategories
+Assets,504,DocumentCategories
+Liabilities,505,DocumentCategories
+PAYG Salary / Wage Income,506,DocumentCategories
+Living Expenses,507,DocumentCategories
+Other Income,508,DocumentCategories
+Property Report,509,DocumentCategories
+Suburb Report,510,DocumentCategories
+Awaiting Upload,511,DocumentStatuses
+Pending Back Office Approval,513,DocumentStatuses
+Accepted,514,DocumentStatuses
+Rejected,515,DocumentStatuses
+Full Doc,516,DocumentationTypes
+Alt Doc,517,DocumentationTypes
+Accomodation and Food Services,518,EmploymentIndustries
+Administrative and Support Services,519,EmploymentIndustries
+Agriculture|| Forestry and Fishing,520,EmploymentIndustries
+Arts and Recreation Services,521,EmploymentIndustries
+Construction,522,EmploymentIndustries
+Education and Training,523,EmploymentIndustries
+Electricity|| Gas|| Water and Waste Services,524,EmploymentIndustries
+Financial and Insurance Services,525,EmploymentIndustries
+Health Care and Social Assistance,526,EmploymentIndustries
+Information Media and Telecommunications,527,EmploymentIndustries
+Manufacturing,528,EmploymentIndustries
+Mining,529,EmploymentIndustries
+Professional|| Scientific and Technical Services,530,EmploymentIndustries
+Public Administration and Safety,531,EmploymentIndustries
+Rental|| Hiring and Real Estate Services,532,EmploymentIndustries
+Retail Trade,533,EmploymentIndustries
+Transport Postal and Warehousing,534,EmploymentIndustries
+Wholesale Trade,535,EmploymentIndustries
+Other Services,536,EmploymentIndustries
+Clerical or Administrative Worker,579,EmploymentRoles
+Community or Personal Services Worker,580,EmploymentRoles
+Labourer,581,EmploymentRoles
+Machinery Operator or Driver,582,EmploymentRoles
+Manager,583,EmploymentRoles
+Professional,584,EmploymentRoles
+Sales Worker,585,EmploymentRoles
+Technical or Trade Workers,586,EmploymentRoles
+Full time PAYG employee,587,EmploymentTypes
+Part time PAYG employee,588,EmploymentTypes
+Casual PAYG employee,589,EmploymentTypes
+Contract PAYG employee,590,EmploymentTypes
+Self-employed (sole trader),591,EmploymentTypes
+Unemployed,592,EmploymentTypes
+Other,593,EmploymentTypes
+PAYG,594,EmploymentTypes
+Between jobs,595,EmploymentTypes
+Retired,596,EmploymentTypes
+Home duties,597,EmploymentTypes
+Student,598,EmploymentTypes
+Social benefits,599,EmploymentTypes
+Person,600,EntityTypes
+Security,601,EntityTypes
+Income,602,EntityTypes
+Expense,603,EntityTypes
+Assets,604,EntityTypes
+Liability,605,EntityTypes
+Buying Shares,606,EquityReleaseReasons
+Minor property renovations,607,EquityReleaseTypes
+Cash out for personal use,608,EquityReleaseTypes
+Cash out for business or other investment purposes,610,EquityReleaseTypes
+Cash out for property investment purposes,611,EquityReleaseTypes
+Owner Occupied Property - Residential Mortgage Loan Payments,613,ExpenseDebtDetailTypes
+Investment Property - Residential Mortgage Loan Payments,614,ExpenseDebtDetailTypes
+Card Payments,615,ExpenseDebtDetailTypes
+Vehicle Payments,616,ExpenseDebtDetailTypes
+Personal Loan Payments,617,ExpenseDebtDetailTypes
+Overdraft Payments,618,ExpenseDebtDetailTypes
+Owner Occupied Property - Residential Mortgage Loan Payments,619,ExpenseDebtTypes
+Investment Property - Residential Mortgage Loan Payments,620,ExpenseDebtTypes
+Investment Property - Commercial Mortgage Loan Payments,621,ExpenseDebtTypes
+Card Payments,622,ExpenseDebtTypes
+Vehicle Payments,623,ExpenseDebtTypes
+Personal Loan Payments,624,ExpenseDebtTypes
+Overdraft Payments,625,ExpenseDebtTypes
+Margin Loan Payments,626,ExpenseDebtTypes
+Other,627,ExpenseDebtTypes
+ATO tax debt or Centrelink debt Repayments,628,ExpenseDebtTypes
+Child Support,629,ExpenseLivingDetailTypes
+Spousal Maintenance,630,ExpenseLivingDetailTypes
+Children's Retail,631,ExpenseLivingDetailTypes
+Department Stores,632,ExpenseLivingDetailTypes
+Personal Care,633,ExpenseLivingDetailTypes
+Childcare,634,ExpenseLivingDetailTypes
+Education,635,ExpenseLivingDetailTypes
+Private School Fees,636,ExpenseLivingDetailTypes
+Groceries,637,ExpenseLivingDetailTypes
+Pet Care,638,ExpenseLivingDetailTypes
+Insurance,639,ExpenseLivingDetailTypes
+Investment Property Expenses,640,ExpenseLivingDetailTypes
+Health,641,ExpenseLivingDetailTypes
+Telecommunications,642,ExpenseLivingDetailTypes
+Subscription TV,643,ExpenseLivingDetailTypes
+Online Retail and Subscription Services,644,ExpenseLivingDetailTypes
+Travel,645,ExpenseLivingDetailTypes
+Dining Out,646,ExpenseLivingDetailTypes
+Entertainment,647,ExpenseLivingDetailTypes
+Gyms and Other Memberships,648,ExpenseLivingDetailTypes
+Rent,649,ExpenseLivingDetailTypes
+Board,650,ExpenseLivingDetailTypes
+Transport,651,ExpenseLivingDetailTypes
+Automotive,652,ExpenseLivingDetailTypes
+Utilities,653,ExpenseLivingDetailTypes
+Government and Council Services,654,ExpenseLivingDetailTypes
+Gambling Expenditure,655,ExpenseLivingDetailTypes
+Retail Monthly,656,ExpenseLivingDetailTypes
+Home Improvement,657,ExpenseLivingDetailTypes
+Donations,658,ExpenseLivingDetailTypes
+Superannuation Debits,659,ExpenseLivingDetailTypes
+Uncategorised Debits,660,ExpenseLivingDetailTypes
+Fees,661,ExpenseLivingDetailTypes
+Direct Debits,662,ExpenseLivingDetailTypes
+Advertising for tenants,663,ExpenseLivingPropertyDetailTypes
+Body corporate / strata fees,664,ExpenseLivingPropertyDetailTypes
+Council rates,665,ExpenseLivingPropertyDetailTypes
+Water rates and charges,666,ExpenseLivingPropertyDetailTypes
+Property management fees and commissions,667,ExpenseLivingPropertyDetailTypes
+Garden and pool maintenance costs,668,ExpenseLivingPropertyDetailTypes
+Pest control costs,669,ExpenseLivingPropertyDetailTypes
+Pool maintenance costs,670,ExpenseLivingPropertyDetailTypes
+Building and public liability insurance,671,ExpenseLivingPropertyDetailTypes
+Landlords insurance,672,ExpenseLivingPropertyDetailTypes
+Repairs and maintenance costs,673,ExpenseLivingPropertyDetailTypes
+Land tax,674,ExpenseLivingPropertyDetailTypes
+Other,675,ExpenseLivingPropertyDetailTypes
+Child Support and Spousal Maintenance,676,ExpenseLivingTypes
+Clothing & Personal Care,677,ExpenseLivingTypes
+Education & Childcare,678,ExpenseLivingTypes
+Food & Groceries,679,ExpenseLivingTypes
+Insurance,680,ExpenseLivingTypes
+Investment Property Expenses,681,ExpenseLivingTypes
+Medical & Health,682,ExpenseLivingTypes
+Phone|| Internet & Media,683,ExpenseLivingTypes
+Recreation & Entertainment,684,ExpenseLivingTypes
+Rent & Board,685,ExpenseLivingTypes
+Transport,686,ExpenseLivingTypes
+Primary Residence Utilities and Running Costs,687,ExpenseLivingTypes
+Other Regular Expenses,688,ExpenseLivingTypes
+Debt Expense,689,ExpenseTypes
+Living Expense,690,ExpenseTypes
+Equityinland,691,FinancialSources
+Personalsavings,692,FinancialSources
+Equityinexistingproperty,693,FinancialSources
+Proceedsfromsaleofaproperty,694,FinancialSources
+Proceedsfromsaleofinvestmentsassets,695,FinancialSources
+Gift,696,FinancialSources
+Inheritance,697,FinancialSources
+Loanfromfamilyorfriends,698,FinancialSources
+First Home Owners Grant,699,FinancialSources
+Other,700,FinancialSources
+Term Deposit,701,FinancialSources
+Cashat Bank,702,FinancialSources
+Deposit Paid,703,FinancialSources
+Private Loan_iefromfamilyoffriends,704,FinancialSources
+Fixed Interest Investment_bondsdebenturestermdepositsetc,705,FinancialSources
+Listed Securitiesor Managed Funds_sharesmanagedfunds E T Fsetc,706,FinancialSources
+Neutral,707,GoodBadDisplay
+Good,708,GoodBadDisplay
+Warn,709,GoodBadDisplay
+Bad,710,GoodBadDisplay
+Drivers License,711,IdentificationTypes
+Australian Passport,712,IdentificationTypes
+Foreign Passport,713,IdentificationTypes
+Identity not verified,714,IdentityVerificationLevels
+Identity not verified,715,IdentityVerificationLevels
+Meets AUSTRAC standard,716,IdentityVerificationLevels
+Meets ARNECC standard,717,IdentityVerificationLevels
+PAYG Salary or Wages,718,IncomeSubTypes
+Self-employed Net Profit,719,IncomeSubTypes
+Self-employed Interest,720,IncomeSubTypes
+Self-employed Add-backs,721,IncomeSubTypes
+Self-employed Depreciaton,722,IncomeSubTypes
+Bonuses,723,IncomeSubTypes
+Commissions,724,IncomeSubTypes
+Regular Overtime,725,IncomeSubTypes
+Shift Allowance,726,IncomeSubTypes
+Car Allowance,727,IncomeSubTypes
+Other Work Allowance,728,IncomeSubTypes
+Other Employment Income,729,IncomeSubTypes
+Family Tax Benefit - Part A and B,730,IncomeSubTypes
+Government Pension,731,IncomeSubTypes
+Other,732,IncomeSubTypes
+Corporate Bonds,733,IncomeSubTypes
+Cryptocurrency,734,IncomeSubTypes
+Debentures,735,IncomeSubTypes
+Derivatives,736,IncomeSubTypes
+Exchange Traded Fund,737,IncomeSubTypes
+Government Bonds,738,IncomeSubTypes
+Hedge Funds,739,IncomeSubTypes
+Hybrid Securities,740,IncomeSubTypes
+Interest Rate Securities,741,IncomeSubTypes
+Listed Company Shares,742,IncomeSubTypes
+Listed Investment Company (LIC) Dividends,743,IncomeSubTypes
+Managed Funds,744,IncomeSubTypes
+Real Estate Investment Trust,745,IncomeSubTypes
+Spousal Maintenance,746,IncomeSubTypes
+Child Support,747,IncomeSubTypes
+Other,748,IncomeSubTypes
+Foreign Income,749,IncomeSubTypes
+Non-Taxable Income,750,IncomeSubTypes
+Other,751,IncomeSubTypes
+Paid Parental Leave,752,IncomeSubTypes
+Employer Maternity Leave,753,IncomeSubTypes
+Account-based Pension,754,IncomeSubTypes
+Allocated Pension,755,IncomeSubTypes
+Lifetime Annuity,756,IncomeSubTypes
+Other,757,IncomeSubTypes
+Net,758,IncomeTaxTypes
+Gross,759,IncomeTaxTypes
+Savings and Cash,760,IncomeTypes
+Investment,761,IncomeTypes
+Retirement Income,762,IncomeTypes
+Government Benefits,763,IncomeTypes
+Maintenance / Child support,764,IncomeTypes
+Other Income,765,IncomeTypes
+Employment,766,IncomeTypes
+Rental Income,767,IncomeTypes
+Fixed,768,InterestTypes
+Variable,769,InterestTypes
+Both,770,InterestTypes
+Keep the credit or store card at its current credit limit,771,LiabilityCardRepaymentType
+Keep the credit card or store card and reduce my credit limit,772,LiabilityCardRepaymentType
+Close the credit card or store card account altogether,773,LiabilityCardRepaymentType
+Credit or Store Cards,774,LiabilityTypes
+Vehicle lease,775,LiabilityTypes
+Personal loan,776,LiabilityTypes
+Personal Overdraft,777,LiabilityTypes
+HECS / HELP debt,778,LiabilityTypes
+ATO or Centerlink debt,779,LiabilityTypes
+Other liability,780,LiabilityTypes
+Residential owner occupied mortgage,781,LiabilityTypes
+Residential investment mortgage,782,LiabilityTypes
+Commercial owner occupied mortgage,783,LiabilityTypes
+Commercial investment mortgage,784,LiabilityTypes
+Margin loan,785,LiabilityTypes
+Own my home|| with a mortgage,786,LivingSituations
+Own my home|| with no mortgage,787,LivingSituations
+Renting,788,LivingSituations
+Living with parents or boarding,789,LivingSituations
+I'll live there,790,LoanPurchaseReasons
+An investment property,791,LoanPurchaseReasons
+Purchase Residential Property,792,LoanPurposes
+Refinance Residential Property,793,LoanPurposes
+Construct Residential Property on Vacant Land,794,LoanPurposes
+Purchase Vacant Land Construct Residential Property,795,LoanPurposes
+Purchase Vacant Land,796,LoanPurposes
+Save money,797,LoanRefinanceReason
+Borrow more money,798,LoanRefinanceReason
+Unhappy with my current lender,799,LoanRefinanceReason
+Off the plan,804,LoanTypes
+Established,805,LoanTypes
+Newly constructed,806,LoanTypes
+Vacant land to build on,807,LoanTypes
+Vacant land and new construction,808,LoanTypes
+Metro,809,LocationCategories
+Non Metro,810,LocationCategories
+Regional,811,LocationCategories
+National,812,LocationCategories
+Inner-City,813,LocationCategories
+High Density,814,LocationCategories
+De-facto,815,MaritalStatuses
+Married,816,MaritalStatuses
+Single,817,MaritalStatuses
+Divorced,818,MaritalStatuses
+Widowed,819,MaritalStatuses
+CLAVMRE01,820,NotificationTypes
+CLAVMPV01,821,NotificationTypes
+CLPI01,822,NotificationTypes
+CLPD01,823,NotificationTypes
+Weekly,824,Periods
+Fortnightly,825,Periods
+Monthly,826,Periods
+Quarterly,827,Periods
+Half Yearly,828,Periods
+Annually,829,Periods
+Read Only,830,PermissionGrantTypes
+Borrower,831,PersonTypes
+Guarantor,832,PersonTypes
+Professional Adviser,833,PersonTypes
+Related Party,834,PersonTypes
+Continue to work beyond typical retirement age,835,PostRetirementRepaymentPlan
+Accelerate loan repayments nearing retirement,836,PostRetirementRepaymentPlan
+Sale of an investment asset such as investment property or shares,837,PostRetirementRepaymentPlan
+Utilising a lump sum withdrawal from superannuation,838,PostRetirementRepaymentPlan
+Utilising passive post-retirement income streams,839,PostRetirementRepaymentPlan
+Other,840,PostRetirementRepaymentPlan
+Retail,841,PropertyCommercialTypes
+Office,842,PropertyCommercialTypes
+Industrial,843,PropertyCommercialTypes
+I’m looking to sell this property,844,PropertyReportRelationships
+I’m considering buying this property,845,PropertyReportRelationships
+I’d like to refinance this property,846,PropertyReportRelationships
+No reason|| I’m just a nosy neighbour,847,PropertyReportRelationships
+Established Property,848,PropertyResidentialTypes
+New Property,849,PropertyResidentialTypes
+Vacant Land,850,PropertyResidentialTypes
+Residential,851,PropertyTypes
+Commercial,852,PropertyTypes
+I'd like to lock in a lower rate,853,ReasonsForRefinancing
+Access available equity,854,ReasonsForRefinancing
+Consolidate higher interest debt,855,ReasonsForRefinancing
+Owns,858,RelationshipTypes
+Earns,859,RelationshipTypes
+Spends,860,RelationshipTypes
+Owes,861,RelationshipTypes
+Can provide access to,862,RelationshipTypes
+Lawyer for,863,RelationshipTypes
+Accountant for,864,RelationshipTypes
+Interest Only,865,RepaymentTypes
+Principal and Interest,866,RepaymentTypes
+A combination of both,867,RepaymentTypes
+I’d like to have certainty of repayments for budgeting purposes,868,RepaymentsFixedRateReasons
+I'm concerned rates will rise and want to lock in a lower rate,869,RepaymentsFixedRateReasons
+Other,870,RepaymentsFixedRateReasons
+Accommodate temporary reduction in income,871,RepaymentsInterestOnlyReasons
+Accommodate anticipated large non-recurring expenses,872,RepaymentsInterestOnlyReasons
+Accommodate variable and unpredictable income,873,RepaymentsInterestOnlyReasons
+Create funds for investment purposes,874,RepaymentsInterestOnlyReasons
+Taxation|| financial or accounting reasons,875,RepaymentsInterestOnlyReasons
+Other reason,876,RepaymentsInterestOnlyReasons
+Mr,877,Salutations
+Ms,878,Salutations
+Miss,879,Salutations
+Mrs,880,Salutations
+Mx,881,Salutations
+Dr,882,Salutations
+Hon,883,Salutations
+Property,884,SecurityTypes
+St,885,StreetTypes
+Rd,886,StreetTypes
+Ave,887,StreetTypes
+Arc,888,StreetTypes
+Bvd,889,StreetTypes
+Cl,890,StreetTypes
+Ct,891,StreetTypes
+Cres,892,StreetTypes
+Dr,893,StreetTypes
+Esp,894,StreetTypes
+Gr,895,StreetTypes
+Hwy,896,StreetTypes
+Lane,897,StreetTypes
+Pde,898,StreetTypes
+Pl,899,StreetTypes
+Sq,900,StreetTypes
+Tce,901,StreetTypes
+Hike,902,StreetTypes
+Awlk,903,StreetTypes
+Bull,904,StreetTypes
+Triangle,905,StreetTypes
+Flts,906,StreetTypes
+Acre,907,StreetTypes
+Bran,908,StreetTypes
+Bdge,909,StreetTypes
+Crk,910,StreetTypes
+Cuwy,911,StreetTypes
+Accs,912,StreetTypes
+Ally,913,StreetTypes
+Alwy,914,StreetTypes
+Ambl,915,StreetTypes
+App,916,StreetTypes
+Artl,917,StreetTypes
+Arty,918,StreetTypes
+Ba,919,StreetTypes
+Bank,920,StreetTypes
+Bay,921,StreetTypes
+Bch,922,StreetTypes
+Bend,923,StreetTypes
+Bwlk,924,StreetTypes
+Bvde,925,StreetTypes
+Bowl,926,StreetTypes
+Br,927,StreetTypes
+Brae,928,StreetTypes
+Brk,929,StreetTypes
+Bret,930,StreetTypes
+Bdwy,931,StreetTypes
+Brow,932,StreetTypes
+Bypa,933,StreetTypes
+Bywy,934,StreetTypes
+Cswy,935,StreetTypes
+Ctr,936,StreetTypes
+Cnwy,937,StreetTypes
+Ch,938,StreetTypes
+Cir,939,StreetTypes
+Clt,940,StreetTypes
+Cct,941,StreetTypes
+Crcs,942,StreetTypes
+Clr,943,StreetTypes
+Cmmn,944,StreetTypes
+Cncd,945,StreetTypes
+Con,946,StreetTypes
+Cntn,947,StreetTypes
+Cps,948,StreetTypes
+Cnr,949,StreetTypes
+Cso,950,StreetTypes
+Crse,951,StreetTypes
+Ctyd,952,StreetTypes
+Cove,953,StreetTypes
+Cr,954,StreetTypes
+Crst,955,StreetTypes
+Crf,956,StreetTypes
+Crss,957,StreetTypes
+Crsg,958,StreetTypes
+Csac,959,StreetTypes
+Cutt,960,StreetTypes
+Dale,961,StreetTypes
+Dell,962,StreetTypes
+Dene,963,StreetTypes
+De,964,StreetTypes
+Dip,965,StreetTypes
+Div,966,StreetTypes
+Dock,967,StreetTypes
+Dom,968,StreetTypes
+Down,969,StreetTypes
+Dwns,970,StreetTypes
+Dvwy,971,StreetTypes
+Esmt,972,StreetTypes
+Edge,973,StreetTypes
+Elb,974,StreetTypes
+End,975,StreetTypes
+Ent,976,StreetTypes
+Est,977,StreetTypes
+Exp,978,StreetTypes
+Fawy,979,StreetTypes
+Ftrk,980,StreetTypes
+Fitr,981,StreetTypes
+Flat,982,StreetTypes
+Folw,983,StreetTypes
+Ftwy,984,StreetTypes
+Ford,985,StreetTypes
+Fshr,986,StreetTypes
+Fork,987,StreetTypes
+Form,988,StreetTypes
+Fwy,989,StreetTypes
+Frtg,990,StreetTypes
+Gap,991,StreetTypes
+Gdn,992,StreetTypes
+Gdns,993,StreetTypes
+Gte,994,StreetTypes
+Gwy,995,StreetTypes
+Glde,996,StreetTypes
+Glen,997,StreetTypes
+Gra,998,StreetTypes
+Grn,999,StreetTypes
+Gly,1000,StreetTypes
+Hvn,1001,StreetTypes
+Hth,1002,StreetTypes
+Hts,1003,StreetTypes
+Hird,1004,StreetTypes
+Hill,1005,StreetTypes
+Hllw,1006,StreetTypes
+Hub,1007,StreetTypes
+Inlt,1008,StreetTypes
+Intg,1009,StreetTypes
+Id,1010,StreetTypes
+Jnc,1011,StreetTypes
+Key,1012,StreetTypes
+Keys,1013,StreetTypes
+Knol,1014,StreetTypes
+Ldg,1015,StreetTypes
+Lnwy,1016,StreetTypes
+Line,1017,StreetTypes
+Link,1018,StreetTypes
+Lkt,1019,StreetTypes
+Loop,1020,StreetTypes
+Lynn,1021,StreetTypes
+Mall,1022,StreetTypes
+Manr,1023,StreetTypes
+Mead,1024,StreetTypes
+Mndr,1025,StreetTypes
+Mews,1026,StreetTypes
+Mtwy,1027,StreetTypes
+Nook,1028,StreetTypes
+Otlt,1029,StreetTypes
+Otlk,1030,StreetTypes
+Oval,1031,StreetTypes
+Prds,1032,StreetTypes
+Park,1033,StreetTypes
+Pwy,1034,StreetTypes
+Pass,1035,StreetTypes
+Psge,1036,StreetTypes
+Path,1037,StreetTypes
+Pway,1038,StreetTypes
+Piaz,1039,StreetTypes
+Plza,1040,StreetTypes
+Pkt,1041,StreetTypes
+Pnt,1042,StreetTypes
+Port,1043,StreetTypes
+Prec,1044,StreetTypes
+Prom,1045,StreetTypes
+Prst,1046,StreetTypes
+Qdrt,1047,StreetTypes
+Qy,1048,StreetTypes
+Qys,1049,StreetTypes
+Rmbl,1050,StreetTypes
+Ramp,1051,StreetTypes
+Rnge,1052,StreetTypes
+Rch,1053,StreetTypes
+Res,1054,StreetTypes
+Rest,1055,StreetTypes
+Rtt,1056,StreetTypes
+Rtn,1057,StreetTypes
+Ride,1058,StreetTypes
+Rdge,1059,StreetTypes
+Rise,1060,StreetTypes
+Rsng,1061,StreetTypes
+Rvr,1062,StreetTypes
+Rdwy,1063,StreetTypes
+Rty,1064,StreetTypes
+Rnd,1065,StreetTypes
+Rte,1066,StreetTypes
+Row,1067,StreetTypes
+Rowe,1068,StreetTypes
+Rue,1069,StreetTypes
+Run,1070,StreetTypes
+Svwy,1071,StreetTypes
+Shun,1072,StreetTypes
+Skln,1073,StreetTypes
+Slpe,1074,StreetTypes
+Spur,1075,StreetTypes
+Stps,1076,StreetTypes
+Strt,1077,StreetTypes
+Stai,1078,StreetTypes
+Strp,1079,StreetTypes
+Sbwy,1080,StreetTypes
+Tarn,1081,StreetTypes
+Thfr,1082,StreetTypes
+Thru,1083,StreetTypes
+Tlwy,1084,StreetTypes
+Top,1085,StreetTypes
+Tor,1086,StreetTypes
+Trk,1087,StreetTypes
+Trl,1088,StreetTypes
+Tkwy,1089,StreetTypes
+Turn,1090,StreetTypes
+Twist,1091,StreetTypes
+Upas,1092,StreetTypes
+Vale,1093,StreetTypes
+Vlly,1094,StreetTypes
+Viad,1095,StreetTypes
+View,1096,StreetTypes
+Vws,1097,StreetTypes
+Vlla,1098,StreetTypes
+Vsta,1099,StreetTypes
+Walk,1100,StreetTypes
+Wkwy,1101,StreetTypes
+Wtrs,1102,StreetTypes
+Wtwy,1103,StreetTypes
+Way,1104,StreetTypes
+Whrf,1105,StreetTypes
+Wds,1106,StreetTypes
+Wynd,1107,StreetTypes
+Wd,1108,StreetTypes
+Cut,1109,StreetTypes
+Dash,1110,StreetTypes
+Dstr,1111,StreetTypes
+Extn,1112,StreetTypes
+Fbrk,1113,StreetTypes
+Flne,1114,StreetTypes
+Hills,1115,StreetTypes
+Ladr,1116,StreetTypes
+Lead,1117,StreetTypes
+Ledr,1118,StreetTypes
+Mile,1119,StreetTypes
+Tmwy,1120,StreetTypes
+Tvse,1121,StreetTypes
+Tunl,1122,StreetTypes
+Vlls,1123,StreetTypes
+Brdwlk,1124,StreetTypes
+Clde,1125,StreetTypes
+Cmmns,1126,StreetTypes
+Frnt,1127,StreetTypes
+Hrbr,1128,StreetTypes
+Mew,1129,StreetTypes
+Nth,1130,StreetTypes
+Null,1131,StreetTypes
+Plms,1132,StreetTypes
+Psla,1133,StreetTypes
+Quad,1134,StreetTypes
+Reef,1135,StreetTypes
+Rofw,1136,StreetTypes
+Ring,1137,StreetTypes
+Rds,1138,StreetTypes
+Sth,1139,StreetTypes
+Stra,1140,StreetTypes
+Verge,1141,StreetTypes
+Vlge,1142,StreetTypes
+Vue,1143,StreetTypes
+Wade,1144,StreetTypes
+Yard,1145,StreetTypes
+Mart,1146,StreetTypes
+Bswy,1147,StreetTypes
+East,1148,StreetTypes
+West,1149,StreetTypes
+Part,1150,StreetTypes
+Conr,1151,StreetTypes
+Bdy,1152,StreetTypes
+Crvr,1153,StreetTypes
+Mz,1154,StreetTypes
+Apartment,1155,SubpropertyTypes
+Unit,1156,SubpropertyTypes
+Townhouse,1157,SubpropertyTypes
+Factory,1158,SubpropertyTypes
+Flat,1159,SubpropertyTypes
+Marine Berth,1160,SubpropertyTypes
+Office,1161,SubpropertyTypes
+Room,1162,SubpropertyTypes
+Shed,1163,SubpropertyTypes
+Shop,1164,SubpropertyTypes
+Site,1165,SubpropertyTypes
+Stall,1166,SubpropertyTypes
+Suite,1167,SubpropertyTypes
+Villa,1168,SubpropertyTypes
+Warehouse,1169,SubpropertyTypes
+Invest in another residential property,1170,UseOfEquity
+Renovate my current property,1171,UseOfEquity
+Invest in shares or managed funds,1172,UseOfEquity
+Invest in my business,1173,UseOfEquity
+Other purposes (e.g. to buy a car),1174,UseOfEquity
+Accountant or tax agent,1176,ExpenseLivingPropertyDetailTypes
+Abarth,1179,Vehicles
+AC,1180,Vehicles
+Acura,1181,Vehicles
+AIXAM,1182,Vehicles
+Alfa Romeo,1183,Vehicles
+Alpine,1184,Vehicles
+Arash,1185,Vehicles
+Ariel,1186,Vehicles
+Artega,1187,Vehicles
+Ascari,1188,Vehicles
+Aston Martin,1189,Vehicles
+Audi,1190,Vehicles
+AvtoVAZ,1191,Vehicles
+BAIC,1192,Vehicles
+Bentley,1193,Vehicles
+BMW,1194,Vehicles
+Borgward,1195,Vehicles
+Brilliance,1196,Vehicles
+Bristol,1197,Vehicles
+Bufori,1198,Vehicles
+Bugatti,1199,Vehicles
+Buick,1200,Vehicles
+Byton,1201,Vehicles
+Cadillac,1202,Vehicles
+Caterham,1203,Vehicles
+Changan,1204,Vehicles
+Changhe,1205,Vehicles
+Chery,1206,Vehicles
+Chevrolet,1207,Vehicles
+Chrysler,1208,Vehicles
+Citroen,1209,Vehicles
+Coda,1210,Vehicles
+CT&T,1211,Vehicles
+Dacia,1212,Vehicles
+Daewoo,1213,Vehicles
+DAF,1214,Vehicles
+Daihatsu,1215,Vehicles
+Datsun,1216,Vehicles
+Dodge,1217,Vehicles
+Donkervoort,1218,Vehicles
+DS,1219,Vehicles
+Ferrari,1220,Vehicles
+Fiat,1221,Vehicles
+Fisker,1222,Vehicles
+Force Motors,1223,Vehicles
+Ford,1224,Vehicles
+Foton,1225,Vehicles
+GAZ,1226,Vehicles
+Geely,1227,Vehicles
+Genesis,1228,Vehicles
+Ginetta,1229,Vehicles
+GMC,1230,Vehicles
+Great Wall,1231,Vehicles
+Haima,1232,Vehicles
+Hino,1233,Vehicles
+Holden,1234,Vehicles
+Honda,1235,Vehicles
+Hyundai,1236,Vehicles
+Iconic,1237,Vehicles
+Infiniti,1238,Vehicles
+Isuzu,1239,Vehicles
+JAC,1240,Vehicles
+Jaguar,1241,Vehicles
+Jeep,1242,Vehicles
+JMC,1243,Vehicles
+Kia,1244,Vehicles
+Koenigsegg,1245,Vehicles
+Lamborghini,1246,Vehicles
+Lancia,1247,Vehicles
+Land Rover,1248,Vehicles
+Landwind,1249,Vehicles
+Lexus,1250,Vehicles
+Lifan,1251,Vehicles
+Lincoln,1252,Vehicles
+Lotus,1253,Vehicles
+Luxgen,1254,Vehicles
+Magna Steyr,1255,Vehicles
+Mahindra,1256,Vehicles
+Maserati,1257,Vehicles
+Maxus,1258,Vehicles
+Maybach,1259,Vehicles
+Mazda,1260,Vehicles
+Mazzanti,1261,Vehicles
+McLaren,1262,Vehicles
+Mercedes-Benz,1263,Vehicles
+MG,1264,Vehicles
+Mini,1265,Vehicles
+Mitsubishi,1266,Vehicles
+Mitsuoka,1267,Vehicles
+Morgan,1268,Vehicles
+Morris,1269,Vehicles
+NIO,1270,Vehicles
+Nissan,1271,Vehicles
+Noble,1272,Vehicles
+Opel,1273,Vehicles
+Pagani,1274,Vehicles
+Perodua,1275,Vehicles
+Peugeot,1276,Vehicles
+Polestar,1277,Vehicles
+Pontiac,1278,Vehicles
+Porsche,1279,Vehicles
+Proton,1280,Vehicles
+Ram,1281,Vehicles
+Reliant,1282,Vehicles
+Renault,1283,Vehicles
+Rimac,1284,Vehicles
+Rivian,1285,Vehicles
+Rolls-Royce,1286,Vehicles
+RUF,1287,Vehicles
+Saab,1288,Vehicles
+Saleen,1289,Vehicles
+Saturn,1290,Vehicles
+Scion,1291,Vehicles
+SEAT,1292,Vehicles
+Senova,1293,Vehicles
+SIN Cars,1294,Vehicles
+Skoda,1295,Vehicles
+Smart,1296,Vehicles
+Spyker,1297,Vehicles
+Ssangyong,1298,Vehicles
+Subaru,1299,Vehicles
+Suzuki,1300,Vehicles
+Tata,1301,Vehicles
+Tatra,1302,Vehicles
+Tesla,1303,Vehicles
+Toyota,1304,Vehicles
+Trumpchi,1305,Vehicles
+TVR,1306,Vehicles
+Vauxhall,1307,Vehicles
+Volkswagen,1308,Vehicles
+Volvo,1309,Vehicles
+W Motors,1310,Vehicles
+Wiesmann,1311,Vehicles
+Zenos,1312,Vehicles
+Zenvo,1313,Vehicles
+Abbotsford,1314,Vehicles
+Abra,1316,Vehicles
+Acabion,1317,Vehicles
+Access Motors,1318,Vehicles
+Ace Motor Corporation,1319,Vehicles
+Adiva,1320,Vehicles
+Adler,1321,Vehicles
+Adly Moto,1322,Vehicles
+Aeon,1323,Vehicles
+Aermacchi,1324,Vehicles
+Aeromere,1325,Vehicles
+AGF,1326,Vehicles
+Agrale,1327,Vehicles
+Agrati Garelli,1328,Vehicles
+AJP,1329,Vehicles
+AJS,1330,Vehicles
+AJW Motorcycles,1331,Vehicles
+AKT Motos,1332,Vehicles
+Alcyon,1333,Vehicles
+Alexander Leutner & Co.,1334,Vehicles
+Alfer,1335,Vehicles
+Alligator Motorcycle Company,1336,Vehicles
+Allstate,1337,Vehicles
+Alta Andhra Pradesh Scooters Limited,1338,Vehicles
+Ambassador Motorcycles,1339,Vehicles
+American IronHorse,1340,Vehicles
+API,1341,Vehicles
+Aprilia,1342,Vehicles
+Arch Motorcycle,1343,Vehicles
+Ardie,1344,Vehicles
+Ariel Motor Company,1345,Vehicles
+Armstrong,1346,Vehicles
+Associated Motor Cycles,1347,Vehicles
+ATK Motorcycles,1348,Vehicles
+Automoto,1349,Vehicles
+Autozodiaco,1350,Vehicles
+Bajaj Auto,1351,Vehicles
+Balkan,1352,Vehicles
+Baotian Motorcycle Company,1353,Vehicles
+Beardmore Precision,1354,Vehicles
+Benelli,1355,Vehicles
+Bennett & Barkell Motorcycles,1356,Vehicles
+Beta Motor,1357,Vehicles
+Bianchi,1358,Vehicles
+Bimota,1359,Vehicles
+Blackburne,1360,Vehicles
+Blata,1361,Vehicles
+BMW Motorrad,1362,Vehicles
+Böhmerland,1363,Vehicles
+Bombardier Recreational Products,1364,Vehicles
+Boss Hoss Cycles,1365,Vehicles
+Brammo Inc.,1366,Vehicles
+Brasil & Movimento,1367,Vehicles
+Britten Motorcycle Company,1368,Vehicles
+Brough Motorcycles,1369,Vehicles
+Brough Superior,1370,Vehicles
+Brumana Pugliese,1371,Vehicles
+BSA Company,1372,Vehicles
+Buell Motorcycle Company,1373,Vehicles
+Bultaco,1374,Vehicles
+Cagiva,1375,Vehicles
+Calthorpe Motor Company,1376,Vehicles
+Can-Am Motorcycles,1377,Vehicles
+Carabela,1378,Vehicles
+Casal,1379,Vehicles
+Ceccato,1380,Vehicles
+Centralne Warsztaty Samochodowe,1381,Vehicles
+Česká zbrojovka Strakonice,1382,Vehicles
+Chang Jiang,1383,Vehicles
+Cheney Racing,1384,Vehicles
+Cimatti,1385,Vehicles
+Cleveland CycleWerks,1386,Vehicles
+Clews Competition Motorcycles,1387,Vehicles
+Clyno,1388,Vehicles
+Confederate Motors,1389,Vehicles
+Cooper,1390,Vehicles
+Cotton Motor Company,1391,Vehicles
+Coventry-Eagle Crocker Motorcycle Company,1392,Vehicles
+Cushman,1393,Vehicles
+Daelim Motor Company,1394,Vehicles
+Dafra Motos,1395,Vehicles
+Dayun,1396,Vehicles
+Della Ferrera,1397,Vehicles
+Delta-Gnom,1398,Vehicles
+Derbi,1399,Vehicles
+DKW,1400,Vehicles
+Dnepr,1401,Vehicles
+Dollar,1402,Vehicles
+Dot Cycle and Motor Manufacturing Company,1403,Vehicles
+Douglas,1404,Vehicles
+D-Rad,1405,Vehicles
+Dresch,1406,Vehicles
+Ducati Motor Holding S.p.A.,1407,Vehicles
+DYL Motorcycles,1408,Vehicles
+Eisenacher Motorenwerk,1409,Vehicles
+Electric Motor Corporation,1410,Vehicles
+EMC Motorcycles,1411,Vehicles
+Energica Motor Company,1412,Vehicles
+Erik Buell Racing,1413,Vehicles
+Escorts Group,1414,Vehicles
+Eso,1415,Vehicles
+Evoke Motorcycles,1416,Vehicles
+Excelsior Motor Company,1417,Vehicles
+Excelsior Motor Manufacturing & Supply Company,1418,Vehicles
+Excelsior-Henderson Motorcycle,1419,Vehicles
+Express Werke,1420,Vehicles
+FAMEL,1421,Vehicles
+Fantic Motor,1422,Vehicles
+FB Mondial,1423,Vehicles
+Flying Merkel,1424,Vehicles
+FN,1425,Vehicles
+Francis-Barnett Fischer Motor Company,1426,Vehicles
+Frera,1427,Vehicles
+Fusi,1428,Vehicles
+Galbusera,1429,Vehicles
+Garelli Motorcycles,1430,Vehicles
+Gas Gas,1431,Vehicles
+Ghezzi & Brian,1432,Vehicles
+Gilera,1433,Vehicles
+Gillet Herstal,1434,Vehicles
+GIMA Gnome et Rhône,1435,Vehicles
+Gimson,1436,Vehicles
+Gorky Motorcycle Plant,1437,Vehicles
+Greeves,1438,Vehicles
+Haden,1439,Vehicles
+Harley-Davidson,1440,Vehicles
+Hecker,1441,Vehicles
+Helkama Hildebrand & Wolfmüller,1442,Vehicles
+Henderson Motorcycle,1443,Vehicles
+Hercules,1444,Vehicles
+Hero MotoCorp,1445,Vehicles
+Hesketh Motorcycles,1446,Vehicles
+Hodaka,1447,Vehicles
+Hoffmann,1448,Vehicles
+Honda,1449,Vehicles
+Horex,1450,Vehicles
+HRD Motorcycles,1451,Vehicles
+Hunter Motorcycles,1452,Vehicles
+Husaberg,1453,Vehicles
+Husqvarna Motorcycles,1454,Vehicles
+Ideal Jawa,1455,Vehicles
+IMZ-Ural,1456,Vehicles
+Indian Motocycle Manufacturing Company,1457,Vehicles
+Innocenti,1458,Vehicles
+Iso,1459,Vehicles
+Italika,1460,Vehicles
+Italjet I,1461,Vehicles
+Ivy,1462,Vehicles
+IZh,1463,Vehicles
+JA Prestwich Industries,1464,Vehicles
+James Cycle Co,1465,Vehicles
+Jamuna Motorcycles,1466,Vehicles
+Janus Motorcycles,1467,Vehicles
+JAWA Moto,1468,Vehicles
+Jinan Qingqi,1469,Vehicles
+Jincheng Suzuki,1470,Vehicles
+Juery,1471,Vehicles
+Junak,1472,Vehicles
+Kawasaki Heavy Industries Motorcycle & Engine,1473,Vehicles
+Killinger and Freund Motorcycle,1474,Vehicles
+Kinetic Engineering Limited,1475,Vehicles
+Kreidler,1476,Vehicles
+KTM,1477,Vehicles
+Kymco,1478,Vehicles
+Lamborghini,1479,Vehicles
+Lambretta,1480,Vehicles
+Land Electric Motorcycle,1481,Vehicles
+Laurin & Klement,1482,Vehicles
+Laverda,1483,Vehicles
+Lefas,1484,Vehicles
+Levis,1485,Vehicles
+Lifan,1486,Vehicles
+Lightning Motorcycle,1487,Vehicles
+Loncin Holdings,1488,Vehicles
+Lube Motorcycles,1489,Vehicles
+Mahindra Two Wheelers,1490,Vehicles
+Maico,1491,Vehicles
+Malaguti,1492,Vehicles
+Malanca,1493,Vehicles
+Maratos,1494,Vehicles
+Marine Turbine Technologies,1495,Vehicles
+Mars,1496,Vehicles
+Martinsyde,1497,Vehicles
+Marusho,1498,Vehicles
+MAS,1499,Vehicles
+Maserati,1500,Vehicles
+Matchless,1501,Vehicles
+MEBEA,1502,Vehicles
+Megelli Motorcycles,1503,Vehicles
+Mego,1504,Vehicles
+Megola,1505,Vehicles
+Meguro,1506,Vehicles
+Métisse Motorcycles,1507,Vehicles
+Midual,1508,Vehicles
+Minarelli,1509,Vehicles
+Minerva,1510,Vehicles
+Minsk,1511,Vehicles
+Mitsubishi Silver Pigeon,1512,Vehicles
+Miyata,1513,Vehicles
+Modenas,1514,Vehicles
+Monark,1515,Vehicles
+Mondial,1516,Vehicles
+Monet-Goyon,1517,Vehicles
+Montesa Honda,1518,Vehicles
+Mopeds India Limited,1519,Vehicles
+Morbidelli,1520,Vehicles
+Moretti Motor Company,1521,Vehicles
+Moscow Motorcycle Plant,1522,Vehicles
+Moto Guzzi,1523,Vehicles
+Moto Morini,1524,Vehicles
+Moto Rumi,1525,Vehicles
+Motobécane,1526,Vehicles
+Motobi,1527,Vehicles
+MotoCzysz,1528,Vehicles
+Motomel,1529,Vehicles
+MotoTrans,1530,Vehicles
+MÃ¼nch,1531,Vehicles
+Mustang,1532,Vehicles
+MV Agusta,1533,Vehicles
+MZ Motorrad- und Zweiradwerk,1534,Vehicles
+NATI,1535,Vehicles
+Naza,1536,Vehicles
+Neander,1537,Vehicles
+Ner-A-Car,1538,Vehicles
+New Hudson Motorcycles,1539,Vehicles
+New Imperial Motors,1540,Vehicles
+New-Map,1541,Vehicles
+Nimbus,1542,Vehicles
+Norman Cycles,1543,Vehicles
+Norton Motorcycle Company,1544,Vehicles
+Nougier,1545,Vehicles
+NSU Motorenwerke,1546,Vehicles
+OK-Supreme,1547,Vehicles
+Opel,1548,Vehicles
+Orionette,1549,Vehicles
+Osborn Engineering Company,1550,Vehicles
+Ossa,1551,Vehicles
+Pak Suzuki Motors,1552,Vehicles
+Paton,1553,Vehicles
+Penton,1554,Vehicles
+Peugeot Motocycles,1555,Vehicles
+PGO Scooters,1556,Vehicles
+Phelon & Moore,1557,Vehicles
+PHP Automobiles,1558,Vehicles
+Piaggio,1559,Vehicles
+Pierce-Arrow Motor Car Company,1560,Vehicles
+Podolsk Mechanical Plant,1561,Vehicles
+Pope Manufacturing Company,1562,Vehicles
+Praga,1563,Vehicles
+Premier Motorcycles,1564,Vehicles
+Puch,1565,Vehicles
+Qianjiang Motorcycle,1566,Vehicles
+Quadrant,1567,Vehicles
+Quasar,1568,Vehicles
+Raleigh Bicycle Company,1569,Vehicles
+Ratier,1570,Vehicles
+Ravi Motorcycles,1571,Vehicles
+Rickman Motorcycles,1572,Vehicles
+Ridley Motorcycle Company,1573,Vehicles
+Rieju,1574,Vehicles
+Rikuo Motorcycle,1575,Vehicles
+Roehr Motorcycle Company,1576,Vehicles
+Rokon,1577,Vehicles
+Royal Enfield,1578,Vehicles
+Rudge-Whitworth,1579,Vehicles
+Runner Automobiles,1580,Vehicles
+Sachs Motorcycles,1581,Vehicles
+Sanglas,1582,Vehicles
+Santamaria,1583,Vehicles
+Saroléa,1584,Vehicles
+Scorpa,1585,Vehicles
+Scott Motorcycle Company,1586,Vehicles
+SFM,1587,Vehicles
+Sherco,1588,Vehicles
+SHL,1589,Vehicles
+Siambretta,1590,Vehicles
+Silk,1591,Vehicles
+Simplex Manufacturing Corporation,1592,Vehicles
+Simson,1593,Vehicles
+Singer Motors,1594,Vehicles
+SIS,1595,Vehicles
+Sokół,1596,Vehicles
+Sol Invictus Motorcycle Co.,1597,Vehicles
+Sprite,1598,Vehicles
+Stevens Motorcycles,1599,Vehicles
+Sun,1600,Vehicles
+Sunbeam Cycles,1601,Vehicles
+Suzuki,1602,Vehicles
+SWM,1603,Vehicles
+SYM Motors,1604,Vehicles
+Taiwan Golden Bee,1605,Vehicles
+Tandon Motorcycles,1606,Vehicles
+Tehuelche,1607,Vehicles
+Tempo,1608,Vehicles
+Terra Modena,1609,Vehicles
+Terrot,1610,Vehicles
+Thor,1611,Vehicles
+Thumpstar,1612,Vehicles
+Titan Motorcycle Company,1613,Vehicles
+TIZ,1614,Vehicles
+Tohatsu,1615,Vehicles
+Triumph Motorcycles Ltd,1616,Vehicles
+Tunturi,1617,Vehicles
+TVS Motor Company,1618,Vehicles
+United Auto Industries,1619,Vehicles
+US Highland,1620,Vehicles
+Victory Motorcycles,1621,Vehicles
+Villiers Engineering,1622,Vehicles
+Vincent Motorcycles,1623,Vehicles
+Voskhod Victoria Velocette,1624,Vehicles
+Voxan Vespa Vyrus Velomotors,1625,Vehicles
+Yamaha Motor Company,1626,Vehicles
+Yankee,1627,Vehicles
+Yinxiang Motorcycle,1628,Vehicles
+Z Electric Vehicle,1629,Vehicles
+Zanella,1630,Vehicles
+Zenith Motorcycles,1631,Vehicles
+Zero Motorcycles,1632,Vehicles
+Znen,1633,Vehicles
+Zongshen,1634,Vehicles
+Zündapp,1635,Vehicles
+AbeStar,1636,Vehicles
+Relative,1637,RelationshipTypes
+Spouse,1638,RelationshipTypes
+HECS HELP,1639,ExpenseDebtTypes
+Inheritance (special conditions apply),1640,ContributionsSourceOfFunds
+Cash gift from parents (special conditions apply),1641,ContributionsSourceOfFunds
+Equity cash out of another property,1642,ContributionsSourceOfFunds
+Sale of shares or similar investments,1643,ContributionsSourceOfFunds
+Sale of a property,1644,ContributionsSourceOfFunds
+Savings,1646,ContributionsSourceOfFunds
+If required|| reducing the loan term,1647,PostRetirementRepaymentPlan
+Other,1648,ContributionsSourceOfFunds
+Employer human resource or payroll representative,1649,RelationshipTypes
+Real estate agent,1650,RelationshipTypes
+Conveyancer or solicitor,1651,RelationshipTypes
+Accountant or tax agent,1652,RelationshipTypes
+Other,1653,RelationshipTypes
+Pending Application Review,1654,UploadStatus
+Pending Back Office Review,1655,UploadStatus
+Accepted,1656,UploadStatus
+Deleted,1657,DocumentStatuses
+Deposit already paid,1658,AssetSubTypes
+House,1659,PropertyTypes
+Townhouse / Villa,1662,PropertyTypes
+Apartment,1664,PropertyTypes
+Short-term,1666,IncomeRentalType
+Long-term,1667,IncomeRentalType
+Government,1668,EmploymentSectors
+Private,1669,EmploymentSectors
+Metro Plus,1670,LocationCategories
+Acceptable,1671,LocationCategories
+High Risk,1672,LocationCategories
+Accountant,1676,OverarchingOccupations
+Legal Professional,1677,OverarchingOccupations
+Medical Professional,1678,OverarchingOccupations
+Other,1679,OverarchingOccupations
+ACT Bar Association,1680,OccupationBodiesLegal
+Bar Association of Queensland,1681,OccupationBodiesLegal
+New South Wales Bar Association,1682,OccupationBodiesLegal
+Northern Territory Bar Association,1683,OccupationBodiesLegal
+South Australian Bar Association,1684,OccupationBodiesLegal
+Tasmanian Bar Association,1685,OccupationBodiesLegal
+Victorian Bar,1686,OccupationBodiesLegal
+Western Australian Bar Association Inc.,1687,OccupationBodiesLegal
+Law Society of New South Wales,1689,OccupationBodiesLegal
+Law Society of Northern Territory,1690,OccupationBodiesLegal
+Law Society of Queensland,1691,OccupationBodiesLegal
+Law Society of South Australia,1692,OccupationBodiesLegal
+Law Society of Tasmania,1693,OccupationBodiesLegal
+Law Society of the Australian Capital Territory,1694,OccupationBodiesLegal
+Legal Practice Board of Western Australia,1695,OccupationBodiesLegal
+Victorian Legal Services Board,1696,OccupationBodiesLegal
+Other,1697,OccupationBodiesLegal
+Australian Health Practitioner Regulation Agency,1707,OccupationBodiesMedical
+Register of Audiology Australia Accredited Audiologist,1708,OccupationBodiesMedical
+Certified Practising Speech Pathologist (CPSP) membership with Speech Pathology Australia,1709,OccupationBodiesMedical
+Veterinary board registration,1710,OccupationBodiesMedical
+Other,1711,OccupationBodiesMedical
+American Institute of Certified Public Accountants,1712,OccupationBodiesAccountant
+Certified Generals Accountants Canada,1713,OccupationBodiesAccountant
+Chartered  Institute of Management Accountants,1714,OccupationBodiesAccountant
+Chartered  Institute of Public Finance and Accountancy,1715,OccupationBodiesAccountant
+Chartered Accountants Australia & New Zealand,1716,OccupationBodiesAccountant
+Chartered Accountants Ireland,1717,OccupationBodiesAccountant
+Chartered Accountants Sri Lanka,1718,OccupationBodiesAccountant
+Chartered Financial Analyst Institute (CFA),1719,OccupationBodiesAccountant
+Chartered Professional Accountants Canada,1720,OccupationBodiesAccountant
+Fellowship of the Institute of Actuaries of Australia (FIAA).,1721,OccupationBodiesAccountant
+Hong Kong Institute of Certified Public Accountants,1722,OccupationBodiesAccountant
+Institut der Wirtschaftsprüfer in Deutschland e.V.,1723,OccupationBodiesAccountant
+Institute of Certified Management Accountants of Sri Lanka,1724,OccupationBodiesAccountant
+Institute of Certified Public Accountants in Ireland,1725,OccupationBodiesAccountant
+Institute of Certified Public Accountants of Kenya,1726,OccupationBodiesAccountant
+Institute of Chartered Accountants in England and Wales,1727,OccupationBodiesAccountant
+Institute of Chartered Accountants India,1728,OccupationBodiesAccountant
+Institute of Chartered Accountants of Bangladesh,1729,OccupationBodiesAccountant
+Institute of Chartered Accountants of Nepal,1730,OccupationBodiesAccountant
+Institute of Chartered Accountants of Scotland,1731,OccupationBodiesAccountant
+Institute of Cost & Managtement Accountants Pakistan,1732,OccupationBodiesAccountant
+Institute of Indonesia Chartered Accountants,1733,OccupationBodiesAccountant
+Institute of Singapore Chartered Accountants,1734,OccupationBodiesAccountant
+Japanese Institute of Certified Public Accountants,1735,OccupationBodiesAccountant
+Malaysian Institute of Accountants,1736,OccupationBodiesAccountant
+National Association of State Boards of Accountancy,1737,OccupationBodiesAccountant
+National Federation of Certified Public Accountant Associations of the Republic of China,1738,OccupationBodiesAccountant
+Philippine Institute of Certified Public Accountants,1739,OccupationBodiesAccountant
+South African Institute of Chartered Accountants,1740,OccupationBodiesAccountant
+Other,1741,OccupationBodiesAccountant
+Anaesthetist,1742,OccupationsMedical
+Audiologist,1743,OccupationsMedical
+Cardiologist,1744,OccupationsMedical
+Cardiothoracic Surgeon,1745,OccupationsMedical
+Chiropractor,1746,OccupationsMedical
+Clinical Haematologist,1747,OccupationsMedical
+Dentist,1748,OccupationsMedical
+Dermatologist,1749,OccupationsMedical
+Diagnostic and Interventional Radiologist,1750,OccupationsMedical
+Emergency Medicine Specialist,1751,OccupationsMedical
+Endocrinologist,1752,OccupationsMedical
+Gastroenterologist,1753,OccupationsMedical
+General Practitioner,1754,OccupationsMedical
+Intensive Care Specialist,1755,OccupationsMedical
+Medical Diagnostic Radiographer,1756,OccupationsMedical
+Medical Oncologist,1757,OccupationsMedical
+Medical Practitioners Other,1758,OccupationsMedical
+Neurologist,1759,OccupationsMedical
+Neurosurgeon,1760,OccupationsMedical
+Obstetrician and Gynaecologist,1761,OccupationsMedical
+Occupational Therapist,1762,OccupationsMedical
+Ophthalmologist,1763,OccupationsMedical
+Optometrist,1764,OccupationsMedical
+Orthopaedic Surgeon,1765,OccupationsMedical
+Osteopath,1766,OccupationsMedical
+Otorhinolaryngologist,1767,OccupationsMedical
+Paediatric Surgeon,1768,OccupationsMedical
+Paediatrician,1769,OccupationsMedical
+Pathologist,1770,OccupationsMedical
+Pharmacist,1771,OccupationsMedical
+Physiotherapist,1772,OccupationsMedical
+Plastic and Reconstructive Surgeon,1773,OccupationsMedical
+Podiatrist,1774,OccupationsMedical
+Psychiatrist,1775,OccupationsMedical
+Psychologist,1776,OccupationsMedical
+Radiation Oncologist,1777,OccupationsMedical
+Renal Medicine Specialist,1778,OccupationsMedical
+Resident Medical Officer,1779,OccupationsMedical
+Rheumatologist,1780,OccupationsMedical
+Sonographer,1781,OccupationsMedical
+Specialist Physician (General Medicine),1782,OccupationsMedical
+Specialist Physicians Other,1783,OccupationsMedical
+Speech Pathologist,1784,OccupationsMedical
+Surgeon (General),1785,OccupationsMedical
+Thoracic Medicine Specialist,1786,OccupationsMedical
+Urologist,1787,OccupationsMedical
+Vascular Surgeon,1788,OccupationsMedical
+Veterinarian,1789,OccupationsMedical
+Other,1790,OccupationsMedical
+Barrister,1791,OccupationsLegal
+Intellectual Property Lawyer,1792,OccupationsLegal
+Judge,1793,OccupationsLegal
+Judicial and Other Legal Professional,1794,OccupationsLegal
+Magistrate,1795,OccupationsLegal
+Solicitor,1796,OccupationsLegal
+Other,1797,OccupationsLegal
+Accountant,1798,OccupationsAccountant
+Actuary,1799,OccupationsAccountant
+Auditor,1800,OccupationsAccountant
+Chief Executive (Chief Financial Officer),1801,OccupationsAccountant
+Finance Manager,1802,OccupationsAccountant
+Other,1803,OccupationsAccountant
+Separated,1804,MaritalStatuses
+Extended unpaid leave,1805,AnticipateIncomeChangeHow
+Loss of employment,1806,AnticipateIncomeChangeHow
+Reduced income,1807,AnticipateIncomeChangeHow
+Medical treatment or illness,1808,AnticipateIncomeChangeHow
+Retirement,1809,AnticipateIncomeChangeHow
+Other,1810,AnticipateIncomeChangeHow
+Using accumulated savings,1811,AnticipateIncomeChangeLoanRepaymentStrat
+Sale of investment assets such as investment property or shares,1812,AnticipateIncomeChangeLoanRepaymentStrat
+By securing additional employment,1813,AnticipateIncomeChangeLoanRepaymentStrat
+Reducing expenditure,1814,AnticipateIncomeChangeLoanRepaymentStrat
+Other means,1815,AnticipateIncomeChangeLoanRepaymentStrat
+Commercial,1816,IncomeRentalType
+None,1817,OccupationBodiesAccountant
+None,1818,OccupationBodiesMedical
+None,1820,OccupationBodiesLegal
+Unhappy with current lender,1822,ReasonsForRefinancing
+Looking to reduce my repayments,1823,ReasonsForRefinancing
+Obtain a lower interest rate,1824,LoanRefinanceSpecificGoals
+Reduce repayment amount,1825,LoanRefinanceSpecificGoals
+Consolidate higher interest debt,1826,LoanRefinanceSpecificGoals
+Cash out to undertake minor property renovations,1827,LoanRefinanceSpecificGoals
+Cash out for property investment purposes,1828,LoanRefinanceSpecificGoals
+Cash out for business or other investment purposes,1829,LoanRefinanceSpecificGoals
+Cash out for personal use,1830,LoanRefinanceSpecificGoals

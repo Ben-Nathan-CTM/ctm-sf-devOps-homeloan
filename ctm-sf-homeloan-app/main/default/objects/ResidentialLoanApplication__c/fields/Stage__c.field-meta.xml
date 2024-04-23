@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stage__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Stage</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>STILL_RESEARCHING</fullName>
+                <default>false</default>
+                <label>Still researching</label>
+            </value>
+            <value>
+                <fullName>THINKING_MAKING_OFFER</fullName>
+                <default>false</default>
+                <label>Thinking of making an offer</label>
+            </value>
+            <value>
+                <fullName>PLANNING_AUCTION_BID</fullName>
+                <default>false</default>
+                <label>Planning to bid at auction</label>
+            </value>
+            <value>
+                <fullName>SIGNED_PURCHASE_CONTRACT</fullName>
+                <default>false</default>
+                <label>Signed and exchanged a contract of sale</label>
+            </value>
+            <value>
+                <fullName>GOING_TO_OPEN_HOUSES</fullName>
+                <default>false</default>
+                <label>Going to Open Houses</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

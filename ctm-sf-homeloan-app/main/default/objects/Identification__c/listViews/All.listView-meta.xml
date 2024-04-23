@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>FLEXId__c</columns>
+    <columns>IssueDate__c</columns>
+    <columns>IssuedBy__c</columns>
+    <columns>DocumentNumber__c</columns>
+    <columns>OriginalOrCertified__c</columns>
+    <columns>StateIssued__c</columns>
+    <columns>VerifiedByFullName__c</columns>
+    <columns>VerifiedByDOB__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All Records</label>
+</ListView>

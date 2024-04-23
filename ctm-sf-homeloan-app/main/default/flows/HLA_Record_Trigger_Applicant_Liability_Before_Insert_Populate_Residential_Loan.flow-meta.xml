@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>59.0</apiVersion>
+    <environments>Default</environments>
+    <formulas>
+        <name>NameFormula</name>
+        <dataType>String</dataType>
+        <expression>{!$Record.LoanApplicant__r.FirstName__c} + IF(ISNULL($Record.Percentage__c),&apos;&apos;,&apos; &apos; &amp; TEXT({!$Record.Percentage__c}) &amp; &quot;%&quot;)</expression>
+    </formulas>
+    <interviewLabel>Assign Applicant Liability Name {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>HLA: Record Trigger: Applicant Liability Before Insert -  Populate Residential Loan Lookup</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Update_Record_fields</name>
+        <label>Update Record fields</label>
+        <locationX>176</locationX>
+        <locationY>287</locationY>
+        <filterLogic>or</filterLogic>
+        <filters>
+            <field>LoanApplicant__c</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Name</field>
+            <value>
+                <elementReference>NameFormula</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>ResidentialLoanApplicationId__c</field>
+            <value>
+                <elementReference>$Record.LoanApplicant__r.ResidentialLoanApplication__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Update_Record_fields</targetReference>
+        </connector>
+        <object>LoanApplicantLiability__c</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

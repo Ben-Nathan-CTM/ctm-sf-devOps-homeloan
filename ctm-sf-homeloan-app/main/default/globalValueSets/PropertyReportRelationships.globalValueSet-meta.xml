@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>844</fullName>
+        <default>false</default>
+        <label>I’m looking to sell this property</label>
+    </customValue>
+    <customValue>
+        <fullName>845</fullName>
+        <default>false</default>
+        <label>I’m considering buying this property</label>
+    </customValue>
+    <customValue>
+        <fullName>846</fullName>
+        <default>false</default>
+        <label>I’d like to refinance this property</label>
+    </customValue>
+    <customValue>
+        <fullName>847</fullName>
+        <default>false</default>
+        <label>No reason, I’m just a nosy neighbour</label>
+    </customValue>
+    <masterLabel>PropertyReportRelationships</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

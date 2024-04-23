@@ -1,0 +1,17 @@
+<template>
+  <lightning-layout multiple-rows="true">
+    <lightning-layout-item size="12">
+      <c-hla-applicants-list
+        applicants={loanApplicants}
+        primary-applicant-id={primaryApplicantId}
+        onselect={handleApplicantSelected}
+      ></c-hla-applicants-list>
+    </lightning-layout-item>
+    <lightning-layout-item size="12">
+      <c-hla-applicants-main
+        selected-applicant-id={selectedApplicantId}
+        is-loading={isLoading}
+      ></c-hla-applicants-main>
+    </lightning-layout-item>
+  </lightning-layout>
+</template>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ApexTestSuite xmlns="http://soap.sforce.com/2006/04/metadata">
+    <testClassName>HLA_EnumTriggerTest</testClassName>
+    <testClassName>HLA_IdentificationTriggerTest</testClassName>
+    <testClassName>HLA_LoanApplicantAssetTriggerTest</testClassName>
+    <testClassName>HLA_LoanApplicantEmploymentTriggerTest</testClassName>
+    <testClassName>HLA_LoanApplicantExpenseTriggerTest</testClassName>
+    <testClassName>HLA_LoanApplicantIncomeTriggerTest</testClassName>
+    <testClassName>HLA_LoanApplicantLiabilityTriggerTest</testClassName>
+    <testClassName>HLA_LoanApplicantTriggerTest</testClassName>
+    <testClassName>HLA_LoanApplicationAssetTriggerTest</testClassName>
+    <testClassName>HLA_LoanApplicationDocumentTriggerTest</testClassName>
+    <testClassName>HLA_LoanApplicationExpenseTriggerTest</testClassName>
+    <testClassName>HLA_LoanApplicationIncomeTriggerTest</testClassName>
+    <testClassName>HLA_LoanApplicationLiabilityTriggerTest</testClassName>
+    <testClassName>HLA_LoanContributionTriggerTest</testClassName>
+    <testClassName>HLA_LoanCostTriggerTest</testClassName>
+    <testClassName>HLA_LoanEquityReleaseTriggerTest</testClassName>
+    <testClassName>HLA_LoanSecurityTriggerTest</testClassName>
+    <testClassName>HLA_LoanSplitTriggerTest</testClassName>
+    <testClassName>HLA_LoanTriggerTest</testClassName>
+    <testClassName>HLA_ResidentialLoanAppTriggerTest</testClassName>
+    <testClassName>HLA_TaskListEventTriggerTest</testClassName>
+    <testClassName>HLA_TriggerTest</testClassName>
+</ApexTestSuite>

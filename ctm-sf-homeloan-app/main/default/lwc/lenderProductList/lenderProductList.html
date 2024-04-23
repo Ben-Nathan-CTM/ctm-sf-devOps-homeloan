@@ -1,0 +1,98 @@
+<template>
+    <lightning-card>
+    <template if:true={loading}>
+        <div class="exampleHolder">
+          <lightning-spinner alternative-text="Loading" size="medium"></lightning-spinner>
+        </div>
+      </template>
+
+    <template if:false={loading}>
+    
+
+    <template if:true={products}>
+        <table class="slds-table slds-table_cell-buffer slds-table_bordered" aria-labelledby="element-with-table-label other-element-with-table-label">
+            <thead>
+              <tr class="slds-line-height_reset">
+                <th class="" scope="col">
+                  <div class="slds-truncate" title="Product Name">Product Name</div>
+                </th>
+                <th class="" scope="col">
+                  <div class="slds-truncate" title="Product Details">Product Details</div>
+                </th>
+                <th class="" scope="col">
+                  <div class="slds-truncate" title="Variable Rate">Variable Rate</div>
+                </th>
+                <th class="" scope="col">
+                  <div class="slds-truncate" title="Fixed Rate">Fixed Rate</div>
+                </th>
+                <th class="" scope="col">
+                  <div class="slds-truncate" title="Comparision Rate">Comparision Rate</div>
+                </th>
+                <th class="" scope="col">
+                  <div class="slds-truncate" title="Max LVR">Max LVR</div>
+                </th>
+                <th class="" scope="col">
+                  <div class="slds-truncate" title="Repayment Option">Repayment Option</div>
+                </th>
+                <th class="" scope="col">
+                  <div class="slds-truncate" title="Ongoing Fees">Ongoing Fees</div>
+                </th>
+                <th class="" scope="col">
+                    <div class="slds-truncate" title="Application Fees">Application Fees</div>
+                  </th>
+                <th class="" scope="col">
+                  <div class="slds-truncate" title="Discharge Fees">Discharge Fees</div>
+                 </th>
+              </tr>
+            </thead>
+            <tbody>
+            <template for:each={products} for:item="product" for:index="i">
+                <tr class="slds-item" key={product.i}>
+                    <th data-label="Product Name" scope="row">
+                      <div class="slds-cell-wrap" title={product.name}>
+                       {product.name}
+                      </div>
+                    </th>
+                    <td data-label="Product Details">
+                        <div class="slds-cell-wrap" title={product.productdetails}>{product.productdetails}</div>
+                    </td>
+                    <td data-label="Variable Rate">
+                        <div class="slds-truncate" title={product.variablerate}><template if:true={product.variablerate}>{product.variablerate}%</template></div>
+                    </td>
+                    <td data-label="Fixed Rate">
+                        <div class="slds-truncate" title={product.fixedrate}><template if:true={product.fixedrate}>{product.fixedrate}%</template></div>
+                    </td>
+                    <td data-label="Comparision Rate">
+                        <div class="slds-truncate" title={product.comparisonrate}><template if:true={product.comparisonrate}>{product.comparisonrate}%</template></div>
+                    </td>
+                    <td data-label="Max LVR">
+                        <div class="slds-truncate" title={product.maxlvr}><template if:true={product.maxlvr}>{product.maxlvr}%</template></div>
+                    </td>
+                    <td data-label="Repayment Option">
+                        <div class="slds-truncate" title={product.repaymentoption}>{product.repaymentoption}</div>
+                    </td>
+                    <td data-label="Ongoing Fees">
+                        <div class="slds-truncate" title={product.ongoingfees}><template if:true={product.ongoingfees}>${product.ongoingfees}</template></div>
+                    </td>
+
+                    <td data-label="Application Fees">
+                        <div class="slds-truncate" title={product.applicationfees}><template if:true={product.applicationfees}>${product.applicationfees}</template></div>
+                    </td>
+
+                    <td data-label="Discharge Fees">
+                        <div class="slds-truncate" title={product.dischargefees}><template if:true={product.dischargefees}>${product.dischargefees}</template></div>
+                    </td>
+                    
+                </tr>
+
+            </template>
+        </tbody>
+        </table>
+         
+
+
+
+    </template>
+    </template>
+</lightning-card>
+</template>

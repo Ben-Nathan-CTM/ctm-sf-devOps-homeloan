@@ -1,0 +1,420 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef1"
+            },
+            "Name": "ANZ",
+            "NewPurchase__c": null,
+            "Refinance__c": null,
+            "FirstHomeBuyer__c": null,
+            "TimetoFilePickUp__c": null,
+            "ConditionalApproval__c": null,
+            "Approval__c": null,
+            "logoRectangleUrl__c": "https://images.comparethemarket.com.au/habitat/assets/logos/lenders/ANZ.svg",
+            "logoSquareUrl__c": "https://images.comparethemarket.com.au/habitat/assets/logos/lenders/ANZ.svg",
+            "Description": "ANZ was established in 1835 as the Bank of Australasia, before merging with Union Bank of Australia in 1951 to form ANZ Bank. Since then, it’s become Australia’s second-biggest bank, joining the ranks of the ‘Big Four’, and now serves over 8 million customers across 32 markets around the world. It provides a wide range of financial products including bank accounts, credit cards, insurance, and loans."
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef2"
+            },
+            "Name": "AMP Bank",
+            "NewPurchase__c": null,
+            "Refinance__c": null,
+            "FirstHomeBuyer__c": null,
+            "TimetoFilePickUp__c": null,
+            "ConditionalApproval__c": null,
+            "Approval__c": null,
+            "logoRectangleUrl__c": "https://images.comparethemarket.com.au/habitat/assets/logos/lenders/AMP.svg",
+            "logoSquareUrl__c": "https://images.comparethemarket.com.au/habitat/assets/logos/lenders/AMP.svg",
+            "Description": "Formed in 1849 as a life insurance provider and mutual society, AMP Bank now serves nearly 2 million customers across Australia and New Zealand and employs more than 4,100 people. It has one of Australia’s largest shareholder registers, and is committed to achieving the best outcomes for both its customers and employees."
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef3"
+            },
+            "Name": "Macquarie",
+            "NewPurchase__c": null,
+            "Refinance__c": null,
+            "FirstHomeBuyer__c": null,
+            "TimetoFilePickUp__c": null,
+            "ConditionalApproval__c": null,
+            "Approval__c": null,
+            "logoRectangleUrl__c": "https://images.comparethemarket.com.au/habitat/assets/logos/lenders/MCM.svg",
+            "logoSquareUrl__c": "https://images.comparethemarket.com.au/habitat/assets/logos/lenders/MCM.svg",
+            "Description": "Founded in 1985, Macquarie Bank is part of the wider Macquarie Group, which operates in 33 markets around the world and is the world’s largest infrastructure asset manager. At the time of its founding, it was only the second private bank to be established in modern Australia, but it’s since gone on to become a major player in Australian banking, offering everyday banking solutions, loans, investment products and business solutions."
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef4"
+            },
+            "Name": "Adelaide Bank",
+            "NewPurchase__c": null,
+            "Refinance__c": null,
+            "FirstHomeBuyer__c": null,
+            "TimetoFilePickUp__c": null,
+            "ConditionalApproval__c": null,
+            "Approval__c": null,
+            "logoRectangleUrl__c": "https://images.comparethemarket.com.au/habitat/assets/logos/lenders/ADE.svg",
+            "logoSquareUrl__c": "https://images.comparethemarket.com.au/habitat/assets/logos/lenders/ADE.svg",
+            "Description": "Adelaide Bank was founded in 1994, as the result of a merger between the Co-operative Building Society of South Australia and the Hindmarsh Building Society. In 2007, it merged again with Bendigo Bank to form Bendigo and Adelaide Bank Limited. Adelaide Bank prides itself on treating its customers with integrity and respect, having spent over a century helping its customers buy homes."
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef5"
+            },
+            "Name": "St.George",
+            "NewPurchase__c": null,
+            "Refinance__c": null,
+            "FirstHomeBuyer__c": null,
+            "TimetoFilePickUp__c": null,
+            "ConditionalApproval__c": null,
+            "Approval__c": null,
+            "logoRectangleUrl__c": "https://images.comparethemarket.com.au/habitat/assets/logos/lenders/SGB.svg",
+            "logoSquareUrl__c": "https://images.comparethemarket.com.au/habitat/assets/logos/lenders/SGB.svg",
+            "Description": "Founded in 1937, given a banking license in 1992 and a member of the Westpac Group since 2008, St.George Bank is a NSW-focused operation that also operates in QLD and WA. It currently offers a range of personal and business products including everyday accounts, home loans, credit cards, personal loans, investment solutions and superannuation."
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef6"
+            },
+            "Name": "ME Bank",
+            "NewPurchase__c": null,
+            "Refinance__c": null,
+            "FirstHomeBuyer__c": null,
+            "TimetoFilePickUp__c": null,
+            "ConditionalApproval__c": null,
+            "Approval__c": null,
+            "logoRectangleUrl__c": "https://images.comparethemarket.com.au/habitat/assets/logos/lenders/ME.svg",
+            "logoSquareUrl__c": "https://images.comparethemarket.com.au/habitat/assets/logos/lenders/ME.svg",
+            "Description": "ME Bank’s gone through a lot of changes over the years, but four name changes and three changes of direction since its founding in 1994 haven’t stopped it from becoming one of Australia’s premier direct banks. It may have been founded as a home loan provider, but it’s since expanded to offer a full suite of personal banking products, including everyday accounts, credit cards, term deposits and personal loans."
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef7"
+            },
+            "Name": "Suncorp",
+            "NewPurchase__c": null,
+            "Refinance__c": null,
+            "FirstHomeBuyer__c": null,
+            "TimetoFilePickUp__c": null,
+            "ConditionalApproval__c": null,
+            "Approval__c": null,
+            "logoRectangleUrl__c": "https://images.comparethemarket.com.au/habitat/assets/logos/lenders/SCM.svg",
+            "logoSquareUrl__c": "https://images.comparethemarket.com.au/habitat/assets/logos/lenders/SCM.svg",
+            "Description": "Having been around for over a century now, it’s no surprise that Suncorp Bank is one of Australia’s biggest financial institutions. With a firm focus on responsibility and sustainability, Suncorp Bank has built a reputation as a community-focused business, a reputation that rests on their commitment to their people and their customers. Suncorp Bank currently offers everyday bank accounts, credit cards, home loans and investment solutions."
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef8"
+            },
+            "Name": "Bendigo Adelaide Bank",
+            "NewPurchase__c": null,
+            "Refinance__c": null,
+            "FirstHomeBuyer__c": null,
+            "TimetoFilePickUp__c": null,
+            "ConditionalApproval__c": null,
+            "Approval__c": null,
+            "logoRectangleUrl__c": null,
+            "logoSquareUrl__c": null,
+            "Description": null
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef9"
+            },
+            "Name": "Bank of Queensland (BOQ)",
+            "NewPurchase__c": null,
+            "Refinance__c": null,
+            "FirstHomeBuyer__c": null,
+            "TimetoFilePickUp__c": null,
+            "ConditionalApproval__c": null,
+            "Approval__c": null,
+            "logoRectangleUrl__c": "https://images.comparethemarket.com.au/habitat/assets/logos/lenders/BOQ.svg",
+            "logoSquareUrl__c": "https://images.comparethemarket.com.au/habitat/assets/logos/lenders/BOQ.svg",
+            "Description": "A proudly independent organisation, Bank of Queensland is one of the country’s foremost regional financial institutions. Headquartered in Brisbane, it’s one of Queensland’s oldest banks and has more than 160 branches around Australia, the majority of which are owner-managed rather than owned and run by BOQ. It currently provides a wide range of personal and business products including bank accounts, credit cards, insurance, and loans."
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef10"
+            },
+            "Name": "Bankwest",
+            "NewPurchase__c": null,
+            "Refinance__c": null,
+            "FirstHomeBuyer__c": null,
+            "TimetoFilePickUp__c": null,
+            "ConditionalApproval__c": null,
+            "Approval__c": null,
+            "logoRectangleUrl__c": "https://images.comparethemarket.com.au/habitat/assets/logos/lenders/BWS.svg",
+            "logoSquareUrl__c": "https://images.comparethemarket.com.au/habitat/assets/logos/lenders/BWS.svg",
+            "Description": "One of Western Australia’s only dedicated financial institutions, Bankwest was established in 1895 by the WA Government as a lender dealing exclusively to farmers. Since then, however, it has become a fully-fledged retail bank, and now services both personal and business customers all around the country. It was bought by Commonwealth Bank in 2008, and since then has operated as a division of its parent company."
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef11"
+            },
+            "Name": "HSBC",
+            "NewPurchase__c": null,
+            "Refinance__c": null,
+            "FirstHomeBuyer__c": null,
+            "TimetoFilePickUp__c": null,
+            "ConditionalApproval__c": null,
+            "Approval__c": null,
+            "logoRectangleUrl__c": null,
+            "logoSquareUrl__c": null,
+            "Description": "As one of the world’s largest financial institutions, HSBC knows what it’s doing when it comes to providing top-tier banking services. The banking behemoth set up shop in Australia in 1965, was awarded a commercial license in 1986 and now has 45 branches and offices around the country with over 2,000 employees. HSBC offers a wide range of personal and business products including bank accounts, credit cards, loans, and investment solutions."
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef12"
+            },
+            "Name": "Pepper Money",
+            "NewPurchase__c": null,
+            "Refinance__c": null,
+            "FirstHomeBuyer__c": null,
+            "TimetoFilePickUp__c": null,
+            "ConditionalApproval__c": null,
+            "Approval__c": null,
+            "logoRectangleUrl__c": "https://images.comparethemarket.com.au/habitat/assets/logos/lenders/PEP.svg",
+            "logoSquareUrl__c": "https://images.comparethemarket.com.au/habitat/assets/logos/lenders/PEP.svg",
+            "Description": "Starting in 2000 as a small-scale specialist home lender, Pepper now bills itself as one of Australia’s most trusted non-bank lenders. It’s helped over 250,000 Australians achieve their financial goals and has done so with sustainability and their communities in mind. For its 21st birthday, Pepper planted seven hectares-worth of forest and maintains a seedling nursery to support future reforestation efforts. Pepper currently offers home, car, and personal loans."
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef13"
+            },
+            "Name": "Great Southern Bank",
+            "NewPurchase__c": null,
+            "Refinance__c": null,
+            "FirstHomeBuyer__c": null,
+            "TimetoFilePickUp__c": null,
+            "ConditionalApproval__c": null,
+            "Approval__c": null,
+            "logoRectangleUrl__c": null,
+            "logoSquareUrl__c": null,
+            "Description": "Formerly known as CUA, Great Southern Bank is Australia’s largest customer-owned financial institution with over 560,000 customers around the country. It has been dedicated to helping its customers in any ways it can since its founding 75 years ago. It offers both personal and business products and has been a carbon-neutral business since August 2021."
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef14"
+            },
+            "Name": "AFG",
+            "NewPurchase__c": null,
+            "Refinance__c": null,
+            "FirstHomeBuyer__c": null,
+            "TimetoFilePickUp__c": null,
+            "ConditionalApproval__c": null,
+            "Approval__c": null,
+            "logoRectangleUrl__c": null,
+            "logoSquareUrl__c": null,
+            "Description": null
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef15"
+            },
+            "Name": "AFG Home Loans",
+            "NewPurchase__c": null,
+            "Refinance__c": null,
+            "FirstHomeBuyer__c": null,
+            "TimetoFilePickUp__c": null,
+            "ConditionalApproval__c": null,
+            "Approval__c": null,
+            "logoRectangleUrl__c": null,
+            "logoSquareUrl__c": null,
+            "Description": "AFG is a specialist home lender that’s been around for over 12 years and has an extensive network of more than 2,900 mortgage brokers all around Australia. AFG’s wide range of home loan products offers a solution for everyone, whether they be a first home buyer, an investor, or looking to refinance."
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef16"
+            },
+            "Name": "BankSA",
+            "NewPurchase__c": null,
+            "Refinance__c": null,
+            "FirstHomeBuyer__c": null,
+            "TimetoFilePickUp__c": null,
+            "ConditionalApproval__c": null,
+            "Approval__c": null,
+            "logoRectangleUrl__c": "https://images.comparethemarket.com.au/habitat/assets/logos/lenders/BSA.svg",
+            "logoSquareUrl__c": "https://images.comparethemarket.com.au/habitat/assets/logos/lenders/BSA.svg",
+            "Description": "As South Australia’s largest bank, BankSA plays a crucial part in the lives of countless South Australians on a daily basis. Founded in 1848 by John Hector as the Bank of South Australia, it was acquired by St.George Bank in 1997, and became part of the Westpac Group in 2008. From its humble beginnings as a one-man operation, it now serves one quarter of South Australians and has the state’s largest network of branches and ATMs."
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef17"
+            },
+            "Name": "Bank of Melbourne",
+            "NewPurchase__c": null,
+            "Refinance__c": null,
+            "FirstHomeBuyer__c": null,
+            "TimetoFilePickUp__c": null,
+            "ConditionalApproval__c": null,
+            "Approval__c": null,
+            "logoRectangleUrl__c": "https://images.comparethemarket.com.au/habitat/assets/logos/lenders/BOM.svg",
+            "logoSquareUrl__c": "https://images.comparethemarket.com.au/habitat/assets/logos/lenders/BOM.svg",
+            "Description": "Founded in 1989 and a member of the Westpac Group since 1997, Bank of Melbourne is a Victorian financial institution dedicated to serving its local communities. Through initiatives like a partnership with the MCG and investment in the arts via Collingwood Yards, Bank of Melbourne proudly demonstrates its commitment to the city of Melbourne. It currently offers everyday banking products, loans, and insurance."
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef18"
+            },
+            "Name": "Citi",
+            "NewPurchase__c": null,
+            "Refinance__c": null,
+            "FirstHomeBuyer__c": null,
+            "TimetoFilePickUp__c": null,
+            "ConditionalApproval__c": null,
+            "Approval__c": null,
+            "logoRectangleUrl__c": "https://images.comparethemarket.com.au/habitat/assets/logos/lenders/CIT.svg",
+            "logoSquareUrl__c": "https://images.comparethemarket.com.au/habitat/assets/logos/lenders/CIT.svg",
+            "Description": "Citibank is Citigroup’s consumer banking division, with nearly 3,000 branches around the world. It began its Australian operations in 1985, making it the first foreign bank to be granted an Australian banking license. Since then, it has used its international experience and resources to become one of Australia’s leading banks, offering a wide range of financial products including bank accounts, credit cards, home loans and insurance."
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef19"
+            },
+            "Name": "Virgin Money",
+            "NewPurchase__c": null,
+            "Refinance__c": null,
+            "FirstHomeBuyer__c": null,
+            "TimetoFilePickUp__c": null,
+            "ConditionalApproval__c": null,
+            "Approval__c": null,
+            "logoRectangleUrl__c": "https://images.comparethemarket.com.au/habitat/assets/logos/lenders/VMA.svg",
+            "logoSquareUrl__c": "https://images.comparethemarket.com.au/habitat/assets/logos/lenders/VMA.svg",
+            "Description": "Virgin Money is the financial services arm of the wider Virgin Group, operating across Australia and the UK. It launched in the Australian market in 2003 and is now a subsidiary of Bank of Queensland. Virgin Money’s goal is to help its customers live the truest versions of themselves. It currently offers everyday accounts, credit cards, home loans, insurance, and superannuation."
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef20"
+            },
+            "Name": "Westpac",
+            "NewPurchase__c": null,
+            "Refinance__c": null,
+            "FirstHomeBuyer__c": null,
+            "TimetoFilePickUp__c": null,
+            "ConditionalApproval__c": null,
+            "Approval__c": null,
+            "logoRectangleUrl__c": "https://images.comparethemarket.com.au/habitat/assets/logos/lenders/WPA.svg",
+            "logoSquareUrl__c": "https://images.comparethemarket.com.au/habitat/assets/logos/lenders/WPA.svg",
+            "Description": "The eponymous bank at the centre of the Westpac Group, Westpac is not only one of Australia’s ‘Big Four’ banks, but also the country’s first and oldest bank. It was founded in 1817 as the Bank of New South Wales, before becoming Westpac in 1982. Since then, it’s expanded its operations to New Zealand and parts of the Pacific, and now has divisions across the retail, business, wealth management and investment spheres. Its personal banking products include everyday accounts, credit cards, loans, insurance, and superannuation."
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef21"
+            },
+            "Name": "NAB",
+            "NewPurchase__c": null,
+            "Refinance__c": null,
+            "FirstHomeBuyer__c": null,
+            "TimetoFilePickUp__c": null,
+            "ConditionalApproval__c": null,
+            "Approval__c": null,
+            "logoRectangleUrl__c": "https://images.comparethemarket.com.au/habitat/assets/logos/lenders/NAB.svg",
+            "logoSquareUrl__c": "https://images.comparethemarket.com.au/habitat/assets/logos/lenders/NAB.svg",
+            "Description": "As one of Australia’s ‘Big Four’ banks, the country’s largest business bank and one of the 100 largest banks in the world, NAB serves more than 8 million customers at 900 locations across Australia, New Zealand and around the world. Their range of personal and business banking products includes everyday accounts, credit cards, loans, investment solutions and insurance."
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef22"
+            },
+            "Name": "Commonwealth",
+            "NewPurchase__c": null,
+            "Refinance__c": null,
+            "FirstHomeBuyer__c": null,
+            "TimetoFilePickUp__c": null,
+            "ConditionalApproval__c": null,
+            "Approval__c": null,
+            "logoRectangleUrl__c": "https://images.comparethemarket.com.au/habitat/assets/logos/lenders/CBA.svg",
+            "logoSquareUrl__c": "https://images.comparethemarket.com.au/habitat/assets/logos/lenders/CBA.svg",
+            "Description": "Popularly known as CommBank, Commonwealth Bank is a member of Australia’s banking ‘Big Four’ and the country’s largest bank. It was founded by the Australian Government in 1911, was privatised in 1996 and has since become a powerful entity in its own right, with a significant number of subsidiaries operating across Australasia. It offers both personal and business products, as well as its share trading platform, CommSec."
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef23"
+            },
+            "Name": "Genworth",
+            "NewPurchase__c": null,
+            "Refinance__c": null,
+            "FirstHomeBuyer__c": null,
+            "TimetoFilePickUp__c": null,
+            "ConditionalApproval__c": null,
+            "Approval__c": null,
+            "logoRectangleUrl__c": null,
+            "logoSquareUrl__c": null,
+            "Description": null
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef24"
+            },
+            "Name": "Bluestone",
+            "NewPurchase__c": null,
+            "Refinance__c": null,
+            "FirstHomeBuyer__c": null,
+            "TimetoFilePickUp__c": null,
+            "ConditionalApproval__c": null,
+            "Approval__c": null,
+            "logoRectangleUrl__c": "https://images.comparethemarket.com.au/habitat/assets/logos/lenders/BST.svg",
+            "logoSquareUrl__c": "https://images.comparethemarket.com.au/habitat/assets/logos/lenders/BST.svg",
+            "Description": "BlueStone is a specialist home lender headquartered in Sydney with thousands of customers across Australia and New Zealand. BlueStone prides itself on its personal approach to home loan vending, having done away with credit scores and instead prioritising a more comprehensive understanding of its customers’ financial situations. This helps them better meet their customers’ needs and help them find their perfect home loan."
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef25"
+            },
+            "Name": "Compare The Market",
+            "NewPurchase__c": null,
+            "Refinance__c": null,
+            "FirstHomeBuyer__c": null,
+            "TimetoFilePickUp__c": null,
+            "ConditionalApproval__c": null,
+            "Approval__c": null,
+            "logoRectangleUrl__c": null,
+            "logoSquareUrl__c": null,
+            "Description": null
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef26"
+            },
+            "Name": "ING",
+            "NewPurchase__c": null,
+            "Refinance__c": null,
+            "FirstHomeBuyer__c": null,
+            "TimetoFilePickUp__c": null,
+            "ConditionalApproval__c": null,
+            "Approval__c": null,
+            "logoRectangleUrl__c": "https://images.comparethemarket.com.au/habitat/assets/logos/lenders/ING.svg",
+            "logoSquareUrl__c": "https://images.comparethemarket.com.au/habitat/assets/logos/lenders/ING.svg",
+            "Description": "Renowned for its orange bank cards and ‘no-branches’ business model, ING has been operating in Australia since 1999. It was Australia’s first direct bank and is the fifth-biggest home lender after the ‘Big Four’. ING is also ‘Australia’s Most Recommended Bank’, with over 1,700 employees servicing more than 2 million customers around the country. ING currently offers bank accounts, credit cards, loans, insurance, and superannuation solutions."
+        }
+    ]
+}

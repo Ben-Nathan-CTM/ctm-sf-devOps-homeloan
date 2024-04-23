@@ -1,0 +1,33 @@
+<template>
+  <lightning-vertical-navigation
+    onselect={handleSelect}
+    selected-item="goals_objectives"
+  >
+    <lightning-vertical-navigation-section>
+      <lightning-vertical-navigation-item
+        label="Goals & Objectives"
+        name="goals_objectives"
+      ></lightning-vertical-navigation-item>
+      <lightning-vertical-navigation-item
+        label="Loan Summary"
+        name="loan_summary"
+      ></lightning-vertical-navigation-item>
+      <lightning-vertical-navigation-item
+        label="Applicant Details"
+        name="applicant_details"
+      ></lightning-vertical-navigation-item>
+      <lightning-vertical-navigation-item
+        label="Financial Position"
+        name="financial_position"
+      ></lightning-vertical-navigation-item>
+      <lightning-vertical-navigation-item
+        label="Lender Eligibility"
+        name="lender_eligibility"
+      ></lightning-vertical-navigation-item>
+      <lightning-vertical-navigation-item
+        label="Responsible Lending"
+        name="responsible_lending"
+      ></lightning-vertical-navigation-item>
+    </lightning-vertical-navigation-section>
+  </lightning-vertical-navigation>
+</template>

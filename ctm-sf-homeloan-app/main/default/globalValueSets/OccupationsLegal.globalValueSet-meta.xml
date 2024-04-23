@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>1791</fullName>
+        <default>false</default>
+        <label>Barrister</label>
+    </customValue>
+    <customValue>
+        <fullName>1792</fullName>
+        <default>false</default>
+        <label>Intellectual Property Lawyer</label>
+    </customValue>
+    <customValue>
+        <fullName>1793</fullName>
+        <default>false</default>
+        <label>Judge</label>
+    </customValue>
+    <customValue>
+        <fullName>1794</fullName>
+        <default>false</default>
+        <label>Judicial and Other Legal Professional</label>
+    </customValue>
+    <customValue>
+        <fullName>1795</fullName>
+        <default>false</default>
+        <label>Magistrate</label>
+    </customValue>
+    <customValue>
+        <fullName>1796</fullName>
+        <default>false</default>
+        <label>Solicitor</label>
+    </customValue>
+    <customValue>
+        <fullName>1797</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <masterLabel>OccupationsLegal</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

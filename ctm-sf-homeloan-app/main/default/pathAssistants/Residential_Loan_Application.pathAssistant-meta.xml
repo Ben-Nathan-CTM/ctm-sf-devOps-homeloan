@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>ResidentialLoanApplication__c</entityName>
+    <fieldName>ApplicationStatus__c</fieldName>
+    <masterLabel>Residential Loan Application</masterLabel>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;span style=&quot;font-size: 14.6667px; font-family: Calibri, sans-serif;&quot;&gt;Unconditional Approval held, awaiting document production by Lender&lt;/span&gt;&lt;/p&gt;</info>
+        <picklistValueName>10</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;span style=&quot;font-size: 14.6667px; font-family: Calibri, sans-serif;&quot;&gt;Lender documents issued, awaiting return from customer&lt;/span&gt;&lt;/p&gt;</info>
+        <picklistValueName>11</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;span style=&quot;font-size: 14.6667px; font-family: Calibri, sans-serif;&quot;&gt;Lender documents  returned awaiting successful verification&lt;/span&gt;&lt;/p&gt;</info>
+        <picklistValueName>12</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;span style=&quot;font-size: 14.6667px; font-family: Calibri, sans-serif;&quot;&gt;All actions completed awaiting settlement&lt;/span&gt;&lt;/p&gt;</info>
+        <picklistValueName>1846</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;span style=&quot;font-size: 14.6667px; font-family: Calibri, sans-serif;&quot;&gt;Settlement completed, awaiting completion of all post -settlement tasks&lt;/span&gt;&lt;/p&gt;</info>
+        <picklistValueName>1847</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>ClosedStatus__c</fieldNames>
+        <info>&lt;p&gt;&lt;strong&gt;To include options of closed reasons&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Won: Home Loan was successfully completed&lt;/li&gt;&lt;li&gt;Unable to Contact: Unable to make successful or ongoing contact with the member (refer notes)&lt;/li&gt;&lt;li&gt;Withdrawn - NPW: Customers circumstances have changed and/or no longer wish to proceed&lt;/li&gt;&lt;li&gt;Withdrawn - Pricing: Customers application was not able to be completed predominantly due to concerns with Pricing&lt;/li&gt;&lt;li&gt;Lost - Servicing: Customers application was not able to be completed predominantly due to concerns with Servicing&lt;/li&gt;&lt;li&gt;Lost - Policy: Customers application was not able to be completed predominantly due to concerns with &lt;span style=&quot;font-size: 13px;&quot;&gt;Policy&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Lost - Security: Customers application was not able to be completed predominantly due to concerns with Security&lt;/li&gt;&lt;li&gt;Lost - Ineligible: Do not meet CTM current eligibility criteria&lt;/li&gt;&lt;li&gt;Test: Test Application&lt;/li&gt;&lt;li&gt;Error: Application submitted in error&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>1848</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;span style=&quot;font-size: 14.6667px; font-family: Calibri, sans-serif;&quot;&gt;Application submitted and awaiting initial contact by Home Loan Specialist&lt;/span&gt;&lt;/p&gt;</info>
+        <picklistValueName>4</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;span style=&quot;font-size: 14.6667px; font-family: Calibri, sans-serif;&quot;&gt;Application currently undergoing customer engagement, verification &amp;amp; lender recommendation process&lt;/span&gt;&lt;/p&gt;</info>
+        <picklistValueName>5</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;span style=&quot;font-size: 14.6667px; font-family: Calibri, sans-serif;&quot;&gt;Credit Proposal has been issued to customer and awaiting return&lt;/span&gt;&lt;/p&gt;</info>
+        <picklistValueName>6</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;span style=&quot;font-size: 14.6667px; font-family: Calibri, sans-serif;&quot;&gt;Credit Proposal received and currently undergoing Flex &amp;amp; Lender Submission&lt;/span&gt;&lt;/p&gt;</info>
+        <picklistValueName>7</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;span style=&quot;font-size: 14.6667px; font-family: Calibri, sans-serif;&quot;&gt;Application Submitted to Lender and awaiting assessment&lt;/span&gt;&lt;/p&gt;</info>
+        <picklistValueName>8</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;span style=&quot;font-size: 14.6667px; font-family: Calibri, sans-serif;&quot;&gt;Conditional Approval held. To remain in this stage until Unconditional Approval&lt;/span&gt;&lt;/p&gt;</info>
+        <picklistValueName>9</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>__MASTER__</recordTypeName>
+</PathAssistant>

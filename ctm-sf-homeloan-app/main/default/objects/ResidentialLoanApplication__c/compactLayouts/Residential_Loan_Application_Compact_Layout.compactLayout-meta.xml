@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Residential_Loan_Application_Compact_Layout</fullName>
+    <fields>Name</fields>
+    <fields>LoanPurpose__c</fields>
+    <fields>LoanAmount__c</fields>
+    <fields>totalGrossMonthlyIncome__c</fields>
+    <fields>TotalDeclaredMonthlyExpenses__c</fields>
+    <fields>totalDeclaredDebtExposure__c</fields>
+    <fields>LenderReferenceNumber__c</fields>
+    <label>Residential Loan Application Compact Layout</label>
+</CompactLayout>

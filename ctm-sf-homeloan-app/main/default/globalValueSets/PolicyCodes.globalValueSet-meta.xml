@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>CREDIT_SCORE_AGE_001</fullName>
+        <default>false</default>
+        <label>At least one borrower&apos;s credit score exceeded the maximum age allowed by the lender</label>
+    </customValue>
+    <customValue>
+        <fullName>CREDIT_SCORE_HISTORY_001</fullName>
+        <default>false</default>
+        <label>At least one borrower does not have a clean credit history</label>
+    </customValue>
+    <customValue>
+        <fullName>EQUITY_RELEASE_001</fullName>
+        <default>false</default>
+        <label>Cash out amount has exceeded the maximum amount allowed by the lender</label>
+    </customValue>
+    <customValue>
+        <fullName>EQUITY_RELEASE_002</fullName>
+        <default>false</default>
+        <label>Cash out amount has exceeded the maximum percentage of the security value allowed by the lender</label>
+    </customValue>
+    <customValue>
+        <fullName>SERVICEABILITY_007</fullName>
+        <default>false</default>
+        <label>DSCR exceeds the threshold allowed by the lender</label>
+    </customValue>
+    <customValue>
+        <fullName>SERVICEABILITY_005</fullName>
+        <default>false</default>
+        <label>DTA exceeds the threshold allowed by the lender</label>
+    </customValue>
+    <customValue>
+        <fullName>SERVICEABILITY_004</fullName>
+        <default>false</default>
+        <label>DTI exceeds the threshold allowed by the lender</label>
+    </customValue>
+    <customValue>
+        <fullName>SERVICEABILITY_006</fullName>
+        <default>false</default>
+        <label>HUR exceeds the threshold allowed by the lender</label>
+    </customValue>
+    <customValue>
+        <fullName>SERVICEABILITY_003</fullName>
+        <default>false</default>
+        <label>IDH exceeds the threshold allowed by the lender</label>
+    </customValue>
+    <customValue>
+        <fullName>SERVICEABILITY_001</fullName>
+        <default>false</default>
+        <label>NDI exceeds the threshold allowed by the lender</label>
+    </customValue>
+    <customValue>
+        <fullName>EMPLOYMENT_TIME_001</fullName>
+        <default>false</default>
+        <label>No borrower has met the minimum employment eligibility time requirements</label>
+    </customValue>
+    <customValue>
+        <fullName>EMPLOYMENT_TYPE_001</fullName>
+        <default>false</default>
+        <label>No borrower has met the minimum employment eligibility type requirements</label>
+    </customValue>
+    <customValue>
+        <fullName>EMPLOYMENT_PROBATION_001</fullName>
+        <default>false</default>
+        <label>No borrower has met the minimum employment probation eligibility requirements</label>
+    </customValue>
+    <customValue>
+        <fullName>PRODUCT_001</fullName>
+        <default>false</default>
+        <label>No products matched the customer&apos;s specific criteria</label>
+    </customValue>
+    <customValue>
+        <fullName>BORROWER_002</fullName>
+        <default>false</default>
+        <label>One or more borrowers is not a citizen or permanent resident</label>
+    </customValue>
+    <customValue>
+        <fullName>BORROWER_001</fullName>
+        <default>false</default>
+        <label>One or more of the borrowers isn&apos;t old enough</label>
+    </customValue>
+    <customValue>
+        <fullName>LOCATION_PURPOSE_001</fullName>
+        <default>false</default>
+        <label>Properties in this location are not allowed for this loan purpose (new purchase, refi, etc)</label>
+    </customValue>
+    <customValue>
+        <fullName>LOCATION_PURCHASE_REASON_001</fullName>
+        <default>false</default>
+        <label>Properties in this location are not allowed for this purchase reason (INV or OO)</label>
+    </customValue>
+    <customValue>
+        <fullName>LOCATION_REPAYMENT_TYPE_001</fullName>
+        <default>false</default>
+        <label>Properties in this location are not allowed for this repayment type (IO or P&amp;I)</label>
+    </customValue>
+    <customValue>
+        <fullName>CONTRIBUTION_AMOUNT_001</fullName>
+        <default>false</default>
+        <label>The genuine savings contribution doesn&apos;t meet the minimum requirements</label>
+    </customValue>
+    <customValue>
+        <fullName>LOAN_AMOUNT_001</fullName>
+        <default>false</default>
+        <label>The loan amount exceeds the maximum loan amount allowed by the lender</label>
+    </customValue>
+    <customValue>
+        <fullName>LOAN_AMOUNT_002</fullName>
+        <default>false</default>
+        <label>The loan amount is below the minimum loan amount allowed by the lender</label>
+    </customValue>
+    <customValue>
+        <fullName>LVR_001</fullName>
+        <default>false</default>
+        <label>The loan to value ratio has exceeded the maximum allowed for this loan</label>
+    </customValue>
+    <customValue>
+        <fullName>DEBT_CONSOLIDATION_002</fullName>
+        <default>false</default>
+        <label>The number of debts being consolidated is greater than the number allowed by the lender</label>
+    </customValue>
+    <customValue>
+        <fullName>PROPERTY_SIZE_001</fullName>
+        <default>false</default>
+        <label>The property being purchased is under the minimum allowed size</label>
+    </customValue>
+    <customValue>
+        <fullName>LOCATION_001</fullName>
+        <default>false</default>
+        <label>The property security is in a restricted postcode</label>
+    </customValue>
+    <customValue>
+        <fullName>LOCATION_002</fullName>
+        <default>false</default>
+        <label>The security location wasn&apos;t found in the lender&apos;s location tables</label>
+    </customValue>
+    <customValue>
+        <fullName>DEBT_CONSOLIDATION_001</fullName>
+        <default>false</default>
+        <label>The total amount of debt consolidated has exceeded the maximum percentage allowed by the lender</label>
+    </customValue>
+    <customValue>
+        <fullName>REPAYMENT_TYPE_001</fullName>
+        <default>false</default>
+        <label>This lender doesn&apos;t allow interest only repayments</label>
+    </customValue>
+    <customValue>
+        <fullName>REPAYMENT_TYPE_002</fullName>
+        <default>false</default>
+        <label>This lender doesn&apos;t allow principle and interest repayments</label>
+    </customValue>
+    <customValue>
+        <fullName>SERVICEABILITY_002</fullName>
+        <default>false</default>
+        <label>UMI exceeds the threshold allowed by the lender</label>
+    </customValue>
+    <customValue>
+        <fullName>LOAN_BORROWER_001</fullName>
+        <default>false</default>
+        <label>The applicants on the loan do not match the owners of the property being refinanced</label>
+    </customValue>
+    <masterLabel>PolicyCodes</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

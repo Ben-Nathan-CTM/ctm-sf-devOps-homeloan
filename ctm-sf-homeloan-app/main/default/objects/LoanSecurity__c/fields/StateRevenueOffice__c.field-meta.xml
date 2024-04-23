@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>StateRevenueOffice__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(
+    PropertyAddress__StateCode__s,
+    &quot;ACT&quot;, &quot;Australian Capital Territory (ACT) Revenue Office&quot;,
+    &quot;NSW&quot;, &quot;New South Wales (NSW) Office of State Revenue&quot;,
+    &quot;NT&quot;, &quot;Northern Territory (NT) Department of Treasury and Finance&quot;,
+    &quot;QLD&quot;, &quot;Queensland (QLD) Treasury&quot;,
+    &quot;SA&quot;, &quot;South Australia (SA) Department of Treasury and Finance&quot;,
+    &quot;VIC&quot;, &quot;Victorian (VIC) State Revenue Office&quot;,
+    &quot;WA&quot;, &quot;Western Australia (WA) Department of Finance&quot;,
+    &quot;Unknown State&quot;
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>State Revenue Office</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
