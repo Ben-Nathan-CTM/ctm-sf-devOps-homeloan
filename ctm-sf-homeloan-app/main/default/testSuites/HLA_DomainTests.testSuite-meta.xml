@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ApexTestSuite xmlns="http://soap.sforce.com/2006/04/metadata">
+    <testClassName>HLA_IdentificationTest</testClassName>
+    <testClassName>HLA_LoanApplicantAssetsTest</testClassName>
+    <testClassName>HLA_LoanApplicantEmploymentsTest</testClassName>
+    <testClassName>HLA_LoanApplicantExpensesTest</testClassName>
+    <testClassName>HLA_LoanApplicantIncomesTest</testClassName>
+    <testClassName>HLA_LoanApplicantLiabilitiesTest</testClassName>
+    <testClassName>HLA_LoanApplicantsTest</testClassName>
+    <testClassName>HLA_LoanApplicationAssetsTest</testClassName>
+    <testClassName>HLA_LoanApplicationDocumentsTest</testClassName>
+    <testClassName>HLA_LoanApplicationExpensesTest</testClassName>
+    <testClassName>HLA_LoanApplicationIncomeTest</testClassName>
+    <testClassName>HLA_LoanApplicationLiabilitiesTest</testClassName>
+    <testClassName>HLA_LoanApplicationProductsTest</testClassName>
+    <testClassName>HLA_LoanContributionsTest</testClassName>
+    <testClassName>HLA_LoanCostsTest</testClassName>
+    <testClassName>HLA_LoanEquityReleasesTest</testClassName>
+    <testClassName>HLA_LoanSecuritiesTest</testClassName>
+    <testClassName>HLA_LoanSplitsTest</testClassName>
+    <testClassName>HLA_LoansTest</testClassName>
+    <testClassName>HLA_ProductRecommendationsTest</testClassName>
+    <testClassName>HLA_ResidentialLoanApplicationsTest</testClassName>
+    <testClassName>HLA_TaskListEventsTest</testClassName>
+</ApexTestSuite>

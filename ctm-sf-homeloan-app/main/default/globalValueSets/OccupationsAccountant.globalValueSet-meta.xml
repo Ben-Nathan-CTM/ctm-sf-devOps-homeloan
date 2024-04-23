@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>1798</fullName>
+        <default>false</default>
+        <label>Accountant</label>
+    </customValue>
+    <customValue>
+        <fullName>1799</fullName>
+        <default>false</default>
+        <label>Actuary</label>
+    </customValue>
+    <customValue>
+        <fullName>1800</fullName>
+        <default>false</default>
+        <label>Auditor</label>
+    </customValue>
+    <customValue>
+        <fullName>1801</fullName>
+        <default>false</default>
+        <label>Chief Executive (Chief Financial Officer)</label>
+    </customValue>
+    <customValue>
+        <fullName>1802</fullName>
+        <default>false</default>
+        <label>Finance Manager</label>
+    </customValue>
+    <customValue>
+        <fullName>1803</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <masterLabel>OccupationsAccountant</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

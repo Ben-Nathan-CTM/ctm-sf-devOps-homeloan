@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TenureType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Land’s Tenure type</description>
+    <externalId>false</externalId>
+    <label>Tenure Type</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Community Title</fullName>
+                <default>false</default>
+                <label>Community Title</label>
+            </value>
+            <value>
+                <fullName>Company Title</fullName>
+                <default>false</default>
+                <label>Company Title</label>
+            </value>
+            <value>
+                <fullName>Crown Land</fullName>
+                <default>false</default>
+                <label>Crown Land</label>
+            </value>
+            <value>
+                <fullName>Crown Lease</fullName>
+                <default>false</default>
+                <label>Crown Lease</label>
+            </value>
+            <value>
+                <fullName>Freehold</fullName>
+                <default>false</default>
+                <label>Freehold</label>
+            </value>
+            <value>
+                <fullName>Group Titles Plan</fullName>
+                <default>false</default>
+                <label>Group Titles Plan</label>
+            </value>
+            <value>
+                <fullName>Leasehold</fullName>
+                <default>false</default>
+                <label>Leasehold</label>
+            </value>
+            <value>
+                <fullName>Moiety Title</fullName>
+                <default>false</default>
+                <label>Moiety Title</label>
+            </value>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>Other Title</fullName>
+                <default>false</default>
+                <label>Other Title</label>
+            </value>
+            <value>
+                <fullName>Purple Title</fullName>
+                <default>false</default>
+                <label>Purple Title</label>
+            </value>
+            <value>
+                <fullName>Strata Title</fullName>
+                <default>false</default>
+                <label>Strata Title</label>
+            </value>
+            <value>
+                <fullName>Stratum Title</fullName>
+                <default>false</default>
+                <label>Stratum Title</label>
+            </value>
+            <value>
+                <fullName>Unit Title</fullName>
+                <default>false</default>
+                <label>Unit Title</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>UMI__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>Uncommitted monthly income refers to the portion of a borrower&apos;s income that is available after deducting their monthly debt obligations. It represents the amount of income that can be allocated towards new loan repayments, indicating the borrower&apos;s capacity to take on additional debt.</inlineHelpText>
+    <label>UMI</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

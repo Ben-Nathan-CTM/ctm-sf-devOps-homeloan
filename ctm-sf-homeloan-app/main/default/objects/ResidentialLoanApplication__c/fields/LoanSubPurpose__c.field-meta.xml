@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LoanSubPurpose__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Loan SubPurpose</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>LoanPurpose__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Owner Occupied</fullName>
+                <default>false</default>
+                <label>Owner Occupied</label>
+            </value>
+            <value>
+                <fullName>Investment</fullName>
+                <default>false</default>
+                <label>Investment</label>
+            </value>
+            <value>
+                <fullName>Undertake major home renovations</fullName>
+                <default>false</default>
+                <label>Undertake major home renovations</label>
+            </value>
+            <value>
+                <fullName>Undertake minor home renovations</fullName>
+                <default>false</default>
+                <label>Undertake minor home renovations</label>
+            </value>
+            <value>
+                <fullName>Obtain a lower interest rate</fullName>
+                <default>false</default>
+                <label>Obtain a lower interest rate</label>
+            </value>
+            <value>
+                <fullName>Consolidate debt</fullName>
+                <default>false</default>
+                <label>Consolidate debt</label>
+            </value>
+            <value>
+                <fullName>For property investment purposes</fullName>
+                <default>false</default>
+                <label>For property investment purposes</label>
+            </value>
+            <value>
+                <fullName>For business or investment purposes</fullName>
+                <default>false</default>
+                <label>For business or investment purposes</label>
+            </value>
+            <value>
+                <fullName>Cash for personal use</fullName>
+                <default>false</default>
+                <label>Cash for personal use</label>
+            </value>
+            <value>
+                <fullName>A loan to better suit needs</fullName>
+                <default>false</default>
+                <label>A loan to better suit needs</label>
+            </value>
+            <value>
+                <fullName>Access available equity</fullName>
+                <default>false</default>
+                <label>Access available equity</label>
+            </value>
+            <value>
+                <fullName>Unhappy with current lender</fullName>
+                <default>false</default>
+                <label>Unhappy with current lender</label>
+            </value>
+            <value>
+                <fullName>Looking to reduce my repayments</fullName>
+                <default>false</default>
+                <label>Looking to reduce my repayments</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Purchase</controllingFieldValue>
+            <controllingFieldValue>Purchase Residential Property</controllingFieldValue>
+            <controllingFieldValue>Construct Residential Property on Vacant Land</controllingFieldValue>
+            <controllingFieldValue>Purchase Vacant Land Construct Residential Property</controllingFieldValue>
+            <valueName>Owner Occupied</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Purchase</controllingFieldValue>
+            <controllingFieldValue>Refinance</controllingFieldValue>
+            <controllingFieldValue>Refinance Residential Property</controllingFieldValue>
+            <controllingFieldValue>Construct Residential Property on Vacant Land</controllingFieldValue>
+            <controllingFieldValue>Purchase Vacant Land Construct Residential Property</controllingFieldValue>
+            <controllingFieldValue>Purchase Vacant Land</controllingFieldValue>
+            <valueName>For property investment purposes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Purchase</controllingFieldValue>
+            <controllingFieldValue>Refinance</controllingFieldValue>
+            <controllingFieldValue>Refinance Residential Property</controllingFieldValue>
+            <controllingFieldValue>Construct Residential Property on Vacant Land</controllingFieldValue>
+            <controllingFieldValue>Purchase Vacant Land</controllingFieldValue>
+            <valueName>For business or investment purposes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Refinance</controllingFieldValue>
+            <controllingFieldValue>Refinance Residential Property</controllingFieldValue>
+            <valueName>Undertake major home renovations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Refinance</controllingFieldValue>
+            <controllingFieldValue>Refinance Residential Property</controllingFieldValue>
+            <valueName>Undertake minor home renovations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Refinance</controllingFieldValue>
+            <controllingFieldValue>Refinance Residential Property</controllingFieldValue>
+            <valueName>Obtain a lower interest rate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Refinance</controllingFieldValue>
+            <controllingFieldValue>Refinance Residential Property</controllingFieldValue>
+            <valueName>Consolidate debt</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Refinance</controllingFieldValue>
+            <controllingFieldValue>Refinance Residential Property</controllingFieldValue>
+            <valueName>Cash for personal use</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Refinance</controllingFieldValue>
+            <controllingFieldValue>Refinance Residential Property</controllingFieldValue>
+            <valueName>A loan to better suit needs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Purchase Residential Property</controllingFieldValue>
+            <valueName>Investment</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

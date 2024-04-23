@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description
+  >List of Tasks to automatically create whenever a Home Loan Application is first created</description>
+    <label>HLA_TaskListAutomation</label>
+    <pluralLabel>HLA_TaskListAutomation</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

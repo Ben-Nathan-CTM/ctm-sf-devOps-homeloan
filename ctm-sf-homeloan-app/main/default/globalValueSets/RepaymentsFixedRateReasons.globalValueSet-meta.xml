@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>868</fullName>
+        <default>false</default>
+        <label>I’d like to have certainty of repayments for budgeting purposes</label>
+    </customValue>
+    <customValue>
+        <fullName>869</fullName>
+        <default>false</default>
+        <label>I&apos;m concerned rates will rise and want to lock in a lower rate</label>
+    </customValue>
+    <customValue>
+        <fullName>870</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <masterLabel>RepaymentsFixedRateReasons</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

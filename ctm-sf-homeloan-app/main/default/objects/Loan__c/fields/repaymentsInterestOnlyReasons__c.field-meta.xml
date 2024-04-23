@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>repaymentsInterestOnlyReasons__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Repayments Interest Only Reasons</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>RepaymentsInterestOnlyReasons</valueSetName>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

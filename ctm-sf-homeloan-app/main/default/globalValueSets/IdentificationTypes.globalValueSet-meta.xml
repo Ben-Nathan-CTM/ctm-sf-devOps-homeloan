@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>711</fullName>
+        <default>false</default>
+        <label>Drivers License</label>
+    </customValue>
+    <customValue>
+        <fullName>712</fullName>
+        <default>false</default>
+        <label>Australian Passport</label>
+    </customValue>
+    <customValue>
+        <fullName>713</fullName>
+        <default>false</default>
+        <label>Foreign Passport</label>
+    </customValue>
+    <masterLabel>IdentificationTypes</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

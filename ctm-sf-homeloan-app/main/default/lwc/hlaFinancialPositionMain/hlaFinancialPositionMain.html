@@ -1,0 +1,210 @@
+<template>
+  <template lwc:if={isLoading}>
+    <lightning-spinner
+      alternative-text="Loading"
+      size="small"
+      variant="brand"
+    ></lightning-spinner>
+  </template>
+  <template lwc:else>
+    <div class="slds-box">
+      <lightning-layout multiple-rows>
+        <lightning-layout-item
+          class="slds-p-bottom_small slds-align_absolute-center"
+        >
+          <lightning-combobox
+            name="frequency"
+            value={selectedFrequency}
+            placeholder="Select Progress"
+            options={frequencyChoices}
+            onchange={handleFrequecyChange}
+          ></lightning-combobox>
+        </lightning-layout-item>
+        <lightning-layout-item size="12">
+          <div class="slds-box">
+            <lightning-layout horizontal-align="spread">
+              <lightning-layout-item size="2" padding="horizontal-small">
+                <lightning-card
+                  variant="Narrow"
+                  title="ASSETS"
+                  icon-name="custom:custom16"
+                >
+                  <p>{assetTotals}</p>
+                </lightning-card>
+              </lightning-layout-item>
+              <lightning-layout-item size="2" padding="horizontal-small">
+                <lightning-card
+                  variant="Narrow"
+                  title="LIABILITIES"
+                  icon-name="custom:custom18"
+                >
+                  <p>{liabilitiesTotals}</p>
+                </lightning-card>
+              </lightning-layout-item>
+              <lightning-layout-item size="2" padding="horizontal-small">
+                <lightning-card
+                  variant="Narrow"
+                  title="INCOME"
+                  icon-name="custom:custom17"
+                >
+                  <p>{incomeTotals}</p>
+                </lightning-card>
+              </lightning-layout-item>
+              <lightning-layout-item size="2" padding="horizontal-small">
+                <lightning-card
+                  variant="Narrow"
+                  title="DEBT EXPENSES"
+                  icon-name="custom:custom90"
+                >
+                  <p>{debtExpenseTotals}</p>
+                </lightning-card>
+              </lightning-layout-item>
+              <lightning-layout-item size="2" padding="horizontal-small">
+                <lightning-card
+                  variant="Narrow"
+                  title="LIVING EXPENSES"
+                  icon-name="custom:custom40"
+                >
+                  <p>{livingExpenseTotals}</p>
+                </lightning-card>
+              </lightning-layout-item>
+            </lightning-layout>
+          </div>
+        </lightning-layout-item>
+        <lightning-layout-item size="12" class="slds-p-top_small">
+          <div class="slds-card slds-box">
+            <div class="slds-box slds-theme_shade">
+              <h6 slot="title">
+                <strong>ASSETS</strong
+                ><template lwc:if={hasAssets}>
+                  <lightning-badge
+                    label={assetTotals}
+                    class="slds-badge_inverse slds-float_right"
+                  ></lightning-badge
+                ></template>
+              </h6>
+            </div>
+            <template lwc:if={hasAssets}>
+              <lightning-datatable
+                key-field="id"
+                data={assetRecords}
+                columns={assetColumns}
+                column-widths-mode="auto"
+                hide-checkbox-column
+              >
+              </lightning-datatable>
+            </template>
+            <template lwc:else>{NO_ASSETS_MESSAGE}</template>
+          </div>
+        </lightning-layout-item>
+        <lightning-layout-item size="12" class="slds-p-top_small">
+          <div class="slds-card slds-box">
+            <div class="slds-box slds-theme_shade">
+              <h6 slot="title">
+                <strong>LIABILITIES</strong
+                ><template lwc:if={hasLiabilities}>
+                  <lightning-badge
+                    label={liabilitiesTotals}
+                    class="slds-badge_inverse slds-float_right"
+                  ></lightning-badge
+                ></template>
+              </h6>
+            </div>
+            <template lwc:if={hasLiabilities}>
+              <lightning-datatable
+                key-field="id"
+                data={liabilitiesRecords}
+                columns={liabilitiesColumns}
+                column-widths-mode="auto"
+                hide-checkbox-column
+              >
+              </lightning-datatable>
+            </template>
+            <template lwc:else>{NO_LIABILITIES_MESSAGE}</template>
+          </div>
+        </lightning-layout-item>
+
+        <lightning-layout-item size="12" class="slds-p-top_small">
+          <div class="slds-card slds-box">
+            <div class="slds-box slds-theme_shade">
+              <h6 slot="title">
+                <strong>INCOME</strong
+                ><template lwc:if={hasIncome}>
+                  <lightning-badge
+                    label={incomeTotals}
+                    class="slds-badge_inverse slds-float_right"
+                  ></lightning-badge
+                ></template>
+              </h6>
+            </div>
+            <template lwc:if={hasIncome}>
+              <lightning-datatable
+                key-field="id"
+                data={incomeRecords}
+                columns={incomeColumns}
+                column-widths-mode="auto"
+                hide-checkbox-column
+              >
+              </lightning-datatable>
+            </template>
+            <template lwc:else>{NO_INCOME_MESSAGE}</template>
+          </div>
+        </lightning-layout-item>
+
+        <lightning-layout-item size="12" class="slds-p-top_small">
+          <div class="slds-card slds-box">
+            <div class="slds-box slds-theme_shade">
+              <h6 slot="title">
+                <strong>DEBT EXPENSES</strong>
+                <template lwc:if={hasDebtExpenses}>
+                  <lightning-badge
+                    label={debtExpenseTotals}
+                    class="slds-badge_inverse slds-float_right"
+                  ></lightning-badge
+                ></template>
+              </h6>
+            </div>
+            <template lwc:if={hasDebtExpenses}>
+              <lightning-datatable
+                key-field="id"
+                data={debtExpenseRecords}
+                columns={expenseColumns}
+                column-widths-mode="auto"
+                hide-checkbox-column
+              >
+              </lightning-datatable>
+            </template>
+            <template lwc:else>{NO_EXPENSES_MESSAGE}</template>
+          </div>
+        </lightning-layout-item>
+
+        <lightning-layout-item size="12" class="slds-p-top_small">
+          <div class="slds-card slds-box">
+            <div class="slds-box slds-theme_shade">
+              <h6 slot="title">
+                <strong>LIVING EXPENSES</strong
+                ><template lwc:if={hasLivingExpenses}
+                  ><lightning-badge
+                    label={livingExpenseTotals}
+                    class="slds-badge_inverse slds-float_right"
+                  ></lightning-badge
+                ></template>
+              </h6>
+            </div>
+            <template lwc:if={hasLivingExpenses}>
+              <lightning-datatable
+                key-field="id"
+                data={livingExpenseRecords}
+                columns={expenseColumns}
+                column-widths-mode="auto"
+                hide-checkbox-column
+              >
+              </lightning-datatable>
+            </template>
+            <template lwc:else>{NO_EXPENSES_MESSAGE}</template>
+          </div>
+        </lightning-layout-item>
+      </lightning-layout>
+    </div>
+  </template>
+</template>

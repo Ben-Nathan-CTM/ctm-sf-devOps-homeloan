@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>689</fullName>
+        <default>false</default>
+        <label>Debt Expense</label>
+    </customValue>
+    <customValue>
+        <fullName>690</fullName>
+        <default>false</default>
+        <label>Living Expense</label>
+    </customValue>
+    <masterLabel>ExpenseTypes</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

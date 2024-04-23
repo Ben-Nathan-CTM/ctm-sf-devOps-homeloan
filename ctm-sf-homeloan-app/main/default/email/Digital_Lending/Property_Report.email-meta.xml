@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Property Report</name>
+    <style>none</style>
+    <subject>Your FREE {!PropertyReport__c.Type__c} Report thanks to Compare the Market</subject>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

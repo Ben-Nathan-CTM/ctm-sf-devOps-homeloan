@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>607</fullName>
+        <default>false</default>
+        <label>Minor property renovations</label>
+    </customValue>
+    <customValue>
+        <fullName>608</fullName>
+        <default>false</default>
+        <label>Cash out for personal use</label>
+    </customValue>
+    <customValue>
+        <fullName>610</fullName>
+        <default>false</default>
+        <label>Cash out for business or other investment purposes</label>
+    </customValue>
+    <customValue>
+        <fullName>611</fullName>
+        <default>false</default>
+        <label>Cash out for property investment purposes</label>
+    </customValue>
+    <masterLabel>EquityReleaseTypes</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

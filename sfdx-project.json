@@ -1,0 +1,154 @@
+{
+  "packageDirectories": [
+    {
+      "path": "ctm-sf-homeloan-app",
+      "package": "ctm-sf-homeloan-app",
+      "versionName": "ver 0.1.19",
+      "versionNumber": "0.1.19.NEXT",
+      "default": true,
+      "unpackagedMetadata": {
+        "path": "unpackaged-metadata"
+      },
+      "dependencies": [
+        {
+          "package": "ctm-sf-apex-mocks",
+          "versionNumber": "1.0.0.LATEST"
+        },
+        {
+          "package": "ctm-sf-apex-common",
+          "versionNumber": "1.0.0.LATEST"
+        },
+        {
+          "package": "ctm-sf-force-di",
+          "versionNumber": "1.0.0.LATEST"
+        },
+        {
+          "package": "ctm-sf-at4dx",
+          "versionNumber": "1.2.0.LATEST"
+        },
+        {
+          "package": "ctm-sf-utils",
+          "versionNumber": "1.2.8.LATEST"
+        },
+        {
+          "package": "Twilio@4.142"
+        },
+        {
+          "package": "DocuSign@6.3.1"
+        },
+        {
+          "package": "NebulaLogger@4.9.0"
+        },
+        {
+          "package": "ApexRollup@1.5.71"
+        },
+        {
+          "package": "ctm-sf-common",
+          "versionNumber": "1.1.12.LATEST"
+        },
+        {
+          "package": "ctm-sf-ca",
+          "versionNumber": "1.1.5.LATEST"
+        },
+        {
+          "package": "ctm-sf-homeloan-configs",
+          "versionNumber": "1.0.10.LATEST"
+        },
+        {
+          "package": "salesforce-round-robin@0.1.3"
+        }
+      ]
+    },
+    {
+      "path": "unpackaged-metadata",
+      "default": false
+    }
+  ],
+  "name": "ctm-sf-homeloan-app",
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "58.0",
+  "packageAliases": {
+    "ctm-sf-contract-register": "0Ho960000000014CAA",
+    "ctm-sf-homeloan-configs": "0Ho96000000001nCAA",
+    "ctm-sf-apex-mocks": "0Ho96000000000uCAA",
+    "ctm-sf-apex-common": "0Ho96000000000zCAA",
+    "ctm-sf-force-di": "0Ho960000000019CAA",
+    "ctm-sf-at4dx": "0Ho96000000001YCAQ",
+    "ctm-sf-utils": "0Ho96000000001iCAA",
+    "Twilio@4.142": "04t3m000002D9hu",
+    "ctm-sf-common": "0Ho96000000001dCAA",
+    "ctm-sf-ca": "0Ho5g000000XZsECAW",
+    "ctm-sf-homeloan-app": "0Ho96000000001sCAA",
+    "salesforce-round-robin@0.1": "04t6g000008SjpyAAC",
+    "salesforce-round-robin@0.1.3": "04t6g000008C6lwAAC",
+    "ctm-sf-homeloan-app@0.0.1-2": "04t960000000Sa5AAE",
+    "ctm-sf-homeloan-app@0.0.1-5": "04t960000000SfpAAE",
+    "ctm-sf-homeloan-app@0.1.0-1": "04t960000000SkRAAU",
+    "ctm-sf-homeloan-app@0.1.0-3": "04t960000000SojAAE",
+    "NebulaLogger@4.9.0": "04t5Y0000023R28QAE",
+    "ApexRollup@1.5.71": "04t6g000008So61AAC",
+    "DocuSign@6.3.1": "04t3u000003asycAAA",
+    "ctm-sf-homeloan-app@0.1.0-5": "04t960000000TMZAA2",
+    "ctm-sf-homeloan-app@0.1.0-7": "04t960000000TMjAAM",
+    "ctm-sf-homeloan-app@0.1.0-8": "04t960000000TMoAAM",
+    "ctm-sf-homeloan-app@0.1.0-9": "04t960000000TMtAAM",
+    "ctm-sf-homeloan-app@0.1.0-10": "04t960000000TN8AAM",
+    "ctm-sf-homeloan-app@0.1.0-11": "04t960000000TNDAA2",
+    "ctm-sf-homeloan-app@0.1.0-12": "04t960000000TRfAAM",
+    "ctm-sf-homeloan-app@0.1.0-13": "04t960000000TWMAA2",
+    "ctm-sf-homeloan-app@0.1.0-14": "04t960000000TfQAAU",
+    "ctm-sf-homeloan-app@0.1.0-15": "04t960000000TnqAAE",
+    "ctm-sf-homeloan-app@0.1.0-16": "04t960000000TnvAAE",
+    "ctm-sf-homeloan-app@0.1.0-18": "04t960000000U1qAAE",
+    "ctm-sf-homeloan-app@0.1.0-19": "04t960000000U2tAAE",
+    "ctm-sf-homeloan-app@0.1.0-20": "04t960000000U2yAAE",
+    "ctm-sf-homeloan-app@0.1.0-21": "04t960000000U33AAE",
+    "ctm-sf-homeloan-app@0.1.0-22": "04t960000000U38AAE",
+    "ctm-sf-homeloan-app@0.1.0-23": "04t960000000U3DAAU",
+    "ctm-sf-homeloan-app@0.1.0-24": "04t960000000U3IAAU",
+    "ctm-sf-homeloan-app@0.1.0-25": "04t960000000U3rAAE",
+    "ctm-sf-homeloan-app@0.1.1-1": "04t960000000U46AAE",
+    "ctm-sf-homeloan-app@0.1.1-2": "04t960000000U4GAAU",
+    "ctm-sf-homeloan-app@0.1.1-3": "04t960000000U59AAE",
+    "ctm-sf-homeloan-app@0.1.2-1": "04t960000000U6MAAU",
+    "ctm-sf-homeloan-app@0.1.2-2": "04t960000000U6RAAU",
+    "ctm-sf-homeloan-app@0.1.3-4": "04t960000000U7eAAE",
+    "ctm-sf-homeloan-app@0.1.7-1": "04t960000000U9LAAU",
+    "ctm-sf-homeloan-app@0.1.7-2": "04t960000000U9uAAE",
+    "ctm-sf-homeloan-app@0.1.7-3": "04t960000000UA4AAM",
+    "ctm-sf-homeloan-app@0.1.7-4": "04t960000000UA9AAM",
+    "ctm-sf-homeloan-app@0.1.7-5": "04t960000000UAJAA2",
+    "ctm-sf-homeloan-app@0.1.7-6": "04t960000000UAOAA2",
+    "ctm-sf-homeloan-app@0.1.7-7": "04t960000000UATAA2",
+    "ctm-sf-homeloan-app@0.1.7-8": "04t960000000UAnAAM",
+    "ctm-sf-homeloan-app@0.1.7-9": "04t960000000UAxAAM",
+    "ctm-sf-homeloan-app@0.1.7-10": "04t960000000UCoAAM",
+    "ctm-sf-homeloan-app@0.1.7-11": "04t960000000UCtAAM",
+    "ctm-sf-homeloan-app@0.1.8-1": "04t960000000UBRAA2",
+    "ctm-sf-homeloan-app@0.1.8-2": "04t960000000UBgAAM",
+    "ctm-sf-homeloan-app@0.1.8-3": "04t960000000UBqAAM",
+    "ctm-sf-homeloan-app@0.1.9-1": "04t960000000UD8AAM",
+    "ctm-sf-homeloan-app@0.1.9-2": "04t960000000UDhAAM",
+    "ctm-sf-homeloan-app@0.1.9-3": "04t960000000UDrAAM",
+    "ctm-sf-homeloan-app@0.1.9-4": "04t960000000UEfAAM",
+    "ctm-sf-homeloan-app@0.1.10-1": "04t960000000UFEAA2",
+    "ctm-sf-homeloan-app@0.1.10-2": "04t960000000UFYAA2",
+    "ctm-sf-homeloan-app@0.1.10-3": "04t960000000UFdAAM",
+    "ctm-sf-homeloan-app@0.1.10-4": "04t960000000UFiAAM",
+    "ctm-sf-homeloan-app@0.1.10-5": "04t960000000UFnAAM",
+    "ctm-sf-homeloan-app@0.1.11-1": "04t960000000UFsAAM",
+    "ctm-sf-homeloan-app@0.1.11-2": "04t960000000UFxAAM",
+    "ctm-sf-homeloan-app@0.1.11-3": "04t960000000UG2AAM",
+    "ctm-sf-homeloan-app@0.1.12-1": "04tOm00000005nhIAA",
+    "ctm-sf-homeloan-app@0.1.12-2": "04tOm00000009zNIAQ",
+    "ctm-sf-homeloan-app@0.1.13-1": "04tOm0000000BxxIAE",
+    "ctm-sf-homeloan-app@0.1.13-2": "04tOm0000000FzxIAE",
+    "ctm-sf-homeloan-app@0.1.13-3": "04tOm0000000GXpIAM",
+    "ctm-sf-homeloan-app@0.1.13-4": "04tOm0000000JU5IAM",
+    "ctm-sf-homeloan-app@0.1.13-5": "04tOm0000000L2rIAE",
+    "ctm-sf-homeloan-app@0.1.13-6": "04tOm0000000OqLIAU",
+    "ctm-sf-homeloan-app@0.1.14-12": "04tOm0000000bnZIAQ",
+    "ctm-sf-homeloan-app@0.1.18-3": "04tOm0000000xjFIAQ"
+  }
+}

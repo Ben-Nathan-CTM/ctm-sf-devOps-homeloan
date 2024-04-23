@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LoanApplicationAsset__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Loan Application Asset</label>
+    <referenceTo>LoanApplicationAsset__c</referenceTo>
+    <relationshipLabel>Loan Application Liabilities</relationshipLabel>
+    <relationshipName>Loan_Application_Liabilities</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

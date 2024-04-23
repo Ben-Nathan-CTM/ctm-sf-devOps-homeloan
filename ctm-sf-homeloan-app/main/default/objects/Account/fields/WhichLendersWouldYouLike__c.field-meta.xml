@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WhichLendersWouldYouLike__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Which Lenders Would You Like</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>MAJOR_BANKS</fullName>
+                <default>false</default>
+                <label>MAJOR BANKS</label>
+            </value>
+            <value>
+                <fullName>POPULAR_LENDERS</fullName>
+                <default>false</default>
+                <label>POPULAR LENDERS</label>
+            </value>
+            <value>
+                <fullName>MUTUALS_CREDIT_UNIONS</fullName>
+                <default>false</default>
+                <label>MUTUALS CREDIT UNIONS</label>
+            </value>
+            <value>
+                <fullName>NON_BANK</fullName>
+                <default>false</default>
+                <label>NON BANK</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

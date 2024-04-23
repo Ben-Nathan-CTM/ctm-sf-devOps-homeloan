@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>38</fullName>
+        <default>false</default>
+        <label>Motor Vehicle</label>
+    </customValue>
+    <customValue>
+        <fullName>39</fullName>
+        <default>false</default>
+        <label>Motorcycle</label>
+    </customValue>
+    <customValue>
+        <fullName>40</fullName>
+        <default>false</default>
+        <label>Boat</label>
+    </customValue>
+    <customValue>
+        <fullName>41</fullName>
+        <default>false</default>
+        <label>Campervan or Motorhome</label>
+    </customValue>
+    <customValue>
+        <fullName>42</fullName>
+        <default>false</default>
+        <label>Light Trailer or Caravan</label>
+    </customValue>
+    <masterLabel>AssetVehicleType</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

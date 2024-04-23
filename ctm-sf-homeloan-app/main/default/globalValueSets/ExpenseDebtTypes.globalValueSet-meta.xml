@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>619</fullName>
+        <default>false</default>
+        <label>Owner Occupied Property - Residential Mortgage Loan Payments</label>
+    </customValue>
+    <customValue>
+        <fullName>620</fullName>
+        <default>false</default>
+        <label>Investment Property - Residential Mortgage Loan Payments</label>
+    </customValue>
+    <customValue>
+        <fullName>621</fullName>
+        <default>false</default>
+        <label>Investment Property - Commercial Mortgage Loan Payments</label>
+    </customValue>
+    <customValue>
+        <fullName>622</fullName>
+        <default>false</default>
+        <label>Card Payments</label>
+    </customValue>
+    <customValue>
+        <fullName>623</fullName>
+        <default>false</default>
+        <label>Vehicle Payments</label>
+    </customValue>
+    <customValue>
+        <fullName>624</fullName>
+        <default>false</default>
+        <label>Personal Loan Payments</label>
+    </customValue>
+    <customValue>
+        <fullName>625</fullName>
+        <default>false</default>
+        <label>Overdraft Payments</label>
+    </customValue>
+    <customValue>
+        <fullName>626</fullName>
+        <default>false</default>
+        <label>Margin Loan Payments</label>
+    </customValue>
+    <customValue>
+        <fullName>627</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>628</fullName>
+        <default>false</default>
+        <label>ATO tax debt or Centrelink debt Repayments</label>
+    </customValue>
+    <customValue>
+        <fullName>1639</fullName>
+        <default>false</default>
+        <label>HECS HELP</label>
+    </customValue>
+    <masterLabel>ExpenseDebtTypes</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

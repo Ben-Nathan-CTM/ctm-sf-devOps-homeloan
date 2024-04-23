@@ -1,0 +1,8 @@
+<template>
+  <ul style="list-style-type: none">
+    Contributions
+    <template for:each={contributions} for:item="contribution">
+      <li key={contribution.Id}>{contribution.Type}: {contribution.Value}</li>
+    </template>
+  </ul>
+</template>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>LenderProductEndpoint</fullName>
+        <categories>Lending Vertical</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LenderProductEndpoint</shortDescription>
+        <value>https://www.comparethemarket.com.au/api/homeloans-products/products</value>
+    </labels>
+    <labels>
+        <fullName>Recommended_Products</fullName>
+        <categories>LWC Labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Recommended products</shortDescription>
+        <value>Recommended products</value>
+    </labels>
+</CustomLabels>

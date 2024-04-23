@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ABN__c</fullName>
+    <deprecated>false</deprecated>
+    <description>11 digit company ABN</description>
+    <externalId>false</externalId>
+    <label>ABN</label>
+    <precision>11</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>true</unique>
+</CustomField>

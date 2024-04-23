@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DaysSinceCreatedAuto__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>TEXT(TODAY() - LodgementDate__c )+  &apos; days since lodged&apos; + IF(TODAY() - LodgementDate__c&gt;80, IMAGE(&quot;https://comparethemarket--partial.sandbox.file.force.com/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Png&amp;versionId=0681m000000U94H&amp;operationContext=CHATTER&amp;contentId=05T1m000001Rsz1&quot;,&quot;warining&quot;, 15,15), &apos;&apos;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Days Since Created</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
