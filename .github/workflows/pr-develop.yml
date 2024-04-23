@@ -12,10 +12,10 @@ jobs:
       - uses: actions/checkout@v2
       - name: Install Salesforce CLI
         run: | 
-            wget https://developer.salesforce.com/media/salesforce-cli/sf/channels/stable/sf-linux-arm64.tar.xz
-            mkdir sfdx-cli
-            tar xJf sfdx-linux-amd64.tar.xz -C sfdx-cli --strip-components 1
-            ./sfdx-cli/install
+            npm install @salesforce/cli --location=global
+            nodeInstallPath=$(npm config get prefix)
+            echo "$nodeInstallPath/bin" >> $GITHUB_PATH
+            sf --version
   
       - name: Install jq
         run: |
