@@ -29,7 +29,7 @@ jobs:
         run: 'sf org login sfdx-url -f ./DEVHUB_SFDX_URL.txt -a devhub -d'
 
       - name: Create scratch org
-        run: 'sf org create scratch -d -f config/project-scratch-def.json -a ctm_scratch -d 1'
+        run: 'sfdx force:org:create -f config/project-scratch-def.json -a ci_scratch -s -d 1'
 
       - name: Install all the dependency packages for home loan
         run:  chmod +x ./installPackages.sh
