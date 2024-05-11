@@ -40,7 +40,7 @@ jobs:
           for package in "${PACKAGES[@]}"; do
             echo "Installing $package..."
             # Replace the below command with the sfdx command to install the package
-            'sfdx force:package:install --package "$package" --wait 10 --publishwait 10 --noprompt'
+            sfdx force:package:install -p "$package" -w 10 -b 10 -r
           done
     
       - name: Push source to scratch org
