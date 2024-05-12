@@ -71,7 +71,7 @@ jobs:
               git add README.md
               git add sfdx-project.json
               git commit -m "Updating new pre-release version"
-              git push
+              git push origin main
 
 
       # - name: Check code coverage
