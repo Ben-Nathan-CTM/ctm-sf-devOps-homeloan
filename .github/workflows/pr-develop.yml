@@ -3,6 +3,9 @@ name: Pull Request to Develop
 on:
   pull_request:
     branches: [ develop ]
+    
+permissions:
+  contents: write    
 
 jobs:
   validate_pull_request:
@@ -66,12 +69,12 @@ jobs:
       - name: Store new version id
         run: |
               sed -i -e "s/04t[[:alnum:]]\{15\}/${version_id}/" README.md
-              git config user.name "release[bot]"
-              git config user.email "<>"
+              git config user.name "Ben-Nathan-CTM"
+              git config user.email "148920993+Ben-Nathan-CTM@users.noreply.github.com"
               git add README.md
               git add sfdx-project.json
-              git commit -m "Updating new pre-release version"
-              git push origin main
+              git commit -m "Updating new package pre-release version"
+              git push
 
 
       # - name: Check code coverage
