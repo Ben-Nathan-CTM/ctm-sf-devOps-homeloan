@@ -50,7 +50,7 @@ jobs:
       - name: Create new PACKAGE
         if: ${{ success() }}
         run: |
-             sfdx force:package:version:create -x -p "Spaghetti CMD" -w 60 --codecoverage
+             sf package version create -d ctm-sf-homeloan-app -x -f config\project-scratch-def.json -w 60 --code-coverage --json
              new_version_id=$(grep -o "04t[[:alnum:]]\{15\}" sfdx-project.json | tail -n1)
              echo "version_id=${new_version_id}" >> $GITHUB_ENV
              
