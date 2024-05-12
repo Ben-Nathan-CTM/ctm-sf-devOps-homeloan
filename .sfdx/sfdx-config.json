@@ -1,0 +1,8 @@
+{
+  "defaultusername": "ctmsfdevOpshomeloan",
+  "instanceUrl": [
+    "PersonAccounts",
+    "EnableSetPasswordInApi"
+  ],
+  "defaultdevhubusername": "PROD"
+}
