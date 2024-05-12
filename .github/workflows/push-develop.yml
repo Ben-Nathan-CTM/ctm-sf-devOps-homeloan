@@ -7,12 +7,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      
+
       - name: Create report file
         run: date +%s > report.txt
       - name: Commit report
         run: |
           git config --global user.name 'Ben-Nathan-CTM'
           git config --global user.email '148920993+Ben-Nathan-CTM@users.noreply.github.com'
+          git add report.txt
           git commit -am "Automated report"
           git push
