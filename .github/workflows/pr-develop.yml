@@ -45,6 +45,34 @@ jobs:
     
       - name: Push source to scratch org
         run: 'sfdx force:source:push -f'
+        continue-on-error: true
+
+      - name: Create new PACKAGE
+        if: ${{ success() }}
+        run: |
+             sfdx force:package:version:create -x -p "Spaghetti CMD" -w 60 --codecoverage
+             new_version_id=$(grep -o "04t[[:alnum:]]\{15\}" sfdx-project.json | tail -n1)
+             echo "version_id=${new_version_id}" >> $GITHUB_ENV
+             
+      - name: Check code coverage
+        run: |
+             test $(sfdx force:package:version:report -p "$version_id" --json | jq .result.HasPassedCodeCoverageCheck) = 'true'
+
+      - name: Install latest package
+        run: |
+             sfdx force:package:install -p "$version_id" -w 10 -b 10 -r
+    
+
+      - name: Store new version id
+        run: |
+              sed -i -e "s/04t[[:alnum:]]\{15\}/${version_id}/" README.md
+              git config user.name "release[bot]"
+              git config user.email "<>"
+              git add README.md
+              git add sfdx-project.json
+              git commit -m "Updating new pre-release version"
+              git push
+
 
       # - name: Check code coverage
       #   run: |
