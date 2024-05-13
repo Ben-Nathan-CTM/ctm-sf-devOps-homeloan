@@ -1,19 +1,69 @@
-name: Push commit
-on: push
+
+name: Pull Request Merged to Develop
+
+
+on: 
+  pull_request:
+    branches: 
+      -develop
+    types: [closed]
+ 
 permissions:
-  contents: write
+  contents: write    
+
 jobs:
-  report:
+  validate_pull_request_merged:
+    if: ${{ github.event.pull_request.merged }}
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v3
-
-      - name: Create report file
-        run: date +%s > report.txt
-      - name: Commit report
+      - name: Install Salesforce CLI
+        run: | 
+            npm install @salesforce/cli --location=global
+            nodeInstallPath=$(npm config get prefix)
+            echo "$nodeInstallPath/bin" >> $GITHUB_PATH
+            sf --version
+  
+      - name: Install jq
         run: |
-          git config --global user.name 'Ben-Nathan-CTM'
-          git config --global user.email '148920993+Ben-Nathan-CTM@users.noreply.github.com'
-          git add report.txt
-          git commit -am "Automated report"
-          git push
+            sudo apt-get install jq
+
+      - name: Populate auth file
+        shell: bash
+        run: 'echo ${{ secrets.BENDEV_ENV }} > ./BENDEV_SFDX_URL.txt'
+  
+      - name: Authenticate Sandbox
+        run: 'sf org login sfdx-url -f ./BENDEV_SFDX_URL.txt -a BENDEV -d'
+
+      - name: Install Package
+        run: |
+             new_version_id=$(grep -o "04t[[:alnum:]]\{15\}" sfdx-project.json | tail -n1)
+             echo "version_id=${new_version_id}" >> $GITHUB_ENV
+             sfdx force:package:install -p "$version_id" -w 10 -b 10 -r
+        continue-on-error: true
+    
+
+      # - name: Create new PACKAGE
+      #   if: ${{ success() }}
+      #   run: |
+      #        sf package version create -d ctm-sf-homeloan-app -x -f config/project-scratch-def.json -w 60 --code-coverage --json
+      #        new_version_id=$(grep -o "04t[[:alnum:]]\{15\}" sfdx-project.json | tail -n1)
+      #        echo "version_id=${new_version_id}" >> $GITHUB_ENV
+             
+      # - name: Check code coverage
+      #   run: |
+      #        test $(sfdx force:package:version:report -p "$version_id" --json | jq .result.HasPassedCodeCoverageCheck) = 'true'
+
+      # - name: Install latest package
+      #   run: |
+      #        sfdx force:package:install -p "$version_id" -w 10 -b 10 -r
+    
+
+
+      # - name: Check code coverage
+      #   run: |
+      #       sfdx force:apex:test:run --codecoverage --resultformat json --synchronous --testlevel RunLocalTests --wait 10 > tests.json
+      #       coverage=$(jq .result.summary.orgWideCoverage tests.json | grep -Eo "[[:digit:]]+")
+      #       test $coverage -ge 50
+            
