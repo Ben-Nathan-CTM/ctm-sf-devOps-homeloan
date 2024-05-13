@@ -68,6 +68,7 @@ jobs:
 
       - name: Store new version id
         run: |
+              git checkout feature
               sed -i -e "s/04t[[:alnum:]]\{15\}/${version_id}/" README.md
               git config user.name "Ben-Nathan-CTM"
               git config user.email "148920993+Ben-Nathan-CTM@users.noreply.github.com"
