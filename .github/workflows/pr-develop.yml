@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-            repository: https://github.com/Ben-Nathan-CTM/ctm-sf-devOps-homeloan.git
+            repository: Ben-Nathan-CTM/ctm-sf-devOps-homeloan
             ref: feature
 
       - name: Install Salesforce CLI
