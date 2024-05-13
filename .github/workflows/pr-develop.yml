@@ -13,6 +13,10 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
+        with:
+            repository: https://github.com/Ben-Nathan-CTM/ctm-sf-devOps-homeloan.git
+            ref: feature
+
       - name: Install Salesforce CLI
         run: | 
             npm install @salesforce/cli --location=global
@@ -68,10 +72,10 @@ jobs:
 
       - name: Store new version id
         run: |
-              sed -i -e "s/04t[[:alnum:]]\{15\}/${version_id}/" README.md
-              git switch feature
+              git checkout feature
               git config user.name "Ben-Nathan-CTM"
               git config user.email "148920993+Ben-Nathan-CTM@users.noreply.github.com"
+              sed -i -e "s/04t[[:alnum:]]\{15\}/${version_id}/" README.md
               git add README.md
               git add sfdx-project.json
               git commit -m "Updating new package pre-release version"
