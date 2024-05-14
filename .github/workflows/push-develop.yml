@@ -37,7 +37,7 @@ jobs:
         run: |
              new_version_id=$(grep -o "04t[[:alnum:]]\{15\}" sfdx-project.json | tail -n1)
              echo "version_id=${new_version_id}" >> $GITHUB_ENV
-             sfdx force:package:install -p "$version_id" -w 10 -b 10 -r
+             sfdx force:package:install -p "$version_id" -a BENDEV -w 10 -b 10 -r
         continue-on-error: true
     
 
