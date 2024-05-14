@@ -16,7 +16,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Install Salesforce CLI
-        run: | 
+        run: |
             npm install @salesforce/cli --location=global
             nodeInstallPath=$(npm config get prefix)
             echo "$nodeInstallPath/bin" >> $GITHUB_PATH
