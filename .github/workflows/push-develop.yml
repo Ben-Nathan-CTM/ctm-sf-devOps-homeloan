@@ -38,8 +38,8 @@ jobs:
              new_version_id=$(grep -o "04t[[:alnum:]]\{15\}" sfdx-project.json | tail -n1)
              echo "version_id=${new_version_id}"
              echo "$version_id"
-             sfdx force:package:install -p "$version_id" --target-org BENDEV --publishwait 3 --wait 10 -r
-             
+             sfdx force:package:install -p "$version_id" --target-org ben.harris@comparethemarket.com.au.bendev --publishwait 3 --wait 10 -r
+
     
 
       # - name: Create new PACKAGE
