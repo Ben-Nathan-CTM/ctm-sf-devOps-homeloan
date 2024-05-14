@@ -4,8 +4,7 @@ name: Pull Request Merged to Develop
 
 on: 
   push:
-    branches: 
-      -develop
+    branches: [develop]
     
  
 permissions:
