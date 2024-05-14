@@ -50,4 +50,36 @@ public class HLA_LoanApplicationIncomeSelectorTest {
     // Then
     system.assert(sel.getOrderBy() == 'CreatedDate');
   }
+
+  @IsTest
+  public static void should_getAdditionalSObjectFieldList() {
+    // Given
+    // When
+    List<Schema.SObjectField> fields = ((HLA_LoanApplicationIncomeSelector) HLA_LoanApplicationIncomeSelector.newInstance())
+      .getAdditionalSObjectFieldList();
+    // Then
+    Assert.istrue(fields.IsEmpty(), 'should return Empty List');
+  }
+
+  @IsTest
+  public static void should_returnApplicationIncomeListWithReferenceId() {
+    // Given
+    // When
+    TestDataFactory.makeData('LoanApplicationIncome');
+    LoanApplicationIncome__c rec = [
+      SELECT id, name, ReferenceId__c, ResidentialLoanApplication__c
+      FROM LoanApplicationIncome__c
+      WHERE ReferenceId__c != ''
+    ];
+
+    Test.startTest();
+    LoanApplicationIncome__c[] sel = ((HLA_LoanApplicationIncomeSelector) HLA_LoanApplicationIncomeSelector.newInstance())
+      .selectLoanApplicationIncomesByReferenceId(
+        rec.ReferenceId__c,
+        rec.ResidentialLoanApplication__c
+      );
+    Test.stopTest();
+    // Then
+    Assert.istrue(!sel.IsEmpty(), 'should return results');
+  }
 }

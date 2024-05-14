@@ -50,4 +50,36 @@ public class HLA_LoanApplicationExpensesSelectorTest {
     // Then
     system.assert(sel.getOrderBy() == 'CreatedDate');
   }
+
+  @IsTest
+  public static void should_getAdditionalSObjectFieldList() {
+    // Given
+    // When
+    List<Schema.SObjectField> fields = ((HLA_LoanApplicationExpensesSelector) HLA_LoanApplicationExpensesSelector.newInstance())
+      .getAdditionalSObjectFieldList();
+    // Then
+    Assert.istrue(fields.IsEmpty(), 'should return Empty List');
+  }
+
+  @IsTest
+  public static void should_returnApplicationExpenseListWithReferenceId() {
+    // Given
+    // When
+    TestDataFactory.makeData('LoanApplicationExpense');
+    LoanApplicationExpense__c rec = [
+      SELECT id, name, ReferenceId__c, ResidentialLoanApplication__c
+      FROM LoanApplicationExpense__c
+      WHERE ReferenceId__c != ''
+    ];
+
+    Test.startTest();
+    LoanApplicationExpense__c[] sel = ((HLA_LoanApplicationExpensesSelector) HLA_LoanApplicationExpensesSelector.newInstance())
+      .selectLoanApplicationExpensesByReferenceId(
+        rec.ReferenceId__c,
+        rec.ResidentialLoanApplication__c
+      );
+    Test.stopTest();
+    // Then
+    Assert.istrue(!sel.IsEmpty(), 'should return results');
+  }
 }

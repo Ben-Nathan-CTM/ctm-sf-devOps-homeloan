@@ -1,0 +1,6 @@
+/opt/homebrew/Cellar/node/21.2.0/bin/node /opt/homebrew/bin/sfdx hardis:org:data:export --websocket localhost:2713[sfdx-hardis][command] sfdx force:org:display --json
+[sfdx-hardis][WARNING] stderr: (node:78621) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+[sfdx-hardis] You are already connected as ben.harris@comparethemarket.com.au.bendev on org https://comparethemarket--bendev.sandbox.my.salesforce.com
+[sfdx-hardis] If this is NOT the org you want to play with, hit CTRL+C, then input sfdx hardis:org:select

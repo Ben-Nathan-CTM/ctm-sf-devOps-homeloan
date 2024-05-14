@@ -1,0 +1,6 @@
+/opt/homebrew/Cellar/node/21.2.0/bin/node /opt/homebrew/bin/sfdx hardis:scratch:create --websocket localhost:2713[sfdx-hardis][command] sfdx force:org:display --targetusername DevHub_Ben24Nov --json
+[sfdx-hardis] 🦙 What is the base URL or the org you want to connect to, as DevHub_Ben24Nov ? ↑↑ Look up in VsCode ↑↑
+[sfdx-hardis] {"value":"https://login.salesforce.com"}
+[sfdx-hardis] 🦙 Select a login type (if you don't know, use Web) ↑↑ Look up in VsCode ↑↑
+[sfdx-hardis] {"loginType":"device"}
+[sfdx-hardis][command] sfdx org:login:device --instanceurl https://login.salesforce.com --alias DevHub_Ben24Nov

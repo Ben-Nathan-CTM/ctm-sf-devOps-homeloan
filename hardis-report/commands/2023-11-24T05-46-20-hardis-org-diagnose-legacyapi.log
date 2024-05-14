@@ -1,0 +1,38 @@
+/Users/bnathan/.local/share/sf/client/2.17.14-31db5eb/bin/node /Users/bnathan/.local/share/sf/client/2.17.14-31db5eb/bin/run hardis:org:diagnose:legacyapi --websocket localhost:2748[sfdx-hardis][command] sfdx force:org:display --json
+[sfdx-hardis][WARNING] stderr:  ›   Warning: @salesforce/cli update available from 2.16.10 to 2.17.14.
+
+[sfdx-hardis] 🦙 What is the base URL or the org you want to connect to, as MY_ORG ? ↑↑ Look up in VsCode ↑↑
+[sfdx-hardis] {"value":"https://login.salesforce.com"}
+[sfdx-hardis] 🦙 Select a login type (if you don't know, use Web) ↑↑ Look up in VsCode ↑↑
+[sfdx-hardis] {"loginType":"device"}
+[sfdx-hardis][command] sfdx org:login:device --instanceurl https://login.salesforce.com
+[sfdx-hardis] {
+  "status": 0,
+  "signal": null,
+  "output": [
+    null,
+    null,
+    null
+  ],
+  "pid": 75295,
+  "stdout": null,
+  "stderr": null,
+  "error": null
+}
+[sfdx-hardis][command] sfdx config:get defaultusername --json
+[sfdx-hardis][WARNING] stderr:  ›   Warning: @salesforce/cli update available from 2.16.10 to 2.17.14.
+
+[sfdx-hardis] Successfully logged to https://login.salesforce.com with 22Nov2
+[sfdx-hardis] SOQL REST: SELECT COUNT() FROM EventLogFile WHERE EventType = 'ApiTotalUsage' on https://nitro-rockaway-2055.scratch.my.salesforce.com
+[sfdx-hardis] Found 1 ApiTotalUsage EventLogFile entries.
+[sfdx-hardis] Query: SELECT LogFile FROM EventLogFile WHERE EventType = 'ApiTotalUsage' ORDER BY CreatedDate DESC LIMIT 999
+[sfdx-hardis] SOQL REST: SELECT LogFile FROM EventLogFile WHERE EventType = 'ApiTotalUsage' ORDER BY CreatedDate DESC LIMIT 999 on https://nitro-rockaway-2055.scratch.my.salesforce.com
+[sfdx-hardis] Calling org API to get CSV content of each EventLogFile record, then parse and analyze it...
+[sfdx-hardis] 
+[sfdx-hardis] Results:
+[sfdx-hardis] - Summer 21 - retirement of 1 to 6   : 0
+[sfdx-hardis] - Summer 22 - retirement of 7 to 20  : 0
+[sfdx-hardis] - Summer 23 - retirement of 21 to 30 : 0
+[sfdx-hardis] 
+[sfdx-hardis] No deprecated API call has been found in ApiTotalUsage logs
+[sfdx-hardis] Please see detailed log in /Users/bnathan/CTM/DEV/ctm-sf-homeloan-app/hardis-report/legacy-api-for-test-0gnmaltuvjh0@example.com.csv

@@ -1,0 +1,1 @@
+/opt/homebrew/Cellar/node/21.2.0/bin/node /opt/homebrew/bin/sfdx hardis:work:ws --event refreshPlugins --websocket localhost:2713

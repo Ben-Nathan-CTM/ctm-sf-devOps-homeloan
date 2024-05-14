@@ -1,0 +1,5 @@
+/Users/bnathan/.local/share/sf/client/2.17.14-31db5eb/bin/node /Users/bnathan/.local/share/sf/client/2.17.14-31db5eb/bin/run hardis:org:diagnose:legacyapi --websocket localhost:2748[sfdx-hardis][command] sfdx force:org:display --json
+[sfdx-hardis][WARNING] stderr:  ›   Warning: @salesforce/cli update available from 2.16.10 to 2.17.14.
+
+[sfdx-hardis] 🦙 What is the base URL or the org you want to connect to, as MY_ORG ? ↑↑ Look up in VsCode ↑↑
+[sfdx-hardis] {"value":"exitNow"}

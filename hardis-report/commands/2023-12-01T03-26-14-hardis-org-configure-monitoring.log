@@ -1,0 +1,10 @@
+/opt/homebrew/Cellar/node/21.2.0/bin/node /opt/homebrew/bin/sfdx hardis:org:configure:monitoring --websocket localhost:2724[sfdx-hardis] Updated config file /Users/bnathan/CTM/DEV/ctm-sf-homeloan-app/config/user/.sfdx-hardis.bnathan.yml with values: 
+{
+  "installedApps": [
+    "git",
+    "openssl"
+  ]
+}
+[sfdx-hardis][command] git config --null --show-origin --get-all remote.origin.url
+[sfdx-hardis] 🦙 It's safer to have monitoring in a separate repo. Are you sure you want to mix monitoring and deployment sources ? ↑↑ Look up in VsCode ↑↑
+[sfdx-hardis] {"value":"exitNow"}

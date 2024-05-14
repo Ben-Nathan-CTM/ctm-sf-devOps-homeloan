@@ -1,0 +1,33 @@
+/opt/homebrew/Cellar/node/21.2.0/bin/node /opt/homebrew/bin/sf hardis:scratch:pool:configure[sfdx-hardis] Updated config file config/.sfdx-hardis.yml with values: 
+{
+  "projectName": "CTM",
+  "devHubAlias": "DevHub_CTM"
+}
+[sfdx-hardis][command] sfdx force:org:display --targetusername DevHub_CTM --json
+[sfdx-hardis][command] sfdx auth:web:login --setdefaultdevhubusername --instanceurl https://login.salesforce.com --setalias DevHub_CTM
+[sfdx-hardis] Successfully authorized ben.nathan@comparethemarket.com.au with org ID 00D5g000002vaUkEAI
+
+[sfdx-hardis] {
+  "status": 0,
+  "stdout": "Successfully authorized ben.nathan@comparethemarket.com.au with org ID 00D5g000002vaUkEAI\n",
+  "stderr": "(node:81189) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.\n(Use `node --trace-deprecation ...` to show where the warning was created)\nWarning: The \"--instanceurl\" flag has been deprecated. Use \"--instance-url | -r\" instead.\nWarning: The \"--setdefaultdevhub\" flag has been deprecated. Use \"--set-default-dev-hub | -d\" instead.\nWarning: The \"--setdefaultdevhubusername\" flag has been deprecated. Use \"--set-default-dev-hub | -d\" instead.\nWarning: The \"--setalias\" flag has been deprecated. Use \"--alias | -a\" instead.\n"
+}
+[sfdx-hardis][command] sfdx config:get defaultdevhubusername --json
+[sfdx-hardis][WARNING] stderr: (node:81224) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+[sfdx-hardis] Successfully logged to https://login.salesforce.com with PROD
+[sfdx-hardis] Updated config file /Users/bnathan/CTM/DEV/ctm-sf-homeloan-app/config/.sfdx-hardis.yml with values: 
+{
+  "poolConfig": {
+    "maxScratchOrgsNumber": 3,
+    "storageService": "salesforce"
+  }
+}
+[sfdx-hardis] This may be a error with a workaround... let's try it :)
+[sfdx-hardis] Unable to deploy CustomObject SfdxHardisKeyValueStore__c
+You mut create manually an Custom Object SfdxHardisKeyValueStore__c:
+- API Name: SfdxHardisKeyValueStore__c
+- Field SfdxHardisKeyValueStore__c.ValueText__c of type TextArea (long) (with maximum size 131072 chars)
+      
+[sfdx-hardis] You may have to create a Permission Set with all rights on SfdxHardisKeyValueStore__c and assign users to it

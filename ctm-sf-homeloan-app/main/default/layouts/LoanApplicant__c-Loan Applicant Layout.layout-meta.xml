@@ -315,31 +315,32 @@
     </relatedLists>
     <relatedLists>
         <fields>NAME</fields>
-        <fields>Percentage__c</fields>
-        <fields>LoanApplicationAsset__c.EstimatedValue__c</fields>
+        <fields>LoanApplicationAsset__c.NAME</fields>
         <fields>LoanApplicationAsset__c.Type__c</fields>
         <fields>LoanApplicationAsset__c.Value__c</fields>
+        <fields>LoanApplicationAsset__c.EstimatedValue__c</fields>
         <relatedList>LoanApplicantAsset__c.LoanApplicant__c</relatedList>
     </relatedLists>
     <relatedLists>
         <fields>NAME</fields>
-        <fields>LoanApplicationLiability__c.UnpaidBalanceAmount__c</fields>
+        <fields>LoanApplicationLiability__c.NAME</fields>
         <fields>LoanApplicationLiability__c.Type__c</fields>
+        <fields>LoanApplicationLiability__c.DebtType__c</fields>
         <fields>LoanApplicationLiability__c.Amount__c</fields>
-        <fields>Percentage__c</fields>
         <relatedList>LoanApplicantLiability__c.LoanApplicant__c</relatedList>
     </relatedLists>
     <relatedLists>
         <fields>NAME</fields>
         <fields>LoanApplicationExpense__c</fields>
-        <fields>Percentage__c</fields>
-        <fields>ExpenseSubType__c</fields>
+        <fields>ExpenseType__c</fields>
+        <fields>AnnualAmount__c</fields>
         <relatedList>LoanApplicantExpense__c.LoanApplicant__c</relatedList>
     </relatedLists>
     <relatedLists>
         <fields>NAME</fields>
+        <fields>LoanApplicationIncome__c</fields>
+        <fields>IncomeTypeAFG__c</fields>
         <fields>Frequency__c</fields>
-        <fields>Percentage__c</fields>
         <relatedList>LoanApplicantIncome__c.LoanApplicant__c</relatedList>
     </relatedLists>
     <relatedLists>

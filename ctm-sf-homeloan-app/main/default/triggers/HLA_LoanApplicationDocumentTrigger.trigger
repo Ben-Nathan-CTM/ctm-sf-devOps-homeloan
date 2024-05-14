@@ -1,6 +1,8 @@
 trigger HLA_LoanApplicationDocumentTrigger on LoanApplicationDocument__c(
   before update,
+  after insert,
   after update
+
 ) {
   List<SOBject> recordList = Trigger.isDelete ? Trigger.old : Trigger.new;
   Nebula.Logger.info(

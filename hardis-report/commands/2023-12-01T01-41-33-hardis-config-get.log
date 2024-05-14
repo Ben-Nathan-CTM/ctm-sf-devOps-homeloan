@@ -1,0 +1,1 @@
+/opt/homebrew/Cellar/node/21.2.0/bin/node /opt/homebrew/bin/sfdx hardis:config:get --level user --json[sfdx-hardis] {"projectName":"CTM","devHubAlias":"DevHub_CTM","poolConfig":{"maxScratchOrgsNumber":3,"storageService":"salesforce"},"installedApps":["git"],"scratchOrgAlias":null,"scratchOrgUsername":null}

@@ -50,4 +50,26 @@ public class HLA_LoanApplicantExpensesSelectorTest {
     // Then
     system.assert(sel.getOrderBy() == 'CreatedDate');
   }
+
+  @IsTest
+  public static void should_returnApplicantExpenseListWithReferenceId() {
+    // Given
+    // When
+    TestDataFactory.makeData('LoanApplicantExpense');
+    LoanApplicantExpense__c rec = [
+      SELECT id, name, ReferenceId__c, ResidentialLoanApplication__c
+      FROM LoanApplicantExpense__c
+      WHERE ReferenceId__c != ''
+    ];
+
+    Test.startTest();
+    LoanApplicantExpense__c[] sel = ((HLA_LoanApplicantExpensesSelector) HLA_LoanApplicantExpensesSelector.newInstance())
+      .selectLoanApplicantExpensesByReferenceId(
+        rec.ReferenceId__c,
+        rec.ResidentialLoanApplication__c
+      );
+    Test.stopTest();
+    // Then
+    Assert.istrue(!sel.IsEmpty(), 'should return results');
+  }
 }

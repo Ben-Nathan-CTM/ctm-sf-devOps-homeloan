@@ -1,0 +1,221 @@
+/opt/homebrew/Cellar/node/21.2.0/bin/node /opt/homebrew/bin/sfdx hardis:scratch:pool:refresh[sfdx-hardis][command] sfdx force:org:display --targetusername DevHub_Test-Scratch --json
+[sfdx-hardis][WARNING] stderr: (node:20738) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+[sfdx-hardis] You are already connected as bimal.prabha@empathetic-raccoon-bvkstq.com on org https://empathetic-raccoon-bvkstq-dev-ed.trailblaze.my.salesforce.com
+[sfdx-hardis] If this is NOT the org you want to play with, hit CTRL+C, then input sfdx hardis:org:select
+[sfdx-hardis][command] sfdx config:set defaultdevhubusername=bimal.prabha@empathetic-raccoon-bvkstq.com --json
+[sfdx-hardis][WARNING] stderr: (node:20750) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+[sfdx-hardis] Pool config: {"maxScratchOrgsNumber":3,"storageService":"redis"}
+[sfdx-hardis] [pool] Requested redis connection
+[sfdx-hardis] [pool] Requested redis connection
+[sfdx-hardis] Creating 3 scratch orgs...
+[sfdx-hardis][pool] hardis:scratch:create (0) started
+[sfdx-hardis][pool] hardis:scratch:create (1) started
+[sfdx-hardis][pool] hardis:scratch:create (2) started
+[sfdx-hardis][pool] hardis:scratch:create (0) exited with code 1
+Return code is not 0 (0): [sfdx-hardis][command] sfdx force:org:display --targetusername DevHub_Test-Scratch --json
+[sfdx-hardis][WARNING] stderr: (node:20891) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+[sfdx-hardis] You are already connected as bimal.prabha@empathetic-raccoon-bvkstq.com on org https://empathetic-raccoon-bvkstq-dev-ed.trailblaze.my.salesforce.com
+[sfdx-hardis] If this is NOT the org you want to play with, hit CTRL+C, then input sfdx hardis:org:select
+[sfdx-hardis][command] sfdx config:set defaultdevhubusername=bimal.prabha@empathetic-raccoon-bvkstq.com --json
+[sfdx-hardis][WARNING] stderr: (node:20902) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+[sfdx-hardis][command] sfdx config:get restDeploy --json
+[sfdx-hardis] Updated config file /Users/bnathan/CTM/DEV/ctm-sf-homeloan-app/config/user/.sfdx-hardis.bnathan.yml with values: 
+{
+  "sfdxPluginsStdout": "packaging 1.27.6\nsfdmu 4.32.2\nsfdx-essentials 2.12.0\nsfdx-git-delta 5.30.0\nsfdx-hardis 4.18.3\ntexei-sfdx-plugin 2.2.0\n\nUninstalled JIT Plugins:\ncommunity 3.0.2\ncustom-metadata 3.0.3\ndev 2.0.2\ndevops-center 1.2.4\nenv 3.0.6\nfunctions 1.22.9\nsignups 2.0.4\n@salesforce/sfdx-plugin-lwc-test 1.1.1\n@salesforce/sfdx-scanner 3.18.0\n"
+}
+[sfdx-hardis][WARNING] stderr: (node:20945) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+[sfdx-hardis] Updated config file /Users/bnathan/CTM/DEV/ctm-sf-homeloan-app/config/user/.sfdx-hardis.bnathan.yml with values: 
+{
+  "restDeployDisabled": true
+}
+{
+  "status": 1,
+  "name": "SfdxError",
+  "message": "\u001b[31mYou need to define userEmail property in .sfdx-hardis.yml\u001b[39m",
+  "exitCode": 1,
+  "commandName": "ScratchCreate",
+  "stack": "SfdxError: \u001b[31mYou need to define userEmail property in .sfdx-hardis.yml\u001b[39m\n    at ScratchCreate.initConfig (/Users/bnathan/.local/share/sf/node_modules/sfdx-hardis/lib/commands/hardis/scratch/create.js:118:23)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async ScratchCreate.run (/Users/bnathan/.local/share/sf/node_modules/sfdx-hardis/lib/commands/hardis/scratch/create.js:37:9)\n    at async ScratchCreate._run (/Users/bnathan/.local/share/sf/node_modules/sfdx-hardis/node_modules/@salesforce/command/lib/sfdxCommand.js:81:40)\n    at async Config.runCommand (/opt/homebrew/lib/node_modules/@salesforce/cli/node_modules/@oclif/core/lib/config/config.js:415:25)\n    at async run (/opt/homebrew/lib/node_modules/@salesforce/cli/node_modules/@oclif/core/lib/main.js:85:16)",
+  "warnings": []
+}
+[sfdx-hardis] hardis:scratch:create execution time 0:00:05.425
+
+Error parsing stdout (0): [sfdx-hardis][command] sfdx force:org:display --targetusername DevHub_Test-Scratch --json
+[sfdx-hardis][WARNING] stderr: (node:20891) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+[sfdx-hardis] You are already connected as bimal.prabha@empathetic-raccoon-bvkstq.com on org https://empathetic-raccoon-bvkstq-dev-ed.trailblaze.my.salesforce.com
+[sfdx-hardis] If this is NOT the org you want to play with, hit CTRL+C, then input sfdx hardis:org:select
+[sfdx-hardis][command] sfdx config:set defaultdevhubusername=bimal.prabha@empathetic-raccoon-bvkstq.com --json
+[sfdx-hardis][WARNING] stderr: (node:20902) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+[sfdx-hardis][command] sfdx config:get restDeploy --json
+[sfdx-hardis] Updated config file /Users/bnathan/CTM/DEV/ctm-sf-homeloan-app/config/user/.sfdx-hardis.bnathan.yml with values: 
+{
+  "sfdxPluginsStdout": "packaging 1.27.6\nsfdmu 4.32.2\nsfdx-essentials 2.12.0\nsfdx-git-delta 5.30.0\nsfdx-hardis 4.18.3\ntexei-sfdx-plugin 2.2.0\n\nUninstalled JIT Plugins:\ncommunity 3.0.2\ncustom-metadata 3.0.3\ndev 2.0.2\ndevops-center 1.2.4\nenv 3.0.6\nfunctions 1.22.9\nsignups 2.0.4\n@salesforce/sfdx-plugin-lwc-test 1.1.1\n@salesforce/sfdx-scanner 3.18.0\n"
+}
+[sfdx-hardis][WARNING] stderr: (node:20945) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+[sfdx-hardis] Updated config file /Users/bnathan/CTM/DEV/ctm-sf-homeloan-app/config/user/.sfdx-hardis.bnathan.yml with values: 
+{
+  "restDeployDisabled": true
+}
+{
+  "status": 1,
+  "name": "SfdxError",
+  "message": "\u001b[31mYou need to define userEmail property in .sfdx-hardis.yml\u001b[39m",
+  "exitCode": 1,
+  "commandName": "ScratchCreate",
+  "stack": "SfdxError: \u001b[31mYou need to define userEmail property in .sfdx-hardis.yml\u001b[39m\n    at ScratchCreate.initConfig (/Users/bnathan/.local/share/sf/node_modules/sfdx-hardis/lib/commands/hardis/scratch/create.js:118:23)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async ScratchCreate.run (/Users/bnathan/.local/share/sf/node_modules/sfdx-hardis/lib/commands/hardis/scratch/create.js:37:9)\n    at async ScratchCreate._run (/Users/bnathan/.local/share/sf/node_modules/sfdx-hardis/node_modules/@salesforce/command/lib/sfdxCommand.js:81:40)\n    at async Config.runCommand (/opt/homebrew/lib/node_modules/@salesforce/cli/node_modules/@oclif/core/lib/config/config.js:415:25)\n    at async run (/opt/homebrew/lib/node_modules/@salesforce/cli/node_modules/@oclif/core/lib/main.js:85:16)",
+  "warnings": []
+}
+[sfdx-hardis] hardis:scratch:create execution time 0:00:05.425
+
+[sfdx-hardis][pool] hardis:scratch:create (1) exited with code 1
+Return code is not 0 (1): [sfdx-hardis][command] sfdx force:org:display --targetusername DevHub_Test-Scratch --json
+[sfdx-hardis][WARNING] stderr: (node:20890) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+[sfdx-hardis] You are already connected as bimal.prabha@empathetic-raccoon-bvkstq.com on org https://empathetic-raccoon-bvkstq-dev-ed.trailblaze.my.salesforce.com
+[sfdx-hardis] If this is NOT the org you want to play with, hit CTRL+C, then input sfdx hardis:org:select
+[sfdx-hardis][command] sfdx config:set defaultdevhubusername=bimal.prabha@empathetic-raccoon-bvkstq.com --json
+[sfdx-hardis][WARNING] stderr: (node:20903) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+[sfdx-hardis][command] sfdx config:get restDeploy --json
+[sfdx-hardis] Updated config file /Users/bnathan/CTM/DEV/ctm-sf-homeloan-app/config/user/.sfdx-hardis.bnathan.yml with values: 
+{
+  "sfdxPluginsStdout": "packaging 1.27.6\nsfdmu 4.32.2\nsfdx-essentials 2.12.0\nsfdx-git-delta 5.30.0\nsfdx-hardis 4.18.3\ntexei-sfdx-plugin 2.2.0\n\nUninstalled JIT Plugins:\ncommunity 3.0.2\ncustom-metadata 3.0.3\ndev 2.0.2\ndevops-center 1.2.4\nenv 3.0.6\nfunctions 1.22.9\nsignups 2.0.4\n@salesforce/sfdx-plugin-lwc-test 1.1.1\n@salesforce/sfdx-scanner 3.18.0\n"
+}
+[sfdx-hardis][WARNING] stderr: (node:20937) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+{
+  "status": 1,
+  "name": "SfdxError",
+  "message": "\u001b[31mYou need to define userEmail property in .sfdx-hardis.yml\u001b[39m",
+  "exitCode": 1,
+  "commandName": "ScratchCreate",
+  "stack": "SfdxError: \u001b[31mYou need to define userEmail property in .sfdx-hardis.yml\u001b[39m\n    at ScratchCreate.initConfig (/Users/bnathan/.local/share/sf/node_modules/sfdx-hardis/lib/commands/hardis/scratch/create.js:118:23)\n    at async ScratchCreate.run (/Users/bnathan/.local/share/sf/node_modules/sfdx-hardis/lib/commands/hardis/scratch/create.js:37:9)\n    at async ScratchCreate._run (/Users/bnathan/.local/share/sf/node_modules/sfdx-hardis/node_modules/@salesforce/command/lib/sfdxCommand.js:81:40)\n    at async Config.runCommand (/opt/homebrew/lib/node_modules/@salesforce/cli/node_modules/@oclif/core/lib/config/config.js:415:25)\n    at async run (/opt/homebrew/lib/node_modules/@salesforce/cli/node_modules/@oclif/core/lib/main.js:85:16)",
+  "warnings": []
+}
+[sfdx-hardis] hardis:scratch:create execution time 0:00:05.391
+[sfdx-hardis] Updated config file /Users/bnathan/CTM/DEV/ctm-sf-homeloan-app/config/user/.sfdx-hardis.bnathan.yml with values: 
+{
+  "restDeployDisabled": true
+}
+
+Error parsing stdout (1): [sfdx-hardis][command] sfdx force:org:display --targetusername DevHub_Test-Scratch --json
+[sfdx-hardis][WARNING] stderr: (node:20890) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+[sfdx-hardis] You are already connected as bimal.prabha@empathetic-raccoon-bvkstq.com on org https://empathetic-raccoon-bvkstq-dev-ed.trailblaze.my.salesforce.com
+[sfdx-hardis] If this is NOT the org you want to play with, hit CTRL+C, then input sfdx hardis:org:select
+[sfdx-hardis][command] sfdx config:set defaultdevhubusername=bimal.prabha@empathetic-raccoon-bvkstq.com --json
+[sfdx-hardis][WARNING] stderr: (node:20903) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+[sfdx-hardis][command] sfdx config:get restDeploy --json
+[sfdx-hardis] Updated config file /Users/bnathan/CTM/DEV/ctm-sf-homeloan-app/config/user/.sfdx-hardis.bnathan.yml with values: 
+{
+  "sfdxPluginsStdout": "packaging 1.27.6\nsfdmu 4.32.2\nsfdx-essentials 2.12.0\nsfdx-git-delta 5.30.0\nsfdx-hardis 4.18.3\ntexei-sfdx-plugin 2.2.0\n\nUninstalled JIT Plugins:\ncommunity 3.0.2\ncustom-metadata 3.0.3\ndev 2.0.2\ndevops-center 1.2.4\nenv 3.0.6\nfunctions 1.22.9\nsignups 2.0.4\n@salesforce/sfdx-plugin-lwc-test 1.1.1\n@salesforce/sfdx-scanner 3.18.0\n"
+}
+[sfdx-hardis][WARNING] stderr: (node:20937) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+{
+  "status": 1,
+  "name": "SfdxError",
+  "message": "\u001b[31mYou need to define userEmail property in .sfdx-hardis.yml\u001b[39m",
+  "exitCode": 1,
+  "commandName": "ScratchCreate",
+  "stack": "SfdxError: \u001b[31mYou need to define userEmail property in .sfdx-hardis.yml\u001b[39m\n    at ScratchCreate.initConfig (/Users/bnathan/.local/share/sf/node_modules/sfdx-hardis/lib/commands/hardis/scratch/create.js:118:23)\n    at async ScratchCreate.run (/Users/bnathan/.local/share/sf/node_modules/sfdx-hardis/lib/commands/hardis/scratch/create.js:37:9)\n    at async ScratchCreate._run (/Users/bnathan/.local/share/sf/node_modules/sfdx-hardis/node_modules/@salesforce/command/lib/sfdxCommand.js:81:40)\n    at async Config.runCommand (/opt/homebrew/lib/node_modules/@salesforce/cli/node_modules/@oclif/core/lib/config/config.js:415:25)\n    at async run (/opt/homebrew/lib/node_modules/@salesforce/cli/node_modules/@oclif/core/lib/main.js:85:16)",
+  "warnings": []
+}
+[sfdx-hardis] hardis:scratch:create execution time 0:00:05.391
+[sfdx-hardis] Updated config file /Users/bnathan/CTM/DEV/ctm-sf-homeloan-app/config/user/.sfdx-hardis.bnathan.yml with values: 
+{
+  "restDeployDisabled": true
+}
+
+[sfdx-hardis] Already updating scratch org pool: try again in 2000 ms
+[sfdx-hardis] [pool] Requested redis connection
+[pool] Scratch org creation error: 
+{"status":1,"rawLog":"[sfdx-hardis][command] sfdx force:org:display --targetusername DevHub_Test-Scratch --json\n[sfdx-hardis][WARNING] stderr: (node:20891) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.\n(Use `node --trace-deprecation ...` to show where the warning was created)\n\n[sfdx-hardis] You are already connected as bimal.prabha@empathetic-raccoon-bvkstq.com on org https://empathetic-raccoon-bvkstq-dev-ed.trailblaze.my.salesforce.com\n[sfdx-hardis] If this is NOT the org you want to play with, hit CTRL+C, then input sfdx hardis:org:select\n[sfdx-hardis][command] sfdx config:set defaultdevhubusername=bimal.prabha@empathetic-raccoon-bvkstq.com --json\n[sfdx-hardis][WARNING] stderr: (node:20902) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.\n(Use `node --trace-deprecation ...` to show where the warning was created)\n\n[sfdx-hardis][command] sfdx config:get restDeploy --json\n[sfdx-hardis] Updated config file /Users/bnathan/CTM/DEV/ctm-sf-homeloan-app/config/user/.sfdx-hardis.bnathan.yml with values: \n{\n  \"sfdxPluginsStdout\": \"packaging 1.27.6\\nsfdmu 4.32.2\\nsfdx-essentials 2.12.0\\nsfdx-git-delta 5.30.0\\nsfdx-hardis 4.18.3\\ntexei-sfdx-plugin 2.2.0\\n\\nUninstalled JIT Plugins:\\ncommunity 3.0.2\\ncustom-metadata 3.0.3\\ndev 2.0.2\\ndevops-center 1.2.4\\nenv 3.0.6\\nfunctions 1.22.9\\nsignups 2.0.4\\n@salesforce/sfdx-plugin-lwc-test 1.1.1\\n@salesforce/sfdx-scanner 3.18.0\\n\"\n}\n[sfdx-hardis][WARNING] stderr: (node:20945) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.\n(Use `node --trace-deprecation ...` to show where the warning was created)\n\n[sfdx-hardis] Updated config file /Users/bnathan/CTM/DEV/ctm-sf-homeloan-app/config/user/.sfdx-hardis.bnathan.yml with values: \n{\n  \"restDeployDisabled\": true\n}\n{\n  \"status\": 1,\n  \"name\": \"SfdxError\",\n  \"message\": \"\\u001b[31mYou need to define userEmail property in .sfdx-hardis.yml\\u001b[39m\",\n  \"exitCode\": 1,\n  \"commandName\": \"ScratchCreate\",\n  \"stack\": \"SfdxError: \\u001b[31mYou need to define userEmail property in .sfdx-hardis.yml\\u001b[39m\\n    at ScratchCreate.initConfig (/Users/bnathan/.local/share/sf/node_modules/sfdx-hardis/lib/commands/hardis/scratch/create.js:118:23)\\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\\n    at async ScratchCreate.run (/Users/bnathan/.local/share/sf/node_modules/sfdx-hardis/lib/commands/hardis/scratch/create.js:37:9)\\n    at async ScratchCreate._run (/Users/bnathan/.local/share/sf/node_modules/sfdx-hardis/node_modules/@salesforce/command/lib/sfdxCommand.js:81:40)\\n    at async Config.runCommand (/opt/homebrew/lib/node_modules/@salesforce/cli/node_modules/@oclif/core/lib/config/config.js:415:25)\\n    at async run (/opt/homebrew/lib/node_modules/@salesforce/cli/node_modules/@oclif/core/lib/main.js:85:16)\",\n  \"warnings\": []\n}\n[sfdx-hardis] hardis:scratch:create execution time 0:00:05.425\n"}
+[sfdx-hardis][pool] hardis:scratch:create (2) exited with code 1
+Return code is not 0 (2): [sfdx-hardis][command] sfdx force:org:display --targetusername DevHub_Test-Scratch --json
+[sfdx-hardis][WARNING] stderr: (node:20892) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+[sfdx-hardis] You are already connected as bimal.prabha@empathetic-raccoon-bvkstq.com on org https://empathetic-raccoon-bvkstq-dev-ed.trailblaze.my.salesforce.com
+[sfdx-hardis] If this is NOT the org you want to play with, hit CTRL+C, then input sfdx hardis:org:select
+[sfdx-hardis][command] sfdx config:set defaultdevhubusername=bimal.prabha@empathetic-raccoon-bvkstq.com --json
+[sfdx-hardis][WARNING] stderr: (node:20998) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+[sfdx-hardis][command] sfdx config:get restDeploy --json
+{
+  "status": 1,
+  "name": "SfdxError",
+  "message": "\u001b[31mYou need to define userEmail property in .sfdx-hardis.yml\u001b[39m",
+  "exitCode": 1,
+  "commandName": "ScratchCreate",
+  "stack": "SfdxError: \u001b[31mYou need to define userEmail property in .sfdx-hardis.yml\u001b[39m\n    at ScratchCreate.initConfig (/Users/bnathan/.local/share/sf/node_modules/sfdx-hardis/lib/commands/hardis/scratch/create.js:118:23)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async ScratchCreate.run (/Users/bnathan/.local/share/sf/node_modules/sfdx-hardis/lib/commands/hardis/scratch/create.js:37:9)\n    at async ScratchCreate._run (/Users/bnathan/.local/share/sf/node_modules/sfdx-hardis/node_modules/@salesforce/command/lib/sfdxCommand.js:81:40)\n    at async Config.runCommand (/opt/homebrew/lib/node_modules/@salesforce/cli/node_modules/@oclif/core/lib/config/config.js:415:25)\n    at async run (/opt/homebrew/lib/node_modules/@salesforce/cli/node_modules/@oclif/core/lib/main.js:85:16)",
+  "warnings": []
+}
+[sfdx-hardis] hardis:scratch:create execution time 0:00:05.661
+[sfdx-hardis][WARNING] stderr: (node:21072) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+[sfdx-hardis] Updated config file /Users/bnathan/CTM/DEV/ctm-sf-homeloan-app/config/user/.sfdx-hardis.bnathan.yml with values: 
+{
+  "restDeployDisabled": true
+}
+
+Error parsing stdout (2): [sfdx-hardis][command] sfdx force:org:display --targetusername DevHub_Test-Scratch --json
+[sfdx-hardis][WARNING] stderr: (node:20892) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+[sfdx-hardis] You are already connected as bimal.prabha@empathetic-raccoon-bvkstq.com on org https://empathetic-raccoon-bvkstq-dev-ed.trailblaze.my.salesforce.com
+[sfdx-hardis] If this is NOT the org you want to play with, hit CTRL+C, then input sfdx hardis:org:select
+[sfdx-hardis][command] sfdx config:set defaultdevhubusername=bimal.prabha@empathetic-raccoon-bvkstq.com --json
+[sfdx-hardis][WARNING] stderr: (node:20998) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+[sfdx-hardis][command] sfdx config:get restDeploy --json
+{
+  "status": 1,
+  "name": "SfdxError",
+  "message": "\u001b[31mYou need to define userEmail property in .sfdx-hardis.yml\u001b[39m",
+  "exitCode": 1,
+  "commandName": "ScratchCreate",
+  "stack": "SfdxError: \u001b[31mYou need to define userEmail property in .sfdx-hardis.yml\u001b[39m\n    at ScratchCreate.initConfig (/Users/bnathan/.local/share/sf/node_modules/sfdx-hardis/lib/commands/hardis/scratch/create.js:118:23)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async ScratchCreate.run (/Users/bnathan/.local/share/sf/node_modules/sfdx-hardis/lib/commands/hardis/scratch/create.js:37:9)\n    at async ScratchCreate._run (/Users/bnathan/.local/share/sf/node_modules/sfdx-hardis/node_modules/@salesforce/command/lib/sfdxCommand.js:81:40)\n    at async Config.runCommand (/opt/homebrew/lib/node_modules/@salesforce/cli/node_modules/@oclif/core/lib/config/config.js:415:25)\n    at async run (/opt/homebrew/lib/node_modules/@salesforce/cli/node_modules/@oclif/core/lib/main.js:85:16)",
+  "warnings": []
+}
+[sfdx-hardis] hardis:scratch:create execution time 0:00:05.661
+[sfdx-hardis][WARNING] stderr: (node:21072) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+[sfdx-hardis] Updated config file /Users/bnathan/CTM/DEV/ctm-sf-homeloan-app/config/user/.sfdx-hardis.bnathan.yml with values: 
+{
+  "restDeployDisabled": true
+}
+
+[sfdx-hardis] [pool] Requested redis connection
+[pool] Scratch org creation error: 
+{"status":1,"rawLog":"[sfdx-hardis][command] sfdx force:org:display --targetusername DevHub_Test-Scratch --json\n[sfdx-hardis][WARNING] stderr: (node:20892) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.\n(Use `node --trace-deprecation ...` to show where the warning was created)\n\n[sfdx-hardis] You are already connected as bimal.prabha@empathetic-raccoon-bvkstq.com on org https://empathetic-raccoon-bvkstq-dev-ed.trailblaze.my.salesforce.com\n[sfdx-hardis] If this is NOT the org you want to play with, hit CTRL+C, then input sfdx hardis:org:select\n[sfdx-hardis][command] sfdx config:set defaultdevhubusername=bimal.prabha@empathetic-raccoon-bvkstq.com --json\n[sfdx-hardis][WARNING] stderr: (node:20998) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.\n(Use `node --trace-deprecation ...` to show where the warning was created)\n\n[sfdx-hardis][command] sfdx config:get restDeploy --json\n{\n  \"status\": 1,\n  \"name\": \"SfdxError\",\n  \"message\": \"\\u001b[31mYou need to define userEmail property in .sfdx-hardis.yml\\u001b[39m\",\n  \"exitCode\": 1,\n  \"commandName\": \"ScratchCreate\",\n  \"stack\": \"SfdxError: \\u001b[31mYou need to define userEmail property in .sfdx-hardis.yml\\u001b[39m\\n    at ScratchCreate.initConfig (/Users/bnathan/.local/share/sf/node_modules/sfdx-hardis/lib/commands/hardis/scratch/create.js:118:23)\\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\\n    at async ScratchCreate.run (/Users/bnathan/.local/share/sf/node_modules/sfdx-hardis/lib/commands/hardis/scratch/create.js:37:9)\\n    at async ScratchCreate._run (/Users/bnathan/.local/share/sf/node_modules/sfdx-hardis/node_modules/@salesforce/command/lib/sfdxCommand.js:81:40)\\n    at async Config.runCommand (/opt/homebrew/lib/node_modules/@salesforce/cli/node_modules/@oclif/core/lib/config/config.js:415:25)\\n    at async run (/opt/homebrew/lib/node_modules/@salesforce/cli/node_modules/@oclif/core/lib/main.js:85:16)\",\n  \"warnings\": []\n}\n[sfdx-hardis] hardis:scratch:create execution time 0:00:05.661\n[sfdx-hardis][WARNING] stderr: (node:21072) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.\n(Use `node --trace-deprecation ...` to show where the warning was created)\n\n[sfdx-hardis] Updated config file /Users/bnathan/CTM/DEV/ctm-sf-homeloan-app/config/user/.sfdx-hardis.bnathan.yml with values: \n{\n  \"restDeployDisabled\": true\n}\n"}
+[sfdx-hardis] [pool] Requested redis connection
+[pool] Scratch org creation error: 
+{"status":1,"rawLog":"[sfdx-hardis][command] sfdx force:org:display --targetusername DevHub_Test-Scratch --json\n[sfdx-hardis][WARNING] stderr: (node:20890) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.\n(Use `node --trace-deprecation ...` to show where the warning was created)\n\n[sfdx-hardis] You are already connected as bimal.prabha@empathetic-raccoon-bvkstq.com on org https://empathetic-raccoon-bvkstq-dev-ed.trailblaze.my.salesforce.com\n[sfdx-hardis] If this is NOT the org you want to play with, hit CTRL+C, then input sfdx hardis:org:select\n[sfdx-hardis][command] sfdx config:set defaultdevhubusername=bimal.prabha@empathetic-raccoon-bvkstq.com --json\n[sfdx-hardis][WARNING] stderr: (node:20903) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.\n(Use `node --trace-deprecation ...` to show where the warning was created)\n\n[sfdx-hardis][command] sfdx config:get restDeploy --json\n[sfdx-hardis] Updated config file /Users/bnathan/CTM/DEV/ctm-sf-homeloan-app/config/user/.sfdx-hardis.bnathan.yml with values: \n{\n  \"sfdxPluginsStdout\": \"packaging 1.27.6\\nsfdmu 4.32.2\\nsfdx-essentials 2.12.0\\nsfdx-git-delta 5.30.0\\nsfdx-hardis 4.18.3\\ntexei-sfdx-plugin 2.2.0\\n\\nUninstalled JIT Plugins:\\ncommunity 3.0.2\\ncustom-metadata 3.0.3\\ndev 2.0.2\\ndevops-center 1.2.4\\nenv 3.0.6\\nfunctions 1.22.9\\nsignups 2.0.4\\n@salesforce/sfdx-plugin-lwc-test 1.1.1\\n@salesforce/sfdx-scanner 3.18.0\\n\"\n}\n[sfdx-hardis][WARNING] stderr: (node:20937) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.\n(Use `node --trace-deprecation ...` to show where the warning was created)\n\n{\n  \"status\": 1,\n  \"name\": \"SfdxError\",\n  \"message\": \"\\u001b[31mYou need to define userEmail property in .sfdx-hardis.yml\\u001b[39m\",\n  \"exitCode\": 1,\n  \"commandName\": \"ScratchCreate\",\n  \"stack\": \"SfdxError: \\u001b[31mYou need to define userEmail property in .sfdx-hardis.yml\\u001b[39m\\n    at ScratchCreate.initConfig (/Users/bnathan/.local/share/sf/node_modules/sfdx-hardis/lib/commands/hardis/scratch/create.js:118:23)\\n    at async ScratchCreate.run (/Users/bnathan/.local/share/sf/node_modules/sfdx-hardis/lib/commands/hardis/scratch/create.js:37:9)\\n    at async ScratchCreate._run (/Users/bnathan/.local/share/sf/node_modules/sfdx-hardis/node_modules/@salesforce/command/lib/sfdxCommand.js:81:40)\\n    at async Config.runCommand (/opt/homebrew/lib/node_modules/@salesforce/cli/node_modules/@oclif/core/lib/config/config.js:415:25)\\n    at async run (/opt/homebrew/lib/node_modules/@salesforce/cli/node_modules/@oclif/core/lib/main.js:85:16)\",\n  \"warnings\": []\n}\n[sfdx-hardis] hardis:scratch:create execution time 0:00:05.391\n[sfdx-hardis] Updated config file /Users/bnathan/CTM/DEV/ctm-sf-homeloan-app/config/user/.sfdx-hardis.bnathan.yml with values: \n{\n  \"restDeployDisabled\": true\n}\n"}
+[sfdx-hardis][pool] Created 0 scratch orgs (3 creations(s) failed)

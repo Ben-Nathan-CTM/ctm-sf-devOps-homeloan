@@ -1,0 +1,2 @@
+/opt/homebrew/Cellar/node/21.2.0/bin/node /opt/homebrew/bin/sfdx hardis:config:get --level project --json/opt/homebrew/Cellar/node/21.2.0/bin/node /opt/homebrew/bin/sfdx hardis:config:get --level user --json[sfdx-hardis] {"projectName":"Test","devHubAlias":"DevHub_Test","poolConfig":{"maxScratchOrgsNumber":5,"storageService":"redis"}}
+[sfdx-hardis] {"projectName":"Test","devHubAlias":"DevHub_Test","poolConfig":{"maxScratchOrgsNumber":5,"storageService":"redis"},"installedApps":["git"],"redisAuthUrl":"redis-16774.c51.ap-southeast-2-1.ec2.cloud.redislabs.com:16774"}

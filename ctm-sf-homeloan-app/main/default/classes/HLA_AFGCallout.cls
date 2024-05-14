@@ -63,4 +63,37 @@ public class HLA_AFGCallout {
     Nebula.Logger.saveLog();
     return bodyStatusCode;
   }
+  @AuraEnabled
+  public static void updateRecordToBeDeleted(
+    String objectName,
+    String recordId
+  ) {
+    try {
+      SObject record = Schema.getGlobalDescribe().get(objectName).newSobject();
+      System.debug('Object Name: ' + objectName);
+      System.debug('Record Id: ' + recordId);
+
+      record.put('Id', recordId);
+      record.put('IsDeleted__c', true);
+      update record;
+
+      HLA_DeleteRecord__e event = new HLA_DeleteRecord__e(
+        recordId__c = recordId,
+        ObjectName__c = objectName
+      );
+      Database.SaveResult sr = EventBus.publish(event);
+      System.debug('EventUuid: ' + event.EventUuid);
+      if (sr.isSuccess()) {
+        System.debug('Successfully published event.');
+      } else {
+        for (Database.Error err : sr.getErrors()) {
+          System.debug(
+            'Error returned: ' + err.getStatusCode() + ' - ' + err.getMessage()
+          );
+        }
+      }
+    } catch (Exception e) {
+      throw new AuraHandledException(e.getMessage());
+    }
+  }
 }

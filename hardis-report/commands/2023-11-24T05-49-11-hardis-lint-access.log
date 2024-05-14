@@ -1,0 +1,2 @@
+/Users/bnathan/.local/share/sf/client/2.17.14-31db5eb/bin/node /Users/bnathan/.local/share/sf/client/2.17.14-31db5eb/bin/run hardis:lint:access --websocket localhost:2748[sfdx-hardis] Check if elements(apex class and field) are at least in one permission set
+[sfdx-hardis] All elements are included in at least one Permission set or Profile

@@ -3,4 +3,9 @@ public interface HLA_ILoanApplicationExpensesSelector extends IApplicationSObjec
   Schema.SObjectType getSObjectType();
   String getOrderBy();
   HLA_LoanApplicationExpensesSelector setNewSortOrder(String fieldToOrderBy);
+
+  List<LoanApplicationExpense__c> selectLoanApplicationExpensesByReferenceId(
+    String referenceId,
+    String applId
+  );
 }
