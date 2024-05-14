@@ -36,9 +36,9 @@ jobs:
       - name: Install Package
         run: |
              new_version_id=$(grep -o "04t[[:alnum:]]\{15\}" sfdx-project.json | tail -n1)
-             echo "version_id=${new_version_id}" >> $GITHUB_ENV
+             echo "version_id=${new_version_id}"
+             echo "$version_id"
              sfdx force:package:install -p "$version_id" -u BENDEV --publishwait 3 --wait 10 -r
-        continue-on-error: true
     
 
       # - name: Create new PACKAGE
