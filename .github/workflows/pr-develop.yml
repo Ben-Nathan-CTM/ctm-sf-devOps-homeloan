@@ -2,10 +2,10 @@ name: Pull Request to Develop
 
 on:
   pull_request:
-    branches: [ develop ]
-    
+    branches: [develop]
+
 permissions:
-  contents: write    
+  contents: write
 
 jobs:
   validate_pull_request:
@@ -14,29 +14,29 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-            repository: Ben-Nathan-CTM/ctm-sf-devOps-homeloan
-            ref: feature
+          repository: Ben-Nathan-CTM/ctm-sf-devOps-homeloan
+          ref: feature
 
       - name: Install Salesforce CLI
-        run: | 
-            npm install @salesforce/cli --location=global
-            nodeInstallPath=$(npm config get prefix)
-            echo "$nodeInstallPath/bin" >> $GITHUB_PATH
-            sf --version
-  
+        run: |
+          npm install @salesforce/cli --location=global
+          nodeInstallPath=$(npm config get prefix)
+          echo "$nodeInstallPath/bin" >> $GITHUB_PATH
+          sf --version
+
       - name: Install jq
         run: |
-            sudo apt-get install jq
+          sudo apt-get install jq
 
       - name: Populate auth file
         shell: bash
-        run: 'echo ${{ secrets.DEVHUB_SFDX_URL }} > ./DEVHUB_SFDX_URL.txt'
-  
+        run: "echo ${{ secrets.DEVHUB_SFDX_URL }} > ./DEVHUB_SFDX_URL.txt"
+
       - name: Authenticate Dev Hub
-        run: 'sf org login sfdx-url -f ./DEVHUB_SFDX_URL.txt -a devhub -d'
+        run: "sf org login sfdx-url -f ./DEVHUB_SFDX_URL.txt -a devhub -d"
 
       - name: Create scratch org
-        run: 'sfdx force:org:create -f config/project-scratch-def.json -a ctm_scratch -s -d 1'
+        run: "sfdx force:org:create -f config/project-scratch-def.json -a ctm_scratch -s -d 1"
 
       # - name: Install all the dependency packages for home loan
       #   run:  chmod +x ./installPackages.sh
@@ -49,46 +49,41 @@ jobs:
             # Replace the below command with the sfdx command to install the package
             sfdx force:package:install -p "$package" -w 10 -b 10 -r
           done
-    
+
       - name: Push source to scratch org
-        run: 'sfdx force:source:push -f'
-        continue-on-error: true
+        run: "sfdx force:source:push -f"
 
       - name: Create new PACKAGE
-        if: ${{ success() }}
         run: |
-             sf package version create -d ctm-sf-homeloan-app -x -f config/project-scratch-def.json -w 60 --code-coverage --json
-             new_version_id=$(grep -o "04t[[:alnum:]]\{15\}" sfdx-project.json | tail -n1)
-             echo "version_id=${new_version_id}" >> $GITHUB_ENV
-             
+          sf package version create -d ctm-sf-homeloan-app -x -f config/project-scratch-def.json -w 60 --code-coverage --json
+          new_version_id=$(grep -o "04t[[:alnum:]]\{15\}" sfdx-project.json | tail -n1)
+          echo "version_id=${new_version_id}" >> $GITHUB_ENV
+
       - name: Check code coverage
         run: |
-             test $(sfdx force:package:version:report -p "$version_id" --json | jq .result.HasPassedCodeCoverageCheck) = 'true'
+          test $(sfdx force:package:version:report -p "$version_id" --json | jq .result.HasPassedCodeCoverageCheck) = 'true'
 
       # - name: Install latest package
       #   run: |
       #        sfdx force:package:install -p "$version_id" -w 10 -b 10 -r
-    
 
       - name: Store new version id
         run: |
-              git checkout feature
-              git config user.name "Ben-Nathan-CTM"
-              git config user.email "148920993+Ben-Nathan-CTM@users.noreply.github.com"
-              sed -i -e "s/04t[[:alnum:]]\{15\}/${version_id}/" README.md
-              git add README.md
-              git add sfdx-project.json
-              git commit -m "Updating new package pre-release version"
-              git push
-
+          git checkout feature
+          git config user.name "Ben-Nathan-CTM"
+          git config user.email "148920993+Ben-Nathan-CTM@users.noreply.github.com"
+          sed -i -e "s/04t[[:alnum:]]\{15\}/${version_id}/" README.md
+          git add README.md
+          git add sfdx-project.json
+          git commit -m "Updating new package pre-release version"
+          git push
 
       # - name: Check code coverage
       #   run: |
       #       sfdx force:apex:test:run --codecoverage --resultformat json --synchronous --testlevel RunLocalTests --wait 10 > tests.json
       #       coverage=$(jq .result.summary.orgWideCoverage tests.json | grep -Eo "[[:digit:]]+")
       #       test $coverage -ge 50
-            
+
       - name: Delete scratch org
         if: always()
-        run: 'sfdx force:org:delete -p -u ctm_scratch'
-
+        run: "sfdx force:org:delete -p -u ctm_scratch"
