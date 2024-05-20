@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>851</fullName>
+        <default>false</default>
+        <label>Residential</label>
+    </customValue>
+    <customValue>
+        <fullName>852</fullName>
+        <default>false</default>
+        <label>Commercial</label>
+    </customValue>
+    <customValue>
+        <fullName>1659</fullName>
+        <default>false</default>
+        <label>House</label>
+    </customValue>
+    <customValue>
+        <fullName>1662</fullName>
+        <default>false</default>
+        <label>Townhouse / Villa</label>
+    </customValue>
+    <customValue>
+        <fullName>1664</fullName>
+        <default>false</default>
+        <label>Apartment</label>
+    </customValue>
+    <masterLabel>PropertyTypes</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

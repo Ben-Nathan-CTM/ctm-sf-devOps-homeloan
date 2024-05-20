@@ -1,0 +1,24 @@
+<template>
+  <div class="fill-remaining-screen-space">
+    <template lwc:if={goalsSelected}> goalsSelecteds </template>
+    <template lwc:elseif={loanSummarySelected}> loanSummarySelected </template>
+    <template lwc:elseif={applicantDetailsSelected}>
+      <c-hla-applicant-details-tab
+        record-id={applicationId}
+      ></c-hla-applicant-details-tab>
+    </template>
+    <template lwc:elseif={financialPositionSelected}>
+      <c-hla-financial-position-tab
+        record-id={applicationId}
+      ></c-hla-financial-position-tab>
+    </template>
+    <template lwc:elseif={lenderElegibilitySelected}>
+      <c-hla-product-eligibility-table
+        record-id={applicationId}
+      ></c-hla-product-eligibility-table
+    ></template>
+    <template lwc:elseif={responsibleLendingSelected}>
+      responsibleLendingSelected
+    </template>
+  </div>
+</template>

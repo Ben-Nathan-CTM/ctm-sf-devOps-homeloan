@@ -1,0 +1,55 @@
+<template>
+  <template lwc:if={selectedProduct.data}>
+    <div
+      class="slds-p-around_medium slds-box slds-theme_shade slds-m-bottom_small"
+    >
+      <article class="slds-tile slds-media">
+        <div class="slds-media__figure">
+          <span class="slds-icon_container" title={lenderName}>
+            <img class="slds-icon" src={logoURL} />
+          </span>
+        </div>
+        <div class="slds-media__body">
+          <h3 class="slds-tile__title slds-truncate" title={productName}>
+            <a href="#" onclick={handleProductNameClick}>{productName}</a>
+          </h3>
+          <div class="slds-tile__detail">
+            <ul class="slds-list_horizontal">
+              <li class="slds-p-right_x-small">
+                <strong>Loan Amount: </strong
+                ><lightning-formatted-number
+                  value={loanAmount}
+                  format-style="currency"
+                  maximum-fraction-digits="2"
+                ></lightning-formatted-number>
+              </li>
+              <li class="slds-p-right_x-small">
+                <strong>LMI: </strong
+                ><lightning-formatted-number
+                  value={lmi}
+                  format-style="currency"
+                  maximum-fraction-digits="2"
+                ></lightning-formatted-number>
+              </li>
+              <li class="slds-p-right_x-small">
+                <strong>LVR: </strong
+                ><lightning-formatted-number
+                  value={lvr}
+                  format-style="percent-fixed"
+                  maximum-fraction-digits="2"
+                ></lightning-formatted-number>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </article>
+    </div>
+  </template>
+  <template lwc:else
+    ><div
+      class="slds-p-around_medium slds-box slds-theme_shade slds-m-bottom_small"
+    >
+      No Product Selected
+    </div>
+  </template>
+</template>

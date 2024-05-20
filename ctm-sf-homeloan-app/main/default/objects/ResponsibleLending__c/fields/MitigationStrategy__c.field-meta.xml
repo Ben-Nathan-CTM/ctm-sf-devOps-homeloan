@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MitigationStrategy__c</fullName>
+    <deprecated>false</deprecated>
+    <description
+  >Enumerated string for how the risk can be mitigated. Required if Responsible Lending is used.</description>
+    <externalId>false</externalId>
+    <label>MitigationStrategy</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Circumstances already reflected</fullName>
+                <default>false</default>
+                <label>Circumstances already reflected</label>
+            </value>
+            <value>
+                <fullName>Reducing Expenditure</fullName>
+                <default>false</default>
+                <label>Reducing Expenditure</label>
+            </value>
+            <value>
+                <fullName>Sale of Assets</fullName>
+                <default>false</default>
+                <label>Sale of Assets</label>
+            </value>
+            <value>
+                <fullName>Secure additional Income</fullName>
+                <default>false</default>
+                <label>Secure additional Income</label>
+            </value>
+            <value>
+                <fullName>Use of Savings</fullName>
+                <default>false</default>
+                <label>Use of Savings</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

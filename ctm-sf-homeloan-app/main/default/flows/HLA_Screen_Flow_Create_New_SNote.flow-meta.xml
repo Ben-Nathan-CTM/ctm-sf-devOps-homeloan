@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>57.0</apiVersion>
+    <choices>
+        <name>ApplicantDetails</name>
+        <choiceText>Applicant Details</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Applicant Details</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>ApplicationSummary</name>
+        <choiceText>Application Summary</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Application Summary</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>FinancialPosition</name>
+        <choiceText>Financial Position</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Financial Position</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>LenderEligibility</name>
+        <choiceText>Lender Eligibility</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Lender Eligibility</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>PropertyDetails</name>
+        <choiceText>Property Details</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Property Details</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>ResponsibleLending</name>
+        <choiceText>Responsible Lending</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Responsible Lending</stringValue>
+        </value>
+    </choices>
+    <environments>Default</environments>
+    <interviewLabel>HLA_Screen Flow: Create New SNote {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>HLA_Screen Flow: Create New SNote</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <recordCreates>
+        <name>Create_Document_Link</name>
+        <label>Create Document Link</label>
+        <locationX>176</locationX>
+        <locationY>458</locationY>
+        <inputAssignments>
+            <field>ContentDocumentId</field>
+            <value>
+                <elementReference>sNoteId</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>LinkedEntityId</field>
+            <value>
+                <elementReference>recordId</elementReference>
+            </value>
+        </inputAssignments>
+        <object>ContentDocumentLink</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordUpdates>
+        <name>Update_Content_Version_with_Related_Tab</name>
+        <label>Update Content Version with Related Tab</label>
+        <locationX>176</locationX>
+        <locationY>350</locationY>
+        <connector>
+            <targetReference>Create_Document_Link</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>ContentDocumentId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>sNoteId</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Title</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>sNoteTitlte</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>IsLatest</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>RelatedTab__c</field>
+            <value>
+                <elementReference>Related_Tab</elementReference>
+            </value>
+        </inputAssignments>
+        <object>ContentVersion</object>
+    </recordUpdates>
+    <runInMode>DefaultMode</runInMode>
+    <screens>
+        <name>SNote_Details</name>
+        <label>SNote Details</label>
+        <locationX>176</locationX>
+        <locationY>134</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <connector>
+            <targetReference>Create_Snote_and_return_Id</targetReference>
+        </connector>
+        <fields>
+            <name>InstructionsText</name>
+            <fieldText>&lt;p&gt;Please enter the details of the Note&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>sNoteTitlte</name>
+            <dataType>String</dataType>
+            <fieldText>Title</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>snoteBody</name>
+            <dataType>String</dataType>
+            <fieldText>Content</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Related_Tab</name>
+            <choiceReferences>ApplicantDetails</choiceReferences>
+            <choiceReferences>ApplicationSummary</choiceReferences>
+            <choiceReferences>FinancialPosition</choiceReferences>
+            <choiceReferences>PropertyDetails</choiceReferences>
+            <choiceReferences>ResponsibleLending</choiceReferences>
+            <choiceReferences>LenderEligibility</choiceReferences>
+            <dataType>String</dataType>
+            <defaultValue>
+                <elementReference>relatedTabFromButton</elementReference>
+            </defaultValue>
+            <fieldText>Related Tab</fieldText>
+            <fieldType>DropdownBox</fieldType>
+            <helpText>&lt;p&gt;This determines which Tab the Note appears under&lt;/p&gt;</helpText>
+            <isRequired>true</isRequired>
+        </fields>
+        <nextOrFinishButtonLabel>Finish</nextOrFinishButtonLabel>
+        <showFooter>true</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>SNote_Details</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <subflows>
+        <name>Create_Snote_and_return_Id</name>
+        <label>Create Snote and return Id</label>
+        <locationX>176</locationX>
+        <locationY>242</locationY>
+        <connector>
+            <targetReference>Update_Content_Version_with_Related_Tab</targetReference>
+        </connector>
+        <flowName>HLA_Auto_Flow_Create_SNote</flowName>
+        <inputAssignments>
+            <name>body</name>
+            <value>
+                <elementReference>snoteBody</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <name>ownerId</name>
+            <value>
+                <elementReference>$User.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <name>title</name>
+            <value>
+                <elementReference>sNoteTitlte</elementReference>
+            </value>
+        </inputAssignments>
+        <outputAssignments>
+            <assignToReference>sNoteId</assignToReference>
+            <name>outputRecordId</name>
+        </outputAssignments>
+    </subflows>
+    <variables>
+        <name>recordId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>relatedTabFromButton</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>sNoteId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

@@ -35,20 +35,19 @@ jobs:
       - name: Authenticate Dev Hub
         run: "sf org login sfdx-url -f ./DEVHUB_SFDX_URL.txt -a devhub -d"
 
-      - name: Create scratch org
-        run: "sfdx force:org:create -f config/project-scratch-def.json -a ctm_scratch -s -d 1"
+      # - name: Create scratch org
+      #   run: "sfdx force:org:create -f config/project-scratch-def.json -a ctm_scratch -s -d 1"
+      - name: Create scratch org from scratch pool
+        run: "sf org create scratch --definition-file config/scratchSnapshot.json --alias ctm-scratch --wait 10 --target-dev-hub PROD"
 
-      # - name: Install all the dependency packages for home loan
-      #   run:  chmod +x ./installPackages.sh
-      #         ./installPackages.sh
-      - name: Install Packages
-        run: |
-          PACKAGES=(04t960000000S8kAAE 04t960000000S5gAAE 04t960000000S5lAAE 04t960000000S5WAAU 04t960000000SfLAAU  04tOm0000000HGzIAM    04t3m000002D9hu 04t5Y0000023R28QAE 04t6g000008So61AAC 04tOm0000000FqHIAU   04tOm0000000GBFIA2     04tOm0000000PsrIAE   04tOm0000000Bt7IAE 04t6g000008C6lwAAC 04t3u000003asycAAA 04t5w000003gWWBAA2 )
-          for package in "${PACKAGES[@]}"; do
-            echo "Installing $package..."
-            # Replace the below command with the sfdx command to install the package
-            sfdx force:package:install -p "$package" -w 10 -b 10 -r
-          done
+      # - name: Install Packages
+      #   run: |
+      #     PACKAGES=(04t960000000S8kAAE 04t960000000S5gAAE 04t960000000S5lAAE 04t960000000S5WAAU 04t960000000SfLAAU  04tOm0000000HGzIAM    04t3m000002D9hu 04t5Y0000023R28QAE 04t6g000008So61AAC 04tOm0000000FqHIAU   04tOm0000000GBFIA2     04tOm0000000PsrIAE   04tOm0000000Bt7IAE 04t6g000008C6lwAAC 04t3u000003asycAAA 04t5w000003gWWBAA2 )
+      #     for package in "${PACKAGES[@]}"; do
+      #       echo "Installing $package..."
+      #       # Replace the below command with the sfdx command to install the package
+      #       sfdx force:package:install -p "$package" -w 10 -b 10 -r
+      #     done
 
       - name: Push source to scratch org
         run: "sfdx force:source:push -f"

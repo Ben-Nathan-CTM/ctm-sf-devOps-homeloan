@@ -1,0 +1,8 @@
+<template>
+  <ul style="list-style-type: none">
+    Upfront Costs
+    <template for:each={costs} for:item="cost">
+      <li key={cost.Id}>{cost.Type}: {cost.Value}</li>
+    </template>
+  </ul>
+</template>

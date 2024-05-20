@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>733</fullName>
+        <default>false</default>
+        <label>Corporate Bonds</label>
+    </customValue>
+    <customValue>
+        <fullName>734</fullName>
+        <default>false</default>
+        <label>Cryptocurrency</label>
+    </customValue>
+    <customValue>
+        <fullName>735</fullName>
+        <default>false</default>
+        <label>Debentures</label>
+    </customValue>
+    <customValue>
+        <fullName>736</fullName>
+        <default>false</default>
+        <label>Derivatives</label>
+    </customValue>
+    <customValue>
+        <fullName>737</fullName>
+        <default>false</default>
+        <label>Exchange Traded Fund</label>
+    </customValue>
+    <customValue>
+        <fullName>738</fullName>
+        <default>false</default>
+        <label>Government Bonds</label>
+    </customValue>
+    <customValue>
+        <fullName>739</fullName>
+        <default>false</default>
+        <label>Hedge Funds</label>
+    </customValue>
+    <customValue>
+        <fullName>740</fullName>
+        <default>false</default>
+        <label>Hybrid Securities</label>
+    </customValue>
+    <customValue>
+        <fullName>741</fullName>
+        <default>false</default>
+        <label>Interest Rate Securities</label>
+    </customValue>
+    <customValue>
+        <fullName>742</fullName>
+        <default>false</default>
+        <label>Listed Company Shares</label>
+    </customValue>
+    <customValue>
+        <fullName>743</fullName>
+        <default>false</default>
+        <label>Listed Investment Company (LIC) Dividends</label>
+    </customValue>
+    <customValue>
+        <fullName>744</fullName>
+        <default>false</default>
+        <label>Managed Funds</label>
+    </customValue>
+    <customValue>
+        <fullName>745</fullName>
+        <default>false</default>
+        <label>Real Estate Investment Trust</label>
+    </customValue>
+    <masterLabel>IncomeInvestmentType</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

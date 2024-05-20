@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EmploymentRoleSubCategory__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Employment Role Sub Category</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Arts and Media Professionals</fullName>
+                <default>false</default>
+                <label>Arts and Media Professionals</label>
+            </value>
+            <value>
+                <fullName>Automotive and Engineering Trades Workers</fullName>
+                <default>false</default>
+                <label>Automotive and Engineering Trades Workers</label>
+            </value>
+            <value>
+                <fullName>Business, Human Resource and Marketing Professionals</fullName>
+                <default>false</default>
+                <label>Business, Human Resource and Marketing Professionals</label>
+            </value>
+            <value>
+                <fullName>Carers and Aides</fullName>
+                <default>false</default>
+                <label>Carers and Aides</label>
+            </value>
+            <value>
+                <fullName>Chief Executives, General Managers and Legislators</fullName>
+                <default>false</default>
+                <label>Chief Executives, General Managers and Legislators</label>
+            </value>
+            <value>
+                <fullName>Cleaners and Laundry Workers</fullName>
+                <default>false</default>
+                <label>Cleaners and Laundry Workers</label>
+            </value>
+            <value>
+                <fullName>Clerical and Office Support Workers</fullName>
+                <default>false</default>
+                <label>Clerical and Office Support Workers</label>
+            </value>
+            <value>
+                <fullName>Construction and Mining Labourers</fullName>
+                <default>false</default>
+                <label>Construction and Mining Labourers</label>
+            </value>
+            <value>
+                <fullName>Construction Trades Workers</fullName>
+                <default>false</default>
+                <label>Construction Trades Workers</label>
+            </value>
+            <value>
+                <fullName>Design, Engineering, Science and Transport Professionals</fullName>
+                <default>false</default>
+                <label>Design, Engineering, Science and Transport Professionals</label>
+            </value>
+            <value>
+                <fullName>Education Professionals</fullName>
+                <default>false</default>
+                <label>Education Professionals</label>
+            </value>
+            <value>
+                <fullName>Electrotechnology and Telecommunications Trades Workers</fullName>
+                <default>false</default>
+                <label>Electrotechnology and Telecommunications Trades Workers</label>
+            </value>
+            <value>
+                <fullName>Engineering, ICT and Science Technicians</fullName>
+                <default>false</default>
+                <label>Engineering, ICT and Science Technicians</label>
+            </value>
+            <value>
+                <fullName>Factory Process Workers</fullName>
+                <default>false</default>
+                <label>Factory Process Workers</label>
+            </value>
+            <value>
+                <fullName>Farm, Forestry and Garden Workers</fullName>
+                <default>false</default>
+                <label>Farm, Forestry and Garden Workers</label>
+            </value>
+            <value>
+                <fullName>Farmers and Farm Managers</fullName>
+                <default>false</default>
+                <label>Farmers and Farm Managers</label>
+            </value>
+            <value>
+                <fullName>Food Preparation Assistants</fullName>
+                <default>false</default>
+                <label>Food Preparation Assistants</label>
+            </value>
+            <value>
+                <fullName>Food Trades Workers</fullName>
+                <default>false</default>
+                <label>Food Trades Workers</label>
+            </value>
+            <value>
+                <fullName>General Clerical Workers</fullName>
+                <default>false</default>
+                <label>General Clerical Workers</label>
+            </value>
+            <value>
+                <fullName>Health and Welfare Support Workers</fullName>
+                <default>false</default>
+                <label>Health and Welfare Support Workers</label>
+            </value>
+            <value>
+                <fullName>Health Professionals</fullName>
+                <default>false</default>
+                <label>Health Professionals</label>
+            </value>
+            <value>
+                <fullName>Hospitality, Retail and Service Managers</fullName>
+                <default>false</default>
+                <label>Hospitality, Retail and Service Managers</label>
+            </value>
+            <value>
+                <fullName>Hospitality Workers</fullName>
+                <default>false</default>
+                <label>Hospitality Workers</label>
+            </value>
+            <value>
+                <fullName>ICT Professionals</fullName>
+                <default>false</default>
+                <label>ICT Professionals</label>
+            </value>
+            <value>
+                <fullName>Inquiry Clerks and Receptionists</fullName>
+                <default>false</default>
+                <label>Inquiry Clerks and Receptionists</label>
+            </value>
+            <value>
+                <fullName>Legal, Social and Welfare Professionals</fullName>
+                <default>false</default>
+                <label>Legal, Social and Welfare Professionals</label>
+            </value>
+            <value>
+                <fullName>Machine and Stationary Plant Operators</fullName>
+                <default>false</default>
+                <label>Machine and Stationary Plant Operators</label>
+            </value>
+            <value>
+                <fullName>Mobile Plant Operators</fullName>
+                <default>false</default>
+                <label>Mobile Plant Operators</label>
+            </value>
+            <value>
+                <fullName>Numerical Clerks</fullName>
+                <default>false</default>
+                <label>Numerical Clerks</label>
+            </value>
+            <value>
+                <fullName>Office Managers and Program Administrators</fullName>
+                <default>false</default>
+                <label>Office Managers and Program Administrators</label>
+            </value>
+            <value>
+                <fullName>Other Clerical and Administrative Workers</fullName>
+                <default>false</default>
+                <label>Other Clerical and Administrative Workers</label>
+            </value>
+            <value>
+                <fullName>Other Labourers</fullName>
+                <default>false</default>
+                <label>Other Labourers</label>
+            </value>
+            <value>
+                <fullName>Other Technicians and Trades Workers</fullName>
+                <default>false</default>
+                <label>Other Technicians and Trades Workers</label>
+            </value>
+            <value>
+                <fullName>Personal Assistants and Secretaries</fullName>
+                <default>false</default>
+                <label>Personal Assistants and Secretaries</label>
+            </value>
+            <value>
+                <fullName>Protective Service Workers</fullName>
+                <default>false</default>
+                <label>Protective Service Workers</label>
+            </value>
+            <value>
+                <fullName>Road and Rail Drivers</fullName>
+                <default>false</default>
+                <label>Road and Rail Drivers</label>
+            </value>
+            <value>
+                <fullName>Sales Assistants and Salespersons</fullName>
+                <default>false</default>
+                <label>Sales Assistants and Salespersons</label>
+            </value>
+            <value>
+                <fullName>Sales Representatives and Agents</fullName>
+                <default>false</default>
+                <label>Sales Representatives and Agents</label>
+            </value>
+            <value>
+                <fullName>Sales Support Workers</fullName>
+                <default>false</default>
+                <label>Sales Support Workers</label>
+            </value>
+            <value>
+                <fullName>Skilled Animal and Horticultural Workers</fullName>
+                <default>false</default>
+                <label>Skilled Animal and Horticultural Workers</label>
+            </value>
+            <value>
+                <fullName>Specialist Managers</fullName>
+                <default>false</default>
+                <label>Specialist Managers</label>
+            </value>
+            <value>
+                <fullName>Sports and Personal Service Workers</fullName>
+                <default>false</default>
+                <label>Sports and Personal Service Workers</label>
+            </value>
+            <value>
+                <fullName>Storepersons</fullName>
+                <default>false</default>
+                <label>Storepersons</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

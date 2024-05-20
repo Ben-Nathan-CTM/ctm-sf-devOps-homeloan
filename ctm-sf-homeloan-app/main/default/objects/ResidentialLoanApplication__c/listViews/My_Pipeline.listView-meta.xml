@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Pipeline</fullName>
+    <columns>LenderLogo__c</columns>
+    <columns>Account__c</columns>
+    <columns>NAME</columns>
+    <columns>LoanAmount__c</columns>
+    <columns>ApplicationStatus__c</columns>
+    <columns>LoanPurpose__c</columns>
+    <columns>Stage__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>OWNER.FIRST_NAME</columns>
+    <columns>LAST_UPDATE</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>ApplicationStatus__c</field>
+        <operation>notEqual</operation>
+        <value>1848</value>
+    </filters>
+    <label>My Pipeline</label>
+</ListView>

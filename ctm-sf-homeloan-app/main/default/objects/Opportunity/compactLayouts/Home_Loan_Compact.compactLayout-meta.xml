@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Home_Loan_Compact</fullName>
+    <fields>Name</fields>
+    <fields>ReferenceNumber__c</fields>
+    <fields>LoanPurpose__c</fields>
+    <fields>ApplicantCount__c</fields>
+    <fields>IsFirstHomeBuyer__c</fields>
+    <fields>CurrentSection__c</fields>
+    <label>Home Loan Compact</label>
+</CompactLayout>

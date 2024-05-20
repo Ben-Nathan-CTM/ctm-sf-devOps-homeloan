@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CurrentSection__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>if(!ISBLANK(RecommendationVisitedAt__c), &apos;Recommendation&apos;,
+if(!ISBLANK(ReviewAndSubmitVisitedAt__c), &apos;Review &amp; Submit&apos;,
+if(!ISBLANK(DocumentUploadVisitedAt__c), &apos;Document Upload&apos;,
+if(!ISBLANK(IdentityVerificationVisitedAt__c), &apos;VOI&apos;,
+if(AND(!ISBLANK(LoanDetailsVisitedAt__c),   ISPICKVAL(LoanPurpose__c,&apos;793&apos;) ), &apos;Loan Details&apos;,
+if(!ISBLANK(ExpensesVisitedAt__c), &apos;Expenses&apos;,
+if(!ISBLANK(IncomeVisitedAt__c), &apos;Incomes&apos;,
+if(!ISBLANK(LiabilitiesVisitedAt__c), &apos;Liabilites&apos;,
+if(!ISBLANK(AssetsVisitedAt__c), &apos;Assets&apos;,
+if(!ISBLANK(PropertiesVisitedAt__c), &apos;Properties&apos;,
+if(!ISBLANK(ApplicantDetailsVisitedAt__c), &apos;Applicant Details&apos;,
+if(AND(!ISBLANK(LoanDetailsVisitedAt__c),   ISPICKVAL(LoanPurpose__c,&apos;792&apos;) ), &apos;Loan Details&apos;,
+if(!ISBLANK(YourGoalsVisitedAt__c), &apos;Your Goals&apos;, &apos;&apos;)
+)
+)
+)
+)
+)
+)
+)
+)
+)
+)
+)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Current Section</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

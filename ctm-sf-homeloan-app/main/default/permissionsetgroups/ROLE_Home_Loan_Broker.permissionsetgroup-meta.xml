@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Provides application access which an Home Loan Broker requires</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>ROLE: Home Loan Broker</label>
+    <permissionSets>Common_Read_Access</permissionSets>
+    <permissionSets>Customer_Account_Read_Access</permissionSets>
+    <permissionSets>Home_Loan_Application_Apps</permissionSets>
+    <permissionSets>Home_Loan_Application_Read_Access</permissionSets>
+    <permissionSets>Home_Loan_Can_Submit_Application_Changes</permissionSets>
+    <permissionSets>Run_Report</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>
