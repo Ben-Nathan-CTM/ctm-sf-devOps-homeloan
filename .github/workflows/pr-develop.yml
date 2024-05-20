@@ -48,9 +48,14 @@ jobs:
       #       # Replace the below command with the sfdx command to install the package
       #       sfdx force:package:install -p "$package" -w 10 -b 10 -r
       #     done
+      - name: Populate auth file and login to scratch org
+        run: "sf org display --target-org ctm-scratch --verbose --json > authFile.json"
+
+      - name: Authenticate Dev Hub
+        run: "sf org login sfdx-url -f ./authFile.json"
 
       - name: Push source to scratch org
-        run: " sfdx force:source:push -f -u ctm-scratch"
+        run: "sfdx force:source:push -f -u ctm-scratch"
 
       - name: Create new PACKAGE
         run: |
