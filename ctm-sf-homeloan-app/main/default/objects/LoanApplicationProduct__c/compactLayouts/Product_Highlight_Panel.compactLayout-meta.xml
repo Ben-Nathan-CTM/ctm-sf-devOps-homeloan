@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Product_Highlight_Panel</fullName>
-    <fields>Name</fields>
-    <fields>LoanAmount__c</fields>
-    <fields>TermYrs__c</fields>
-    <fields>repayment__c</fields>
-    <label>Product Highlight Panel</label>
-</CompactLayout>
