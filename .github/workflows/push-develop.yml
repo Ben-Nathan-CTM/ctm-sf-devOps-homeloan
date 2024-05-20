@@ -10,9 +10,7 @@ permissions:
 
 jobs:
   validate_pull_request_merged:
-    if: ${{ github.event.pull_request.merged }}
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v3
       - name: Install Salesforce CLI
@@ -35,28 +33,17 @@ jobs:
 
       - name: Install Package
         run: |
-          new_version_id=$(grep -o "04t[[:alnum:]]\{15\}" sfdx-project.json | tail -n1)
-          echo "version_id=${new_version_id}" >> $GITHUB_ENV
-          sfdx force:package:install -p "$version_id" -w 10 -b 10 -r
-        continue-on-error: true
 
-      # - name: Create new PACKAGE
-      #   if: ${{ success() }}
-      #   run: |
-      #        sf package version create -d ctm-sf-homeloan-app -x -f config/project-scratch-def.json -w 60 --code-coverage --json
-      #        new_version_id=$(grep -o "04t[[:alnum:]]\{15\}" sfdx-project.json | tail -n1)
-      #        echo "version_id=${new_version_id}" >> $GITHUB_ENV
+             new_version_id=$(grep -o "04t[[:alnum:]]\{15\}" sfdx-project.json | tail -n1)
+             echo "version_id=${new_version_id}"
+             echo "$version_id"
+             sfdx force:package:install -p "$version_id" --target-org ben.harris@comparethemarket.com.au.bendev --publishwait 3 --wait 10 -r
 
-      # - name: Check code coverage
-      #   run: |
-      #        test $(sfdx force:package:version:report -p "$version_id" --json | jq .result.HasPassedCodeCoverageCheck) = 'true'
 
-      # - name: Install latest package
-      #   run: |
-      #        sfdx force:package:install -p "$version_id" -w 10 -b 10 -r
 
       # - name: Check code coverage
       #   run: |
       #       sfdx force:apex:test:run --codecoverage --resultformat json --synchronous --testlevel RunLocalTests --wait 10 > tests.json
       #       coverage=$(jq .result.summary.orgWideCoverage tests.json | grep -Eo "[[:digit:]]+")
       #       test $coverage -ge 50
+
