@@ -16,13 +16,13 @@ public class HLA_LoanApplicantServiceTest {
 
     uow.register(testAcc);
 
-    Contact testContact = new Contact(
-      firstName = 'Test',
-      lastName = 'Contact',
-      Email = 'test@gmail.com',
-      MobilePhone = '0400111222'
-    );
-    uow.register(testContact);
+    // Contact testContact = new Contact(
+    //   firstName = 'Test',
+    //   lastName = 'Contact',
+    //   Email = 'test@gmail.com',
+    //   MobilePhone = '0400111222'
+    // );
+    // uow.register(testContact);
 
     ResidentialLoanApplication__c mockResi = new ResidentialLoanApplication__c(
       Account__c = testAcc.id,

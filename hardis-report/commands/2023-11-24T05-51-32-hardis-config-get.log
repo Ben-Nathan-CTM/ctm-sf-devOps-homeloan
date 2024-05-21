@@ -1,0 +1,1 @@
+/Users/bnathan/.local/share/sf/client/2.17.14-31db5eb/bin/node /Users/bnathan/.local/share/sf/client/2.17.14-31db5eb/bin/run hardis:config:get --level project --json[sfdx-hardis] {"customOrgColors":{"https://comparethemarket--partial.sandbox.my.salesforce.com":"#FFC0CB"}}

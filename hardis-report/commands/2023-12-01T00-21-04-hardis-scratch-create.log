@@ -1,0 +1,57 @@
+/opt/homebrew/Cellar/node/21.2.0/bin/node /opt/homebrew/bin/sfdx hardis:scratch:create --forcenew --websocket localhost:2713[sfdx-hardis] 🦙 Please input your project name without spaces or special characters (ex: MonClient) ↑↑ Look up in VsCode ↑↑
+[sfdx-hardis] {"value":"01DECHOMELOAN"}
+[sfdx-hardis] Updated config file config/.sfdx-hardis.yml with values: 
+{
+  "projectName": "01DECHOMELOAN",
+  "devHubAlias": "DevHub_01DECHOMELOAN"
+}
+[sfdx-hardis][command] sfdx force:org:display --targetusername DevHub_01DECHOMELOAN --json
+[sfdx-hardis] 🦙 What is the base URL or the org you want to connect to, as DevHub_01DECHOMELOAN ? ↑↑ Look up in VsCode ↑↑
+[sfdx-hardis] {"value":"https://login.salesforce.com"}
+[sfdx-hardis] 🦙 Select a login type (if you don't know, use Web) ↑↑ Look up in VsCode ↑↑
+[sfdx-hardis] {"loginType":"web"}
+[sfdx-hardis][command] sfdx auth:web:login --setdefaultdevhubusername --instanceurl https://login.salesforce.com --setalias DevHub_01DECHOMELOAN
+[sfdx-hardis] Successfully authorized ben.nathan@comparethemarket.com.au with org ID 00D5g000002vaUkEAI
+
+[sfdx-hardis] {
+  "status": 0,
+  "stdout": "Successfully authorized ben.nathan@comparethemarket.com.au with org ID 00D5g000002vaUkEAI\n",
+  "stderr": "(node:71900) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.\n(Use `node --trace-deprecation ...` to show where the warning was created)\nWarning: The \"--instanceurl\" flag has been deprecated. Use \"--instance-url | -r\" instead.\nWarning: The \"--setdefaultdevhub\" flag has been deprecated. Use \"--set-default-dev-hub | -d\" instead.\nWarning: The \"--setdefaultdevhubusername\" flag has been deprecated. Use \"--set-default-dev-hub | -d\" instead.\nWarning: The \"--setalias\" flag has been deprecated. Use \"--alias | -a\" instead.\n"
+}
+[sfdx-hardis][command] sfdx config:get defaultdevhubusername --json
+[sfdx-hardis][WARNING] stderr: (node:71938) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+[sfdx-hardis] Successfully logged to https://login.salesforce.com with PROD
+[sfdx-hardis][command] sfdx config:get restDeploy --json
+[sfdx-hardis][WARNING] stderr: (node:71978) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+[sfdx-hardis][command] sfdx config:set restDeploy=false --global
+[sfdx-hardis] Updated config file config/user/.sfdx-hardis.bnathan.yml with values: 
+{
+  "sfdxPluginsStdout": "packaging 1.27.6\nsfdmu 4.32.2\nsfdx-essentials 2.12.0\nsfdx-git-delta 5.30.0\nsfdx-hardis 4.18.3\ntexei-sfdx-plugin 2.2.0\n\nUninstalled JIT Plugins:\ncommunity 3.0.2\ncustom-metadata 3.0.3\ndev 2.0.2\ndevops-center 1.2.4\nenv 3.0.6\nfunctions 1.22.9\nsignups 2.0.4\n@salesforce/sfdx-plugin-lwc-test 1.1.1\n@salesforce/sfdx-scanner 3.18.0\n"
+}
+[sfdx-hardis] Updated config file /Users/bnathan/CTM/DEV/ctm-sf-homeloan-app/config/user/.sfdx-hardis.bnathan.yml with values: 
+{
+  "installedApps": [
+    "git"
+  ]
+}
+[sfdx-hardis] 🦙 Please input your email address (it will be stored locally for later use) ↑↑ Look up in VsCode ↑↑
+[sfdx-hardis] Updated config file /Users/bnathan/CTM/DEV/ctm-sf-homeloan-app/config/user/.sfdx-hardis.bnathan.yml with values: 
+{
+  "restDeployDisabled": true
+}
+[sfdx-hardis] {"value":"ben.nathan@comparethemarket.com.au"}
+[sfdx-hardis] Updated config file /Users/bnathan/CTM/DEV/ctm-sf-homeloan-app/config/user/.sfdx-hardis.bnathan.yml with values: 
+{
+  "userEmail": "ben.nathan@comparethemarket.com.au"
+}
+[sfdx-hardis] Building custom project-scratch-def.json...
+[sfdx-hardis][command] sfdx force:org:list --json
+[sfdx-hardis][WARNING] stderr: (node:72278) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+[sfdx-hardis] Creating new scratch org...
+[sfdx-hardis][command] sfdx force:org:create --setdefaultusername --definitionfile ./config/user/project-scratch-def-bnathan-main_20231201_1022.json --setalias bnathan-main_20231201_1022 --wait 15 --targetdevhubusername DevHub_01DECHOMELOAN -d 30 --json

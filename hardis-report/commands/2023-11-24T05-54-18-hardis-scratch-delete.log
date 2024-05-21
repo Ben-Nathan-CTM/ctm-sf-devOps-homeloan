@@ -1,0 +1,22 @@
+/Users/bnathan/.local/share/sf/client/2.17.14-31db5eb/bin/node /Users/bnathan/.local/share/sf/client/2.17.14-31db5eb/bin/run hardis:scratch:delete --websocket localhost:2748[sfdx-hardis][command] sfdx force:org:display --targetusername DevHub --json
+[sfdx-hardis] 🦙 What is the base URL or the org you want to connect to, as DevHub ? ↑↑ Look up in VsCode ↑↑
+[sfdx-hardis] {"value":"https://login.salesforce.com"}
+[sfdx-hardis] 🦙 Select a login type (if you don't know, use Web) ↑↑ Look up in VsCode ↑↑
+[sfdx-hardis] {"loginType":"web"}
+[sfdx-hardis][command] sfdx auth:web:login --setdefaultdevhubusername --instanceurl https://login.salesforce.com --setalias DevHub
+[sfdx-hardis] Successfully authorized ben.nathan@comparethemarket.com.au with org ID 00D5g000002vaUkEAI
+
+[sfdx-hardis] {
+  "status": 0,
+  "stdout": "Successfully authorized ben.nathan@comparethemarket.com.au with org ID 00D5g000002vaUkEAI\n",
+  "stderr": " ›   Warning: @salesforce/cli update available from 2.16.10 to 2.17.14.\nWarning: The \"--instanceurl\" flag has been deprecated. Use \"--instance-url | -r\" instead.\nWarning: The \"--setdefaultdevhubusername\" flag has been deprecated. Use \"--set-default-dev-hub | -d\" instead.\nWarning: The \"--setdefaultdevhub\" flag has been deprecated. Use \"--set-default-dev-hub | -d\" instead.\nWarning: The \"--setalias\" flag has been deprecated. Use \"--alias | -a\" instead.\n"
+}
+[sfdx-hardis][command] sfdx config:get defaultdevhubusername --json
+[sfdx-hardis][WARNING] stderr:  ›   Warning: @salesforce/cli update available from 2.16.10 to 2.17.14.
+
+[sfdx-hardis] Successfully logged to https://login.salesforce.com with PROD
+[sfdx-hardis][command] sfdx force:org:list --json
+[sfdx-hardis][WARNING] stderr:  ›   Warning: @salesforce/cli update available from 2.16.10 to 2.17.14.
+
+[sfdx-hardis] 🦙 Please select the list of scratch orgs you want to delete ↑↑ Look up in VsCode ↑↑
+[sfdx-hardis] {"value":["exitNow"]}

@@ -1,0 +1,8 @@
+/opt/homebrew/Cellar/node/21.2.0/bin/node /opt/homebrew/bin/sfdx hardis:scratch:pool:spawn[sfdx-hardis] Pool config: {
+  "maxScratchOrgsNumber": 3,
+  "storageService": "redis"
+}
+[sfdx-hardis] [pool] Requested redis connection
+[sfdx-hardis] [pool] Requested redis connection
+[sfdx-hardis] Pool storage: {}
+[sfdx-hardis] There are 0 available scratch orgs

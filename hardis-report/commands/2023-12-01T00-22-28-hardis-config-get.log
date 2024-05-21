@@ -1,0 +1,7 @@
+/opt/homebrew/Cellar/node/21.2.0/bin/node /opt/homebrew/bin/sfdx hardis:config:get --level user --json[sfdx-hardis] Updated config file /Users/bnathan/CTM/DEV/ctm-sf-homeloan-app/config/user/.sfdx-hardis.bnathan.yml with values: 
+{
+  "installedApps": [
+    "git"
+  ]
+}
+[sfdx-hardis] {"projectName":"01DECHOMELOAN","devHubAlias":"DevHub_01DECHOMELOAN","sfdxPluginsStdout":"packaging 1.27.6\nsfdmu 4.32.2\nsfdx-essentials 2.12.0\nsfdx-git-delta 5.30.0\nsfdx-hardis 4.18.3\ntexei-sfdx-plugin 2.2.0\n\nUninstalled JIT Plugins:\ncommunity 3.0.2\ncustom-metadata 3.0.3\ndev 2.0.2\ndevops-center 1.2.4\nenv 3.0.6\nfunctions 1.22.9\nsignups 2.0.4\n@salesforce/sfdx-plugin-lwc-test 1.1.1\n@salesforce/sfdx-scanner 3.18.0\n","installedApps":["git"]}

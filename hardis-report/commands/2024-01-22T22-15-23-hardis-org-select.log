@@ -1,0 +1,23 @@
+/opt/homebrew/Cellar/node/21.2.0/bin/node /opt/homebrew/bin/sfdx hardis:org:select --websocket localhost:2741[sfdx-hardis][command] sfdx force:org:list --json
+[sfdx-hardis][WARNING] stderr: (node:14223) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+ ›   Warning: @salesforce/cli update available from 2.19.8 to 2.24.4.
+
+[sfdx-hardis] 🦙 Please select an org ↑↑ Look up in VsCode ↑↑
+[sfdx-hardis] Selection done but hidden in log because it contains sensitive information
+[sfdx-hardis][command] sfdx config:set defaultusername=ben.harris@comparethemarket.com.au.bendev --json
+[sfdx-hardis][WARNING] stderr: (node:14273) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+ ›   Warning: @salesforce/cli update available from 2.19.8 to 2.24.4.
+
+[sfdx-hardis][command] sfdx alias:set MY_ORG=ben.harris@comparethemarket.com.au.bendev --json
+[sfdx-hardis][WARNING] stderr: (node:14288) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+ ›   Warning: @salesforce/cli update available from 2.19.8 to 2.24.4.
+
+[sfdx-hardis] Updated config file /Users/bnathan/CTM/DEV/ctm-sf-homeloan-app/config/user/.sfdx-hardis.bnathan.yml with values: 
+{
+  "scratchOrgAlias": null,
+  "scratchOrgUsername": null
+}
+[sfdx-hardis] Org ben.harris@comparethemarket.com.au.bendev - https://comparethemarket--bendev.sandbox.my.salesforce.com

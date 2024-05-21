@@ -1,0 +1,13 @@
+/Users/bnathan/.local/share/sf/client/2.17.14-31db5eb/bin/node /Users/bnathan/.local/share/sf/client/2.17.14-31db5eb/bin/run hardis:scratch:create --forcenew --websocket localhost:2748[sfdx-hardis] 🦙 Please input your project name without spaces or special characters (ex: MonClient) ↑↑ Look up in VsCode ↑↑
+[sfdx-hardis] {"value":"Ben24Nov"}
+[sfdx-hardis] Updated config file /Users/bnathan/CTM/DEV/ctm-sf-homeloan-app/config/.sfdx-hardis.yml with values: 
+{
+  "projectName": "Ben24Nov",
+  "devHubAlias": "DevHub_Ben24Nov"
+}
+[sfdx-hardis][command] sfdx force:org:display --targetusername DevHub_Ben24Nov --json
+[sfdx-hardis] 🦙 What is the base URL or the org you want to connect to, as DevHub_Ben24Nov ? ↑↑ Look up in VsCode ↑↑
+[sfdx-hardis] {"value":"https://login.salesforce.com"}
+[sfdx-hardis] 🦙 Select a login type (if you don't know, use Web) ↑↑ Look up in VsCode ↑↑
+[sfdx-hardis] {"loginType":"web"}
+[sfdx-hardis][command] sfdx auth:web:login --setdefaultdevhubusername --instanceurl https://login.salesforce.com --setalias DevHub_Ben24Nov

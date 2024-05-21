@@ -29,6 +29,14 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>HLA_AddFinancialstoRLAService</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>HLA_AddFinancialstoRLAServiceImp</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>HLA_ApplicationService</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -110,6 +118,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>HLA_IAccountService</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>HLA_IAddFinancialstoRLAService</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -818,6 +830,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>HLA_SNotesServiceTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>HLA_ScreenFlow_AddFiancials_GetId_Invoc</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -5890,6 +5906,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>ResidentialLoanApplication__c.DocUploadUrl__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>ResidentialLoanApplication__c.Email__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -6290,6 +6311,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>ResidentialLoanApplication__c.TotalAwaitingDocuments__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>ResidentialLoanApplication__c.TotalCalculatedMonthlyLivingExpenses__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -6670,6 +6696,15 @@
         <allowEdit>false</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
+        <object>Document</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
         <object>Enum__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -6988,6 +7023,26 @@
         <object>VOI__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
+    <pageAccesses>
+        <apexPage>HLA_OverrideDeleteDoc</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>HLA_OverrideDeleteLA</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>HLA_OverrideDeleteLE</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>HLA_OverrideDeleteLI</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>HLA_OverrideDeleteLL</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
     <tabSettings>
         <tab>ResidentialLoanApplication__c</tab>
         <visibility>Visible</visibility>
@@ -7010,6 +7065,22 @@
     </tabSettings>
     <userPermissions>
         <enabled>true</enabled>
+        <name>EditTask</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EmailMass</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EmailSingle</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>RunFlow</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewRoles</name>
     </userPermissions>
 </PermissionSet>

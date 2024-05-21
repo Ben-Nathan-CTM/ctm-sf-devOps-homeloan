@@ -1,0 +1,7 @@
+/opt/homebrew/Cellar/node/21.2.0/bin/node /opt/homebrew/bin/sfdx hardis:lint:unusedmetadatas[sfdx-hardis] Updated config file config/user/.sfdx-hardis.bnathan.yml with values: 
+{
+  "installedApps": [
+    "git"
+  ]
+}
+[sfdx-hardis] No unused labels detected or custom permissions detected.

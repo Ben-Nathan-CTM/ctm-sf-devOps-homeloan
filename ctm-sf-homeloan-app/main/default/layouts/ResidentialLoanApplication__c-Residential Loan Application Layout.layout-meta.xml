@@ -49,6 +49,10 @@
                 <behavior>Edit</behavior>
                 <field>SpecificRefinanceGoal__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>ReceiveDocumentation__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -64,7 +68,7 @@
                 <field>Stage__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Readonly</behavior>
                 <field>Lender__c</field>
             </layoutItems>
             <layoutItems>
@@ -79,7 +83,7 @@
                 <field>LenderReferenceNumber__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Readonly</behavior>
                 <field>ReferenceNumber__c</field>
             </layoutItems>
             <layoutItems>
@@ -104,21 +108,21 @@
         <label>AFG Info</label>
         <layoutColumns>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Readonly</behavior>
                 <field>AFGStatus__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Readonly</behavior>
                 <field>AFGError__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Readonly</behavior>
                 <field>AFGId__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Readonly</behavior>
                 <field>CorrelationId__c</field>
             </layoutItems>
             <layoutItems>
@@ -135,11 +139,11 @@
         <label>Product Info</label>
         <layoutColumns>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Readonly</behavior>
                 <field>LenderName__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Readonly</behavior>
                 <field>ProductHash__c</field>
             </layoutItems>
         </layoutColumns>
@@ -149,7 +153,7 @@
                 <field>LenderLogo__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Readonly</behavior>
                 <field>Thereasonforselectingtheproduct__c</field>
             </layoutItems>
         </layoutColumns>
@@ -494,6 +498,10 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>SyncResponse__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>TotalAwaitingDocuments__c</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
