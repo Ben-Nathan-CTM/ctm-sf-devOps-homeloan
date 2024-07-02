@@ -37,8 +37,28 @@ jobs:
       #         ./installPackages.sh
       - name: Install Packages
         run: |
-          PACKAGES=(04t960000000S8kAAE 04t960000000S5gAAE 04t960000000S5lAAE 04t960000000S5WAAU 04t960000000SfLAAU  04tOm0000000HGzIAM    04t3m000002D9hu 04t5Y000001Mk8YQAS 04t61000000gWo1AAE 04t6g000008So61AAC 04tOm0000000FqHIAU   04tOm0000000GBFIA2     04tOm0000000PsrIAE   04tOm0000000Bt7IAE 04t6g000008C6lwAAC 04t3u000003asycAAA 04t5w000003gWWBAA2 )
-          for package in "${PACKAGES[@]}"; do
+          PACKAGES=(
+          04t960000000S8kAAE #theme
+          04t3m000002D9huAAC #Twilio
+          04t960000000S5gAAE #apex-mocks
+          04t960000000S5lAAE #apex-common
+          04t960000000S5WAAU #apex-sf-di
+          04t960000000SfLAAU #sf-at4dx
+          04tOm0000000HGzIAM #sf-utils
+          04t3m000002D9hu
+          04t5Y000001Mk8YQAS #Nebula
+          04t61000000gWo1AAE #NMarketing cloud
+          04t6g000008So61AAC #apex-rollup
+          04tOm0000000FqHIAU #sf-common
+          04tOm0000000GBFIA2 #ctm-sf-ca
+          04tOm0000000PsrIAE #contract register
+          04tOm0000000Bt7IAE #sf-configs
+          04t6g000008C6lwAAC #round-robin
+          04t0o000002qOIyAAM #Send Email 
+          04t5w000003gWWBAA2 #lightning messaging utility
+          04t6S000000pFg5QAE #marketing-cloud
+          04t3u000003asycAAA #docusign )
+            for package in "${PACKAGES[@]}"; do
             echo "Installing $package..."
             # Replace the below command with the sfdx command to install the package
             sfdx force:package:install -p "$package" -w 10 -b 10 -r
