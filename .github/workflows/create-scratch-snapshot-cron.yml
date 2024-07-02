@@ -58,9 +58,9 @@ jobs:
       #   run: |
       #        test $(sfdx force:package:version:report -p "$version_id" --json | jq .result.HasPassedCodeCoverageCheck) = 'true'
 
-      - name: Install latest package from secrets
+      - name: Install latest home loan package from variable
         run: |
-             sfdx force:package:install -p "$version_id" -w 10 -b 10 -r
+             sfdx force:package:install -p $HLA_PACKAGAEID -w 10 -b 10 -r
              
       - name: Create Snapshot
         run: |
