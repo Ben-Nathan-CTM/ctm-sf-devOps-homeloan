@@ -1,4 +1,4 @@
-name: Create Monthly Scratch Org Snapshot
+name: Create Monthly Scratch Org Snapshot Test
 
 on:
   workflow_dispatch:
