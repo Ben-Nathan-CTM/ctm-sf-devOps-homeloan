@@ -27,8 +27,8 @@ jobs:
         run: 'echo ${{ secrets.BENDEV_ENV }} > ./BENDEV_ENV.txt'
   
       - name: Authenticate Dev Hub
-        run: 'sf org login sfdx-url -f ./BENDEV_ENV.txt -a devhub -d'
+        run: 'sf org login sfdx-url -f ./BENDEV_ENV.txt -a BenDev -d'
 
       - name: Install latest home loan package from variable
         run: |
-             sfdx force:package:install -p "{$HLA_PACKAGAEID}" -w 10 -b 10 -r
+             sfdx force:package:install -p "{$HLA_PACKAGAEID}" -w 10 -b 10 -r -o BenDev
