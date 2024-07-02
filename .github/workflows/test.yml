@@ -31,4 +31,4 @@ jobs:
 
       - name: Install latest home loan package from variable
         run: |
-             sfdx force:package:install -p {$HLA_PACKAGAEID} -w 10 -b 10 -r -o BenDev
+             sfdx force:package:install -p {$HLA_PACKAGAEID} -w 10 -b 10 -r --target-org BenDev
