@@ -2,8 +2,8 @@ name: Create Monthly Scratch Org Snapshot
 
 on:
   workflow_dispatch:
-  # schedule:
-  #   - cron: '0 0 1 * *' # runs at midight first of every month
+  schedule:
+  - cron: '0 0 1 * *' # runs at midight first of every month
 
 jobs:
   snapshot:
