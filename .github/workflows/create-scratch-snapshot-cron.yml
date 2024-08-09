@@ -1,0 +1,105 @@
+name: Create Monthly Scratch Org Snapshot
+
+on:
+  workflow_dispatch:
+  schedule:
+  - cron: '0 0 26 * *' # runs at midight first of every month
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install Salesforce CLI
+        run: | 
+            npm install @salesforce/cli --location=global
+            nodeInstallPath=$(npm config get prefix)
+            echo "$nodeInstallPath/bin" >> $GITHUB_PATH
+            sf --version
+  
+      - name: Install jq
+        run: |
+            sudo apt-get install jq
+
+      - name: Populate auth file
+        shell: bash
+        run: 'echo ${{ secrets.DEVHUB_SFDX_URL }} > ./DEVHUB_SFDX_URL.txt'
+  
+      - name: Authenticate Dev Hub
+        run: 'sf org login sfdx-url -f ./DEVHUB_SFDX_URL.txt -a devhub -d'
+
+      # - name: Delete scratch org
+      #   run:  'sfdx force:org:delete -p -u ctmsnapshotscratch'
+        
+        
+      # - name: Delete Snapshot org
+      #   if: always()
+      #   run: |
+      #      yes | 'sf org delete snapshot --snapshot ctmsnapshot'
+      
+      - name: Create scratch org
+        run: 'sfdx force:org:create -f config/project-scratch-def.json -a ctmsnapshotscratch -s -d 25'
+
+      # - name: Install all the dependency packages for home loan
+      #   run:  chmod +x ./installPackages.sh
+      #         ./installPackages.sh
+      - name: Install Packages
+        run: |
+          PACKAGES=(04t3m000002D9huAAC 04t960000000S5gAAE 04t960000000S5lAAE 04t960000000S5WAAU 04t960000000SfLAAU 04tOm00000018htIAA 04t3m000002D9hu 04t5Y000001Mk8YQAS 04t61000000gWo1AAE 04t6g000008So61AAC 04tOm00000018jVIAQ 04tOm0000000RHxIAM 04tOm0000000W9ZIAU 04tOm0000000t4XIAQ 04t6g000008C6lwAAC 04t0o000002qOIyAAM 04t5w000003gWWBAA2 04t6S000000pFg5QAE 04t3u000003asycAAA)
+          for package in "${PACKAGES[@]}"; do
+            echo "Installing $package..."
+            # Replace the below command with the sfdx command to install the package
+            sfdx force:package:install -p "$package" -w 10 -b 10 -r
+          done
+    
+      # - name: Push source to scratch org
+      #   run: 'sfdx force:source:push -f'
+      #   continue-on-error: true
+
+      # - name: Create new PACKAGE
+      #   if: ${{ success() }}
+      #   run: |
+      #        sf package version create -d ctm-sf-homeloan-app -x -f config/project-scratch-def.json -w 60 --code-coverage --json
+      #        new_version_id=$(grep -o "04t[[:alnum:]]\{15\}" sfdx-project.json | tail -n1)
+      #        echo "version_id=${new_version_id}" >> $GITHUB_ENV
+             
+      # - name: Check code coverage
+      #   run: |
+      #        test $(sfdx force:package:version:report -p "$version_id" --json | jq .result.HasPassedCodeCoverageCheck) = 'true'
+
+      - name: Install latest home loan package from variable
+        run: |
+             sfdx force:package:install -p "${{secrets.LATEST_HLA_PACKAGEID}}" -w 10 -b 10 -r
+      #sfdx force:package:install -p "${{secrets.LATEST_HLA_PACKAGEID}}" -w 10 -b 10 -r --target-org BenDev
+             
+      - name: Create Snapshot
+        run: |
+             sf org create snapshot --name ctmsnapshot --source-org ctmsnapshotscratch --target-dev-hub devhub --description "Snapshot for Home Loans"
+    
+  # - name: Build Sucess
+  # needs: snapshot
+  #       run: echo "Completed"
+        
+      # - name: Store new version id
+      #   run: |
+      #         sed -i -e "s/04t[[:alnum:]]\{15\}/${version_id}/" README.md
+      #         git config user.name "Ben-Nathan-CTM"
+      #         git config user.email "148920993+Ben-Nathan-CTM@users.noreply.github.com"
+      #         git add README.md
+      #         git add ctmsnapshot-scratch-def.json
+      #         git commit -m "Created new snapshot"
+      #         git push
+
+
+      # - name: Check code coverage
+      #   run: |
+      #       sfdx force:apex:test:run --codecoverage --resultformat json --synchronous --testlevel RunLocalTests --wait 10 > tests.json
+      #       coverage=$(jq .result.summary.orgWideCoverage tests.json | grep -Eo "[[:digit:]]+")
+      #       test $coverage -ge 50
+
+      #- name: Delete scratch org
+       # if: always()
+        #run:  'sfdx force:org:delete -p -u ctmsnapshotscratch'
+            
+

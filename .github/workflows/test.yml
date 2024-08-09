@@ -1,0 +1,34 @@
+name: Create Monthly Scratch Org Snapshot Test
+
+on:
+  workflow_dispatch:
+  # schedule:
+  #   - cron: '0 0 1 * *' # runs at midight first of every month
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install Salesforce CLI
+        run: | 
+            npm install @salesforce/cli --location=global
+            nodeInstallPath=$(npm config get prefix)
+            echo "$nodeInstallPath/bin" >> $GITHUB_PATH
+            sf --version
+  
+      - name: Install jq
+        run: |
+            sudo apt-get install jq
+
+      - name: Populate auth file
+        shell: bash
+        run: 'echo ${{ secrets.BENDEV_ENV }} > ./BENDEV_ENV.txt'
+  
+      - name: Authenticate Dev Hub
+        run: 'sf org login sfdx-url -f ./BENDEV_ENV.txt -a BenDev -d'
+
+      - name: Install latest home loan package from variable
+        run: |
+             sfdx force:package:install -p "${{secrets.LATEST_HLA_PACKAGEID}}" -w 10 -b 10 -r --target-org BenDev
