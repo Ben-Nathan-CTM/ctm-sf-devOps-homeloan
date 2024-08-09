@@ -35,7 +35,8 @@ jobs:
         
       - name: Delete Snapshot org
         if: always()
-        run: 'sf org delete snapshot --snapshot ctmsnapshot'
+        run: |
+           yes | 'sf org delete snapshot --snapshot ctmsnapshot'
       
       - name: Create scratch org
         run: 'sfdx force:org:create -f config/project-scratch-def.json -a ctmsnapshotscratch -s -d 29'
