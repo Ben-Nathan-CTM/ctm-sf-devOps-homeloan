@@ -1,0 +1,12 @@
+/opt/homebrew/Cellar/node/21.2.0/bin/node /opt/homebrew/bin/sfdx hardis:scratch:pool:create --websocket localhost:2724[sfdx-hardis][command] sfdx force:org:display --targetusername DevHub_Test-Scratch --json
+[sfdx-hardis][WARNING] stderr: (node:13838) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+[sfdx-hardis] You are already connected as bimal.prabha@empathetic-raccoon-bvkstq.com on org https://empathetic-raccoon-bvkstq-dev-ed.trailblaze.my.salesforce.com
+[sfdx-hardis] If this is NOT the org you want to play with, hit CTRL+C, then input sfdx hardis:org:select
+[sfdx-hardis][command] sfdx config:set defaultdevhubusername=bimal.prabha@empathetic-raccoon-bvkstq.com --json
+[sfdx-hardis][WARNING] stderr: (node:13851) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+[sfdx-hardis] There is already an existing scratch org pool configuration: {"maxScratchOrgsNumber":3,"storageService":"redis"}.
+If you really want to replace it, please remove poolConfig property from .sfdx-hardis.yml and run again this command

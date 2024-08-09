@@ -3,5 +3,6 @@
     "PersonAccounts",
     "EnableSetPasswordInApi"
   ],
-  "defaultdevhubusername": "PROD"
+  "defaultdevhubusername": "PROD",
+  "defaultusername": "DEV"
 }

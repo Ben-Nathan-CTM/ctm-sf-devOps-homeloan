@@ -1,0 +1,4 @@
+/Users/bnathan/.local/share/sf/client/2.17.14-31db5eb/bin/node /Users/bnathan/.local/share/sf/client/2.17.14-31db5eb/bin/run hardis:project:audit:remotesites --websocket localhost:2748[sfdx-hardis] Browsing 0 files
+[sfdx-hardis] Generated report files:
+[sfdx-hardis] - CSV: /Users/bnathan/CTM/DEV/ctm-sf-homeloan-app/hardis-report/sfdx-hardis-remotesites-2023-11-24.csv
+[sfdx-hardis] - XLS: /Users/bnathan/CTM/DEV/ctm-sf-homeloan-app/hardis-report/sfdx-hardis-remotesites-2023-11-24.xls

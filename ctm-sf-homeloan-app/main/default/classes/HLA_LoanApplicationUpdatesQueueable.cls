@@ -12,7 +12,7 @@ public with sharing class HLA_LoanApplicationUpdatesQueueable implements Queueab
 
   public void execute(QueueableContext context) {
     switch on triggerOperation {
-      when AFTER_UPDATE {
+      when AFTER_UPDATE,AFTER_INSERT {
         HLA_ApplicationService.submitApplicationUpdates(records);
       }
       //AFTER_DELETE not implemented yet

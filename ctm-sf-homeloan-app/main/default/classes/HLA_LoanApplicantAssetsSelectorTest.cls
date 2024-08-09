@@ -50,4 +50,39 @@ public class HLA_LoanApplicantAssetsSelectorTest {
     // Then
     system.assert(sel.getOrderBy() == 'CreatedDate');
   }
+
+  @IsTest
+  public static void should_getAdditionalSObjectFieldList() {
+    // Given
+    // When
+    List<Schema.SObjectField> fields = ((HLA_LoanApplicantAssetsSelector) HLA_LoanApplicantAssetsSelector.newInstance())
+      .getAdditionalSObjectFieldList();
+    // Then
+    Assert.istrue(fields.IsEmpty(), 'should return Empty List');
+  }
+
+  @IsTest
+  public static void should_returnApplicantAssetListWithReferenceId() {
+    // Given
+    // When
+    HLA_TestDataFactory.makeData('LoanApplicantAsset');
+    LoanApplicantAsset__c rec = [
+      SELECT id, name, ReferenceId__c, ResidentialLoanApplicationId__c
+      FROM LoanApplicantAsset__c
+      WHERE ReferenceId__c != ''
+      LIMIT 1
+    ];
+    MockHttpResponseGenerator mockHttp = new MockHttpResponseGenerator();
+    MockHttpResponseGenerator.statusCodetoReturn = 301;
+    Test.setMock(HttpCalloutMock.class, mockHttp);
+    Test.startTest();
+    LoanApplicantAsset__c[] sel = ((HLA_LoanApplicantAssetsSelector) HLA_LoanApplicantAssetsSelector.newInstance())
+      .selectLoanApplicantAssetsByReferenceId(
+        rec.ReferenceId__c,
+        rec.ResidentialLoanApplicationId__c
+      );
+    Test.stopTest();
+    // Then
+    Assert.istrue(!sel.IsEmpty(), 'should return results');
+  }
 }

@@ -1,0 +1,14 @@
+/opt/homebrew/Cellar/node/21.2.0/bin/node /opt/homebrew/bin/sfdx hardis:scratch:pool:localauth[sfdx-hardis][command] sfdx force:org:display --targetusername DevHub_Test-Scratch --json
+[sfdx-hardis][WARNING] stderr: (node:20483) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+[sfdx-hardis] You are already connected as bimal.prabha@empathetic-raccoon-bvkstq.com on org https://empathetic-raccoon-bvkstq-dev-ed.trailblaze.my.salesforce.com
+[sfdx-hardis] If this is NOT the org you want to play with, hit CTRL+C, then input sfdx hardis:org:select
+[sfdx-hardis][command] sfdx config:set defaultdevhubusername=bimal.prabha@empathetic-raccoon-bvkstq.com --json
+[sfdx-hardis][WARNING] stderr: (node:20489) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+[sfdx-hardis] Updated config file /Users/bnathan/CTM/DEV/ctm-sf-homeloan-app/config/user/.sfdx-hardis.bnathan.yml with values: 
+{
+  "redisAuthUrl": "redis://default:3YHalq3ZcVVJIfNMKjmsRWIqvzZfOGla@redis-16774.c51.ap-southeast-2-1.ec2.cloud.redislabs.com:16774"
+}

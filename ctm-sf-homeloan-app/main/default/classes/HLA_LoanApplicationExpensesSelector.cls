@@ -11,15 +11,17 @@ public inherited sharing class HLA_LoanApplicationExpensesSelector extends Appli
   // the list of fields to be included in query
   public override List<Schema.SObjectField> getSObjectFieldList() {
     return new List<Schema.SObjectField>{
+      LoanApplicationExpense__c.ResidentialLoanApplication__c,
       LoanApplicationExpense__c.Id,
       LoanApplicationExpense__c.Name,
-      LoanApplicationExpense__c.residentialLoanApplication__c,
-      LoanApplicationExpense__c.Amount__c,
-      LoanApplicationExpense__c.isDirty__c,
-      LoanApplicationExpense__c.OutstandingAmount__c,
       LoanApplicationExpense__c.ExternalId__c,
+      LoanApplicationExpense__c.ReferenceId__c,
+      LoanApplicationExpense__c.Amount__c,
+      LoanApplicationExpense__c.OutstandingAmount__c,
       LoanApplicationExpense__c.Frequency__c,
-      LoanApplicationExpense__c.OutstandingAmount__c
+      LoanApplicationExpense__c.ExpenseDebtType__c,
+      LoanApplicationExpense__c.ExpenseType__c,
+      LoanApplicationExpense__c.isDirty__c
     };
   }
 
@@ -28,7 +30,7 @@ public inherited sharing class HLA_LoanApplicationExpensesSelector extends Appli
     return LoanApplicationExpense__c.sObjectType;
   }
 
-  private List<Schema.SObjectField> getAdditionalSObjectFieldList() {
+  @TestVisible private List<Schema.SObjectField> getAdditionalSObjectFieldList() {
     return new List<Schema.SObjectField>{};
   }
 
@@ -49,4 +51,17 @@ public inherited sharing class HLA_LoanApplicationExpensesSelector extends Appli
   /**
    * We will return List<Sobjects> and leave it to the caller to instatiate a Map if they need easy access to Id's
    */
+  public List<LoanApplicationExpense__c> selectLoanApplicationExpensesByReferenceId(
+    String referenceId,
+    String applId
+  ) {
+    return (List<LoanApplicationExpense__c>) Database.query(
+      newQueryFactory()
+        .selectfield('Name')
+        .setCondition(
+          'ReferenceId__c = :referenceId AND ResidentialLoanApplication__c = :applId'
+        )
+        .toSOQL()
+    );
+  }
 }

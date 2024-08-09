@@ -1,0 +1,51 @@
+/opt/homebrew/Cellar/node/21.2.0/bin/node /opt/homebrew/bin/sfdx hardis:scratch:create --pool --json/opt/homebrew/Cellar/node/21.2.0/bin/node /opt/homebrew/bin/sfdx hardis:scratch:create --pool --json/opt/homebrew/Cellar/node/21.2.0/bin/node /opt/homebrew/bin/sfdx hardis:scratch:create --pool --json[sfdx-hardis][command] sfdx force:org:display --targetusername DevHub_Test-Scratch --json
+[sfdx-hardis][command] sfdx force:org:display --targetusername DevHub_Test-Scratch --json
+[sfdx-hardis][command] sfdx force:org:display --targetusername DevHub_Test-Scratch --json
+[sfdx-hardis][WARNING] stderr: (node:20891) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+[sfdx-hardis][WARNING] stderr: (node:20890) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+[sfdx-hardis] You are already connected as bimal.prabha@empathetic-raccoon-bvkstq.com on org https://empathetic-raccoon-bvkstq-dev-ed.trailblaze.my.salesforce.com
+[sfdx-hardis] If this is NOT the org you want to play with, hit CTRL+C, then input sfdx hardis:org:select
+[sfdx-hardis][command] sfdx config:set defaultdevhubusername=bimal.prabha@empathetic-raccoon-bvkstq.com --json
+[sfdx-hardis] You are already connected as bimal.prabha@empathetic-raccoon-bvkstq.com on org https://empathetic-raccoon-bvkstq-dev-ed.trailblaze.my.salesforce.com
+[sfdx-hardis] If this is NOT the org you want to play with, hit CTRL+C, then input sfdx hardis:org:select
+[sfdx-hardis][command] sfdx config:set defaultdevhubusername=bimal.prabha@empathetic-raccoon-bvkstq.com --json
+[sfdx-hardis][WARNING] stderr: (node:20902) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+[sfdx-hardis][WARNING] stderr: (node:20903) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+[sfdx-hardis][command] sfdx config:get restDeploy --json
+[sfdx-hardis][command] sfdx config:get restDeploy --json
+[sfdx-hardis][WARNING] stderr: (node:20892) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+[sfdx-hardis] You are already connected as bimal.prabha@empathetic-raccoon-bvkstq.com on org https://empathetic-raccoon-bvkstq-dev-ed.trailblaze.my.salesforce.com
+[sfdx-hardis] If this is NOT the org you want to play with, hit CTRL+C, then input sfdx hardis:org:select
+[sfdx-hardis][command] sfdx config:set defaultdevhubusername=bimal.prabha@empathetic-raccoon-bvkstq.com --json
+[sfdx-hardis] Updated config file /Users/bnathan/CTM/DEV/ctm-sf-homeloan-app/config/user/.sfdx-hardis.bnathan.yml with values: 
+{
+  "sfdxPluginsStdout": "packaging 1.27.6\nsfdmu 4.32.2\nsfdx-essentials 2.12.0\nsfdx-git-delta 5.30.0\nsfdx-hardis 4.18.3\ntexei-sfdx-plugin 2.2.0\n\nUninstalled JIT Plugins:\ncommunity 3.0.2\ncustom-metadata 3.0.3\ndev 2.0.2\ndevops-center 1.2.4\nenv 3.0.6\nfunctions 1.22.9\nsignups 2.0.4\n@salesforce/sfdx-plugin-lwc-test 1.1.1\n@salesforce/sfdx-scanner 3.18.0\n"
+}
+[sfdx-hardis] Updated config file /Users/bnathan/CTM/DEV/ctm-sf-homeloan-app/config/user/.sfdx-hardis.bnathan.yml with values: 
+{
+  "sfdxPluginsStdout": "packaging 1.27.6\nsfdmu 4.32.2\nsfdx-essentials 2.12.0\nsfdx-git-delta 5.30.0\nsfdx-hardis 4.18.3\ntexei-sfdx-plugin 2.2.0\n\nUninstalled JIT Plugins:\ncommunity 3.0.2\ncustom-metadata 3.0.3\ndev 2.0.2\ndevops-center 1.2.4\nenv 3.0.6\nfunctions 1.22.9\nsignups 2.0.4\n@salesforce/sfdx-plugin-lwc-test 1.1.1\n@salesforce/sfdx-scanner 3.18.0\n"
+}
+[sfdx-hardis][WARNING] stderr: (node:20998) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+[sfdx-hardis][command] sfdx config:get restDeploy --json
+[sfdx-hardis][WARNING] stderr: (node:20937) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+[sfdx-hardis][WARNING] stderr: (node:20945) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+[sfdx-hardis] Updated config file /Users/bnathan/CTM/DEV/ctm-sf-homeloan-app/config/user/.sfdx-hardis.bnathan.yml with values: 
+{
+  "restDeployDisabled": true
+}

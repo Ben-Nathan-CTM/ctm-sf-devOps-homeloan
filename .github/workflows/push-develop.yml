@@ -1,0 +1,49 @@
+name: Pull Request Merged to Develop
+
+on:
+  pull_request:
+    branches: -develop
+    types: [closed]
+
+permissions:
+  contents: write
+
+jobs:
+  validate_pull_request_merged:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install Salesforce CLI
+        run: |
+          npm install @salesforce/cli --location=global
+          nodeInstallPath=$(npm config get prefix)
+          echo "$nodeInstallPath/bin" >> $GITHUB_PATH
+          sf --version
+
+      - name: Install jq
+        run: |
+          sudo apt-get install jq
+
+      - name: Populate auth file
+        shell: bash
+        run: "echo ${{ secrets.BENDEV_ENV }} > ./BENDEV_SFDX_URL.txt"
+
+      - name: Authenticate Sandbox
+        run: "sf org login sfdx-url -f ./BENDEV_SFDX_URL.txt -a BENDEV -d"
+
+      - name: Install Package
+        run: |
+
+             new_version_id=$(grep -o "04t[[:alnum:]]\{15\}" sfdx-project.json | tail -n1)
+             echo "version_id=${new_version_id}"
+             echo "$version_id"
+             sfdx force:package:install -p "$version_id" --target-org ben.harris@comparethemarket.com.au.bendev --publishwait 3 --wait 10 -r
+
+
+
+      # - name: Check code coverage
+      #   run: |
+      #       sfdx force:apex:test:run --codecoverage --resultformat json --synchronous --testlevel RunLocalTests --wait 10 > tests.json
+      #       coverage=$(jq .result.summary.orgWideCoverage tests.json | grep -Eo "[[:digit:]]+")
+      #       test $coverage -ge 50
+

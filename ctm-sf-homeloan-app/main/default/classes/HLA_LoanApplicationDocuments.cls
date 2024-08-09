@@ -56,6 +56,15 @@ public inherited sharing class HLA_LoanApplicationDocuments extends ApplicationS
     }
   }
 
+    public override void onAfterInsert() {
+    if (FeatureManagement.checkPermission('CanSubmitApplicationChanges')) {
+      HLA_Utils.enqueueApplicationUpdatesOrSubmitThem(
+        ladRecords,
+        Trigger.operationType
+      );    
+    }
+  }
+
   public override void onAfterDelete() {
     // if (FeatureManagement.checkPermission('CanSubmitApplicationChanges')) {
     //   System.enqueueJob(new HLA_LoanApplicationUpdatesQueueable(ladRecords,

@@ -1,0 +1,11 @@
+/Users/bnathan/.local/share/sf/client/2.17.14-31db5eb/bin/node /Users/bnathan/.local/share/sf/client/2.17.14-31db5eb/bin/run hardis:project:audit:duplicatefiles --websocket localhost:2748[sfdx-hardis] Checking for duplicate file names in /Users/bnathan/CTM/DEV/ctm-sf-homeloan-app. Files: 2335
+[sfdx-hardis] {
+  "LoanApplicantInfo.json": [
+    "ctm-sf-homeloan-app/main/default/lwc/hlaApplicantsList/__tests__/data/LoanApplicantInfo.json",
+    "ctm-sf-homeloan-app/main/default/lwc/hlaApplicantDetailsTab/__tests__/data/LoanApplicantInfo.json"
+  ],
+  "Custom_Compact_Layout.compactLayout-meta.xml": [
+    "ctm-sf-homeloan-app/main/default/objects/OtherAddress__c/compactLayouts/Custom_Compact_Layout.compactLayout-meta.xml",
+    "ctm-sf-homeloan-app/main/default/objects/Identification__c/compactLayouts/Custom_Compact_Layout.compactLayout-meta.xml"
+  ]
+}

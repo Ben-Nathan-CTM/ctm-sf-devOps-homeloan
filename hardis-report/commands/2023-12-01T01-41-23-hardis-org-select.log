@@ -1,0 +1,20 @@
+/opt/homebrew/Cellar/node/21.2.0/bin/node /opt/homebrew/bin/sfdx hardis:org:select --devhub --websocket localhost:2713[sfdx-hardis][command] sfdx force:org:list --json
+[sfdx-hardis][WARNING] stderr: (node:82387) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+[sfdx-hardis] 🦙 Please select an org ↑↑ Look up in VsCode ↑↑
+[sfdx-hardis] Selection done but hidden in log because it contains sensitive information
+[sfdx-hardis][command] sfdx config:set defaultdevhubusername=bimal.prabha@empathetic-raccoon-bvkstq.com --json
+[sfdx-hardis][WARNING] stderr: (node:82408) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+[sfdx-hardis][command] sfdx alias:set DevHub_CTM=bimal.prabha@empathetic-raccoon-bvkstq.com --json
+[sfdx-hardis][WARNING] stderr: (node:82412) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+[sfdx-hardis] Updated config file /Users/bnathan/CTM/DEV/ctm-sf-homeloan-app/config/user/.sfdx-hardis.bnathan.yml with values: 
+{
+  "scratchOrgAlias": null,
+  "scratchOrgUsername": null
+}
+[sfdx-hardis] Org bimal.prabha@empathetic-raccoon-bvkstq.com - https://empathetic-raccoon-bvkstq-dev-ed.trailblaze.my.salesforce.com

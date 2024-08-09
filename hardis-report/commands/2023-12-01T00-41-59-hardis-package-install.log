@@ -1,0 +1,8 @@
+/opt/homebrew/Cellar/node/21.2.0/bin/node /opt/homebrew/bin/sfdx hardis:package:install --websocket localhost:2713[sfdx-hardis][command] sfdx force:org:display --json
+[sfdx-hardis][WARNING] stderr: (node:73883) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+[sfdx-hardis] 🦙 What is the base URL or the org you want to connect to, as MY_ORG ? ↑↑ Look up in VsCode ↑↑
+[sfdx-hardis] {"value":"https://test.salesforce.com"}
+[sfdx-hardis] 🦙 Select a login type (if you don't know, use Web) ↑↑ Look up in VsCode ↑↑
+[sfdx-hardis] {"loginType":"exitNow"}

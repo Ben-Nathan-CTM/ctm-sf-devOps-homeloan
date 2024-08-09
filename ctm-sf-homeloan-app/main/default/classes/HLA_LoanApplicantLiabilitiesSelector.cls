@@ -11,8 +11,15 @@ public inherited sharing class HLA_LoanApplicantLiabilitiesSelector extends Appl
   // the list of fields to be included in query
   public override List<Schema.SObjectField> getSObjectFieldList() {
     return new List<Schema.SObjectField>{
+      LoanApplicantLiability__c.ResidentialLoanApplicationId__c,
       LoanApplicantLiability__c.Id,
-      LoanApplicantLiability__c.Name
+      LoanApplicantLiability__c.AId__c,
+      LoanApplicantLiability__c.BId__c,
+      LoanApplicantLiability__c.Name,
+      LoanApplicantLiability__c.ExternalId__c,
+      LoanApplicantLiability__c.ReferenceId__c,
+      LoanApplicantLiability__c.Percentage__c,
+      LoanApplicantLiability__c.isDirty__c
     };
   }
 
@@ -21,6 +28,7 @@ public inherited sharing class HLA_LoanApplicantLiabilitiesSelector extends Appl
     return LoanApplicantLiability__c.sObjectType;
   }
 
+  @TestVisible
   private List<Schema.SObjectField> getAdditionalSObjectFieldList() {
     return new List<Schema.SObjectField>{};
   }
@@ -42,4 +50,18 @@ public inherited sharing class HLA_LoanApplicantLiabilitiesSelector extends Appl
   /**
    * We will return List<Sobjects> and leave it to the caller to instatiate a Map if they need easy access to Id's
    */
+
+  public List<LoanApplicantLiability__c> selectLoanApplicantLiabilitiesByReferenceId(
+    String referenceId,
+    String applId
+  ) {
+    return (List<LoanApplicantLiability__c>) Database.query(
+      newQueryFactory()
+        .selectfield('Name')
+        .setCondition(
+          'ReferenceId__c = :referenceId AND ResidentialLoanApplicationId__c = :applId'
+        )
+        .toSOQL()
+    );
+  }
 }

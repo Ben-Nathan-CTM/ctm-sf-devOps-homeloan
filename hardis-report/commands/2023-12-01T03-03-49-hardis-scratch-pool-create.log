@@ -1,0 +1,57 @@
+/opt/homebrew/Cellar/node/21.2.0/bin/node /opt/homebrew/bin/sfdx hardis:scratch:pool:create --websocket localhost:2724[sfdx-hardis] 🦙 Please input your project name without spaces or special characters (ex: MonClient) ↑↑ Look up in VsCode ↑↑
+[sfdx-hardis] {"value":"Test-Scratch"}
+[sfdx-hardis] Updated config file config/.sfdx-hardis.yml with values: 
+{
+  "projectName": "Test-Scratch",
+  "devHubAlias": "DevHub_Test-Scratch"
+}
+[sfdx-hardis][command] sfdx force:org:display --targetusername DevHub_Test-Scratch --json
+[sfdx-hardis] 🦙 What is the base URL or the org you want to connect to, as DevHub_Test-Scratch ? ↑↑ Look up in VsCode ↑↑
+[sfdx-hardis] {"value":"https://login.salesforce.com"}
+[sfdx-hardis] 🦙 Select a login type (if you don't know, use Web) ↑↑ Look up in VsCode ↑↑
+[sfdx-hardis] {"loginType":"web"}
+[sfdx-hardis][command] sfdx auth:web:login --setdefaultdevhubusername --instanceurl https://login.salesforce.com --setalias DevHub_Test-Scratch
+[sfdx-hardis] Successfully authorized bimal.prabha@empathetic-raccoon-bvkstq.com with org ID 00D5j00000CijK9EAJ
+
+[sfdx-hardis] {
+  "status": 0,
+  "stdout": "Successfully authorized bimal.prabha@empathetic-raccoon-bvkstq.com with org ID 00D5j00000CijK9EAJ\n",
+  "stderr": "(node:5596) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.\n(Use `node --trace-deprecation ...` to show where the warning was created)\nWarning: The \"--instanceurl\" flag has been deprecated. Use \"--instance-url | -r\" instead.\nWarning: The \"--setdefaultdevhub\" flag has been deprecated. Use \"--set-default-dev-hub | -d\" instead.\nWarning: The \"--setdefaultdevhubusername\" flag has been deprecated. Use \"--set-default-dev-hub | -d\" instead.\nWarning: The \"--setalias\" flag has been deprecated. Use \"--alias | -a\" instead.\n"
+}
+[sfdx-hardis][command] sfdx config:get defaultdevhubusername --json
+[sfdx-hardis][WARNING] stderr: (node:5648) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+[sfdx-hardis] Successfully logged to https://login.salesforce.com with TRAILHEAD
+[sfdx-hardis] Updated config file config/user/.sfdx-hardis.bnathan.yml with values: 
+{
+  "installedApps": [
+    "git"
+  ]
+}
+[sfdx-hardis] 🦙 What storage service do you want to use for your scratch orgs pool ? ↑↑ Look up in VsCode ↑↑
+[sfdx-hardis] {"storageService":"redis"}
+[sfdx-hardis] 🦙 What is the maximum number of scratch orgs in the pool ? ↑↑ Look up in VsCode ↑↑
+[sfdx-hardis] {"storageService":"redis","maxScratchOrgsNumber":3}
+[sfdx-hardis] Updated config file /Users/bnathan/CTM/DEV/ctm-sf-homeloan-app/config/.sfdx-hardis.yml with values: 
+{
+  "poolConfig": {
+    "maxScratchOrgsNumber": 3,
+    "storageService": "redis"
+  }
+}
+[sfdx-hardis] You need a redis account. You can create one for free at https://redis.com/try-free/
+[sfdx-hardis] Create a database that you can name scratchPool, then build auth URL by appending default user password and public endpoint
+[sfdx-hardis] 🦙 Please enter authentication URL for Redis remote database ↑↑ Look up in VsCode ↑↑
+[sfdx-hardis] {"redisAuthUrl":"redis://default:3YHalq3ZcVVJIfNMKjmsRWIqvzZfOGla@redis-16774.c51.ap-southeast-2-1.ec2.cloud.redislabs.com:16774"}
+[sfdx-hardis] Updated config file /Users/bnathan/CTM/DEV/ctm-sf-homeloan-app/config/user/.sfdx-hardis.bnathan.yml with values: 
+{
+  "redisAuthUrl": "redis://default:3YHalq3ZcVVJIfNMKjmsRWIqvzZfOGla@redis-16774.c51.ap-southeast-2-1.ec2.cloud.redislabs.com:16774"
+}
+[sfdx-hardis] [pool] Requested redis connection
+[sfdx-hardis][pool] Updating poolstorage value...
+[sfdx-hardis] [pool] Requested redis connection
+[sfdx-hardis][pool] Updated poolstorage value
+[sfdx-hardis] Initialized scratch org pool storage for Test-Scratch on Redis
+[sfdx-hardis] In CI config, set protected variable REDIS_AUTH_URL = redis://default:3YHalq3ZcVVJIfNMKjmsRWIqvzZfOGla@redis-16774.c51.ap-southeast-2-1.ec2.cloud.redislabs.com:16774}
+[sfdx-hardis] You need to define CI masked variable SFDX_AUTH_URL_DEV_HUB = force://PlatformCLI::5Aep861mdLLi91HqFcO.vdyA2vfoVlAjZYm7NqLaxxlUai3yPdNmwDCghI._JT3FxmD8m9Cyg6uPD6Naj4Pn_f6@empathetic-raccoon-bvkstq-dev-ed.trailblaze.my.salesforce.com
