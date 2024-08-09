@@ -39,7 +39,7 @@ jobs:
       #      yes | 'sf org delete snapshot --snapshot ctmsnapshot'
       
       - name: Create scratch org
-        run: 'sfdx force:org:create -f config/project-scratch-def.json -a ctmsnapshotscratch -s -d 29'
+        run: 'sfdx force:org:create -f config/project-scratch-def.json -a ctmsnapshotscratch -s -d 25'
 
       # - name: Install all the dependency packages for home loan
       #   run:  chmod +x ./installPackages.sh
