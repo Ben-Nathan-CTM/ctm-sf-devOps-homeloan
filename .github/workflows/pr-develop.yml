@@ -38,7 +38,7 @@ jobs:
       # - name: Create scratch org
       #   run: "sfdx force:org:create -f config/project-scratch-def.json -a ctm_scratch -s -d 1"
       - name: Create scratch org from Snapshot
-        run: "sf org create scratch --definition-file config/scratchSnapshot-scratch-def.json --alias ctm-scratch --wait 10 --target-dev-hub devhub"
+        run: "sf org create scratch --definition-file config/ctmsnapshotscratch-scratch-def.json --alias ctm-scratch --wait 10 --target-dev-hub devhub"
 
       # - name: Install Packages
       #   run: |
